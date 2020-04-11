@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Warehouse Upcharge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Warehouse Upcharges</value>
+    </caseValues>
+    <fields>
+        <label><!-- BrandDesc --></label>
+        <name>BrandDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- BrandID --></label>
+        <name>BrandID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ItemBeverageCodeDesc --></label>
+        <name>ItemBeverageCodeDesc__c</name>
+    </fields>
+    <fields>
+        <label><!-- ItemBeverageCodeID --></label>
+        <name>ItemBeverageCodeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ItemPackID --></label>
+        <name>ItemPackID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ItemSizeID --></label>
+        <name>ItemSizeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Item Number --></label>
+        <name>Long_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old_WhsUpcharge --></label>
+        <name>Old_WhsUpcharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Item Number --></label>
+        <name>Short_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Whse Upcharge $ --></label>
+        <name>WhsUpcharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Whse Old Upcharge $ --></label>
+        <name>WhseOldUpchg__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

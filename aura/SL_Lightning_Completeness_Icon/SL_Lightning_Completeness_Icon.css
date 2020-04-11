@@ -1,0 +1,257 @@
+.THIS .clearFloats:before, .THIS .clearFloats:after 
+{
+    content: " "; 
+    display:flex;
+}
+
+.THIS  .clearFloats:after {clear: both;}
+.THIS .clearFloats {*zoom: 1;   display:flex;}
+
+.THIS .c100.p50plus .slice
+{
+  clip: rect(auto, auto, auto, auto);
+}
+
+.THIS .pie, .THIS .c100 .bar , .THIS .fill, .THIS .c100.p50plus .fill{
+   position: absolute;
+    border: 0.08em solid #307bbb;
+    width: 0.84em;
+    height: 0.84em;
+    clip: rect(0em, 0.5em, 1em, 0em);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.THIS .pie-fill, .THIS .c100.p50plus .bar:after, .THIS .c100.p50plus .fill{
+   -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.THIS .text{
+  display: inline-block;
+}
+
+.THIS .c100 {
+  position: relative;
+  font-size: 120px;
+  /*width: 1em;
+  height: 1em;*/
+  width: 1em;
+  height: 0.99em;
+  border-radius: 50%;
+  float: left;
+  /*margin: 0 .2em 1.1em 0;*/
+  margin: 0 0 0 0;
+  background-color: #cccccc;
+}
+
+.THIS .cirWidth {
+    width: 2.6em;
+}
+.THIS .c100 *,
+.THIS .c100 *:before,
+.THIS .c100 *:after {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.THIS .c100.center {
+  float: none;
+  margin: 0 auto;
+}
+
+.THIS .c100.small {
+  /*font-size: 80px;
+    left: 7.78px;
+  top: -.22px;*/
+    font-size: 80px;
+    left: 0px;
+    top: -.22px;
+}
+.THIS .c100 > span {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  width: 5em;
+  line-height: 5em;
+  font-size: 0.2em;
+  color: #cccccc;
+  display: block;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.THIS .c100:after {
+  position: absolute;
+  top: 0.08em;
+  left: 0.08em;
+  display: block;
+  content: " ";
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  width: 0.84em;
+  height: 0.84em;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+.THIS .c100 .slice {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  clip: rect(0em, 1em, 1em, 0.5em);
+}
+
+.THIS .c100:hover {
+  cursor: default;
+}
+.THIS .c100:hover > span {
+  width: 3.33em;
+  line-height: 3.33em;
+  font-size: 0.3em;
+  color: #307bbb;
+  margin-left: 2px;
+}
+.THIS .behave{
+  margin-left:8px;
+  font-size:.16em !important;
+  padding-top:20px !important;
+}
+.THIS .c100:hover .behave{
+  font-size:.18em;
+  margin-left:11px;
+  padding-top:32px !important;
+
+}
+.THIS .c100:hover:after {
+  top: 0.035em;
+  left: 0.035em;
+  width: 0.92em;
+  height: 0.92em;
+  
+}
+.THIS .table{
+  /*margin-top:-10px;*/
+  padding-left: 25px;
+  width: 600px;
+}
+
+.THIS .clearfix{
+	display:flex;
+}
+.THIS .c100:hover .hidden{
+  display: inline;
+  font-size:14px;
+  position:absolute;
+}
+.THIS .c100.dark {
+  background-color: #777777;
+}
+.THIS .c100.dark .bar,
+.THIS .c100.dark .fill {
+  border-color: #c6ff00 !important;
+}
+.THIS .c100.dark > span {
+  color: #777777;
+}
+.THIS .c100.dark:after {
+  background-color: #666666;
+}
+.THIS .c100.dark:hover > span {
+  color: #c6ff00;
+}
+.THIS .c100.green .bar,
+.THIS .c100.green .fill {
+  border-color: #4db53c !important;
+}
+.THIS .c100.green:hover > span {
+  color: #4db53c;
+}
+
+.THIS .c100.blue .bar, .THIS .c100.blue .fill {
+  border-color: #307bbb !important;
+}
+
+.THIS .c100.blue:hover > span {
+  color: #307bbb;
+}
+.THIS .c100.green.dark .bar,
+.THIS .c100.green.dark .fill {
+  border-color: #5fd400 !important;
+}
+.THIS .c100.green.dark:hover > span {
+  color: #5fd400;
+}
+.THIS .c100.orange .bar,
+.THIS .c100.orange .fill {
+  border-color: #dd9d22 !important;
+}
+.THIS .c100.orange:hover > span {
+  color: #dd9d22;
+}
+.THIS .c100.orange.dark .bar,
+.THIS .c100.orange.dark .fill {
+  border-color: #e08833 !important;
+}
+.THIS .c100.orange.dark:hover > span {
+  color: #e08833;
+}
+.THIS .moreIconDiv {
+    /*width: 150px;
+    padding-left: 40px;*/
+    width: 95px;
+    
+}
+
+.THIS .iconDiv{
+    cursor: pointer;
+}
+
+.THIS .iconOnly {
+    height: 35px;
+    padding-right: 70px;
+}
+
+.THIS .countFields {
+    padding-right: 25px;
+}
+
+.THIS .count {
+    color: red;
+}
+
+.THIS .icnDots svg {
+	fill: rgb(0, 112, 210);
+}

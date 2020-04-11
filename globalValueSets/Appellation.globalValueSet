@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Aconcagua Valley</fullName>
+        <default>false</default>
+        <label>Aconcagua Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Adelaide Hills</fullName>
+        <default>false</default>
+        <label>Adelaide Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Alexander Valley</fullName>
+        <default>false</default>
+        <label>Alexander Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Aloxe Corton</fullName>
+        <default>false</default>
+        <label>Aloxe Corton</label>
+    </customValue>
+    <customValue>
+        <fullName>Alsace</fullName>
+        <default>false</default>
+        <label>Alsace</label>
+    </customValue>
+    <customValue>
+        <fullName>Alsace Grand Cru</fullName>
+        <default>false</default>
+        <label>Alsace Grand Cru</label>
+    </customValue>
+    <customValue>
+        <fullName>Alto Adige</fullName>
+        <default>false</default>
+        <label>Alto Adige</label>
+    </customValue>
+    <customValue>
+        <fullName>Amador County</fullName>
+        <default>false</default>
+        <label>Amador County</label>
+    </customValue>
+    <customValue>
+        <fullName>Anderson Valley</fullName>
+        <default>false</default>
+        <label>Anderson Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Anjou</fullName>
+        <default>false</default>
+        <label>Anjou</label>
+    </customValue>
+    <customValue>
+        <fullName>Archanes</fullName>
+        <default>false</default>
+        <label>Archanes</label>
+    </customValue>
+    <customValue>
+        <fullName>Arroyo Grande Valley</fullName>
+        <default>false</default>
+        <label>Arroyo Grande Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Asti</fullName>
+        <default>false</default>
+        <label>Asti</label>
+    </customValue>
+    <customValue>
+        <fullName>Australia</fullName>
+        <default>false</default>
+        <label>Australia</label>
+    </customValue>
+    <customValue>
+        <fullName>Auxey Duresses</fullName>
+        <default>false</default>
+        <label>Auxey Duresses</label>
+    </customValue>
+    <customValue>
+        <fullName>Baden</fullName>
+        <default>false</default>
+        <label>Baden</label>
+    </customValue>
+    <customValue>
+        <fullName>Bandol</fullName>
+        <default>false</default>
+        <label>Bandol</label>
+    </customValue>
+    <customValue>
+        <fullName>Banyuls</fullName>
+        <default>false</default>
+        <label>Banyuls</label>
+    </customValue>
+    <customValue>
+        <fullName>Barbaresco</fullName>
+        <default>false</default>
+        <label>Barbaresco</label>
+    </customValue>
+    <customValue>
+        <fullName>Barbera d&apos; Alba</fullName>
+        <default>false</default>
+        <label>Barbera d&apos; Alba</label>
+    </customValue>
+    <customValue>
+        <fullName>Barbera D&apos;Asti</fullName>
+        <default>false</default>
+        <label>Barbera D&apos;Asti</label>
+    </customValue>
+    <customValue>
+        <fullName>Barolo</fullName>
+        <default>false</default>
+        <label>Barolo</label>
+    </customValue>
+    <customValue>
+        <fullName>Barossa Valley</fullName>
+        <default>false</default>
+        <label>Barossa Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Beaujolais Villages</fullName>
+        <default>false</default>
+        <label>Beaujolais Villages</label>
+    </customValue>
+    <customValue>
+        <fullName>Beaumes de Venise</fullName>
+        <default>false</default>
+        <label>Beaumes de Venise</label>
+    </customValue>
+    <customValue>
+        <fullName>Beaune</fullName>
+        <default>false</default>
+        <label>Beaune</label>
+    </customValue>
+    <customValue>
+        <fullName>Bolgheri</fullName>
+        <default>false</default>
+        <label>Bolgheri</label>
+    </customValue>
+    <customValue>
+        <fullName>Bolgheri &amp; Bolgheri Sassicaia</fullName>
+        <default>false</default>
+        <label>Bolgheri &amp; Bolgheri Sassicaia</label>
+    </customValue>
+    <customValue>
+        <fullName>Bordeaux</fullName>
+        <default>false</default>
+        <label>Bordeaux</label>
+    </customValue>
+    <customValue>
+        <fullName>Bordeaux Superiore</fullName>
+        <default>false</default>
+        <label>Bordeaux Superiore</label>
+    </customValue>
+    <customValue>
+        <fullName>Bourgogne</fullName>
+        <default>false</default>
+        <label>Bourgogne</label>
+    </customValue>
+    <customValue>
+        <fullName>Bourgogne Aligoté</fullName>
+        <default>false</default>
+        <label>Bourgogne Aligoté</label>
+    </customValue>
+    <customValue>
+        <fullName>Bourgueil</fullName>
+        <default>false</default>
+        <label>Bourgueil</label>
+    </customValue>
+    <customValue>
+        <fullName>Bouzeron</fullName>
+        <default>false</default>
+        <label>Bouzeron</label>
+    </customValue>
+    <customValue>
+        <fullName>Brouilly</fullName>
+        <default>false</default>
+        <label>Brouilly</label>
+    </customValue>
+    <customValue>
+        <fullName>Brunello di Montalcino</fullName>
+        <default>false</default>
+        <label>Brunello di Montalcino</label>
+    </customValue>
+    <customValue>
+        <fullName>Burgenland</fullName>
+        <default>false</default>
+        <label>Burgenland</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabernet Saumur</fullName>
+        <default>false</default>
+        <label>Cabernet Saumur</label>
+    </customValue>
+    <customValue>
+        <fullName>Cahors</fullName>
+        <default>false</default>
+        <label>Cahors</label>
+    </customValue>
+    <customValue>
+        <fullName>California</fullName>
+        <default>false</default>
+        <label>California</label>
+    </customValue>
+    <customValue>
+        <fullName>Casablanca Valley</fullName>
+        <default>false</default>
+        <label>Casablanca Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Coast Cal.</fullName>
+        <default>false</default>
+        <label>Central Coast Cal.</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Otago</fullName>
+        <default>false</default>
+        <label>Central Otago</label>
+    </customValue>
+    <customValue>
+        <fullName>Chablis AOC</fullName>
+        <default>false</default>
+        <label>Chablis AOC</label>
+    </customValue>
+    <customValue>
+        <fullName>Chambolle Musigny</fullName>
+        <default>false</default>
+        <label>Chambolle Musigny</label>
+    </customValue>
+    <customValue>
+        <fullName>Champagne</fullName>
+        <default>false</default>
+        <label>Champagne</label>
+    </customValue>
+    <customValue>
+        <fullName>Chassagne Montrachet</fullName>
+        <default>false</default>
+        <label>Chassagne Montrachet</label>
+    </customValue>
+    <customValue>
+        <fullName>Chateauneuf du Pape</fullName>
+        <default>false</default>
+        <label>Chateauneuf du Pape</label>
+    </customValue>
+    <customValue>
+        <fullName>Chianti</fullName>
+        <default>false</default>
+        <label>Chianti</label>
+    </customValue>
+    <customValue>
+        <fullName>Chianti Classico</fullName>
+        <default>false</default>
+        <label>Chianti Classico</label>
+    </customValue>
+    <customValue>
+        <fullName>Chianti Colli Aretini</fullName>
+        <default>false</default>
+        <label>Chianti Colli Aretini</label>
+    </customValue>
+    <customValue>
+        <fullName>Chianti Colli Fiorentini</fullName>
+        <default>false</default>
+        <label>Chianti Colli Fiorentini</label>
+    </customValue>
+    <customValue>
+        <fullName>Chianti Colli Senesi</fullName>
+        <default>false</default>
+        <label>Chianti Colli Senesi</label>
+    </customValue>
+    <customValue>
+        <fullName>Chianti Rufina</fullName>
+        <default>false</default>
+        <label>Chianti Rufina</label>
+    </customValue>
+    <customValue>
+        <fullName>Chile</fullName>
+        <default>false</default>
+        <label>Chile</label>
+    </customValue>
+    <customValue>
+        <fullName>Chile / Cachapoal Valley</fullName>
+        <default>false</default>
+        <label>Chile / Cachapoal Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Chile / Colchagua Valley</fullName>
+        <default>false</default>
+        <label>Chile / Colchagua Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Chile / Rapel Valley</fullName>
+        <default>false</default>
+        <label>Chile / Rapel Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Chinon</fullName>
+        <default>false</default>
+        <label>Chinon</label>
+    </customValue>
+    <customValue>
+        <fullName>Clare Valley</fullName>
+        <default>false</default>
+        <label>Clare Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Clos de Vougeot Grand Cru</fullName>
+        <default>false</default>
+        <label>Clos de Vougeot Grand Cru</label>
+    </customValue>
+    <customValue>
+        <fullName>Colli Della Toscana Centrale</fullName>
+        <default>false</default>
+        <label>Colli Della Toscana Centrale</label>
+    </customValue>
+    <customValue>
+        <fullName>Colli Orientali del Friuli</fullName>
+        <default>false</default>
+        <label>Colli Orientali del Friuli</label>
+    </customValue>
+    <customValue>
+        <fullName>Colli Perugini</fullName>
+        <default>false</default>
+        <label>Colli Perugini</label>
+    </customValue>
+    <customValue>
+        <fullName>Columbia Valley</fullName>
+        <default>false</default>
+        <label>Columbia Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Condrieu</fullName>
+        <default>false</default>
+        <label>Condrieu</label>
+    </customValue>
+    <customValue>
+        <fullName>Coonawarra</fullName>
+        <default>false</default>
+        <label>Coonawarra</label>
+    </customValue>
+    <customValue>
+        <fullName>Cornas</fullName>
+        <default>false</default>
+        <label>Cornas</label>
+    </customValue>
+    <customValue>
+        <fullName>Cortese di Gavi</fullName>
+        <default>false</default>
+        <label>Cortese di Gavi</label>
+    </customValue>
+    <customValue>
+        <fullName>Costieres De Nimes</fullName>
+        <default>false</default>
+        <label>Costieres De Nimes</label>
+    </customValue>
+    <customValue>
+        <fullName>Cote de Beaune Villages</fullName>
+        <default>false</default>
+        <label>Cote de Beaune Villages</label>
+    </customValue>
+    <customValue>
+        <fullName>Cote Rotie</fullName>
+        <default>false</default>
+        <label>Cote Rotie</label>
+    </customValue>
+    <customValue>
+        <fullName>Coteaux Champenois</fullName>
+        <default>false</default>
+        <label>Coteaux Champenois</label>
+    </customValue>
+    <customValue>
+        <fullName>Coteaux de l&apos;Ardeche</fullName>
+        <default>false</default>
+        <label>Coteaux de l&apos;Ardeche</label>
+    </customValue>
+    <customValue>
+        <fullName>Coteaux du Languedoc</fullName>
+        <default>false</default>
+        <label>Coteaux du Languedoc</label>
+    </customValue>
+    <customValue>
+        <fullName>Coteaux du Layon</fullName>
+        <default>false</default>
+        <label>Coteaux du Layon</label>
+    </customValue>
+    <customValue>
+        <fullName>Coteaux du Tricastin</fullName>
+        <default>false</default>
+        <label>Coteaux du Tricastin</label>
+    </customValue>
+    <customValue>
+        <fullName>Cotes de Bourg</fullName>
+        <default>false</default>
+        <label>Cotes de Bourg</label>
+    </customValue>
+    <customValue>
+        <fullName>Cotes de Provence</fullName>
+        <default>false</default>
+        <label>Cotes de Provence</label>
+    </customValue>
+    <customValue>
+        <fullName>Cotes du Rhone</fullName>
+        <default>false</default>
+        <label>Cotes du Rhone</label>
+    </customValue>
+    <customValue>
+        <fullName>Cotes du Rhone Villages</fullName>
+        <default>false</default>
+        <label>Cotes du Rhone Villages</label>
+    </customValue>
+    <customValue>
+        <fullName>Cotes Ventoux</fullName>
+        <default>false</default>
+        <label>Cotes Ventoux</label>
+    </customValue>
+    <customValue>
+        <fullName>Cremant de Loire</fullName>
+        <default>false</default>
+        <label>Cremant de Loire</label>
+    </customValue>
+    <customValue>
+        <fullName>Crete</fullName>
+        <default>false</default>
+        <label>Crete</label>
+    </customValue>
+    <customValue>
+        <fullName>Crozes Hermitage</fullName>
+        <default>false</default>
+        <label>Crozes Hermitage</label>
+    </customValue>
+    <customValue>
+        <fullName>Curico</fullName>
+        <default>false</default>
+        <label>Curico</label>
+    </customValue>
+    <customValue>
+        <fullName>Delle Venezie</fullName>
+        <default>false</default>
+        <label>Delle Venezie</label>
+    </customValue>
+    <customValue>
+        <fullName>Dolcetto d&apos; Alba</fullName>
+        <default>false</default>
+        <label>Dolcetto d&apos; Alba</label>
+    </customValue>
+    <customValue>
+        <fullName>Douro</fullName>
+        <default>false</default>
+        <label>Douro</label>
+    </customValue>
+    <customValue>
+        <fullName>Dundee Hills</fullName>
+        <default>false</default>
+        <label>Dundee Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Dunnigan Hills</fullName>
+        <default>false</default>
+        <label>Dunnigan Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Echezeaux</fullName>
+        <default>false</default>
+        <label>Echezeaux</label>
+    </customValue>
+    <customValue>
+        <fullName>Eden Valley</fullName>
+        <default>false</default>
+        <label>Eden Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiano di Avellino</fullName>
+        <default>false</default>
+        <label>Fiano di Avellino</label>
+    </customValue>
+    <customValue>
+        <fullName>Fixin</fullName>
+        <default>false</default>
+        <label>Fixin</label>
+    </customValue>
+    <customValue>
+        <fullName>Fleurie</fullName>
+        <default>false</default>
+        <label>Fleurie</label>
+    </customValue>
+    <customValue>
+        <fullName>Franciacorta</fullName>
+        <default>false</default>
+        <label>Franciacorta</label>
+    </customValue>
+    <customValue>
+        <fullName>Fronsac</fullName>
+        <default>false</default>
+        <label>Fronsac</label>
+    </customValue>
+    <customValue>
+        <fullName>Gevrey Chambertin</fullName>
+        <default>false</default>
+        <label>Gevrey Chambertin</label>
+    </customValue>
+    <customValue>
+        <fullName>Gigondas</fullName>
+        <default>false</default>
+        <label>Gigondas</label>
+    </customValue>
+    <customValue>
+        <fullName>Givry</fullName>
+        <default>false</default>
+        <label>Givry</label>
+    </customValue>
+    <customValue>
+        <fullName>Goulburn Valley</fullName>
+        <default>false</default>
+        <label>Goulburn Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Goumenissa</fullName>
+        <default>false</default>
+        <label>Goumenissa</label>
+    </customValue>
+    <customValue>
+        <fullName>Graves</fullName>
+        <default>false</default>
+        <label>Graves</label>
+    </customValue>
+    <customValue>
+        <fullName>Great Southern Region</fullName>
+        <default>false</default>
+        <label>Great Southern Region</label>
+    </customValue>
+    <customValue>
+        <fullName>Greco di Tufo</fullName>
+        <default>false</default>
+        <label>Greco di Tufo</label>
+    </customValue>
+    <customValue>
+        <fullName>Heathcote</fullName>
+        <default>false</default>
+        <label>Heathcote</label>
+    </customValue>
+    <customValue>
+        <fullName>Hermitage</fullName>
+        <default>false</default>
+        <label>Hermitage</label>
+    </customValue>
+    <customValue>
+        <fullName>Hunter Valley</fullName>
+        <default>false</default>
+        <label>Hunter Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Ile de Beaute</fullName>
+        <default>false</default>
+        <label>Ile de Beaute</label>
+    </customValue>
+    <customValue>
+        <fullName>Irpinia</fullName>
+        <default>false</default>
+        <label>Irpinia</label>
+    </customValue>
+    <customValue>
+        <fullName>Italy</fullName>
+        <default>false</default>
+        <label>Italy</label>
+    </customValue>
+    <customValue>
+        <fullName>Japan</fullName>
+        <default>false</default>
+        <label>Japan</label>
+    </customValue>
+    <customValue>
+        <fullName>Lago di Caldaro</fullName>
+        <default>false</default>
+        <label>Lago di Caldaro</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake County</fullName>
+        <default>false</default>
+        <label>Lake County</label>
+    </customValue>
+    <customValue>
+        <fullName>Lalande de Pomerol</fullName>
+        <default>false</default>
+        <label>Lalande de Pomerol</label>
+    </customValue>
+    <customValue>
+        <fullName>Langhe</fullName>
+        <default>false</default>
+        <label>Langhe</label>
+    </customValue>
+    <customValue>
+        <fullName>Langhorne Creek</fullName>
+        <default>false</default>
+        <label>Langhorne Creek</label>
+    </customValue>
+    <customValue>
+        <fullName>Limestone Coast</fullName>
+        <default>false</default>
+        <label>Limestone Coast</label>
+    </customValue>
+    <customValue>
+        <fullName>Lirac</fullName>
+        <default>false</default>
+        <label>Lirac</label>
+    </customValue>
+    <customValue>
+        <fullName>Lison- Pramaggiore</fullName>
+        <default>false</default>
+        <label>Lison- Pramaggiore</label>
+    </customValue>
+    <customValue>
+        <fullName>Lodi</fullName>
+        <default>false</default>
+        <label>Lodi</label>
+    </customValue>
+    <customValue>
+        <fullName>Luberon</fullName>
+        <default>false</default>
+        <label>Luberon</label>
+    </customValue>
+    <customValue>
+        <fullName>Macon Villages</fullName>
+        <default>false</default>
+        <label>Macon Villages</label>
+    </customValue>
+    <customValue>
+        <fullName>Madiran</fullName>
+        <default>false</default>
+        <label>Madiran</label>
+    </customValue>
+    <customValue>
+        <fullName>Mantinia</fullName>
+        <default>false</default>
+        <label>Mantinia</label>
+    </customValue>
+    <customValue>
+        <fullName>Maranges</fullName>
+        <default>false</default>
+        <label>Maranges</label>
+    </customValue>
+    <customValue>
+        <fullName>Margaret River Valley</fullName>
+        <default>false</default>
+        <label>Margaret River Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Margaux</fullName>
+        <default>false</default>
+        <label>Margaux</label>
+    </customValue>
+    <customValue>
+        <fullName>Marlborough District</fullName>
+        <default>false</default>
+        <label>Marlborough District</label>
+    </customValue>
+    <customValue>
+        <fullName>Marsannay</fullName>
+        <default>false</default>
+        <label>Marsannay</label>
+    </customValue>
+    <customValue>
+        <fullName>Maury</fullName>
+        <default>false</default>
+        <label>Maury</label>
+    </customValue>
+    <customValue>
+        <fullName>Mavrodaphne of Patras</fullName>
+        <default>false</default>
+        <label>Mavrodaphne of Patras</label>
+    </customValue>
+    <customValue>
+        <fullName>McLaren Vale</fullName>
+        <default>false</default>
+        <label>McLaren Vale</label>
+    </customValue>
+    <customValue>
+        <fullName>Mendocino</fullName>
+        <default>false</default>
+        <label>Mendocino</label>
+    </customValue>
+    <customValue>
+        <fullName>Mendoza</fullName>
+        <default>false</default>
+        <label>Mendoza</label>
+    </customValue>
+    <customValue>
+        <fullName>Menetou-Salon</fullName>
+        <default>false</default>
+        <label>Menetou-Salon</label>
+    </customValue>
+    <customValue>
+        <fullName>Mercurey</fullName>
+        <default>false</default>
+        <label>Mercurey</label>
+    </customValue>
+    <customValue>
+        <fullName>Meursault</fullName>
+        <default>false</default>
+        <label>Meursault</label>
+    </customValue>
+    <customValue>
+        <fullName>Minervois</fullName>
+        <default>false</default>
+        <label>Minervois</label>
+    </customValue>
+    <customValue>
+        <fullName>Montagny</fullName>
+        <default>false</default>
+        <label>Montagny</label>
+    </customValue>
+    <customValue>
+        <fullName>Montalcino</fullName>
+        <default>false</default>
+        <label>Montalcino</label>
+    </customValue>
+    <customValue>
+        <fullName>Montefalco</fullName>
+        <default>false</default>
+        <label>Montefalco</label>
+    </customValue>
+    <customValue>
+        <fullName>Montepulciano</fullName>
+        <default>false</default>
+        <label>Montepulciano</label>
+    </customValue>
+    <customValue>
+        <fullName>Monterey County</fullName>
+        <default>false</default>
+        <label>Monterey County</label>
+    </customValue>
+    <customValue>
+        <fullName>Moon Mountain District</fullName>
+        <default>false</default>
+        <label>Moon Mountain District</label>
+    </customValue>
+    <customValue>
+        <fullName>Morey-Saint-Denis</fullName>
+        <default>false</default>
+        <label>Morey-Saint-Denis</label>
+    </customValue>
+    <customValue>
+        <fullName>Morgon</fullName>
+        <default>false</default>
+        <label>Morgon</label>
+    </customValue>
+    <customValue>
+        <fullName>Mornington Peninsula</fullName>
+        <default>false</default>
+        <label>Mornington Peninsula</label>
+    </customValue>
+    <customValue>
+        <fullName>Mount Benson</fullName>
+        <default>false</default>
+        <label>Mount Benson</label>
+    </customValue>
+    <customValue>
+        <fullName>Mt. Etna</fullName>
+        <default>false</default>
+        <label>Mt. Etna</label>
+    </customValue>
+    <customValue>
+        <fullName>Muscat de Beaumes de Venise</fullName>
+        <default>false</default>
+        <label>Muscat de Beaumes de Venise</label>
+    </customValue>
+    <customValue>
+        <fullName>Naoussa</fullName>
+        <default>false</default>
+        <label>Naoussa</label>
+    </customValue>
+    <customValue>
+        <fullName>Napa Howell Mountain</fullName>
+        <default>false</default>
+        <label>Napa Howell Mountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Napa Mt. Veeder</fullName>
+        <default>false</default>
+        <label>Napa Mt. Veeder</label>
+    </customValue>
+    <customValue>
+        <fullName>Napa Stags Leap District</fullName>
+        <default>false</default>
+        <label>Napa Stags Leap District</label>
+    </customValue>
+    <customValue>
+        <fullName>Napa Valley</fullName>
+        <default>false</default>
+        <label>Napa Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Napa Valley Rutherford</fullName>
+        <default>false</default>
+        <label>Napa Valley Rutherford</label>
+    </customValue>
+    <customValue>
+        <fullName>Nebbiolo d&apos; Alba</fullName>
+        <default>false</default>
+        <label>Nebbiolo d&apos; Alba</label>
+    </customValue>
+    <customValue>
+        <fullName>Nemea</fullName>
+        <default>false</default>
+        <label>Nemea</label>
+    </customValue>
+    <customValue>
+        <fullName>Niagara Peninsula</fullName>
+        <default>false</default>
+        <label>Niagara Peninsula</label>
+    </customValue>
+    <customValue>
+        <fullName>Niederosterreich</fullName>
+        <default>false</default>
+        <label>Niederosterreich</label>
+    </customValue>
+    <customValue>
+        <fullName>North Coast Cal.</fullName>
+        <default>false</default>
+        <label>North Coast Cal.</label>
+    </customValue>
+    <customValue>
+        <fullName>Nuits Saint Georges</fullName>
+        <default>false</default>
+        <label>Nuits Saint Georges</label>
+    </customValue>
+    <customValue>
+        <fullName>Orientale</fullName>
+        <default>false</default>
+        <label>Orientale</label>
+    </customValue>
+    <customValue>
+        <fullName>Padthaway</fullName>
+        <default>false</default>
+        <label>Padthaway</label>
+    </customValue>
+    <customValue>
+        <fullName>Pallini</fullName>
+        <default>false</default>
+        <label>Pallini</label>
+    </customValue>
+    <customValue>
+        <fullName>Paso Robles</fullName>
+        <default>false</default>
+        <label>Paso Robles</label>
+    </customValue>
+    <customValue>
+        <fullName>Pauillac</fullName>
+        <default>false</default>
+        <label>Pauillac</label>
+    </customValue>
+    <customValue>
+        <fullName>Pavia</fullName>
+        <default>false</default>
+        <label>Pavia</label>
+    </customValue>
+    <customValue>
+        <fullName>Pays d’Oc</fullName>
+        <default>false</default>
+        <label>Pays d’Oc</label>
+    </customValue>
+    <customValue>
+        <fullName>Pernand-Vergelesses Prem Cru</fullName>
+        <default>false</default>
+        <label>Pernand-Vergelesses Prem Cru</label>
+    </customValue>
+    <customValue>
+        <fullName>Pic St. Loup</fullName>
+        <default>false</default>
+        <label>Pic St. Loup</label>
+    </customValue>
+    <customValue>
+        <fullName>Piemonte</fullName>
+        <default>false</default>
+        <label>Piemonte</label>
+    </customValue>
+    <customValue>
+        <fullName>Pomerol</fullName>
+        <default>false</default>
+        <label>Pomerol</label>
+    </customValue>
+    <customValue>
+        <fullName>Pomino</fullName>
+        <default>false</default>
+        <label>Pomino</label>
+    </customValue>
+    <customValue>
+        <fullName>Pommard</fullName>
+        <default>false</default>
+        <label>Pommard</label>
+    </customValue>
+    <customValue>
+        <fullName>Pouilly Fuisse</fullName>
+        <default>false</default>
+        <label>Pouilly Fuisse</label>
+    </customValue>
+    <customValue>
+        <fullName>Pouilly Fume</fullName>
+        <default>false</default>
+        <label>Pouilly Fume</label>
+    </customValue>
+    <customValue>
+        <fullName>Priorat</fullName>
+        <default>false</default>
+        <label>Priorat</label>
+    </customValue>
+    <customValue>
+        <fullName>Puglia</fullName>
+        <default>false</default>
+        <label>Puglia</label>
+    </customValue>
+    <customValue>
+        <fullName>Puisseguin Saint Emilion</fullName>
+        <default>false</default>
+        <label>Puisseguin Saint Emilion</label>
+    </customValue>
+    <customValue>
+        <fullName>Puligny Montrachet</fullName>
+        <default>false</default>
+        <label>Puligny Montrachet</label>
+    </customValue>
+    <customValue>
+        <fullName>Pyrenees</fullName>
+        <default>false</default>
+        <label>Pyrenees</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarts de Chaume</fullName>
+        <default>false</default>
+        <label>Quarts de Chaume</label>
+    </customValue>
+    <customValue>
+        <fullName>Quincy</fullName>
+        <default>false</default>
+        <label>Quincy</label>
+    </customValue>
+    <customValue>
+        <fullName>Rasteau</fullName>
+        <default>false</default>
+        <label>Rasteau</label>
+    </customValue>
+    <customValue>
+        <fullName>Rioja</fullName>
+        <default>false</default>
+        <label>Rioja</label>
+    </customValue>
+    <customValue>
+        <fullName>Riverland</fullName>
+        <default>false</default>
+        <label>Riverland</label>
+    </customValue>
+    <customValue>
+        <fullName>Rivesaltes</fullName>
+        <default>false</default>
+        <label>Rivesaltes</label>
+    </customValue>
+    <customValue>
+        <fullName>Rogue Valley</fullName>
+        <default>false</default>
+        <label>Rogue Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Saint Aubin Premier Cru</fullName>
+        <default>false</default>
+        <label>Saint Aubin Premier Cru</label>
+    </customValue>
+    <customValue>
+        <fullName>Saint Joseph</fullName>
+        <default>false</default>
+        <label>Saint Joseph</label>
+    </customValue>
+    <customValue>
+        <fullName>Salice Salentino</fullName>
+        <default>false</default>
+        <label>Salice Salentino</label>
+    </customValue>
+    <customValue>
+        <fullName>San Benito County</fullName>
+        <default>false</default>
+        <label>San Benito County</label>
+    </customValue>
+    <customValue>
+        <fullName>San Luis Obispo</fullName>
+        <default>false</default>
+        <label>San Luis Obispo</label>
+    </customValue>
+    <customValue>
+        <fullName>Sancerre</fullName>
+        <default>false</default>
+        <label>Sancerre</label>
+    </customValue>
+    <customValue>
+        <fullName>Sannio</fullName>
+        <default>false</default>
+        <label>Sannio</label>
+    </customValue>
+    <customValue>
+        <fullName>Sant&apos; Antimo</fullName>
+        <default>false</default>
+        <label>Sant&apos; Antimo</label>
+    </customValue>
+    <customValue>
+        <fullName>Santa Barbara</fullName>
+        <default>false</default>
+        <label>Santa Barbara</label>
+    </customValue>
+    <customValue>
+        <fullName>Santa Cruz</fullName>
+        <default>false</default>
+        <label>Santa Cruz</label>
+    </customValue>
+    <customValue>
+        <fullName>Santa Maria Valley</fullName>
+        <default>false</default>
+        <label>Santa Maria Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Santa Rita Hills</fullName>
+        <default>false</default>
+        <label>Santa Rita Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Santa Ynes</fullName>
+        <default>false</default>
+        <label>Santa Ynes</label>
+    </customValue>
+    <customValue>
+        <fullName>Santenay</fullName>
+        <default>false</default>
+        <label>Santenay</label>
+    </customValue>
+    <customValue>
+        <fullName>Santorini</fullName>
+        <default>false</default>
+        <label>Santorini</label>
+    </customValue>
+    <customValue>
+        <fullName>Saumur</fullName>
+        <default>false</default>
+        <label>Saumur</label>
+    </customValue>
+    <customValue>
+        <fullName>Saumur Champigny</fullName>
+        <default>false</default>
+        <label>Saumur Champigny</label>
+    </customValue>
+    <customValue>
+        <fullName>Sauternes</fullName>
+        <default>false</default>
+        <label>Sauternes</label>
+    </customValue>
+    <customValue>
+        <fullName>Savennieres</fullName>
+        <default>false</default>
+        <label>Savennieres</label>
+    </customValue>
+    <customValue>
+        <fullName>Savennieres Coulee de Serrant</fullName>
+        <default>false</default>
+        <label>Savennieres Coulee de Serrant</label>
+    </customValue>
+    <customValue>
+        <fullName>Savennieres Roche aux Moines</fullName>
+        <default>false</default>
+        <label>Savennieres Roche aux Moines</label>
+    </customValue>
+    <customValue>
+        <fullName>Savigny les Beaunes</fullName>
+        <default>false</default>
+        <label>Savigny les Beaunes</label>
+    </customValue>
+    <customValue>
+        <fullName>Sebino</fullName>
+        <default>false</default>
+        <label>Sebino</label>
+    </customValue>
+    <customValue>
+        <fullName>Sierra Foothills</fullName>
+        <default>false</default>
+        <label>Sierra Foothills</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonoma</fullName>
+        <default>false</default>
+        <label>Sonoma</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonoma Valley</fullName>
+        <default>false</default>
+        <label>Sonoma Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonoma/Dry Creek Valley</fullName>
+        <default>false</default>
+        <label>Sonoma/Dry Creek Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonoma/Russian River Valley</fullName>
+        <default>false</default>
+        <label>Sonoma/Russian River Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>St Julien</fullName>
+        <default>false</default>
+        <label>St Julien</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Emilion</fullName>
+        <default>false</default>
+        <label>St. Emilion</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Estephe</fullName>
+        <default>false</default>
+        <label>St. Estephe</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Veran</fullName>
+        <default>false</default>
+        <label>St. Veran</label>
+    </customValue>
+    <customValue>
+        <fullName>Stellenbosch</fullName>
+        <default>false</default>
+        <label>Stellenbosch</label>
+    </customValue>
+    <customValue>
+        <fullName>Taurasi</fullName>
+        <default>false</default>
+        <label>Taurasi</label>
+    </customValue>
+    <customValue>
+        <fullName>Tavel</fullName>
+        <default>false</default>
+        <label>Tavel</label>
+    </customValue>
+    <customValue>
+        <fullName>Teroldego Rotaliano</fullName>
+        <default>false</default>
+        <label>Teroldego Rotaliano</label>
+    </customValue>
+    <customValue>
+        <fullName>Terre di Franciacorta</fullName>
+        <default>false</default>
+        <label>Terre di Franciacorta</label>
+    </customValue>
+    <customValue>
+        <fullName>Torgiano</fullName>
+        <default>false</default>
+        <label>Torgiano</label>
+    </customValue>
+    <customValue>
+        <fullName>Toscana</fullName>
+        <default>false</default>
+        <label>Toscana</label>
+    </customValue>
+    <customValue>
+        <fullName>Umbria</fullName>
+        <default>false</default>
+        <label>Umbria</label>
+    </customValue>
+    <customValue>
+        <fullName>Vacqueyras</fullName>
+        <default>false</default>
+        <label>Vacqueyras</label>
+    </customValue>
+    <customValue>
+        <fullName>Valdadige</fullName>
+        <default>false</default>
+        <label>Valdadige</label>
+    </customValue>
+    <customValue>
+        <fullName>Valdobbiadene</fullName>
+        <default>false</default>
+        <label>Valdobbiadene</label>
+    </customValue>
+    <customValue>
+        <fullName>Valpolicella</fullName>
+        <default>false</default>
+        <label>Valpolicella</label>
+    </customValue>
+    <customValue>
+        <fullName>Veneto</fullName>
+        <default>false</default>
+        <label>Veneto</label>
+    </customValue>
+    <customValue>
+        <fullName>Venezia</fullName>
+        <default>false</default>
+        <label>Venezia</label>
+    </customValue>
+    <customValue>
+        <fullName>Victoria</fullName>
+        <default>false</default>
+        <label>Victoria</label>
+    </customValue>
+    <customValue>
+        <fullName>Vigneti delle Dolomiti</fullName>
+        <default>false</default>
+        <label>Vigneti delle Dolomiti</label>
+    </customValue>
+    <customValue>
+        <fullName>Vin de Pays D&apos;Herault</fullName>
+        <default>false</default>
+        <label>Vin de Pays D&apos;Herault</label>
+    </customValue>
+    <customValue>
+        <fullName>Vin Santo del Chianti Classico</fullName>
+        <default>false</default>
+        <label>Vin Santo del Chianti Classico</label>
+    </customValue>
+    <customValue>
+        <fullName>Vire-Clesse</fullName>
+        <default>false</default>
+        <label>Vire-Clesse</label>
+    </customValue>
+    <customValue>
+        <fullName>Volnay</fullName>
+        <default>false</default>
+        <label>Volnay</label>
+    </customValue>
+    <customValue>
+        <fullName>Vosne Romanee</fullName>
+        <default>false</default>
+        <label>Vosne Romanee</label>
+    </customValue>
+    <customValue>
+        <fullName>Vouvray</fullName>
+        <default>false</default>
+        <label>Vouvray</label>
+    </customValue>
+    <customValue>
+        <fullName>Walla Walla</fullName>
+        <default>false</default>
+        <label>Walla Walla</label>
+    </customValue>
+    <customValue>
+        <fullName>Western Cape</fullName>
+        <default>false</default>
+        <label>Western Cape</label>
+    </customValue>
+    <customValue>
+        <fullName>Willamette Valley</fullName>
+        <default>false</default>
+        <label>Willamette Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Yakima Valley</fullName>
+        <default>false</default>
+        <label>Yakima Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Yarra Valley</fullName>
+        <default>false</default>
+        <label>Yarra Valley</label>
+    </customValue>
+    <description>Legal appellation of the product (select DNA for region/state if non-wine product).</description>
+    <masterLabel>Appellation</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

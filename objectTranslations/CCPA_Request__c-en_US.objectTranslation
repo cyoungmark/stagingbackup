@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CCPA Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CCPA Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Authorized Agent Email --></label>
+        <name>Authorized_Agent_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Agent First Name --></label>
+        <name>Authorized_Agent_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Agent Last Name --></label>
+        <name>Authorized_Agent_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorized Agent Phone --></label>
+        <name>Authorized_Agent_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requested Categories --></label>
+        <name>Categor__c</name>
+        <picklistValues>
+            <masterLabel>Categories collected</masterLabel>
+            <translation><!-- Categories collected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Categories of Third parties</masterLabel>
+            <translation><!-- Categories of Third parties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Categories of sources</masterLabel>
+            <translation><!-- Categories of sources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Categories sold</masterLabel>
+            <translation><!-- Categories sold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purpose of collecting</masterLabel>
+            <translation><!-- Purpose of collecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific pieces of information</masterLabel>
+            <translation><!-- Specific pieces of information --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Info --></label>
+        <name>Delete_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Info --></label>
+        <name>Request_Info__c</name>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street --></label>
+        <name>Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitting on behalf of --></label>
+        <name>Submitting_on_behalf_of__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>Username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip Code --></label>
+        <name>Zip_Code__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

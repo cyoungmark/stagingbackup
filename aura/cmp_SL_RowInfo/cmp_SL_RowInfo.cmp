@@ -1,0 +1,28 @@
+<aura:component >
+	<aura:attribute name="SobjRecord" type="sObject"/>
+    <aura:attribute name="fieldApiName" type="String"/>
+    <aura:attribute name="FieldInfoMap" type="Map"/>
+	<aura:attribute name="isReadOnly" type="boolean"/> 
+    <aura:attribute name="fieldType" type="object" default=""/>
+    <aura:attribute name="fieldLabel" type="object"/>
+    <aura:attribute name="PickListValsNew" type="List"/>
+    <aura:attribute name="sObjectName" type="string" default=""/>
+    <aura:attribute name="disablePicklist" type="boolean"/>
+    <aura:attribute name="mapDependentPicklistInfo" type="Map"/>
+    
+    <aura:attribute name="ParentComponentName" type="string"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:handler name="change" value="{!v.FieldInfoMap}" action="{!c.testChange}"/>
+    
+	<aura:if isTrue = "{!(v.fieldType != '' &amp;&amp; v.fieldType != 'MULTIPICKLIST' &amp;&amp; v.fieldType != 'PICKLIST') || ((v.fieldType == 'MULTIPICKLIST' || v.fieldType == 'PICKLIST') &amp;&amp; v.PickListValsNew.length > 0)}">
+		<div aura:id="cmpRenderFields"/>
+        <!--<c:cmp_SL_RenderFields record="{!v.SobjRecord}" 
+                               fieldApiName="{!v.fieldApiName}" 
+                               fieldType="{!v.fieldType}"
+                               fieldSetLabelVal="{!v.fieldLabel}"
+                               PickListVals="{!v.PickListValsNew}" 
+                               sObjectName="{!v.sObjectName}"/>-->
+    </aura:if>
+</aura:component>

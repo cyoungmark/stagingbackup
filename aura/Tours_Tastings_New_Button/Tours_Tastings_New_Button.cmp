@@ -1,0 +1,7 @@
+<!--
+ - Created by Dmytro Minko on 2019-07-03.
+ -->
+
+<aura:component description="Tours_Tastings_New_Button" implements="lightning:actionOverride">
+        <aura:handler name="init" value="{!this}" action="{!c.handleEventInit}" />
+</aura:component>

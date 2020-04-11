@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>Tours_Tastings_New_Button</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>Tours_Tastings_New_Button</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Tour_and_Tasting_Form</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>TT</fullName>
+        <fields>Name</fields>
+        <fields>Primary_Guest_Name__c</fields>
+        <fields>Number_of_Guests__c</fields>
+        <fields>Request_Type__c</fields>
+        <fields>Tour_Form_Approval_Status__c</fields>
+        <label>TT</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Approval_History__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Look-up field to support field-sharing relationship between T&amp;T Form and Approval History</description>
+        <externalId>false</externalId>
+        <label>Approval History</label>
+        <referenceTo>Approval_History__c</referenceTo>
+        <relationshipLabel>Tours and Tastings Forms</relationshipLabel>
+        <relationshipName>Tours_and_Tastings_Forms</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Code</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Company__c</fullName>
+        <externalId>false</externalId>
+        <formula>Primary_Guest_Name__r.Account.Name</formula>
+        <label>Company</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Earliest_Request_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the earliest date and time for your request</inlineHelpText>
+        <label>Earliest Request Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>First_Visit_to_Napa__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>First Visit to Napa?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>First_Visit_to_Sonoma__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>First Visit to Sonoma?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Guest_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Guest Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Itinerary_Approved_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Itinerary Approved Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Itinerary_Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Itinerary Approved</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Latest_Request_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the latest date and time for your request</inlineHelpText>
+        <label>Latest Request Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Level_of_Wine_Knowledge__c</fullName>
+        <externalId>false</externalId>
+        <label>Level of Wine Knowledge</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Fair</fullName>
+                    <default>false</default>
+                    <label>Fair</label>
+                </value>
+                <value>
+                    <fullName>Novice</fullName>
+                    <default>false</default>
+                    <label>Novice</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lodging__c</fullName>
+        <externalId>false</externalId>
+        <label>Lodging</label>
+        <length>1024</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Luncheon__c</fullName>
+        <externalId>false</externalId>
+        <label>Luncheon</label>
+        <length>1024</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>New_Account__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check this box if the Tour &amp; Tasting Request is coming from someone who has not purchased wine from Terlato before.</description>
+        <externalId>false</externalId>
+        <label>New Account?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Approved_Lodging_Requests__c</fullName>
+        <description>Counts the number of approved lodging requests</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Counts the number of approved lodging requests</inlineHelpText>
+        <label>Number of Approved Lodging Requests</label>
+        <summaryFilterItems>
+            <field>Tour_and_Tasting_Request__c.Lodging_Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Tour_and_Tasting_Request__c.Tour_and_Tasting__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Approved_Requests__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Approved Requests</label>
+        <summaryFilterItems>
+            <field>Tour_and_Tasting_Request__c.Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Tour_and_Tasting_Request__c.Tour_and_Tasting__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Attachments__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Number of Attachments</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Guests__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Number of Total Guest including Primary</inlineHelpText>
+        <label>Number of Guests</label>
+        <precision>2</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Lodging_Requests__c</fullName>
+        <description>Count of the number of Lodging Requests (Markham Winery Only)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Count of the number of Lodging Requests (Markham Winery Only)</inlineHelpText>
+        <label>Number of Lodging Requests</label>
+        <summaryFilterItems>
+            <field>Tour_and_Tasting_Request__c.Lodging_Request__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>Tour_and_Tasting_Request__c.Tour_and_Tasting__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Requests__c</fullName>
+        <description>Number of tour and tasting requests in a T&amp;T</description>
+        <externalId>false</externalId>
+        <label>Number of Requests</label>
+        <summaryForeignKey>Tour_and_Tasting_Request__c.Tour_and_Tasting__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Owner_Region__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Owner:User.Region__c)</formula>
+        <label>Owner Region</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Guest_Mobile_Phone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Primary_Guest_Name__r.MobilePhone</formula>
+        <label>Primary Guest Mobile Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Guest_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Primary Guest Name</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Tours and Tastings</relationshipLabel>
+        <relationshipName>Tours_and_Tastings_Consumer</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Request_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Request_Type__c</fullName>
+        <description>This is the type of person who is requesting a visit to the winery (ie. Distributor, Retailer, Consumer, etc.)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the type of person who is requesting a visit to the winery (ie. Distributor, Retailer, Consumer, etc.)</inlineHelpText>
+        <label>Primary Guest Type</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Consumer</fullName>
+                    <default>false</default>
+                    <label>Consumer</label>
+                </value>
+                <value>
+                    <fullName>Distributor or Employee</fullName>
+                    <default>false</default>
+                    <label>Distributor or Employee</label>
+                </value>
+                <value>
+                    <fullName>Family and VIPs</fullName>
+                    <default>false</default>
+                    <label>Family and VIPs</label>
+                </value>
+                <value>
+                    <fullName>Retailer</fullName>
+                    <default>false</default>
+                    <label>On-Prem Retailer</label>
+                </value>
+                <value>
+                    <fullName>Off-Prem Retailer</fullName>
+                    <default>false</default>
+                    <label>Off-Prem Retailer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Send_Guest_Itinerary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this box will send the itinerary to the primary guest</inlineHelpText>
+        <label>Send Guest Itinerary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Special_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Instructions</label>
+        <length>2048</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Submission_Date__c</fullName>
+        <description>The date and time that a T&amp;T Form was submitted for approval.</description>
+        <externalId>false</externalId>
+        <label>Submission Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tour_Form_Approval_Status__c</fullName>
+        <defaultValue>&quot;Not Submitted&quot;</defaultValue>
+        <description>Controlled by field update workflow that is part of the approval process</description>
+        <externalId>false</externalId>
+        <label>Tour Form Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Submit_for_Approval</fullName>
+                    <default>false</default>
+                    <label>Submit for Approval</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Winery__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Lookup to Winery Account</description>
+        <externalId>false</externalId>
+        <label>Winery</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>You must select a Winery Account</errorMessage>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Winery Account</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Tours and Tastings Forms</relationshipLabel>
+        <relationshipName>Tours_and_Tastings_Forms</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Tour and Tasting Form</label>
+    <nameField>
+        <displayFormat>TT-{0}</displayFormat>
+        <label>TT Form</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Tours and Tastings Forms</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Tour_and_Form_Approver</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>TT</compactLayoutAssignment>
+        <description>Used for Tour and Tasting Form Approvers</description>
+        <label>Tour and Tasting Form - Approver</label>
+        <picklistValues>
+            <picklist>Level_of_Wine_Knowledge__c</picklist>
+            <values>
+                <fullName>Fair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Novice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>Consumer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distributor or Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Family and VIPs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Off-Prem Retailer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tour_Form_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submit_for_Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Tour_and_Tasting_Form_New</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>TT</compactLayoutAssignment>
+        <description>Use for creating new TT Forms</description>
+        <label>Tour and Tasting Form - New</label>
+        <picklistValues>
+            <picklist>Level_of_Wine_Knowledge__c</picklist>
+            <values>
+                <fullName>Fair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Novice</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>Consumer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Distributor or Employee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Family and VIPs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Off-Prem Retailer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tour_Form_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submit_for_Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Request_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RECORDTYPE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Primary_Guest_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Company__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Itinerary_Approved__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Itinerary_Approved_Date__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Request_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Primary_Guest_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Itinerary_Approved__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Itinerary_Approved__c</searchFilterFields>
+        <searchFilterFields>Request_Date__c</searchFilterFields>
+        <searchFilterFields>Earliest_Request_Date__c</searchFilterFields>
+        <searchFilterFields>Latest_Request_Date__c</searchFilterFields>
+        <searchFilterFields>Primary_Guest_Name__c</searchFilterFields>
+        <searchFilterFields>RECORDTYPE</searchFilterFields>
+        <searchResultsAdditionalFields>Request_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Primary_Guest_Name__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Cannot_have_Account_Record_Type_Supplier</fullName>
+        <active>false</active>
+        <description>Validation rule to stop user from proceeding with a T&amp;T form if the associated Account record type is &quot;Supplier&quot;.</description>
+        <errorConditionFormula>TEXT (Primary_Guest_Name__r.Account.Type)  = &apos;Supplier&apos;</errorConditionFormula>
+        <errorMessage>You cannot create a Tour &amp; Tasting Form with a Supplier account.  Please select a different account that is not a Supplier.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>DeleteAttachmentNotAllowed</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND ( 
+
+NOT(IsNew()), 
+
+RecordType.Name = &quot;Trade Account&quot; , 
+Primary_Guest_Name__r.Account.New_Account__c = false, 
+Number_of_Attachments__c = 0,
+ ISCHANGED(Number_of_Attachments__c) 
+)</errorConditionFormula>
+        <errorMessage>Cannot Delete Diver Report</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Need_to_Add_Request</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+
+    OR( 
+       (ISPICKVAL( Tour_Form_Approval_Status__c ,&quot;Submit for Approval&quot;)),
+       (ISPICKVAL(Tour_Form_Approval_Status__c ,&quot;Approved&quot;))),
+
+Number_of_Requests__c &lt; 1 
+
+)</errorConditionFormula>
+        <errorMessage>Please add at least one winery Tour and Tasting Request.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Primary_Contact_Mobile_Required</fullName>
+        <active>true</active>
+        <description>Rule to ensure that the listed Primary Guest has a mobile phone number listed on the corresponding Contact record.</description>
+        <errorConditionFormula>ISNULL(Primary_Guest_Name__r.MobilePhone)</errorConditionFormula>
+        <errorMessage>The Primary Guest must have a mobile phone number on the Contact record.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Require_Attachment_To_Continue</fullName>
+        <active>false</active>
+        <description>DISABLED BY MIKE TOPALOVICH PER CARLA 4/17
+
+Required only for Retailer Type of Tour</description>
+        <errorConditionFormula>AND( 
+ISPICKVAL( Request_Type__c,&quot;Retailer&quot;),	
+OR( 
+ISPICKVAL( Tour_Form_Approval_Status__c ,&quot;Approved&quot;), 
+ISPICKVAL( Tour_Form_Approval_Status__c ,&quot;Submit for Approval&quot;)), 
+
+Number_of_Attachments__c = 0 
+
+)</errorConditionFormula>
+        <errorMessage>Please attach a Diver Report for Retailer Requests</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_Guest</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New Guest</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/003/e?retURL={!Tours_and_Tastings__c.Id}
+&amp;saveURL={!Tours_and_Tastings__c.Id}
+&amp;RecordType=01236000000SQrn
+&amp;con4_lkid=0013600001PVUKZ
+&amp;CF00N3600000SXZcX_lkid={!Tours_and_Tastings__c.Id}
+&amp;CF00N3600000SXZcX={!Tours_and_Tastings__c.Name}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_T_T_Request</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New T&amp;T Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/a0u/e?retURL={!Tours_and_Tastings__c.Id} 
+&amp;saveURL={!Tours_and_Tastings__c.Id} 
+&amp;RecordType=01236000000SQrq 
+&amp;CF00N3600000SXZcT={!Tours_and_Tastings__c.Name} 
+&amp;CF00N3600000SXZcT_lkid={!Tours_and_Tastings__c.Id}</url>
+    </webLinks>
+</CustomObject>

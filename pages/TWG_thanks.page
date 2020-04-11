@@ -1,0 +1,7 @@
+<apex:page standardStylesheets="false" showHeader="false" sidebar="false">
+
+      <div style="margin-top:60px;text-align: center;">
+          Your case was successfully created.
+      </div>
+        
+</apex:page>

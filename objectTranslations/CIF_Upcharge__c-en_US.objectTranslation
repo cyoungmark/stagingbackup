@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CIF Upcharge</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CIF Upcharge</value>
+    </caseValues>
+    <fields>
+        <label><!-- CIF Old Upcharge $ --></label>
+        <name>CIF_Old_Upcharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIF Upcharge $ --></label>
+        <name>CIF_Upcharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- ItemPackID --></label>
+        <name>ItemPackID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ItemSizeID --></label>
+        <name>ItemSizeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Item Number --></label>
+        <name>Long_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Item Number --></label>
+        <name>Short_Item_Number__c</name>
+    </fields>
+    <layouts>
+        <layout>CIF Upcharge Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

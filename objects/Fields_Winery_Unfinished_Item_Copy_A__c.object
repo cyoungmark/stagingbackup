@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>MAPPING FROM IA TO IIP (A)</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Item_In_Process_field_API_name__c</fullName>
+        <externalId>false</externalId>
+        <label>Item In Process field API name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Fields: Winery Unfinished Item (Copy) A</label>
+    <visibility>Public</visibility>
+</CustomObject>

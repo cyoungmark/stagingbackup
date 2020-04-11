@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>NA</fullName>
+        <default>false</default>
+        <label>NA</label>
+    </customValue>
+    <customValue>
+        <fullName>T-TOP</fullName>
+        <default>false</default>
+        <label>T-Top</label>
+    </customValue>
+    <customValue>
+        <fullName>GLASS</fullName>
+        <default>false</default>
+        <label>Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>SYNTHETIC</fullName>
+        <default>false</default>
+        <label>Synthetic</label>
+    </customValue>
+    <customValue>
+        <fullName>NATURAL CORK</fullName>
+        <default>false</default>
+        <label>Natural Cork</label>
+    </customValue>
+    <customValue>
+        <fullName>PLASTIC CORK/STOPPER</fullName>
+        <default>false</default>
+        <label>Plastic Cork/Stopper</label>
+    </customValue>
+    <description>Type of cork closure, based on SGWS values.</description>
+    <masterLabel>Cork Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

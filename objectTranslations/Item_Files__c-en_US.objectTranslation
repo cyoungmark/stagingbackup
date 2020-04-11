@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item Files</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Item Files</value>
+    </caseValues>
+    <fields>
+        <label><!-- Content Type --></label>
+        <name>Content_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Type --></label>
+        <name>Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Back Bottle</masterLabel>
+            <translation><!-- Back Bottle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Back Label</masterLabel>
+            <translation><!-- Back Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottle Shot</masterLabel>
+            <translation><!-- Bottle Shot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Front Bottle</masterLabel>
+            <translation><!-- Front Bottle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Front Label</masterLabel>
+            <translation><!-- Front Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc Label One</masterLabel>
+            <translation><!-- Misc Label One --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc Label Two</masterLabel>
+            <translation><!-- Misc Label Two --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Necker Label</masterLabel>
+            <translation><!-- Necker Label --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- File Name --></label>
+        <name>File_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Size --></label>
+        <name>File_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Size in Bytes --></label>
+        <name>File_Size_in_Bytes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Latest Version --></label>
+        <name>Is_Latest_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item - Active --></label>
+        <name>Item_Active__c</name>
+        <relationshipLabel><!-- Item Files --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Item - IP Relationship --></label>
+        <name>Item_IP_Relationship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key --></label>
+        <name>Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Height --></label>
+        <name>Label_Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Width --></label>
+        <name>Label_Width__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Folder Id --></label>
+        <name>Parent_Folder_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>Parent__c</name>
+        <relationshipLabel><!-- Item Files --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Preview Key --></label>
+        <name>Preview_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preview Version Id --></label>
+        <name>Preview_Version_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Private --></label>
+        <name>Private__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thumbnail Key --></label>
+        <name>Thumbnail_Key__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thumbnail Version Id --></label>
+        <name>Thumbnail_Version_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Description --></label>
+        <name>Version_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Id --></label>
+        <name>Version_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- WIP --></label>
+        <name>WIP__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

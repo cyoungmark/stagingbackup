@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Brand</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Brands</value>
+    </caseValues>
+    <fields>
+        <label><!-- AMM --></label>
+        <name>AMM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActiveBranch2 --></label>
+        <name>ActiveBranch2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActiveBranchWinery --></label>
+        <name>ActiveBranchWinery__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActiveBrand --></label>
+        <name>ActiveBrand__c</name>
+    </fields>
+    <fields>
+        <label><!-- BGM --></label>
+        <name>BGM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Categorization --></label>
+        <name>Brand_Categorization__c</name>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family</masterLabel>
+            <translation><!-- Family --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Brand Code is a 3 character code that represents a brand. (i.e., &quot;Gaja&quot; brand has code of &quot;GAJ&quot;). The Brand Code is created by accounting if one does not exist. --></help>
+        <label><!-- Brand Code (Legal) --></label>
+        <name>Brand_Code_Legal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brand Code is a 3 character code that represents a brand. (i.e., &quot;Gaja&quot; brand has code of &quot;GAJ&quot;). The Brand Code is created by accounting if one does not exist. --></help>
+        <label><!-- Brand Code (Marketing) --></label>
+        <name>Brand_Code_Marketing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Detail --></label>
+        <name>Brand_Detail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Name (Legal) --></label>
+        <name>Brand_Name_Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Capsule --></label>
+        <name>Capsule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin --></label>
+        <name>Country_of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Transitioned --></label>
+        <name>Date_Transitioned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Updated In JDE --></label>
+        <name>Date_Updated_In_JDE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Division --></label>
+        <name>Divistion__c</name>
+        <picklistValues>
+            <masterLabel>CRU</masterLabel>
+            <translation><!-- CRU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation><!-- Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premier</masterLabel>
+            <translation><!-- Premier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TB Artisan Spirits</masterLabel>
+            <translation><!-- TB Artisan Spirits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water</masterLabel>
+            <translation><!-- Water --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flagship Product --></label>
+        <name>Flagship_Product__c</name>
+    </fields>
+    <fields>
+        <help><!-- Year Brand was founded --></help>
+        <label><!-- Founded --></label>
+        <name>Founded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Goal Brand --></label>
+        <name>Goal_Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Import --></label>
+        <name>Import__c</name>
+    </fields>
+    <fields>
+        <label><!-- Include in Diver --></label>
+        <name>Include_in_Diver__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Street --></label>
+        <name>Location_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location City --></label>
+        <name>Location_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Country --></label>
+        <name>Location_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Latitude --></label>
+        <name>Location_Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Longitude --></label>
+        <name>Location_Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location State/Province --></label>
+        <name>Location_StateProvince__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Text --></label>
+        <name>Location_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Zip/Postal Code --></label>
+        <name>Location_ZipPostal_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Marketing Executive in charge of this brand. --></help>
+        <label><!-- Marketing Executive --></label>
+        <name>Marketing_Executive__c</name>
+        <relationshipLabel><!-- Brands (Marketing Executive) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Marketing Manager --></label>
+        <name>Marketing_Manager__c</name>
+        <relationshipLabel><!-- Brands (Marketing Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- No. of Related Suppliers --></label>
+        <name>No_of_Related_Suppliers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overview Summary --></label>
+        <name>Overview_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ownership Summary --></label>
+        <name>Ownership_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- PR Category --></label>
+        <name>PR_Category__c</name>
+        <picklistValues>
+            <masterLabel>ARGENTINA</masterLabel>
+            <translation><!-- ARGENTINA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AUSTRALIA</masterLabel>
+            <translation><!-- AUSTRALIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALIFORNIA</masterLabel>
+            <translation><!-- CALIFORNIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CANADA</masterLabel>
+            <translation><!-- CANADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CHILE</masterLabel>
+            <translation><!-- CHILE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENGLAND</masterLabel>
+            <translation><!-- ENGLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRANCE</masterLabel>
+            <translation><!-- FRANCE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GREECE</masterLabel>
+            <translation><!-- GREECE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDIANA</masterLabel>
+            <translation><!-- INDIANA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITALY</masterLabel>
+            <translation><!-- ITALY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAPAN</masterLabel>
+            <translation><!-- JAPAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEDITERRANIEAN</masterLabel>
+            <translation><!-- MEDITERRANIEAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEXICO</masterLabel>
+            <translation><!-- MEXICO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAPAANDSONOMAVALLEY</masterLabel>
+            <translation><!-- NAPAANDSONOMAVALLEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAPAVALLEY</masterLabel>
+            <translation><!-- NAPAVALLEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEWZEALAND</masterLabel>
+            <translation><!-- NEWZEALAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OREGON</masterLabel>
+            <translation><!-- OREGON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PANAMA</masterLabel>
+            <translation><!-- PANAMA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PORTUGAL</masterLabel>
+            <translation><!-- PORTUGAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANTABARBARACOUNTY</masterLabel>
+            <translation><!-- SANTABARBARACOUNTY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCOTLAND</masterLabel>
+            <translation><!-- SCOTLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SONOMAVALLEY</masterLabel>
+            <translation><!-- SONOMAVALLEY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOUTHAFRICA</masterLabel>
+            <translation><!-- SOUTHAFRICA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPAIN</masterLabel>
+            <translation><!-- SPAIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRINIDADANDTOBAGO</masterLabel>
+            <translation><!-- TRINIDADANDTOBAGO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WASHINGTON</masterLabel>
+            <translation><!-- WASHINGTON --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price Point --></label>
+        <name>Price_Point__c</name>
+    </fields>
+    <fields>
+        <label><!-- Samples Allowed --></label>
+        <name>Samples_Allowed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SelectionID --></label>
+        <name>SelectionID__c</name>
+        <picklistValues>
+            <masterLabel>EDF</masterLabel>
+            <translation><!-- EDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIN</masterLabel>
+            <translation><!-- EIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EST</masterLabel>
+            <translation><!-- EST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FGL</masterLabel>
+            <translation><!-- FGL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLM</masterLabel>
+            <translation><!-- FLM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRZ</masterLabel>
+            <translation><!-- FRZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAZ</masterLabel>
+            <translation><!-- HAZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HST</masterLabel>
+            <translation><!-- HST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INA</masterLabel>
+            <translation><!-- INA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OBS</masterLabel>
+            <translation><!-- OBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDF</masterLabel>
+            <translation><!-- PDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIN</masterLabel>
+            <translation><!-- PIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRM</masterLabel>
+            <translation><!-- PRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REF</masterLabel>
+            <translation><!-- REF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SDF</masterLabel>
+            <translation><!-- SDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIN</masterLabel>
+            <translation><!-- SIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPR</masterLabel>
+            <translation><!-- SPR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selection</masterLabel>
+            <translation><!-- Selection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TOX</masterLabel>
+            <translation><!-- TOX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USF</masterLabel>
+            <translation><!-- USF --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Selection --></label>
+        <name>Selection__c</name>
+        <picklistValues>
+            <masterLabel>CRU</masterLabel>
+            <translation><!-- CRU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EST</masterLabel>
+            <translation><!-- EST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAB</masterLabel>
+            <translation><!-- FAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRM</masterLabel>
+            <translation><!-- PRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPR</masterLabel>
+            <translation><!-- SPR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Year the Brand has been represented by Terlato since --></help>
+        <label><!-- Terlato Representation Since --></label>
+        <name>Terlato_Representation_Since__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trade Materials Link --></label>
+        <name>Trade_Materials_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vineyard --></label>
+        <name>Vineyard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Website Link --></label>
+        <name>Website_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deprecated Selection --></label>
+        <name>Z_deprecated_Selection__c</name>
+        <picklistValues>
+            <masterLabel>Blank -Shipping Condition 41/C</masterLabel>
+            <translation><!-- Blank -Shipping Condition 41/C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defunct Estate Selections</masterLabel>
+            <translation><!-- Defunct Estate Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defunct Premier Selections</masterLabel>
+            <translation><!-- Defunct Premier Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defunct Spirits Selections</masterLabel>
+            <translation><!-- Defunct Spirits Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate Selections</masterLabel>
+            <translation><!-- Estate Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flammable Materials</masterLabel>
+            <translation><!-- Flammable Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fragile Materials</masterLabel>
+            <translation><!-- Fragile Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frozen Materials</masterLabel>
+            <translation><!-- Frozen Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hazardous Materials</masterLabel>
+            <translation><!-- Hazardous Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Historical Selections</masterLabel>
+            <translation><!-- Historical Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive Estate Selections</masterLabel>
+            <translation><!-- Inactive Estate Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive Premier Selections</masterLabel>
+            <translation><!-- Inactive Premier Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive Spirits Selections</masterLabel>
+            <translation><!-- Inactive Spirits Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete</masterLabel>
+            <translation><!-- Obsolete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premier Selections</masterLabel>
+            <translation><!-- Premier Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refrigerated Materials</masterLabel>
+            <translation><!-- Refrigerated Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selc Description</masterLabel>
+            <translation><!-- Selc Description --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spirits Selections</masterLabel>
+            <translation><!-- Spirits Selections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toxic Materials</masterLabel>
+            <translation><!-- Toxic Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USF Selections</masterLabel>
+            <translation><!-- USF Selections --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Brand Layout</layout>
+        <sections>
+            <label><!-- Brand Details --></label>
+            <section>Brand Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Location Info --></label>
+            <section>Location Info</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Related Supplier --></label>
+        <name>New_Related_Supplier</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

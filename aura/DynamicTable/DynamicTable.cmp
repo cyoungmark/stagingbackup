@@ -1,0 +1,156 @@
+<aura:component implements="force:hasRecordId,forceCommunity:availableForAllPageTypes,force:appHostable,flexipage:availableForAllPageTypes" 
+                controller="SL_ctrl_DynTbl"
+                access="global">
+    
+    <aura:attribute name="fldList" type="String"/>
+    <aura:attribute name="objName" type="String"/>
+    <aura:attribute name="tblName" type="String"/>
+    <aura:attribute name="sortDir" type="String"/>
+    <aura:attribute name="sortFld" type="String"/> 
+    <aura:attribute name="queryFilter" type="String"/>
+    <aura:attribute name="recordId" type="Id" /> <!--Id of the record if placed in any record detail page-->
+    <aura:attribute name="relationshipField" default="" type="String" access="global"/>
+    <aura:attribute name="disableNew" type="Boolean"/>
+    <aura:attribute name="isDisableAction" type="Boolean"/>
+    <aura:attribute name="parentField" type="String" access="global"/>
+    <aura:attribute name="filterByParent" type="Boolean" access="global"/> 
+    
+    <aura:attribute name="allRecs" type="Object[]"/> 
+    <aura:attribute name="fltrRecs" type="Object[]"/>
+    <aura:attribute name="curRecs" type="Object[]"/>
+    <aura:attribute name="fldMap" type="Object[]"/>
+    <aura:attribute name="errMsg" type="String"/>
+    <aura:attribute name="invalidFldMsg" type="String"/>
+    
+    <aura:attribute name="glblFltrTimer" type="Integer"/>
+    <aura:attribute name="totPgs" type="Integer"/>
+    <aura:attribute name="currPg" type="Integer" default="1"/>
+    <aura:attribute name="pgSize" type="Integer" default="10"/>
+    <aura:attribute name="createAccess" type="Boolean" default="false"/>
+    <aura:attribute name="glblFltrEnabled" type="Boolean" default="false"/>
+    <aura:attribute name="displayIndexColumn" type="Boolean" default="false"/>
+    
+    <aura:attribute name="nextPg" type="Aura.Action" default="{!c.nextPg}"/>
+    <aura:attribute name="lastPg" type="Aura.Action" default="{!c.lastPg}"/>
+    <aura:attribute name="prevPg" type="Aura.Action" default="{!c.prevPg}"/>
+    <aura:attribute name="firstPg" type="Aura.Action" default="{!c.firstPg}"/>
+    <aura:attribute name="handleFilters" type="Aura.Action" default="{!c.handleFilters}"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="sortEvent" event="c:columnSort" action="{!c.handleSort}"/>
+    <aura:attribute name="columnFilters" type="Object"/>
+    <aura:handler event="c:evt_SL_ColumnFilters" action="{!c.handleFilters}" access="global"/> 
+    
+    <aura:attribute name="isInfiniteScrollEnabled" type="Boolean" 
+                    description="turn on the infinite scroll pagination"
+                    access="public"/>
+    <aura:attribute name="scrollCheckIntervalId"
+                    type="String"
+                    description="In the renderer.js, the interval id for periodically checking scroll position. Used when unrendering component to cancel interval check."
+                    access="private"/>
+    
+    <div class="slds-card">
+    
+    <span class="{!v.errMsg != '' ? '' : 'slds-hide'}">{!v.errMsg}</span>
+    
+    <div class="{!'slds-is-relative ' + (v.errMsg != '' ? 'slds-hide' : 'slds-scrollable--x')}">
+        <lightning:spinner aura:id="initSpinner" class="slds-hide" alternativeText="Loading Records" variant="brand"/>
+        
+        <div class="slds-card__header slds-grid">
+            <header class="slds-has-flexi-truncate">
+            <h2><span class="slds-text-heading_small">
+                <lightning:icon iconName="custom:custom62" size="small" variant="error" class="slds-m-right--small"/>{!v.tblName}
+                </span>
+            </h2>
+            </header>
+            
+            <button class="{!and(!v.disableNew, v.createAccess) ? 'slds-button slds-button--brand' : 'slds-hide'}" 
+                    onclick="{!c.createNewRecord}" >New</button>
+            <lightning:buttonIcon iconName="utility:refresh" variant="bare" title="Refresh" alternativeText="Refresh" onclick="{!c.doInit}"/>
+        </div>
+        
+        <aura:if isTrue="{!v.glblFltrEnabled}">
+            <div class="slds-form-element__control slds-p-top--x-small">
+                <div class="slds-input-has-icon slds-input-has-icon--right">
+                    <button aura:id="closeBTN" class="slds-icon slds-input__icon slds-icon--x-small closeBtn hide" onclick="{!c.doInit}">
+                        <lightning:icon iconName="utility:close" size="x-small"/>
+                    </button>
+                    <ui:inputText aura:id="globalFilterInput" class="slds-lookup__search-input slds-input" placeholder="Search..." updateOn="keyup" keyup="{!c.handleFilters}"/>
+                </div>
+            </div>
+        </aura:if>
+        
+        <div class="{!v.invalidFldMsg.length > 0 ? '' : 'slds-hide'}">
+            <div class="slds-notify slds-notify--alert slds-theme--error slds-theme--alert-texture" role="alert">
+                <h2>
+                    {!v.invalidFldMsg}
+                </h2>
+            </div>
+        </div>
+        
+        <div id="infiniteScrollDiv" class="{!v.isInfiniteScrollEnabled ? 'infiniteScrollDiv' : ''}">
+            <table class="slds-table slds-table--bordered slds-table--striped slds-m-vertical--medium"
+                   role="grid">
+                <thead>
+                    <tr class="slds-line-height--reset">
+                        <!-- header for index column -->
+                        <th scope="col" title="index" 
+                            class="{!v.displayIndexColumn?'':'slds-hide'}">
+                        </th>
+                        <th scope="col" title="Action" 
+                            class="{!'slds-text-title--caps '+(v.isDisableAction ? 'slds-hide' : '')}">
+                            Action
+                        </th>
+                        <aura:iteration items="{!v.fldMap}" var="fldH">
+                            <c:DynamicTableColumnHeader label="{#fldH.label}"
+                                                        apiName="{#fldH.apiName}"
+                                                        sortDir="{!v.sortDir}"
+                                                        isSorted="{!v.sortFld == fldH.apiName || 
+                                                                  v.sortFld == fldH.lkupRelName}"
+                                                        fldType="{!fldH.fldType}"/>
+                        </aura:iteration>
+                    </tr>
+                </thead>
+                <tbody>
+                    <aura:iteration items="{!v.curRecs}" var="rec" indexVar="i">
+                        <tr>
+                            <!-- Index column values -->
+                            <td data-label="{!1+i+((v.currPg-1)*v.pgSize)}" class="{!v.displayIndexColumn?'':'slds-hide'}">
+                                <div class="slds-truncate">
+                                    <span>{!v.isInfiniteScrollEnabled ? (1 + i) : (1+i+((v.currPg-1)*v.pgSize))}</span>
+                                </div>
+                            </td>
+                            <td data-label="Edit" class="{!v.isDisableAction ? 'slds-hide' : ''}">
+                                <div class="slds-truncate" aura:id="cellContainer">
+                                      <a id="{!rec.Id}" href="{!'/one/one.app?#/sObject/'+ rec.Id + '/view'}" target="_blank">Edit</a>
+                                </div>
+                            </td>
+                            <aura:iteration items="{!v.fldMap}" var="fldR">
+                                <c:DynamicTableCell curFld="{#fldR}"
+                                                    curRec="{#rec}"/>
+                            </aura:iteration>
+                        </tr>
+                    </aura:iteration>
+                </tbody>
+            </table>
+        </div>
+        
+        <span>
+            Showing {!v.isInfiniteScrollEnabled ? 1 : (v.curRecs.length > 0 ? 1 : 0)+((v.currPg-1)*v.pgSize)} to 
+            {!v.currPg*v.pgSize > v.fltrRecs.length ? 
+            v.fltrRecs.length : v.currPg*v.pgSize} of {!v.fltrRecs.length} records
+        </span>
+        
+        <span class="{!v.isInfiniteScrollEnabled ? 'slds-hide' : 'pagination-buttons'}">
+            <button class="slds-button slds-button--brand" 
+                    onclick="{!v.firstPg}" disabled="{!v.currPg != 1 ? false : true}">First</button>
+            <button class="slds-button slds-button--brand" 
+                    onclick="{!v.prevPg}" disabled="{!v.currPg != 1 ? false : true}">Previous</button>
+            <button class="slds-button slds-button--brand" 
+                    onclick="{!v.nextPg}" disabled="{!v.currPg &lt; v.totPgs ? false : true}">Next</button>
+            <button class="slds-button slds-button--brand" 
+                    onclick="{!v.lastPg}" disabled="{!v.currPg &lt; v.totPgs ? false : true}">Last</button>
+        </span>
+    </div>
+        </div>
+</aura:component>

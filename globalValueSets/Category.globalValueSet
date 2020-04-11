@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Wine</fullName>
+        <default>false</default>
+        <label>Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>Spirits</fullName>
+        <default>false</default>
+        <label>Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Alcoholic Beverages</fullName>
+        <default>false</default>
+        <label>Non-Alcoholic Beverages</label>
+    </customValue>
+    <customValue>
+        <fullName>Sake</fullName>
+        <default>false</default>
+        <label>Sake</label>
+    </customValue>
+    <customValue>
+        <fullName>FINANCIAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FINANCIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TOBACCO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOBACCO</label>
+    </customValue>
+    <customValue>
+        <fullName>FOOD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FOOD</label>
+    </customValue>
+    <customValue>
+        <fullName>OTHER FERMENTED BEVERAGES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OTHER FERMENTED BEVERAGES</label>
+    </customValue>
+    <customValue>
+        <fullName>BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>MISCELLANEOUS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MISCELLANEOUS</label>
+    </customValue>
+    <description>Product Category as defined by SGWS</description>
+    <masterLabel>Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

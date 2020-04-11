@@ -1,0 +1,99 @@
+<apex:page controller="TWG_WebToCaseController" showHeader="false" standardStylesheets="false">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <apex:stylesheet value="{!URLFOR($Resource.TWG_Assets, 'css/webToCase.css')}"/>
+</head>
+<body class="html not-front not-logged-in two-sidebars page-contact" >
+  
+      
+  <apex:form >
+     <div style="width:100%"> 
+   <apex:pageMessages id="errors" escape="true"/>
+</div>
+
+<div class="container">
+
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Your Name:</label>
+      </div>
+      <div class="col-75">
+        <apex:inputText value="{!c.SuppliedName}"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Your Email:</label>
+      </div>
+      <div class="col-75">
+        <apex:inputText value="{!c.SuppliedEmail}"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Your Account Name:*</label>
+      </div>
+      <div class="col-75">
+        <apex:inputText required="false" value="{!acctName}"/>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Type:</label>
+      </div>
+      <div class="col-75">
+        <apex:inputField style="font-size: 15px;" required="false" value="{!c.Type}"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Category:</label>
+      </div>
+      <div class="col-75">
+        <apex:inputField style="font-size: 15px;" required="false" value="{!c.Data_Category_group__c}"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Group:</label>
+      </div>
+      <div class="col-75">
+        <apex:inputField style="font-size: 15px;" required="false" value="{!c.Data_Category_SubGroup__c}"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">How is it impacting your work?:</label>
+      </div>
+      <div class="col-75">
+        <apex:inputField style="font-size: 15px;" required="false" value="{!c.Impact__c}"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Case Subject:*</label>
+      </div>
+      <div class="col-75">
+        <apex:inputText required="false" value="{!c.Subject}"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Your Problem:*</label>
+      </div>
+      <div class="col-75">
+        <apex:inputTextArea required="false" rows="5" cols="25" value="{!c.Description}"/>
+      </div>
+    </div>
+    <div class="row">
+      <apex:commandButton value="Submit Case" action="{!submitCase}" rerender="errors" style="margin-top:5px;"/>
+    </div>
+</div>
+    </apex:form>
+
+</body>
+    
+</apex:page>

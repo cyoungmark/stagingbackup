@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agiorgitiko</fullName>
+        <default>false</default>
+        <label>Agiorgitiko</label>
+    </customValue>
+    <customValue>
+        <fullName>Aglianico</fullName>
+        <default>false</default>
+        <label>Aglianico</label>
+    </customValue>
+    <customValue>
+        <fullName>Albarino</fullName>
+        <default>false</default>
+        <label>Albarino</label>
+    </customValue>
+    <customValue>
+        <fullName>Aligote</fullName>
+        <default>false</default>
+        <label>Aligote</label>
+    </customValue>
+    <customValue>
+        <fullName>Arneis</fullName>
+        <default>false</default>
+        <label>Arneis</label>
+    </customValue>
+    <customValue>
+        <fullName>Assyrtiko</fullName>
+        <default>false</default>
+        <label>Assyrtiko</label>
+    </customValue>
+    <customValue>
+        <fullName>Auxerrois</fullName>
+        <default>false</default>
+        <label>Auxerrois</label>
+    </customValue>
+    <customValue>
+        <fullName>Barbera</fullName>
+        <default>false</default>
+        <label>Barbera</label>
+    </customValue>
+    <customValue>
+        <fullName>Bordeaux Blend Red</fullName>
+        <default>false</default>
+        <label>Bordeaux Blend Red</label>
+    </customValue>
+    <customValue>
+        <fullName>Blend German Red</fullName>
+        <default>false</default>
+        <label>Blend German Red</label>
+    </customValue>
+    <customValue>
+        <fullName>Blend German White</fullName>
+        <default>false</default>
+        <label>Blend German White</label>
+    </customValue>
+    <customValue>
+        <fullName>Aged Grappa</fullName>
+        <default>false</default>
+        <label>Aged Grappa</label>
+    </customValue>
+    <customValue>
+        <fullName>Languedoc Blend Red</fullName>
+        <default>false</default>
+        <label>Languedoc Blend Red</label>
+    </customValue>
+    <customValue>
+        <fullName>Languedoc Blend White</fullName>
+        <default>false</default>
+        <label>Languedoc Blend White</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Blend</fullName>
+        <default>false</default>
+        <label>Red Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>White Proprietary Blend</fullName>
+        <default>false</default>
+        <label>White Proprietary Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Porto Blend</fullName>
+        <default>false</default>
+        <label>Porto Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Provence Blend Red</fullName>
+        <default>false</default>
+        <label>Provence Blend Red</label>
+    </customValue>
+    <customValue>
+        <fullName>Provence Blend White</fullName>
+        <default>false</default>
+        <label>Provence Blend White</label>
+    </customValue>
+    <customValue>
+        <fullName>Provence Rose Blend</fullName>
+        <default>false</default>
+        <label>Provence Rose Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Rhone Blend Red</fullName>
+        <default>false</default>
+        <label>Rhone Blend Red</label>
+    </customValue>
+    <customValue>
+        <fullName>Rhone Blend White</fullName>
+        <default>false</default>
+        <label>Rhone Blend White</label>
+    </customValue>
+    <customValue>
+        <fullName>Tempranillo Blend</fullName>
+        <default>false</default>
+        <label>Tempranillo Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Veneto Blend Red</fullName>
+        <default>false</default>
+        <label>Veneto Blend Red</label>
+    </customValue>
+    <customValue>
+        <fullName>Veneto Blend White</fullName>
+        <default>false</default>
+        <label>Veneto Blend White</label>
+    </customValue>
+    <customValue>
+        <fullName>Brachetto</fullName>
+        <default>false</default>
+        <label>Brachetto</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabernet Franc</fullName>
+        <default>false</default>
+        <label>Cabernet Franc</label>
+    </customValue>
+    <customValue>
+        <fullName>Cabernet Sauvignon</fullName>
+        <default>false</default>
+        <label>Cabernet Sauvignon</label>
+    </customValue>
+    <customValue>
+        <fullName>Carignane</fullName>
+        <default>false</default>
+        <label>Carignane</label>
+    </customValue>
+    <customValue>
+        <fullName>Carmenere</fullName>
+        <default>false</default>
+        <label>Carmenere</label>
+    </customValue>
+    <customValue>
+        <fullName>Carricante</fullName>
+        <default>false</default>
+        <label>Carricante</label>
+    </customValue>
+    <customValue>
+        <fullName>Charbono</fullName>
+        <default>false</default>
+        <label>Charbono</label>
+    </customValue>
+    <customValue>
+        <fullName>Chardonnay</fullName>
+        <default>false</default>
+        <label>Chardonnay</label>
+    </customValue>
+    <customValue>
+        <fullName>Chenin Blanc</fullName>
+        <default>false</default>
+        <label>Chenin Blanc</label>
+    </customValue>
+    <customValue>
+        <fullName>Coda di Volpe</fullName>
+        <default>false</default>
+        <label>Coda di Volpe</label>
+    </customValue>
+    <customValue>
+        <fullName>Cortese</fullName>
+        <default>false</default>
+        <label>Cortese</label>
+    </customValue>
+    <customValue>
+        <fullName>Corvina</fullName>
+        <default>false</default>
+        <label>Corvina</label>
+    </customValue>
+    <customValue>
+        <fullName>Dolcetto</fullName>
+        <default>false</default>
+        <label>Dolcetto</label>
+    </customValue>
+    <customValue>
+        <fullName>Falanghina</fullName>
+        <default>false</default>
+        <label>Falanghina</label>
+    </customValue>
+    <customValue>
+        <fullName>Fiano di Avellino</fullName>
+        <default>false</default>
+        <label>Fiano di Avellino</label>
+    </customValue>
+    <customValue>
+        <fullName>Fragola</fullName>
+        <default>false</default>
+        <label>Fragola</label>
+    </customValue>
+    <customValue>
+        <fullName>Friulano</fullName>
+        <default>false</default>
+        <label>Friulano</label>
+    </customValue>
+    <customValue>
+        <fullName>Furmint</fullName>
+        <default>false</default>
+        <label>Furmint</label>
+    </customValue>
+    <customValue>
+        <fullName>Gamay</fullName>
+        <default>false</default>
+        <label>Gamay</label>
+    </customValue>
+    <customValue>
+        <fullName>Garganega</fullName>
+        <default>false</default>
+        <label>Garganega</label>
+    </customValue>
+    <customValue>
+        <fullName>Gewurztraminer</fullName>
+        <default>false</default>
+        <label>Gewurztraminer</label>
+    </customValue>
+    <customValue>
+        <fullName>Graciano</fullName>
+        <default>false</default>
+        <label>Graciano</label>
+    </customValue>
+    <customValue>
+        <fullName>Grechetto</fullName>
+        <default>false</default>
+        <label>Grechetto</label>
+    </customValue>
+    <customValue>
+        <fullName>Greco di Tufo</fullName>
+        <default>false</default>
+        <label>Greco di Tufo</label>
+    </customValue>
+    <customValue>
+        <fullName>Grenache</fullName>
+        <default>false</default>
+        <label>Grenache</label>
+    </customValue>
+    <customValue>
+        <fullName>Grenache Blanc</fullName>
+        <default>false</default>
+        <label>Grenache Blanc</label>
+    </customValue>
+    <customValue>
+        <fullName>Grignolino</fullName>
+        <default>false</default>
+        <label>Grignolino</label>
+    </customValue>
+    <customValue>
+        <fullName>Grillo</fullName>
+        <default>false</default>
+        <label>Grillo</label>
+    </customValue>
+    <customValue>
+        <fullName>Manseng</fullName>
+        <default>false</default>
+        <label>Manseng</label>
+    </customValue>
+    <customValue>
+        <fullName>Insolia</fullName>
+        <default>false</default>
+        <label>Insolia</label>
+    </customValue>
+    <customValue>
+        <fullName>Kotsifali Blend</fullName>
+        <default>false</default>
+        <label>Kotsifali Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Lagrein</fullName>
+        <default>false</default>
+        <label>Lagrein</label>
+    </customValue>
+    <customValue>
+        <fullName>Lemberger</fullName>
+        <default>false</default>
+        <label>Lemberger</label>
+    </customValue>
+    <customValue>
+        <fullName>Macabeo</fullName>
+        <default>false</default>
+        <label>Macabeo</label>
+    </customValue>
+    <customValue>
+        <fullName>White Malagouzia</fullName>
+        <default>false</default>
+        <label>White Malagouzia</label>
+    </customValue>
+    <customValue>
+        <fullName>Malbec</fullName>
+        <default>false</default>
+        <label>Malbec</label>
+    </customValue>
+    <customValue>
+        <fullName>Malvasia</fullName>
+        <default>false</default>
+        <label>Malvasia</label>
+    </customValue>
+    <customValue>
+        <fullName>Marsanne</fullName>
+        <default>false</default>
+        <label>Marsanne</label>
+    </customValue>
+    <customValue>
+        <fullName>Maturana</fullName>
+        <default>false</default>
+        <label>Maturana</label>
+    </customValue>
+    <customValue>
+        <fullName>Mavrodaphne Blend</fullName>
+        <default>false</default>
+        <label>Mavrodaphne Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Melon</fullName>
+        <default>false</default>
+        <label>Melon</label>
+    </customValue>
+    <customValue>
+        <fullName>Merlot</fullName>
+        <default>false</default>
+        <label>Merlot</label>
+    </customValue>
+    <customValue>
+        <fullName>Monastrell</fullName>
+        <default>false</default>
+        <label>Monastrell</label>
+    </customValue>
+    <customValue>
+        <fullName>Montepulciano D&apos;Abruzzo</fullName>
+        <default>false</default>
+        <label>Montepulciano D&apos;Abruzzo</label>
+    </customValue>
+    <customValue>
+        <fullName>Moscato</fullName>
+        <default>false</default>
+        <label>Moscato</label>
+    </customValue>
+    <customValue>
+        <fullName>Moschofilero</fullName>
+        <default>false</default>
+        <label>Moschofilero</label>
+    </customValue>
+    <customValue>
+        <fullName>Mourvedre</fullName>
+        <default>false</default>
+        <label>Mourvedre</label>
+    </customValue>
+    <customValue>
+        <fullName>Mueller-Thurgau</fullName>
+        <default>false</default>
+        <label>Mueller-Thurgau</label>
+    </customValue>
+    <customValue>
+        <fullName>Muscat Blend</fullName>
+        <default>false</default>
+        <label>Muscat Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Nebbiolo</fullName>
+        <default>false</default>
+        <label>Nebbiolo</label>
+    </customValue>
+    <customValue>
+        <fullName>Nerello Mascalese</fullName>
+        <default>false</default>
+        <label>Nerello Mascalese</label>
+    </customValue>
+    <customValue>
+        <fullName>Nero d Avola Blend</fullName>
+        <default>false</default>
+        <label>Nero d Avola Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Parellada</fullName>
+        <default>false</default>
+        <label>Parellada</label>
+    </customValue>
+    <customValue>
+        <fullName>Petite Verdot</fullName>
+        <default>false</default>
+        <label>Petite Verdot</label>
+    </customValue>
+    <customValue>
+        <fullName>Petite Sirah</fullName>
+        <default>false</default>
+        <label>Petite Sirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Picolit</fullName>
+        <default>false</default>
+        <label>Picolit</label>
+    </customValue>
+    <customValue>
+        <fullName>Piedirosso Blend</fullName>
+        <default>false</default>
+        <label>Piedirosso Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinot Bianco/ Sauvignon</fullName>
+        <default>false</default>
+        <label>Pinot Bianco/ Sauvignon</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinot Blanc</fullName>
+        <default>false</default>
+        <label>Pinot Blanc</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinot Grigio</fullName>
+        <default>false</default>
+        <label>Pinot Grigio</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinot Gris</fullName>
+        <default>false</default>
+        <label>Pinot Gris</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinot Meunier</fullName>
+        <default>false</default>
+        <label>Pinot Meunier</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinot Noir</fullName>
+        <default>false</default>
+        <label>Pinot Noir</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinotage</fullName>
+        <default>false</default>
+        <label>Pinotage</label>
+    </customValue>
+    <customValue>
+        <fullName>Plavac Mali</fullName>
+        <default>false</default>
+        <label>Plavac Mali</label>
+    </customValue>
+    <customValue>
+        <fullName>Primitivo</fullName>
+        <default>false</default>
+        <label>Primitivo</label>
+    </customValue>
+    <customValue>
+        <fullName>Prosecco</fullName>
+        <default>false</default>
+        <label>Prosecco</label>
+    </customValue>
+    <customValue>
+        <fullName>Raboso</fullName>
+        <default>false</default>
+        <label>Raboso</label>
+    </customValue>
+    <customValue>
+        <fullName>Refosco</fullName>
+        <default>false</default>
+        <label>Refosco</label>
+    </customValue>
+    <customValue>
+        <fullName>Ribolla</fullName>
+        <default>false</default>
+        <label>Ribolla</label>
+    </customValue>
+    <customValue>
+        <fullName>Riesling</fullName>
+        <default>false</default>
+        <label>Riesling</label>
+    </customValue>
+    <customValue>
+        <fullName>Roditis</fullName>
+        <default>false</default>
+        <label>Roditis</label>
+    </customValue>
+    <customValue>
+        <fullName>Rondinella</fullName>
+        <default>false</default>
+        <label>Rondinella</label>
+    </customValue>
+    <customValue>
+        <fullName>Sagrantino</fullName>
+        <default>false</default>
+        <label>Sagrantino</label>
+    </customValue>
+    <customValue>
+        <fullName>Sangiovese</fullName>
+        <default>false</default>
+        <label>Sangiovese</label>
+    </customValue>
+    <customValue>
+        <fullName>Sauvignon Blanc</fullName>
+        <default>false</default>
+        <label>Sauvignon Blanc</label>
+    </customValue>
+    <customValue>
+        <fullName>Sauvignon Gris</fullName>
+        <default>false</default>
+        <label>Sauvignon Gris</label>
+    </customValue>
+    <customValue>
+        <fullName>Savatiano</fullName>
+        <default>false</default>
+        <label>Savatiano</label>
+    </customValue>
+    <customValue>
+        <fullName>Scheurebe</fullName>
+        <default>false</default>
+        <label>Scheurebe</label>
+    </customValue>
+    <customValue>
+        <fullName>Schiava</fullName>
+        <default>false</default>
+        <label>Schiava</label>
+    </customValue>
+    <customValue>
+        <fullName>Semillon</fullName>
+        <default>false</default>
+        <label>Semillon</label>
+    </customValue>
+    <customValue>
+        <fullName>Shiraz</fullName>
+        <default>false</default>
+        <label>Shiraz</label>
+    </customValue>
+    <customValue>
+        <fullName>Syrah</fullName>
+        <default>false</default>
+        <label>Syrah</label>
+    </customValue>
+    <customValue>
+        <fullName>Tannat</fullName>
+        <default>false</default>
+        <label>Tannat</label>
+    </customValue>
+    <customValue>
+        <fullName>Tempranillo</fullName>
+        <default>false</default>
+        <label>Tempranillo</label>
+    </customValue>
+    <customValue>
+        <fullName>Teroldego</fullName>
+        <default>false</default>
+        <label>Teroldego</label>
+    </customValue>
+    <customValue>
+        <fullName>Terret Vermentino</fullName>
+        <default>false</default>
+        <label>Terret Vermentino</label>
+    </customValue>
+    <customValue>
+        <fullName>Torrontes</fullName>
+        <default>false</default>
+        <label>Torrontes</label>
+    </customValue>
+    <customValue>
+        <fullName>Touriga Nacional</fullName>
+        <default>false</default>
+        <label>Touriga Nacional</label>
+    </customValue>
+    <customValue>
+        <fullName>Traminer</fullName>
+        <default>false</default>
+        <label>Traminer</label>
+    </customValue>
+    <customValue>
+        <fullName>Ugni Blanc</fullName>
+        <default>false</default>
+        <label>Ugni Blanc</label>
+    </customValue>
+    <customValue>
+        <fullName>Verdejo</fullName>
+        <default>false</default>
+        <label>Verdejo</label>
+    </customValue>
+    <customValue>
+        <fullName>Verdicchio</fullName>
+        <default>false</default>
+        <label>Verdicchio</label>
+    </customValue>
+    <customValue>
+        <fullName>Verduzzo</fullName>
+        <default>false</default>
+        <label>Verduzzo</label>
+    </customValue>
+    <customValue>
+        <fullName>Vermentino</fullName>
+        <default>false</default>
+        <label>Vermentino</label>
+    </customValue>
+    <customValue>
+        <fullName>Vidal Blanc</fullName>
+        <default>false</default>
+        <label>Vidal Blanc</label>
+    </customValue>
+    <customValue>
+        <fullName>Vilana Blend</fullName>
+        <default>false</default>
+        <label>Vilana Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Viognier</fullName>
+        <default>false</default>
+        <label>Viognier</label>
+    </customValue>
+    <customValue>
+        <fullName>VIURA</fullName>
+        <default>false</default>
+        <label>VIURA</label>
+    </customValue>
+    <customValue>
+        <fullName>Welschriesling</fullName>
+        <default>false</default>
+        <label>Welschriesling</label>
+    </customValue>
+    <customValue>
+        <fullName>Xarel-lo Blend</fullName>
+        <default>false</default>
+        <label>Xarel-lo Blend</label>
+    </customValue>
+    <customValue>
+        <fullName>Zinfandel</fullName>
+        <default>false</default>
+        <label>Zinfandel</label>
+    </customValue>
+    <customValue>
+        <fullName>Zweigelt</fullName>
+        <default>false</default>
+        <label>Zweigelt</label>
+    </customValue>
+    <description>Varietal of Wine</description>
+    <masterLabel>xx_Varietal</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Sharing_Rule1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sharing Rule1</label>
+        <sharedTo>
+            <role>Brand_Management</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Brand_Manager__c</field>
+            <operation>equals</operation>
+            <value>Approved,Pending Review</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Rule2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sharing Rule2</label>
+        <sharedTo>
+            <role>Compliance</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Compliance_Approval__c</field>
+            <operation>equals</operation>
+            <value>Approved,Pending Review</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Rule3</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sharing Rule3</label>
+        <sharedTo>
+            <role>Executive</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Executive__c</field>
+            <operation>equals</operation>
+            <value>Approved,Pending Review</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sharing_Rule4</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sharing Rule4</label>
+        <sharedTo>
+            <role>Operations</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Operations__c</field>
+            <operation>equals</operation>
+            <value>Approved,Pending Review</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

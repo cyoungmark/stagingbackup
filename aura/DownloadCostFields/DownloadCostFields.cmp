@@ -1,0 +1,38 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes" access="global" controller="DownloadCostFields"> 
+    <aura:handler name="init" value="{!this}" action="{!c.loadIIPList}"/>
+
+    <aura:attribute name="sObjectName" type="String" default="Item_Update__c"/>
+	<aura:attribute name="fieldSetName" type="String" default="Cost_Fields"/>
+	<aura:attribute name="fieldSetValues" type="List"/>
+	<aura:attribute name="tableRecords" type="List"/>
+       
+    
+  <div class="slds-m-around--xx-medium">   
+    <button class="slds-button slds-button--brand" onclick="{!c.downloadCsv}">Download As CSV</button> <br/><br/>
+
+        <div class="slds">
+		<table class="slds-table slds-table--bordered">
+			<thead>
+				<tr>
+					<aura:iteration items="{!v.fieldSetValues}" var="field">
+						<th> {!field.label}</th>
+					</aura:iteration>
+				</tr>
+			</thead>
+			<tbody>
+				<aura:iteration items="{!v.tableRecords}" var="row">
+					<tr>
+						<aura:iteration items="{!v.fieldSetValues}" var="field">
+							<td>
+								<c:DownloadCostFieldsTableCellValue record="{!row}" field="{!field}"/>
+							</td>
+						</aura:iteration>
+					</tr>
+				</aura:iteration>
+			</tbody>
+		</table>
+	</div>
+      <br/>
+      	<button class="slds-button slds-button--brand" onclick="{!c.downloadCsv}">Download As CSV</button> <br/><br/>
+    </div>
+</aura:component>

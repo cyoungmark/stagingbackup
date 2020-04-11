@@ -1,0 +1,38 @@
+<aura:component controller="CustomRequestTypesController" implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+	
+    <aura:attribute name="listOptions" type="List" default="[]"/>
+    <aura:attribute name="defaultOptions" type="List" default="[]"/>
+    <aura:attribute name="requiredOptions" type="List" default="[]"/>
+    <aura:attribute name="selectedArray" type="List" default="[]"/>
+    <aura:attribute name="NewReqTypeValue" type="String" default=""/>
+    <aura:attribute name="HasAccess" type="Boolean" default="false"/>
+    
+    <aura:handler name="init" value="{! this }" action="{! c.doInit }"/>
+    <aura:attribute name="min" type="Integer" default="0"/>
+    
+    <h3 style="font-size: 14px;" class="slds-section-title--divider slds-section__title  test-id__section-header-container">Tour And Tasting Request Types</h3>
+<div class="slds-form--stacked slds-p-around--medium slds-m-bottom--x-small">
+  <lightning:dualListbox aura:id="selectOptions" name="Select Options"  label="Select Options" 
+                           sourceLabel="Available Options" 
+                           selectedLabel="Selected Options" 
+                           options="{! v.listOptions }"
+                           value="{! v.defaultOptions }"
+                           requiredOptions="{! v.requiredOptions }"
+                           onchange="{! c.handleChange }"
+                           min="{!v.min}"
+                           disabled="{!!v.HasAccess}"
+                           />
+    
+  <div class="slds-grid slds-gutters">
+      <div class="slds-col slds-size_2-of-4">
+        <span><lightning:input style="" class="NewReqTypeValue" name="NewReqTypeValue" placeholder="Add Request Type..." value="{!v.NewReqTypeValue}" disabled="{!!v.HasAccess}"/></span>
+      </div>
+      <div class="slds-col slds-size_2-of-4">
+        <span><lightning:button variant="brand" label="Add" title="Add" onclick="{! c.addRequestType }" disabled="{!!v.HasAccess}"/></span>
+      </div>
+ </div>
+</div>
+    
+    
+    
+</aura:component>

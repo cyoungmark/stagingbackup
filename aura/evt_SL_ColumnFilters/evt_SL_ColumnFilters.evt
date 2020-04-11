@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="To store the column name and their corresponding value">
+	<aura:attribute name="fieldApiName" type="String" access="global"/>
+    <aura:attribute name="fieldValue" type="String" access="global"/>
+</aura:event>

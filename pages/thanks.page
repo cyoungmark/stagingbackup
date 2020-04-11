@@ -1,0 +1,481 @@
+<apex:page showHeader="false" standardStylesheets="false">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://terlatowines.com/sites/default/themes/trade/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://terlatowines.com/contact" />
+  <title>Ask the Executive Chef | Terlato Wines International</title>
+  <style>
+@import url("https://terlatowines.com/modules/system/system.base.css?pcigwd");
+</style>
+<style>
+@import url("https://terlatowines.com/sites/all/modules/date/date_api/date.css?pcigwd");
+@import url("https://terlatowines.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pcigwd");
+@import url("https://terlatowines.com/modules/field/theme/field.css?pcigwd");
+@import url("https://terlatowines.com/modules/node/node.css?pcigwd");
+@import url("https://terlatowines.com/sites/all/modules/views/css/views.css?pcigwd");
+</style>
+<style>
+@import url("https://terlatowines.com/sites/all/libraries/colorbox/example5/colorbox.css?pcigwd");
+@import url("https://terlatowines.com/sites/all/modules/ctools/css/ctools.css?pcigwd");
+</style>
+<style>
+@import url("https://terlatowines.com/sites/default/themes/trade/css/style.css?pcigwd");
+@import url("https://terlatowines.com/sites/default/themes/trade/css/offcanvas.css?pcigwd");
+@import url("https://terlatowines.com/sites/default/themes/trade/css/ie.css?pcigwd");
+</style>
+  <script src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>window.jQuery || document.write("<script src='https://terlatowines.com/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="https://terlatowines.com/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="https://terlatowines.com/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script src="https://terlatowines.com/sites/default/files/js/js_SJ57CIsVol38FJyA995mnhl47T3lU01VTL8V0CH5Zyw.js"></script>
+<script src="https://terlatowines.com/sites/default/files/js/js_V-FqwIoqmhyDY2pcIgmzzICBE1MUk-yAubogmddDtz8.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://terlatowines.com/sites/default/files/googleanalytics/analytics.js?pcigwd","ga");ga("create", "UA-771796-1", {"cookieDomain":"auto"});ga("send", "pageview");</script>
+<script src="https://terlatowines.com/sites/default/files/js/js_mMuSdRh5NeaBYvACFdfxYZFykbM62b1Ir0OkbP8m74A.js"></script>
+<script src="https://terlatowines.com/sites/default/files/js/js_h31-j9ccqVIh8m9eYpWFp7zrVGkpy1gRHrFt9jDRzZk.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"trade","theme_token":"Jc2-d30W9Fshf8mboezAPgb88SEsq6oXroJ2hLetrXc","js":{"sites\/default\/themes\/trade\/bootstrap\/js\/bootstrap.js":1,"\/\/code.jquery.com\/jquery-1.7.2.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/contrib\/ratings\/js\/ratings-report.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/libraries\/modernizr\/modernizr.min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"sites\/all\/modules\/ctools\/js\/jump-menu.js":1,"1":1,"misc\/textarea.js":1,"sites\/default\/themes\/trade\/bootstrap\/js\/collapse.js":1,"sites\/default\/themes\/trade\/\/js\/offcanvas.js":1,"sites\/default\/themes\/trade\/\/js\/respond.min.js":1,"sites\/default\/themes\/trade\/\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example5\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/default\/themes\/trade\/css\/style.css":1,"sites\/default\/themes\/trade\/css\/offcanvas.css":1,"sites\/default\/themes\/trade\/css\/ie.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"modernizrPath":false,"modernizrServerside":false,"urlIsAjaxTrusted":{"\/contact":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in two-sidebars page-contact" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <header role="navigation" class="navbar navbar-default navbar-static-top main-navigation">
+  <!-- main nav -->
+  <div class="container">
+    <div class="navbar-header">     
+      <a href="./" class="navbar-brand">
+        <img id="twi" src="https://terlatowines.com/sites/default/themes/trade/images/logo_terlato.gif"/>
+      </a>
+    </div>              
+                                        
+      <div class="navbar hidden-xs">            
+        <h2 class="element-invisible">Main menu</h2><ul id="main-nav-links" class="navbar-right visible-lg visible-md visible-sm"><li class="menu-227 first"><a href="/" title="">Home</a></li>
+<li class="menu-344"><a href="/company/overview" title="">Company</a></li>
+<li class="menu-341"><a href="/brands" title="">Wines</a></li>
+<li class="menu-342"><a href="http://terlatowines.com/wine-and-spirits-finder" title="">Winefinder</a></li>
+<li class="menu-345"><a href="/content/exploring-wine">Wine Education</a></li>
+<li class="menu-8493 last"><a href="/content/ratings">Ratings</a></li>
+</ul>                       
+      </div> <!-- /#main-menu -->
+                
+  </div>
+</header>
+
+<div id="top">
+  <div class="container mobile-navbar-container btn_tweak">
+                  <p class="title clearfix" id="page-title">
+          Ask the Executive Chef        </p>
+             
+    <!-- Mobile Nav -->
+    <div class="mobile-navbar">
+      <div class="hidden-lg hidden-md hidden-sm">
+        <button class="navbar-toggle secondary-navbar" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <div class="navbar-menu-title">Menu</div>
+          <div class="icon-bar-wrapper">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </div>
+        </button>
+      </div>                
+
+      <!-- collapseable nav -->
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <!-- UL -->
+        <div class="hidden-lg hidden-md hidden-sm">
+                                        
+            <div class="navbar">            
+              <h2 class="element-invisible">Main menu</h2><ul id="main-nav-links" class="navbar-right"><li class="menu-227 first"><a href="/" title="">Home</a></li>
+<li class="menu-344"><a href="/company/overview" title="">Company</a></li>
+<li class="menu-341"><a href="/brands" title="">Wines</a></li>
+<li class="menu-342"><a href="http://terlatowines.com/wine-and-spirits-finder" title="">Winefinder</a></li>
+<li class="menu-345"><a href="/content/exploring-wine">Wine Education</a></li>
+<li class="menu-8493 last"><a href="/content/ratings">Ratings</a></li>
+</ul>                       
+            </div> <!-- /#main-menu -->
+                  </div>
+        <div class="hidden-lg hidden-md hidden-sm"></div>
+        <!-- UL -->
+      </nav> <!-- collapseable nav -->
+    </div> <!-- Mobile Nav -->
+  </div><!-- /tweak -->
+</div><!-- /top -->
+
+<div class="container">
+    <div class="row row-offcanvas row-offcanvas-left">
+              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 sidebar-offcanvas" id="sidebar" role="navigation">
+        <aside class="brand-sidebar" role="complementary">
+                      <div class="region region-sidebar-first well">
+    <section id="block-views-brand-jumplist-block" class="block block-views clearfix">
+
+      
+  <div class="view view-brand-jumplist view-id-brand_jumplist view-display-id-block view-dom-id-888af5e7bfe1c65bdb67741fe8c0128f">
+        
+  
+  
+      <div class="view-content">
+      <form action="/contact" method="post" id="ctools-jump-menu" accept-charset="UTF-8"><div><div class="container-inline"><div class="form-item form-item-jump form-type-select form-group"><select class="ctools-jump-menu-select ctools-jump-menu-change form-control form-select" id="edit-jump" name="jump"><option value="" selected="selected">find a brand</option><option value="b476eef3e9f4cf5548e24f6b0b0e222b::/brands/scotland/adelphi-selection-scotch">  
+          Adelphi Selection Scotch  </option><option value="e961c8ff7eeb3e6ea4c1a4ea948e07c4::/brands/italy/alta-mora">  
+          Alta Mora  </option><option value="93d8c887ba91df4f14879c2dc8346aad::/brands/south-africa/amarula">  
+          Amarula  </option><option value="1930e17837f7fd0960f69afe07f3bbff::/brands/trinidad-and-tobago/angostura-rum">  
+          Angostura Rum  </option><option value="3b2e1fac37548b50fc392593a1a8de23::/brands/italy/anselmi">  
+          Anselmi  </option><option value="98d7f847e13c4e658fad486541fcbda3::/brands/south-africa/anthonij-rupert">  
+          Anthonij Rupert  </option><option value="61ec3e18eea971ac6895a308ace25e34::/brands/south-africa/bains-cape-mountain-whisky">  
+          Bain&#039;s  </option><option value="444412c2b7fdcdb1d9575704ba528738::/brands/france/belleruche">  
+          Belleruche  </option><option value="4f2da2b3544d3d983a2839eb4cc0aa27::/brands/italy/berlucchi">  
+          Berlucchi  </option><option value="0ef8d949b0b0dfcf9e1d30e5fe2da911::/brands/scotland/black-bottle">  
+          Black Bottle   </option><option value="fa7154e73c117f4ecd4c9f06bf7eb69e::/brands/argentina/bodega-cuarto-dominio">  
+          Bodega Cuarto Dominio  </option><option value="fee6805086953ef53c35657c0444092c::/brands/spain/bodegas-valdemar">  
+          Bodegas Valdemar  </option><option value="d0cd59534228789517d9964c2de4ab15::/brands/greece/boutari">  
+          Boutari  </option><option value="41e4549aedf8f4ac7a103398827a0a18::/brands/california/breaker-bourbon">  
+          Breaker Bourbon  </option><option value="72f9d4ef8421a83c8b279153521f189f::/brands/scotland/bunnahabhain">  
+          Bunnahabhain  </option><option value="15cb0536f7dc5c8ca45e3b00c914417a::/brands/italy/camarcanda">  
+          Ca&#039;Marcanda  </option><option value="6b0f340636bbdea496a1ce2d194bc03c::/brands/italy/cecchi">  
+          Cecchi  </option><option value="9d36b1e3b57f93057c5d3de52f8cf20f::/brands/france/chateau-de-marsannay">  
+          Chateau de Marsannay  </option><option value="14ae1b9e02ada675ccfac903c359588a::/brands/france/chateau-de-meursault">  
+          Chateau de Meursault  </option><option value="e554bb25a292d60aab95968ef6319e39::/brands/france/ch%C3%A2teau-de-sancerre">  
+          Château de Sancerre  </option><option value="2b83c809bc4014b2108649ca71a875e2::/brands/france/chateau-timberlay">  
+          Chateau-Timberlay  </option><option value="8c2768f7e274df0a3eb7919adf869834::/brands/california/chimney-rock">  
+          Chimney Rock  </option><option value="406726318a00db79c64dfc8c8711ed67::/brands/italy/cusumano">  
+          Cusumano  </option><option value="9c58658e6c6ceaf9f5e6af8c9d8ba0fb::/brands/california/david-bruce">  
+          David Bruce  </option><option value="442d3869ecf69c12e717d5fd165e77f6::/brands/scotland/deanston">  
+          Deanston  </option><option value="9a59ace714746ee4b4e71508ed86c038::/brands/australia/domaine-terlato-chapoutier">  
+          Domaine Terlato &amp; Chapoutier  </option><option value="6e28c415d1d71b44e3b5d6c2089b483b::/brands/panama/don-pancho-origenes">  
+          Don Pancho Origenes  </option><option value="2d6c5a99a65d67aae997e7cf1a5b3f83::/brands/south-africa/durbanville-hills">  
+          Durbanville Hills  </option><option value="17949c092da9724d3f71e2795708e7e1::/brands/france/duval-leroy">  
+          Duval-Leroy  </option><option value="5dd1905613641b195834bad463659cf9::/brands/greece/elios">  
+          Elios  </option><option value="c1917c3ae737415fa93089af94e2d668::/brands/california/episode">  
+          EPISODE  </option><option value="1052cd45f777d00fc7f461131f1fb024::/brands/south-africa/ernie-els-wines">  
+          Ernie Els Wines  </option><option value="e7decbc3e07ed18e7b0d7fae0577c42e::/brands/california/federalist">  
+          The Federalist  </option><option value="314bea21041652b9ce21b888c0a3c2a8::/brands/italy/feudi-di-san-gregorio">  
+          Feudi di San Gregorio  </option><option value="fffd4f5f0ebb702a953af08df63b4eee::/brands/italy/fizz56">  
+          Fizz56  </option><option value="24a436bf4bcb64aa8ec17a2ce37d30a2::/brands/california/flor-de-campo">  
+          Flor de Campo  </option><option value="0d297098ab647d5bceffeb041f11e675::/brands/italy/gaja">  
+          GAJA  </option><option value="baf69cf72b01e131a83eee86cb327502::/brands/california/galaxy">  
+          GALAXY  </option><option value="c12233967f0a752cc71a417e14378bb2::/brands/california/giarrusso">  
+          Giarrusso  </option><option value="e0818685620c387412877114f7d29b62::/brands/italy/giuliana">  
+          Giuliana  </option><option value="df8207a80f25ca3cc01508e55dd58cbf::/brands/california/glass-mountain">  
+          Glass Mountain  </option><option value="d30c52e655ac220ac0b32ff20139fa87::/brands/washington-state/grace-lane">  
+          Grace Lane  </option><option value="07756b1fbcf5b3e5ad0cdf3d1226393f::/brands/new-york/greenhook-ginsmiths">  
+          Greenhook Ginsmiths  </option><option value="47afd1016693ef445c6cbdb12938b6e6::/brands/california/greystone-cellars">  
+          Greystone Cellars  </option><option value="c0baaf811fcd3335190316994d5e30eb::/brands/south-africa/guardian-peak">  
+          Guardian Peak  </option><option value="b00657471e467ad74c6c1109589a8e3a::/brands/california/hanna">  
+          Hanna  </option><option value="148ad45911cca329028f41dd2d4ab863::/brands/indiana/heartland-distillers-american-gin">  
+          Heartland Distillers American Gin  </option><option value="7b855ffa54b09f40c164ab6f02c5ba1a::/brands/california/iconoclast">  
+          Iconoclast  </option><option value="37a9e04432a99a8099ab53007ce4c850::/brands/italy/il-poggione">  
+          Il Poggione  </option><option value="b91eab3d2d357b1f154bdf64805f2c8a::/brands/california/iron-horse-vineyards">  
+          Iron Horse Vineyards  </option><option value="b0f0c17ff6f6f95529df887bd5de6b5c::/brands/california/jack-nicklaus-wines">  
+          Jack Nicklaus Wines  </option><option value="ce732839c753ba9a95378a4e4e3acee6::/brands/california/jacks-house">  
+          Jack&#039;s House  </option><option value="25da3e56b3683c6575723f1024f9babd::/brands/austria/kracher">  
+          Kracher  </option><option value="4b41c697f4ab21c0b301163db5854e71::/brands/england/langley%E2%80%99s-no8">  
+          Langley’s   </option><option value="a77a069a9aa5e9271a3c2c4bd71a3171::/brands/france/langlois-chateau">  
+          Langlois-Chateau  </option><option value="97107bf01e55df278eb7ed8c25fb4887::/brands/scotland/ledaig">  
+          Ledaig  </option><option value="f990325f2341873e6528e835185f6b13::/brands/new-zealand/loveblock">  
+          Loveblock  </option><option value="2f492d550b8b3501f3c5a416bde8edab::/brands/australia/lucky-country">  
+          The Lucky Country  </option><option value="d81a56500005224bdf41bc7586193a25::/brands/california/luke-donald-collection">  
+          Luke Donald Collection  </option><option value="a4e399d9d3b30a299b8471e1fc8cfa76::/brands/italy/lunardi">  
+          Lunardi  </option><option value="fa3cad44f9e83272cc429ec8334e6838::/brands/france/m-chapoutier">  
+          M. Chapoutier  </option><option value="7b4c985bccf52ecba0f280734aa80c29::/brands/spain/marco-abella">  
+          Marco Abella  </option><option value="b244fef94af6d11a91c90a438b2bce00::/brands/france/marius">  
+          Marius  </option><option value="7e6ba9a75bd2c9f471fd6ff816747e5d::/brands/california/markham-vineyards">  
+          Markham Vineyards  </option><option value="0e7a4421883adc6b7976ceb74a091d78::/brands/france/mathilde-chapoutier">  
+          Mathilde Chapoutier  </option><option value="e730721139b1471156ad5a6bf030abb0::/brands/california/maxville">  
+          Maxville  </option><option value="ffddd7dce547b02b3558992eebd57c55::/brands/italy/mazzoni">  
+          MAZZONI  </option><option value="610d7eb8f9e1a5bc5cf6d3094a40bb09::/brands/california/mike-ditka-wines">  
+          Mike Ditka Wines  </option><option value="3b2a2a195b8f25b4038e1191166313d5::/brands/france/mischief-mayhem">  
+          Mischief &amp; Mayhem  </option><option value="3fabd60703796ec1a635351e45c9803e::/brands/south-africa/nederburg">  
+          Nederburg  </option><option value="f26a7852cc4046da14dc3dfae92fe2e3::/brands/italy/nino-franco">  
+          Nino Franco  </option><option value="272ca12d340570bc42e64fd11f796492::/brands/italy/nonino">  
+          Nonino  </option><option value="6006a54d7bced67ddd65a1e9179b021e::/brands/canada/peller-estates-icewine">  
+          Peller Estates Icewine  </option><option value="abb54a469a7edd18636f5e485a667f08::/brands/italy/pieve-santa-restituta">  
+          Pieve Santa Restituta  </option><option value="78db812634cacea843bfb9334bef2e21::/brands/france/piper-heidsieck">  
+          Piper-Heidsieck  </option><option value="d87e74b6b4e4d9c45a0d012256de3f58::/brands/south-africa/protea">  
+          Protea  </option><option value="01af7989b30283f321f575b37fe15955::/brands/france/ramonet">  
+          Ramonet  </option><option value="73fc5b623717fbf5a41c863f801851a8::/brands/mexico/riazul">  
+          Riazul  </option><option value="a3936e9ad50b393c489bdbbe2e3f505c::/brands/italy/riondo">  
+          Riondo  </option><option value="134526bcf6c78588b8c97c3388188b5c::/brands/california/rochioli">  
+          Rochioli  </option><option value="d786b37bc2cff3649d0872130e93da8b::/brands/south-africa/rust-en-vrede">  
+          Rust en Vrede  </option><option value="d99496a28f2f6752f69241a0e42ace7b::/brands/california/rutherford-hill">  
+          Rutherford Hill  </option><option value="a7b85d5b459aff0326edcad1be5751f0::/brands/california/sanford">  
+          Sanford  </option><option value="b9c169ac1ce6da9a1c54e80e68904833::/brands/scotland/scottish-leader">  
+          Scottish Leader  </option><option value="7608ecd9acd501ceca3c5b7522ce4396::/brands/california/seven-daughters">  
+          Seven Daughters  </option><option value="930c348dd252b387118b3d0353136139::/brands/japan/shimizu-no-mai-sake">  
+          Shimizu-no-mai Sake  </option><option value="38197be0c09fc0a1d2741826d8fdb410::/brands/argentina/tamari">  
+          Tamari  </option><option value="cbcf03cc5eee8d5f284d289ebb1a7bb4::/brands/california/tangley-oaks">  
+          Tangley Oaks  </option><option value="e9ae3612e627bbdab912a7cddfd8f703::/brands/california/terlato-vineyards">  
+          Terlato Vineyards  </option><option value="ff407ab1a34c7863579a0edbf25681e4::/brands/france/tigre-blanc">  
+          Tigre Blanc  </option><option value="624e88e8d24d99cf65d5b1dc7a8e98e5::/brands/italy/tiramis%C3%BA">  
+          Tiramisú  </option><option value="9bd79b9bf4c76e05aae8ff3424ee8db4::/brands/scotland/tobermory">  
+          Tobermory  </option><option value="20b998924a240c5a8c1bf3360218316f::/brands/france/trenel">  
+          Trenel  </option><option value="fb50c587a9b296c63b761a4b53d67423::/brands/australia/twelftree-wines">  
+          Twelftree Wines  </option><option value="f6746805b9a19970b20c21c88bd75495::/brands/australia/two-hands-wines">  
+          Two Hands Wines  </option><option value="1ece55dbf8c1045a7f4435b0fa4f1dcc::/brands/south-africa/two-oceans">  
+          Two Oceans  </option><option value="9213644b34a49c719245b43f228ba3c4::/brands/new-zealand/wairau-river">  
+          Wairau River  </option></select></div><button class="ctools-jump-menu-button ctools-jump-menu-hide btn btn-default form-submit" type="submit" id="edit-go" name="op" value="Go">Go</button>
+</div><input type="hidden" name="form_build_id" value="form-3N4kMsVt3nVkgN5zSS7zGBdZg8ihnub6Gryq6W106tE" />
+<input type="hidden" name="form_id" value="ctools_jump_menu" />
+</div></form>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-views-varietal-menu-block" class="block block-views clearfix">
+
+      
+  <div class="view view-varietal-menu view-id-varietal_menu view-display-id-block view-dom-id-d9baf5c85fcf146388d0a9e6635b80d5">
+        
+  
+  
+      <div class="view-content">
+      <form action="/contact" method="post" id="ctools-jump-menu--2" accept-charset="UTF-8"><div><div class="container-inline"><div class="form-item form-item-jump form-type-select form-group"><select class="ctools-jump-menu-select ctools-jump-menu-change form-control form-select" id="edit-jump--2" name="jump"><option value="" selected="selected">find a varietal</option><option value="0f3eacbbfba21d3476f2d0a83e80556c::/varietals/Agiorgitiko">  
+          Agiorgitiko  </option><option value="79e09847980880c6364013f480d56348::/varietals/Aglianico">  
+          Aglianico  </option><option value="bc9e5261dc077f85b6a9aca3473e4350::/varietals/Alicante-Bouschet">  
+          Alicante Bouschet  </option><option value="cbc984593f677354565caa4e8a536654::/varietals/Aligot%C3%A9">  
+          Aligoté  </option><option value="71ffb7ce3f23470c25a46a5131f089c4::/varietals/Assyrtiko">  
+          Assyrtiko  </option><option value="e7b4390f1bb94cc6b4e81b0097d3b611::/varietals/Barbera">  
+          Barbera  </option><option value="5b114aa23c51fa47470a3e91d4562c1e::/varietals/Barley">  
+          Barley  </option><option value="bdcef1bf6b3cdcd7e428e5acfcfc6b0a::/varietals/Blue-Agave">  
+          Blue Agave  </option><option value="ba370866a19415d48a2ab3fc25200c24::/varietals/Bonarda">  
+          Bonarda  </option><option value="4eb0f6061265aa781a14af6035bd10dc::/varietals/Bourboulenc">  
+          Bourboulenc  </option><option value="ebba8ca64d4abac584e5b40cff3b5144::/varietals/Brachetto">  
+          Brachetto  </option><option value="3f742b89704ca7a264afa5ca140bfcab::/varietals/Cabernet-Franc">  
+          Cabernet Franc  </option><option value="0d24d5c1fa1c7f92e7c6012b8fdb712f::/varietals/Cabernet-Sauvignon">  
+          Cabernet Sauvignon  </option><option value="003ce33bfc4a785d517d08e892540515::/varietals/Carignan">  
+          Carignan  </option><option value="ec987c64b56ad735e5448024a86c506e::/varietals/Carmen%C3%A9re">  
+          Carmenére  </option><option value="e2b66b3f6bd0ac84f0109721eb0cd6f9::/varietals/Carricante">  
+          Carricante  </option><option value="4c4b63c35dc04e09e95feb86262b0159::/varietals/Catarratto">  
+          Catarratto  </option><option value="17fcb3be0cada5d7dea280080bd870bc::/varietals/Cereal-Alcohol">  
+          Cereal Alcohol  </option><option value="a751a023b27d1aeabb264513593d41a6::/varietals/Chardonnay">  
+          Chardonnay  </option><option value="355e628dfda1d6909b40e2e2e25b697a::/varietals/Chenin-Blanc">  
+          Chenin Blanc  </option><option value="3759ad1a39cf1b776721bd467c9d5e8a::/varietals/Chestnut-Honey">  
+          Chestnut Honey  </option><option value="99227e76f9e669da74f0d6299bbd56cf::/varietals/Cinsault">  
+          Cinsault  </option><option value="9b7111b30f096ae6468e8ad834aebf1a::/varietals/Clairette">  
+          Clairette  </option><option value="3990202fb7abac4ae68cce85a436d21b::/varietals/Cognac-Wheat">  
+          Cognac Wheat  </option><option value="ecfe5eac390ee114bc9ec00296a5fcda::/varietals/Colombard">  
+          Colombard  </option><option value="942c08a4538749ab2b9cc56643468b99::/varietals/Coriander-Seed">  
+          Coriander Seed  </option><option value="fe87cb41161a928c64f62a66dc9254e1::/varietals/Corn">  
+          Corn  </option><option value="e9c726424fb7bf1bd149831866533798::/varietals/Corvina">  
+          Corvina  </option><option value="3429b9bc083c7b1d0dd0894fbf9b0da9::/varietals/Cream">  
+          Cream  </option><option value="6e23dec8b03b15bd1e56df7af4b7f251::/varietals/Deionized-Water">  
+          Deionized Water  </option><option value="95f491ccc414397ad78790efdd5501ac::/varietals/English-Grain">  
+          English Grain  </option><option value="adda3652849af40d2f0433dc6c02f0e4::/varietals/Falanghina">  
+          Falanghina  </option><option value="f458bff7fd04277058108772019990a1::/varietals/Fennel-Seeds">  
+          Fennel Seeds  </option><option value="cb5039593137da13c7ff71d31c33018f::/varietals/Fiano">  
+          Fiano  </option><option value="c71ed6a094f092c9429d0c7222e38b42::/varietals/Friulano">  
+          Friulano  </option><option value="5cce8d7c48dcc532b8f3a805882e4e75::/varietals/Gamay-Noir">  
+          Gamay Noir  </option><option value="07499df6cab4f12df958e062f2166cf5::/varietals/Garganega">  
+          Garganega  </option><option value="c802b93af098d9613b46eb5d5fcde867::/varietals/Gew%C3%BCrztraminer">  
+          Gewürztraminer  </option><option value="f499f544365c3d34109fdc2f2e647615::/varietals/Glera">  
+          Glera  </option><option value="4ed685cffb73966b578cf82cebbd0498::/varietals/Graciano">  
+          Graciano  </option><option value="e30ff3faa8221e29cd49266497b548f9::/varietals/Greco">  
+          Greco  </option><option value="fa350d0488000ecc661ff2074d8a7f85::/varietals/Grenache">  
+          Grenache  </option><option value="8c7c4e6e4d71ee4a3371cb546d068530::/varietals/Grenache-Blanc">  
+          Grenache Blanc  </option><option value="0de1fc14e8fd623c417680bb2f0e5e7f::/varietals/Grillo">  
+          Grillo  </option><option value="418993f9ca97b9b9fa468dc6542a2425::/varietals/Insolia">  
+          Insolia  </option><option value="7efcaa7fc4ed95bc4089d401d355463f::/varietals/Komachi-%28rice%29">  
+          Komachi (rice)  </option><option value="8777796825fda21c1f7122e48d4fb32f::/varietals/Kotsifali">  
+          Kotsifali  </option><option value="e26a9f515c5934dd9e861c6ddd3a3576::/varietals/Macabeo">  
+          Macabeo  </option><option value="bb08a1e360c07ff1c95a3a3b895495ff::/varietals/Malbec">  
+          Malbec  </option><option value="6d7b667aa97f36c59a73906ca2d0cffc::/varietals/Malvasia">  
+          Malvasia  </option><option value="d6c1507206612d713dcf32459282261f::/varietals/Mandilaria">  
+          Mandilaria  </option><option value="113156f257a3c839e0459637a6e6be1e::/varietals/Marsanne">  
+          Marsanne  </option><option value="1270cf8603ca835f10159e7291c0d8bf::/varietals/Marula-Fruit">  
+          Marula Fruit  </option><option value="c7f05e49498932809a61ecebb1145475::/varietals/Mataro">  
+          Mataro  </option><option value="bc4f7b1bd92d88eedfd911615f2cac26::/varietals/Maturana">  
+          Maturana  </option><option value="07a4513ce16d8687747d87dc0bff5535::/varietals/Mazuelo">  
+          Mazuelo  </option><option value="86b118a19b03b5dead940b8362ec6e76::/varietals/Menkoina-%28rice%29">  
+          Menkoina (rice)  </option><option value="26aa2534316671cae07a8b0220a93313::/varietals/Merlot">  
+          Merlot  </option><option value="45e7d32c302f6c7a406ac5c18c967611::/varietals/Miyamanishiki-%28rice%29">  
+          Miyamanishiki (rice)  </option><option value="99c7492862a942a8f5897f3c8d72f819::/varietals/Moscato">  
+          Moscato  </option><option value="aca54a339f5895b0850395ddce6a2b05::/varietals/Moschofilero">  
+          Moschofilero  </option><option value="db477771f1215ef0abae0bdbc7bf9b86::/varietals/Mourv%C3%A9dre">  
+          Mourvédre  </option><option value="e907adf574f11ff823556a6b4cc8aca3::/varietals/Muscat">  
+          Muscat  </option><option value="322df5edc218cddb91e24186ccaa6cb6::/varietals/Muskat-Ottonel">  
+          Muskat Ottonel  </option><option value="32c9ea74cf6848b92ec558b4e94e870f::/varietals/Nebbiolo">  
+          Nebbiolo  </option><option value="712d9950b988f83f1007b7de2ee63dea::/varietals/Nerello-Mascalese">  
+          Nerello Mascalese  </option><option value="52da8ba5507bef17ed1e784dc70c3563::/varietals/Nero-d%27Avola">  
+          Nero d&#039;Avola  </option><option value="21dac73c0a4d231672148fad906b33ac::/varietals/Neutral-Alcohol">  
+          Neutral Alcohol  </option><option value="3fc086903246a6bdad4ef883f749a56d::/varietals/Neutral-Anethole">  
+          Neutral Anethole  </option><option value="7e68934f3951a706e8d69df33f966338::/varietals/Orange-Muscat">  
+          Orange Muscat  </option><option value="d778e6d103f0d11d73d1e1a04ae09116::/varietals/Organic-Wheat">  
+          Organic Wheat  </option><option value="4bcd2dd383f4046eb7cf5df2efa718c2::/varietals/Petit-Verdot">  
+          Petit Verdot  </option><option value="11d15c49b893a77f5d325329180d825b::/varietals/Petite-Sirah">  
+          Petite Sirah  </option><option value="f02d30ca202457d50f38693c630d02a1::/varietals/Petite-Syrah">  
+          Petite Syrah  </option><option value="6e5455f52b01b7ee3c91fe47f7857332::/varietals/Picolit">  
+          Picolit  </option><option value="f696d453567a0f60cf262aa409c41910::/varietals/Pinot-Grigio">  
+          Pinot Grigio  </option><option value="82b93a120249056ff5f601b9d7d51e9c::/varietals/Pinot-Gris">  
+          Pinot Gris  </option><option value="73d79b12140566d5853e4427fc91994f::/varietals/Pinot-Meunier">  
+          Pinot Meunier  </option><option value="5c2cc946f41a5d8451ed0753877fbec1::/varietals/Pinot-Noir">  
+          Pinot Noir  </option><option value="3e07c4df8325f5616083159b71f8c7f1::/varietals/Pinotage">  
+          Pinotage  </option><option value="97d7683dc80d65102f0956e960d3fe76::/varietals/Refosco">  
+          Refosco  </option><option value="9edfedc053acb0e0bab81979fb466c70::/varietals/Ribolla-Gialla">  
+          Ribolla Gialla  </option><option value="e66cab820482c35b1c8d1c5a8d49796d::/varietals/Riesling">  
+          Riesling  </option><option value="660c0ac6c7ad08c73d0abdd1807eb484::/varietals/Roditis">  
+          Roditis  </option><option value="52a7fdded6cb3f8cf2df4594eeda7622::/varietals/Rosenmuskateller">  
+          Rosenmuskateller  </option><option value="0d0c4a06fbb28dc5cf28d6c7b86ec784::/varietals/Roussanne">  
+          Roussanne  </option><option value="6ec8e4e3379ffe3c4cd0aa20ee2f0735::/varietals/Rubired">  
+          Rubired  </option><option value="ad4b1fcbe5c891527bb5845db4d3fcc4::/varietals/Sangiovese">  
+          Sangiovese  </option><option value="5b3db4a71112d9674aec271dc5d1eb10::/varietals/Sauvignon-Blanc">  
+          Sauvignon Blanc  </option><option value="d0b410fe0e013ac110034f28d9385887::/varietals/Sauvignon-Gris">  
+          Sauvignon Gris  </option><option value="4d719fc4ce8c058bb98df24e86f2ff20::/varietals/Savatiano">  
+          Savatiano  </option><option value="d5edf91a75ca5683e56b407b7a3b925a::/varietals/Scheurebe">  
+          Scheurebe  </option><option value="15cc4836141dd69dcacc30a89e0feef5::/varietals/Semill%C3%B3n">  
+          Semillón  </option><option value="1fae0ba50b5411ac96fe44f1ea460c44::/varietals/Shiraz">  
+          Shiraz  </option><option value="ecf286a4d73b4738a8ec30ed64ef8711::/varietals/Single-Malt">  
+          Single Malt  </option><option value="6ff37d505d42036835af8c89a3b1c213::/varietals/Sugar">  
+          Sugar  </option><option value="8c60e41b5810c83145d58acef646199d::/varietals/Sugarcane-Molasses">  
+          Sugarcane Molasses  </option><option value="37735165226cc2c0151806a3b2900c62::/varietals/Symphony">  
+          Symphony  </option><option value="743c43870a4ca9ee2eb69538fd166e6d::/varietals/Syrah">  
+          Syrah  </option><option value="f414a4e986fd8116a87452b23a21f71c::/varietals/Tempranillo">  
+          Tempranillo  </option><option value="0c7a214de3ccc07d41d15df3a9474eab::/varietals/Terret">  
+          Terret  </option><option value="c3f202aac3ecebbe00a6aa4fc2e3370f::/varietals/Touriga-Nacional">  
+          Touriga Nacional  </option><option value="7f6acd02246c177386a4f2af98d6b42b::/varietals/Traminer">  
+          Traminer  </option><option value="cff8508ef0dde8ab3d9178822c7a8c61::/varietals/Trebbiano">  
+          Trebbiano  </option><option value="aa577c577bbe723d02770930a3807514::/varietals/Ugni-Blanc">  
+          Ugni Blanc  </option><option value="73241674b6315623bc1393a87d1e6bbe::/varietals/Vermentino">  
+          Vermentino  </option><option value="7ad9e5b4690bfd5dc09edd846ac46524::/varietals/Vidal-Blanc">  
+          Vidal Blanc  </option><option value="6f63a3b8fb0fbd357358c9d594e1d7a1::/varietals/Vilana">  
+          Vilana  </option><option value="b3e9fb4d28e426c849e71308f6aa7aed::/varietals/Viognier">  
+          Viognier  </option><option value="9969b16c9877497c9e23568baa0d643c::/varietals/Welschriesling">  
+          Welschriesling  </option><option value="0890fe2f3cd477fca0be96ccba6a0ab9::/varietals/Xinomavro">  
+          Xinomavro  </option><option value="9f79b3dda2f6247363899e6fd0e4aef5::/varietals/Yeast">  
+          Yeast  </option><option value="710adcd916e468155055318c2ca6143e::/varietals/Zinfandel">  
+          Zinfandel  </option><option value="dcd095c69af226231dfc101db299f653::/varietals/Zweigelt">  
+          Zweigelt  </option></select></div><button class="ctools-jump-menu-button ctools-jump-menu-hide btn btn-default form-submit" type="submit" id="edit-go--2" name="op" value="Go">Go</button>
+</div><input type="hidden" name="form_build_id" value="form-LRg4h6N4mSYmyd6_aqZtTM5tTgjqid-OJLNs0s6VXwo" />
+<input type="hidden" name="form_id" value="ctools_jump_menu" />
+</div></form>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-menu-menu-education-menu" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first last expanded active-trail active dropdown"><a href="/content/exploring-wine" title="" class="active-trail dropdown-toggle" data-target="#" data-toggle="dropdown">Wine Education Home <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/knowledge/wine-mini-course" title="">Wine Mini Course</a></li>
+<li class="leaf"><a href="/knowledge/wine-glossary">Wine Glossary</a></li>
+<li class="last leaf active-trail active"><a href="/contact" title="" class="active-trail active">Ask the Executive Chef</a></li>
+</ul></li>
+</ul>
+</section>
+  </div>
+        </aside><!-- /#sidebar-first -->
+        </div>
+                
+    <div class="col-xs-12 col-sm-9 offcanvas-toggle-btn">
+      <p class="pull-left visible-xs visible-sm">
+        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Other Knowledge Pages</button>
+      </p>
+    </div><!--/offcanvas toggle btn-->       
+    <section class="main-content-wrap col-sm-18">
+                    
+      <div class="main-content">
+        <a id="main-content"></a>
+                                
+           
+        <div class="messages">
+                                                                                    
+                  </div><!-- /.messages -->        
+          <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      <div style="font-size: 16px; margin-top: 40px;">
+          Your case was successfully created.
+      </div>
+  
+    </section>
+  </div>
+ 
+      </div>    <!-- /#main-content -->
+    </section>        
+            
+        <aside class="sidebar-second col-sm-6" role="complementary">
+              <div class="region region-sidebar-second">
+    <section id="block-block-16" class="block block-block clearfix">
+
+      
+  <div class="contact_info">
+<h3>Terlato Wines </h3>
+<h4>International Headquarters</h4>
+<p>900 Armour Drive<br/>
+Lake Bluff, Illinois 60044</p>
+<strong>Tel:</strong> 847.604.8900<br/>
+<strong>Fax:</strong> 847.604.5828<br/>
+<strong>Email:</strong> <a href="mailto:pr@terlatowines.com">pr@terlatowines.com</a>
+</div>
+
+<div class="contact_info">
+<h3>The Terlato Wine Group</h3>
+<p>2401 Waukegan Road<br/>
+Bannockburn, IL 60015</p>
+<strong>Tel:</strong> 847.444.5500<br/>
+<strong>Fax:</strong> 847.236.0848<br/>
+<strong>Email:</strong> <a href="mailto:pr@terlatowines.com">pr@terlatowines.com</a>
+</div>
+
+</section>
+  </div>
+        </aside>  <!-- /#sidebar-second -->
+                
+    <div class="clearfix"></div>
+        <footer class="col-sm-18 col-sm-offset-6">
+            <div class="clearfix"></div>
+              <div class="region-breadcrumb">
+          <a href="/user" id="padlock" class="hide-text">Login</a>
+                                    
+        </div>
+            
+      <div class="footer-menu">
+          <div class="region region-footer">
+    <section id="block-menu-menu-footer-menu" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/company/privacy" title="">Privacy</a></li>
+<li class="leaf"><a href="/company/careers" title="">Careers</a></li>
+<li class="leaf"><a href="/company/contact" title="">Contact</a></li>
+<li class="leaf"><a href="/company/site-map" title="Site Map">Site Map</a></li>
+<li class="leaf"><a href="/content/trade-section" title="">Trade</a></li>
+<li class="last leaf"><a href="/content/terlato-wines-image-library" title="">Image Library</a></li>
+</ul>
+</section>
+<section id="block-block-2" class="block block-block clearfix">
+
+      
+  <p><a href="#container">Top</a></p>
+
+</section>
+<section id="block-block-15" class="block block-block clearfix">
+
+      
+  <div class="copyright text-center">&copy;2018 Terlato Wines</div>
+
+</section>
+  </div>
+      </div>
+    </footer><!--/footer-->    
+  </div><!--/row-->
+</div><!-- end container -->
+
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="/trade/js/respond.min.js"></script>
+<![endif]-->
+<!--[if lt IE 7 ]>
+  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+  <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
+<!--[if lt IE 10 ]>
+  <script type-"text/javascript" src="/sites/default/themes/trade/js/css3-multi-column.js"></script>
+<![endif]-->  <script src="https://terlatowines.com/sites/default/files/js/js_FbpwIZNwgzwEuuL4Q2HOM07BOSCY5LxL_gwSK4ohQBM.js"></script>
+</body>
+    
+</apex:page>

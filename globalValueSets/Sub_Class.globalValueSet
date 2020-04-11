@@ -1,0 +1,5379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Blank 55|SC</fullName>
+        <default>false</default>
+        <label>Blank 55|SC</label>
+    </customValue>
+    <customValue>
+        <fullName>000001</fullName>
+        <default>false</default>
+        <label>Abbey Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000002</fullName>
+        <default>false</default>
+        <label>Abbey Ale-Dubbel</label>
+    </customValue>
+    <customValue>
+        <fullName>000003</fullName>
+        <default>false</default>
+        <label>Abbey Ale-Quadruple</label>
+    </customValue>
+    <customValue>
+        <fullName>000004</fullName>
+        <default>false</default>
+        <label>Abbey Ale-Tripel</label>
+    </customValue>
+    <customValue>
+        <fullName>000005</fullName>
+        <default>false</default>
+        <label>Ale Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000006</fullName>
+        <default>false</default>
+        <label>Altbier</label>
+    </customValue>
+    <customValue>
+        <fullName>000007</fullName>
+        <default>false</default>
+        <label>Amber Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000008</fullName>
+        <default>false</default>
+        <label>Barleywine</label>
+    </customValue>
+    <customValue>
+        <fullName>000009</fullName>
+        <default>false</default>
+        <label>Belgian Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000010</fullName>
+        <default>false</default>
+        <label>Biere De Garde</label>
+    </customValue>
+    <customValue>
+        <fullName>000011</fullName>
+        <default>false</default>
+        <label>Bitter</label>
+    </customValue>
+    <customValue>
+        <fullName>000012</fullName>
+        <default>false</default>
+        <label>Black Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000013</fullName>
+        <default>false</default>
+        <label>Blonde Ale/Golden Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000014</fullName>
+        <default>false</default>
+        <label>Blonde Ale-Belgian</label>
+    </customValue>
+    <customValue>
+        <fullName>000015</fullName>
+        <default>false</default>
+        <label>Brown Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000016</fullName>
+        <default>false</default>
+        <label>Cream Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000017</fullName>
+        <default>false</default>
+        <label>Extra Special Bitter-ESB</label>
+    </customValue>
+    <customValue>
+        <fullName>000018</fullName>
+        <default>false</default>
+        <label>Farmhouse Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000019</fullName>
+        <default>false</default>
+        <label>Flanders Oude Bruin</label>
+    </customValue>
+    <customValue>
+        <fullName>000020</fullName>
+        <default>false</default>
+        <label>Flanders Red</label>
+    </customValue>
+    <customValue>
+        <fullName>000021</fullName>
+        <default>false</default>
+        <label>Fruit Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000022</fullName>
+        <default>false</default>
+        <label>India Pale Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000023</fullName>
+        <default>false</default>
+        <label>India Pale Ale-Imperial</label>
+    </customValue>
+    <customValue>
+        <fullName>000024</fullName>
+        <default>false</default>
+        <label>Irish Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000025</fullName>
+        <default>false</default>
+        <label>Kolsch</label>
+    </customValue>
+    <customValue>
+        <fullName>000026</fullName>
+        <default>false</default>
+        <label>Lambic-Faro</label>
+    </customValue>
+    <customValue>
+        <fullName>000027</fullName>
+        <default>false</default>
+        <label>Lambic-Fruit</label>
+    </customValue>
+    <customValue>
+        <fullName>000028</fullName>
+        <default>false</default>
+        <label>Lambic-Gueuze</label>
+    </customValue>
+    <customValue>
+        <fullName>000029</fullName>
+        <default>false</default>
+        <label>Lambic-Unblended</label>
+    </customValue>
+    <customValue>
+        <fullName>000030</fullName>
+        <default>false</default>
+        <label>Mild Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000031</fullName>
+        <default>false</default>
+        <label>Old Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000032</fullName>
+        <default>false</default>
+        <label>Pale Ale-American</label>
+    </customValue>
+    <customValue>
+        <fullName>000033</fullName>
+        <default>false</default>
+        <label>Pale Ale-English</label>
+    </customValue>
+    <customValue>
+        <fullName>000034</fullName>
+        <default>false</default>
+        <label>Porter</label>
+    </customValue>
+    <customValue>
+        <fullName>000035</fullName>
+        <default>false</default>
+        <label>Porter-Baltic</label>
+    </customValue>
+    <customValue>
+        <fullName>000036</fullName>
+        <default>false</default>
+        <label>Porter-Imperial</label>
+    </customValue>
+    <customValue>
+        <fullName>000037</fullName>
+        <default>false</default>
+        <label>Red Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000038</fullName>
+        <default>false</default>
+        <label>Rye Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000039</fullName>
+        <default>false</default>
+        <label>Saison</label>
+    </customValue>
+    <customValue>
+        <fullName>000040</fullName>
+        <default>false</default>
+        <label>Scottish Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000041</fullName>
+        <default>false</default>
+        <label>Smoked Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000042</fullName>
+        <default>false</default>
+        <label>Sour Ale/Wild Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000043</fullName>
+        <default>false</default>
+        <label>Spiced Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000044</fullName>
+        <default>false</default>
+        <label>Stout</label>
+    </customValue>
+    <customValue>
+        <fullName>000045</fullName>
+        <default>false</default>
+        <label>Stout-Chocolate</label>
+    </customValue>
+    <customValue>
+        <fullName>000046</fullName>
+        <default>false</default>
+        <label>Stout-Coffee</label>
+    </customValue>
+    <customValue>
+        <fullName>000047</fullName>
+        <default>false</default>
+        <label>Stout-Dry</label>
+    </customValue>
+    <customValue>
+        <fullName>000048</fullName>
+        <default>false</default>
+        <label>Stout-Flavored</label>
+    </customValue>
+    <customValue>
+        <fullName>000049</fullName>
+        <default>false</default>
+        <label>Stout-Foreign/Extra</label>
+    </customValue>
+    <customValue>
+        <fullName>000050</fullName>
+        <default>false</default>
+        <label>Stout-Imperial/Russian Imperial</label>
+    </customValue>
+    <customValue>
+        <fullName>000051</fullName>
+        <default>false</default>
+        <label>Stout-Milk</label>
+    </customValue>
+    <customValue>
+        <fullName>000052</fullName>
+        <default>false</default>
+        <label>Stout-Oatmeal</label>
+    </customValue>
+    <customValue>
+        <fullName>000053</fullName>
+        <default>false</default>
+        <label>Stout-Oyster</label>
+    </customValue>
+    <customValue>
+        <fullName>000054</fullName>
+        <default>false</default>
+        <label>Stout-Sweet</label>
+    </customValue>
+    <customValue>
+        <fullName>000055</fullName>
+        <default>false</default>
+        <label>Strong Ale</label>
+    </customValue>
+    <customValue>
+        <fullName>000056</fullName>
+        <default>false</default>
+        <label>Strong Ale-Belgian</label>
+    </customValue>
+    <customValue>
+        <fullName>000057</fullName>
+        <default>false</default>
+        <label>Trappist</label>
+    </customValue>
+    <customValue>
+        <fullName>000058</fullName>
+        <default>false</default>
+        <label>Wheat Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000059</fullName>
+        <default>false</default>
+        <label>Wheat Beer-American</label>
+    </customValue>
+    <customValue>
+        <fullName>000060</fullName>
+        <default>false</default>
+        <label>Wheat Beer-Berliner Weiss</label>
+    </customValue>
+    <customValue>
+        <fullName>000061</fullName>
+        <default>false</default>
+        <label>Wheat Beer-Dunkel Weizen</label>
+    </customValue>
+    <customValue>
+        <fullName>000062</fullName>
+        <default>false</default>
+        <label>Wheat Beer-Hefeweizen</label>
+    </customValue>
+    <customValue>
+        <fullName>000063</fullName>
+        <default>false</default>
+        <label>Wheat Beer-Krystal Weizen</label>
+    </customValue>
+    <customValue>
+        <fullName>000064</fullName>
+        <default>false</default>
+        <label>Wheat Beer-Weizenbock</label>
+    </customValue>
+    <customValue>
+        <fullName>000065</fullName>
+        <default>false</default>
+        <label>Wheat Beer-Wit Bier/White Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000066</fullName>
+        <default>false</default>
+        <label>Wheatwine</label>
+    </customValue>
+    <customValue>
+        <fullName>000067</fullName>
+        <default>false</default>
+        <label>Amber Lager/Red Lager</label>
+    </customValue>
+    <customValue>
+        <fullName>000068</fullName>
+        <default>false</default>
+        <label>Bock</label>
+    </customValue>
+    <customValue>
+        <fullName>000069</fullName>
+        <default>false</default>
+        <label>Bock-Dopplebock</label>
+    </customValue>
+    <customValue>
+        <fullName>000070</fullName>
+        <default>false</default>
+        <label>Bock-Eisbock</label>
+    </customValue>
+    <customValue>
+        <fullName>000071</fullName>
+        <default>false</default>
+        <label>Bock-Maibock</label>
+    </customValue>
+    <customValue>
+        <fullName>000072</fullName>
+        <default>false</default>
+        <label>California Common/Steam Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000073</fullName>
+        <default>false</default>
+        <label>Dark Lager</label>
+    </customValue>
+    <customValue>
+        <fullName>000074</fullName>
+        <default>false</default>
+        <label>Dark Lager-Dunkel</label>
+    </customValue>
+    <customValue>
+        <fullName>000075</fullName>
+        <default>false</default>
+        <label>Dark Lager-Schwarzbier</label>
+    </customValue>
+    <customValue>
+        <fullName>000076</fullName>
+        <default>false</default>
+        <label>Dortmunder</label>
+    </customValue>
+    <customValue>
+        <fullName>000077</fullName>
+        <default>false</default>
+        <label>Helles</label>
+    </customValue>
+    <customValue>
+        <fullName>000078</fullName>
+        <default>false</default>
+        <label>Kellerbier</label>
+    </customValue>
+    <customValue>
+        <fullName>000079</fullName>
+        <default>false</default>
+        <label>Lager-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000080</fullName>
+        <default>false</default>
+        <label>Marzen</label>
+    </customValue>
+    <customValue>
+        <fullName>000081</fullName>
+        <default>false</default>
+        <label>Pale Lager</label>
+    </customValue>
+    <customValue>
+        <fullName>000082</fullName>
+        <default>false</default>
+        <label>Pale Lager-Light Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000083</fullName>
+        <default>false</default>
+        <label>Pale Lager-Strong</label>
+    </customValue>
+    <customValue>
+        <fullName>000084</fullName>
+        <default>false</default>
+        <label>Pils</label>
+    </customValue>
+    <customValue>
+        <fullName>000085</fullName>
+        <default>false</default>
+        <label>Pilsner</label>
+    </customValue>
+    <customValue>
+        <fullName>000086</fullName>
+        <default>false</default>
+        <label>Pilsner-Bohemian/Czech</label>
+    </customValue>
+    <customValue>
+        <fullName>000087</fullName>
+        <default>false</default>
+        <label>Pilsner-Imperial</label>
+    </customValue>
+    <customValue>
+        <fullName>000088</fullName>
+        <default>false</default>
+        <label>Rauchbier</label>
+    </customValue>
+    <customValue>
+        <fullName>000089</fullName>
+        <default>false</default>
+        <label>Vienna Lager</label>
+    </customValue>
+    <customValue>
+        <fullName>000090</fullName>
+        <default>false</default>
+        <label>Cocktails-Malt Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000091</fullName>
+        <default>false</default>
+        <label>Flavored Malt Beverage/Malt Cooler</label>
+    </customValue>
+    <customValue>
+        <fullName>000092</fullName>
+        <default>false</default>
+        <label>Malt Beverage-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000093</fullName>
+        <default>false</default>
+        <label>Malt Liquor</label>
+    </customValue>
+    <customValue>
+        <fullName>000094</fullName>
+        <default>false</default>
+        <label>Fall</label>
+    </customValue>
+    <customValue>
+        <fullName>000095</fullName>
+        <default>false</default>
+        <label>Seasonal-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000096</fullName>
+        <default>false</default>
+        <label>Spring</label>
+    </customValue>
+    <customValue>
+        <fullName>000097</fullName>
+        <default>false</default>
+        <label>Summer</label>
+    </customValue>
+    <customValue>
+        <fullName>000098</fullName>
+        <default>false</default>
+        <label>Winter</label>
+    </customValue>
+    <customValue>
+        <fullName>000099</fullName>
+        <default>false</default>
+        <label>Deposit-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000100</fullName>
+        <default>false</default>
+        <label>Equipment Deposit</label>
+    </customValue>
+    <customValue>
+        <fullName>000101</fullName>
+        <default>false</default>
+        <label>Keg Deposit</label>
+    </customValue>
+    <customValue>
+        <fullName>000102</fullName>
+        <default>false</default>
+        <label>Tank Deposit</label>
+    </customValue>
+    <customValue>
+        <fullName>000103</fullName>
+        <default>false</default>
+        <label>Fee-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000104</fullName>
+        <default>false</default>
+        <label>Handling Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>000105</fullName>
+        <default>false</default>
+        <label>Misc Fees</label>
+    </customValue>
+    <customValue>
+        <fullName>000106</fullName>
+        <default>false</default>
+        <label>Service Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>000107</fullName>
+        <default>false</default>
+        <label>Shipping Fee</label>
+    </customValue>
+    <customValue>
+        <fullName>000108</fullName>
+        <default>false</default>
+        <label>Beer Wagon Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>000109</fullName>
+        <default>false</default>
+        <label>Jockey Box Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>000110</fullName>
+        <default>false</default>
+        <label>Kiosk Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>000111</fullName>
+        <default>false</default>
+        <label>Rental-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000112</fullName>
+        <default>false</default>
+        <label>Roll Around Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>000113</fullName>
+        <default>false</default>
+        <label>Tank Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>000114</fullName>
+        <default>false</default>
+        <label>Trailer Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>000115</fullName>
+        <default>false</default>
+        <label>Truck/Storage Rental</label>
+    </customValue>
+    <customValue>
+        <fullName>000116</fullName>
+        <default>false</default>
+        <label>Cherries</label>
+    </customValue>
+    <customValue>
+        <fullName>000117</fullName>
+        <default>false</default>
+        <label>Cocktail Foam</label>
+    </customValue>
+    <customValue>
+        <fullName>000118</fullName>
+        <default>false</default>
+        <label>Cocktail Garnish-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000119</fullName>
+        <default>false</default>
+        <label>Cocktail Spray</label>
+    </customValue>
+    <customValue>
+        <fullName>000120</fullName>
+        <default>false</default>
+        <label>Olives</label>
+    </customValue>
+    <customValue>
+        <fullName>000121</fullName>
+        <default>false</default>
+        <label>Onions</label>
+    </customValue>
+    <customValue>
+        <fullName>000122</fullName>
+        <default>false</default>
+        <label>Salt Rimmer</label>
+    </customValue>
+    <customValue>
+        <fullName>000123</fullName>
+        <default>false</default>
+        <label>Sugar Rimmer</label>
+    </customValue>
+    <customValue>
+        <fullName>000124</fullName>
+        <default>false</default>
+        <label>Oil-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000125</fullName>
+        <default>false</default>
+        <label>Olive Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>000126</fullName>
+        <default>false</default>
+        <label>BBQ Sauce</label>
+    </customValue>
+    <customValue>
+        <fullName>000127</fullName>
+        <default>false</default>
+        <label>Chocolate Sauce</label>
+    </customValue>
+    <customValue>
+        <fullName>000128</fullName>
+        <default>false</default>
+        <label>Hot Sauce</label>
+    </customValue>
+    <customValue>
+        <fullName>000129</fullName>
+        <default>false</default>
+        <label>Pasta Sauce</label>
+    </customValue>
+    <customValue>
+        <fullName>000130</fullName>
+        <default>false</default>
+        <label>Sauce-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000131</fullName>
+        <default>false</default>
+        <label>Balsamic Vinegar</label>
+    </customValue>
+    <customValue>
+        <fullName>000132</fullName>
+        <default>false</default>
+        <label>Red Wine Vinegar</label>
+    </customValue>
+    <customValue>
+        <fullName>000133</fullName>
+        <default>false</default>
+        <label>Vinegar-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000134</fullName>
+        <default>false</default>
+        <label>White Wine Vinegar</label>
+    </customValue>
+    <customValue>
+        <fullName>000135</fullName>
+        <default>false</default>
+        <label>Bar Accessory-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000136</fullName>
+        <default>false</default>
+        <label>Bucket</label>
+    </customValue>
+    <customValue>
+        <fullName>000137</fullName>
+        <default>false</default>
+        <label>Carafe</label>
+    </customValue>
+    <customValue>
+        <fullName>000138</fullName>
+        <default>false</default>
+        <label>Cocktail Napkins</label>
+    </customValue>
+    <customValue>
+        <fullName>000139</fullName>
+        <default>false</default>
+        <label>Garnish Tray</label>
+    </customValue>
+    <customValue>
+        <fullName>000140</fullName>
+        <default>false</default>
+        <label>Growler</label>
+    </customValue>
+    <customValue>
+        <fullName>000141</fullName>
+        <default>false</default>
+        <label>Infusion Jar</label>
+    </customValue>
+    <customValue>
+        <fullName>000142</fullName>
+        <default>false</default>
+        <label>Jigger</label>
+    </customValue>
+    <customValue>
+        <fullName>000143</fullName>
+        <default>false</default>
+        <label>Pitcher</label>
+    </customValue>
+    <customValue>
+        <fullName>000144</fullName>
+        <default>false</default>
+        <label>Punch Bowl</label>
+    </customValue>
+    <customValue>
+        <fullName>000145</fullName>
+        <default>false</default>
+        <label>Rimmer Tray</label>
+    </customValue>
+    <customValue>
+        <fullName>000146</fullName>
+        <default>false</default>
+        <label>Screwpull</label>
+    </customValue>
+    <customValue>
+        <fullName>000147</fullName>
+        <default>false</default>
+        <label>Service Kit</label>
+    </customValue>
+    <customValue>
+        <fullName>000148</fullName>
+        <default>false</default>
+        <label>Serving Tray</label>
+    </customValue>
+    <customValue>
+        <fullName>000149</fullName>
+        <default>false</default>
+        <label>Shaker</label>
+    </customValue>
+    <customValue>
+        <fullName>000150</fullName>
+        <default>false</default>
+        <label>Speed Pourer</label>
+    </customValue>
+    <customValue>
+        <fullName>000151</fullName>
+        <default>false</default>
+        <label>Stir Rod</label>
+    </customValue>
+    <customValue>
+        <fullName>000152</fullName>
+        <default>false</default>
+        <label>Wine Decanter</label>
+    </customValue>
+    <customValue>
+        <fullName>000153</fullName>
+        <default>false</default>
+        <label>Damaged Goods-Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000154</fullName>
+        <default>false</default>
+        <label>Damaged Goods-Miscellaneous</label>
+    </customValue>
+    <customValue>
+        <fullName>000155</fullName>
+        <default>false</default>
+        <label>Damaged Goods-Non-Alcoholic</label>
+    </customValue>
+    <customValue>
+        <fullName>000156</fullName>
+        <default>false</default>
+        <label>Damaged Goods-Other Fermented Beverages</label>
+    </customValue>
+    <customValue>
+        <fullName>000157</fullName>
+        <default>false</default>
+        <label>Damaged Goods-Sake</label>
+    </customValue>
+    <customValue>
+        <fullName>000158</fullName>
+        <default>false</default>
+        <label>Damaged Goods-Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>000159</fullName>
+        <default>false</default>
+        <label>Damaged Goods-Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000160</fullName>
+        <default>false</default>
+        <label>Beer Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000161</fullName>
+        <default>false</default>
+        <label>Cocktail Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000162</fullName>
+        <default>false</default>
+        <label>Copper Mug</label>
+    </customValue>
+    <customValue>
+        <fullName>000163</fullName>
+        <default>false</default>
+        <label>Coupe Cocktail Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000164</fullName>
+        <default>false</default>
+        <label>Cup</label>
+    </customValue>
+    <customValue>
+        <fullName>000165</fullName>
+        <default>false</default>
+        <label>Drinkware-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000166</fullName>
+        <default>false</default>
+        <label>Flute</label>
+    </customValue>
+    <customValue>
+        <fullName>000167</fullName>
+        <default>false</default>
+        <label>Goblet</label>
+    </customValue>
+    <customValue>
+        <fullName>000168</fullName>
+        <default>false</default>
+        <label>High Ball Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000169</fullName>
+        <default>false</default>
+        <label>Margarita Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000170</fullName>
+        <default>false</default>
+        <label>Martini Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000171</fullName>
+        <default>false</default>
+        <label>Mason Jar</label>
+    </customValue>
+    <customValue>
+        <fullName>000172</fullName>
+        <default>false</default>
+        <label>Mug</label>
+    </customValue>
+    <customValue>
+        <fullName>000173</fullName>
+        <default>false</default>
+        <label>Pint Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000174</fullName>
+        <default>false</default>
+        <label>Rocks Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000175</fullName>
+        <default>false</default>
+        <label>Shot Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000176</fullName>
+        <default>false</default>
+        <label>Tankard</label>
+    </customValue>
+    <customValue>
+        <fullName>000177</fullName>
+        <default>false</default>
+        <label>Tumbler Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000178</fullName>
+        <default>false</default>
+        <label>Wine Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>000179</fullName>
+        <default>false</default>
+        <label>Cart</label>
+    </customValue>
+    <customValue>
+        <fullName>000180</fullName>
+        <default>false</default>
+        <label>Chiller Machine</label>
+    </customValue>
+    <customValue>
+        <fullName>000181</fullName>
+        <default>false</default>
+        <label>Display/Storage Rack</label>
+    </customValue>
+    <customValue>
+        <fullName>000182</fullName>
+        <default>false</default>
+        <label>Equipment-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000183</fullName>
+        <default>false</default>
+        <label>Glass Freezer/Chiller</label>
+    </customValue>
+    <customValue>
+        <fullName>000184</fullName>
+        <default>false</default>
+        <label>Pallet</label>
+    </customValue>
+    <customValue>
+        <fullName>000185</fullName>
+        <default>false</default>
+        <label>Perlage System</label>
+    </customValue>
+    <customValue>
+        <fullName>000186</fullName>
+        <default>false</default>
+        <label>Refrigerator</label>
+    </customValue>
+    <customValue>
+        <fullName>000187</fullName>
+        <default>false</default>
+        <label>Sake Warmer</label>
+    </customValue>
+    <customValue>
+        <fullName>000188</fullName>
+        <default>false</default>
+        <label>Shot Machine</label>
+    </customValue>
+    <customValue>
+        <fullName>000189</fullName>
+        <default>false</default>
+        <label>Beer Faucet</label>
+    </customValue>
+    <customValue>
+        <fullName>000190</fullName>
+        <default>false</default>
+        <label>CO2 Cylinder</label>
+    </customValue>
+    <customValue>
+        <fullName>000191</fullName>
+        <default>false</default>
+        <label>Compressor</label>
+    </customValue>
+    <customValue>
+        <fullName>000192</fullName>
+        <default>false</default>
+        <label>Empty Beer Keg</label>
+    </customValue>
+    <customValue>
+        <fullName>000193</fullName>
+        <default>false</default>
+        <label>Empty Wine Keg</label>
+    </customValue>
+    <customValue>
+        <fullName>000194</fullName>
+        <default>false</default>
+        <label>Keg &amp; Draft-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000195</fullName>
+        <default>false</default>
+        <label>Keg Pallet</label>
+    </customValue>
+    <customValue>
+        <fullName>000196</fullName>
+        <default>false</default>
+        <label>Keg Pump</label>
+    </customValue>
+    <customValue>
+        <fullName>000197</fullName>
+        <default>false</default>
+        <label>Keg Tub</label>
+    </customValue>
+    <customValue>
+        <fullName>000198</fullName>
+        <default>false</default>
+        <label>Nitro Tank</label>
+    </customValue>
+    <customValue>
+        <fullName>000199</fullName>
+        <default>false</default>
+        <label>Regulator</label>
+    </customValue>
+    <customValue>
+        <fullName>000200</fullName>
+        <default>false</default>
+        <label>Tap</label>
+    </customValue>
+    <customValue>
+        <fullName>000201</fullName>
+        <default>false</default>
+        <label>Tap Handle</label>
+    </customValue>
+    <customValue>
+        <fullName>000202</fullName>
+        <default>false</default>
+        <label>Apparel-Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000203</fullName>
+        <default>false</default>
+        <label>Bag-Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000204</fullName>
+        <default>false</default>
+        <label>Barrel-Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000205</fullName>
+        <default>false</default>
+        <label>Display Rack-Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000206</fullName>
+        <default>false</default>
+        <label>Patio Umbrella-Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000207</fullName>
+        <default>false</default>
+        <label>POS-Beer Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000208</fullName>
+        <default>false</default>
+        <label>Signage-Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000209</fullName>
+        <default>false</default>
+        <label>Apparel-Non-Alc</label>
+    </customValue>
+    <customValue>
+        <fullName>000210</fullName>
+        <default>false</default>
+        <label>Bag-Non-Alc</label>
+    </customValue>
+    <customValue>
+        <fullName>000211</fullName>
+        <default>false</default>
+        <label>Barrel-Non-Alc</label>
+    </customValue>
+    <customValue>
+        <fullName>000212</fullName>
+        <default>false</default>
+        <label>Display Rack-Non-Alc</label>
+    </customValue>
+    <customValue>
+        <fullName>000213</fullName>
+        <default>false</default>
+        <label>Patio Umbrella-Non-Alc</label>
+    </customValue>
+    <customValue>
+        <fullName>000214</fullName>
+        <default>false</default>
+        <label>Pos-Non-Alc Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000215</fullName>
+        <default>false</default>
+        <label>Signage-Non-Alc</label>
+    </customValue>
+    <customValue>
+        <fullName>000216</fullName>
+        <default>false</default>
+        <label>Apparel-Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>000217</fullName>
+        <default>false</default>
+        <label>Bag-Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>000218</fullName>
+        <default>false</default>
+        <label>Barrel-Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>000219</fullName>
+        <default>false</default>
+        <label>Display Rack-Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>000220</fullName>
+        <default>false</default>
+        <label>Patio Umbrella-Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>000221</fullName>
+        <default>false</default>
+        <label>POS-Spirits Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000222</fullName>
+        <default>false</default>
+        <label>Signage-Spirits</label>
+    </customValue>
+    <customValue>
+        <fullName>000223</fullName>
+        <default>false</default>
+        <label>Apparel-Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000224</fullName>
+        <default>false</default>
+        <label>Bag-Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000225</fullName>
+        <default>false</default>
+        <label>Barrel-Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000226</fullName>
+        <default>false</default>
+        <label>Display Rack-Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000227</fullName>
+        <default>false</default>
+        <label>Patio Umbrella-Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000228</fullName>
+        <default>false</default>
+        <label>POS-Wine Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000229</fullName>
+        <default>false</default>
+        <label>Signage-Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000230</fullName>
+        <default>false</default>
+        <label>Agave Nectar</label>
+    </customValue>
+    <customValue>
+        <fullName>000231</fullName>
+        <default>false</default>
+        <label>Bitters-Non Alcoholic</label>
+    </customValue>
+    <customValue>
+        <fullName>000232</fullName>
+        <default>false</default>
+        <label>Bloody Mary Mix</label>
+    </customValue>
+    <customValue>
+        <fullName>000233</fullName>
+        <default>false</default>
+        <label>Club Soda/Soda Water</label>
+    </customValue>
+    <customValue>
+        <fullName>000234</fullName>
+        <default>false</default>
+        <label>Cocktail Mixer-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000235</fullName>
+        <default>false</default>
+        <label>Collins Mix</label>
+    </customValue>
+    <customValue>
+        <fullName>000236</fullName>
+        <default>false</default>
+        <label>Ginger Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>000237</fullName>
+        <default>false</default>
+        <label>Grenadine</label>
+    </customValue>
+    <customValue>
+        <fullName>000238</fullName>
+        <default>false</default>
+        <label>Lime Juice</label>
+    </customValue>
+    <customValue>
+        <fullName>000239</fullName>
+        <default>false</default>
+        <label>Margarita Mix</label>
+    </customValue>
+    <customValue>
+        <fullName>000240</fullName>
+        <default>false</default>
+        <label>Orgeat</label>
+    </customValue>
+    <customValue>
+        <fullName>000241</fullName>
+        <default>false</default>
+        <label>Pina Colada Mix</label>
+    </customValue>
+    <customValue>
+        <fullName>000242</fullName>
+        <default>false</default>
+        <label>Puree</label>
+    </customValue>
+    <customValue>
+        <fullName>000243</fullName>
+        <default>false</default>
+        <label>Sweet &amp; Sour</label>
+    </customValue>
+    <customValue>
+        <fullName>000244</fullName>
+        <default>false</default>
+        <label>Tonic Water</label>
+    </customValue>
+    <customValue>
+        <fullName>000245</fullName>
+        <default>false</default>
+        <label>Cranberry Juice</label>
+    </customValue>
+    <customValue>
+        <fullName>000246</fullName>
+        <default>false</default>
+        <label>Grapefruit Juice</label>
+    </customValue>
+    <customValue>
+        <fullName>000247</fullName>
+        <default>false</default>
+        <label>Juice-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000248</fullName>
+        <default>false</default>
+        <label>Orange Juice</label>
+    </customValue>
+    <customValue>
+        <fullName>000249</fullName>
+        <default>false</default>
+        <label>Tomato Juice</label>
+    </customValue>
+    <customValue>
+        <fullName>000250</fullName>
+        <default>false</default>
+        <label>Flavored Water</label>
+    </customValue>
+    <customValue>
+        <fullName>000251</fullName>
+        <default>false</default>
+        <label>Sparkling Water</label>
+    </customValue>
+    <customValue>
+        <fullName>000252</fullName>
+        <default>false</default>
+        <label>Still Water</label>
+    </customValue>
+    <customValue>
+        <fullName>000253</fullName>
+        <default>false</default>
+        <label>Hard Apple Cider</label>
+    </customValue>
+    <customValue>
+        <fullName>000254</fullName>
+        <default>false</default>
+        <label>Hard Cider-Flavored</label>
+    </customValue>
+    <customValue>
+        <fullName>000255</fullName>
+        <default>false</default>
+        <label>Hard Cider-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000256</fullName>
+        <default>false</default>
+        <label>Perry/Pear Cider</label>
+    </customValue>
+    <customValue>
+        <fullName>000257</fullName>
+        <default>false</default>
+        <label>Mead</label>
+    </customValue>
+    <customValue>
+        <fullName>000258</fullName>
+        <default>false</default>
+        <label>Mead-Flavored</label>
+    </customValue>
+    <customValue>
+        <fullName>000259</fullName>
+        <default>false</default>
+        <label>Daiginjo</label>
+    </customValue>
+    <customValue>
+        <fullName>000260</fullName>
+        <default>false</default>
+        <label>Daiginjo Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000261</fullName>
+        <default>false</default>
+        <label>Daiginjo Nama</label>
+    </customValue>
+    <customValue>
+        <fullName>000262</fullName>
+        <default>false</default>
+        <label>Daiginjo Nama Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000263</fullName>
+        <default>false</default>
+        <label>Daiginjo Nama Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000264</fullName>
+        <default>false</default>
+        <label>Daiginjo Nama Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000265</fullName>
+        <default>false</default>
+        <label>Daiginjo Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000266</fullName>
+        <default>false</default>
+        <label>Daiginjo Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000267</fullName>
+        <default>false</default>
+        <label>Futsuu Shu</label>
+    </customValue>
+    <customValue>
+        <fullName>000268</fullName>
+        <default>false</default>
+        <label>Ginjo</label>
+    </customValue>
+    <customValue>
+        <fullName>000269</fullName>
+        <default>false</default>
+        <label>Ginjo Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000270</fullName>
+        <default>false</default>
+        <label>Ginjo Nama</label>
+    </customValue>
+    <customValue>
+        <fullName>000271</fullName>
+        <default>false</default>
+        <label>Ginjo Nama Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000272</fullName>
+        <default>false</default>
+        <label>Ginjo Nama Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000273</fullName>
+        <default>false</default>
+        <label>Ginjo Nama Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000274</fullName>
+        <default>false</default>
+        <label>Ginjo Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000275</fullName>
+        <default>false</default>
+        <label>Ginjo Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000276</fullName>
+        <default>false</default>
+        <label>Honjozo</label>
+    </customValue>
+    <customValue>
+        <fullName>000277</fullName>
+        <default>false</default>
+        <label>Honjozo Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000278</fullName>
+        <default>false</default>
+        <label>Honjozo Nama</label>
+    </customValue>
+    <customValue>
+        <fullName>000279</fullName>
+        <default>false</default>
+        <label>Honjozo Nama Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000280</fullName>
+        <default>false</default>
+        <label>Honjozo Nama Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000281</fullName>
+        <default>false</default>
+        <label>Honjozo Nama Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000282</fullName>
+        <default>false</default>
+        <label>Honjozo Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000283</fullName>
+        <default>false</default>
+        <label>Honjozo Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000284</fullName>
+        <default>false</default>
+        <label>Junmai</label>
+    </customValue>
+    <customValue>
+        <fullName>000285</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo</label>
+    </customValue>
+    <customValue>
+        <fullName>000286</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000287</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo Nama</label>
+    </customValue>
+    <customValue>
+        <fullName>000288</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo Nama Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000289</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo Nama Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000290</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo Nama Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000291</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000292</fullName>
+        <default>false</default>
+        <label>Junmai Daiginjo Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000293</fullName>
+        <default>false</default>
+        <label>Junmai Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000294</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo Nama Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000295</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo</label>
+    </customValue>
+    <customValue>
+        <fullName>000296</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000297</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo Nama</label>
+    </customValue>
+    <customValue>
+        <fullName>000298</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo Nama Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000299</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo Nama Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000300</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000301</fullName>
+        <default>false</default>
+        <label>Junmai Ginjo Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000302</fullName>
+        <default>false</default>
+        <label>Junmai Nama</label>
+    </customValue>
+    <customValue>
+        <fullName>000303</fullName>
+        <default>false</default>
+        <label>Junmai Nama Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000304</fullName>
+        <default>false</default>
+        <label>Junmai Nama Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000305</fullName>
+        <default>false</default>
+        <label>Junmai Nama Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000306</fullName>
+        <default>false</default>
+        <label>Junmai Nigori</label>
+    </customValue>
+    <customValue>
+        <fullName>000307</fullName>
+        <default>false</default>
+        <label>Junmai Nigori Genshu</label>
+    </customValue>
+    <customValue>
+        <fullName>000308</fullName>
+        <default>false</default>
+        <label>Sake-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000309</fullName>
+        <default>false</default>
+        <label>Cooking Sake</label>
+    </customValue>
+    <customValue>
+        <fullName>000310</fullName>
+        <default>false</default>
+        <label>Flavored Sake</label>
+    </customValue>
+    <customValue>
+        <fullName>000311</fullName>
+        <default>false</default>
+        <label>Sparkling Sake</label>
+    </customValue>
+    <customValue>
+        <fullName>000312</fullName>
+        <default>false</default>
+        <label>Calvados</label>
+    </customValue>
+    <customValue>
+        <fullName>000313</fullName>
+        <default>false</default>
+        <label>Eau De Vie</label>
+    </customValue>
+    <customValue>
+        <fullName>000314</fullName>
+        <default>false</default>
+        <label>Fruit Brandy-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000315</fullName>
+        <default>false</default>
+        <label>Kirsch/Kirschwasser</label>
+    </customValue>
+    <customValue>
+        <fullName>000316</fullName>
+        <default>false</default>
+        <label>Mirabelle</label>
+    </customValue>
+    <customValue>
+        <fullName>000317</fullName>
+        <default>false</default>
+        <label>Obstler/Obstbrand</label>
+    </customValue>
+    <customValue>
+        <fullName>000318</fullName>
+        <default>false</default>
+        <label>Poire Williams</label>
+    </customValue>
+    <customValue>
+        <fullName>000319</fullName>
+        <default>false</default>
+        <label>Quetsch</label>
+    </customValue>
+    <customValue>
+        <fullName>000320</fullName>
+        <default>false</default>
+        <label>Rakia/Rakija-Fruit Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000321</fullName>
+        <default>false</default>
+        <label>Slivovitz/Slivovicka</label>
+    </customValue>
+    <customValue>
+        <fullName>000322</fullName>
+        <default>false</default>
+        <label>Alambic Brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>000323</fullName>
+        <default>false</default>
+        <label>Armagnac</label>
+    </customValue>
+    <customValue>
+        <fullName>000324</fullName>
+        <default>false</default>
+        <label>Brandy de Jerez</label>
+    </customValue>
+    <customValue>
+        <fullName>000325</fullName>
+        <default>false</default>
+        <label>Cognac</label>
+    </customValue>
+    <customValue>
+        <fullName>000326</fullName>
+        <default>false</default>
+        <label>Flavored Grape Brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>000327</fullName>
+        <default>false</default>
+        <label>Grape Brandy-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000328</fullName>
+        <default>false</default>
+        <label>Grappa</label>
+    </customValue>
+    <customValue>
+        <fullName>000329</fullName>
+        <default>false</default>
+        <label>Marc</label>
+    </customValue>
+    <customValue>
+        <fullName>000330</fullName>
+        <default>false</default>
+        <label>Napoleon Brandy</label>
+    </customValue>
+    <customValue>
+        <fullName>000331</fullName>
+        <default>false</default>
+        <label>Pisco</label>
+    </customValue>
+    <customValue>
+        <fullName>000332</fullName>
+        <default>false</default>
+        <label>Rakia/Rakija-Grape Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000333</fullName>
+        <default>false</default>
+        <label>Tsipouro</label>
+    </customValue>
+    <customValue>
+        <fullName>000334</fullName>
+        <default>false</default>
+        <label>Bloody Mary</label>
+    </customValue>
+    <customValue>
+        <fullName>000335</fullName>
+        <default>false</default>
+        <label>Cocktails-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000336</fullName>
+        <default>false</default>
+        <label>Collins</label>
+    </customValue>
+    <customValue>
+        <fullName>000337</fullName>
+        <default>false</default>
+        <label>Cosmopolitan</label>
+    </customValue>
+    <customValue>
+        <fullName>000338</fullName>
+        <default>false</default>
+        <label>Daiquiri</label>
+    </customValue>
+    <customValue>
+        <fullName>000339</fullName>
+        <default>false</default>
+        <label>Egg Nog</label>
+    </customValue>
+    <customValue>
+        <fullName>000340</fullName>
+        <default>false</default>
+        <label>Kamikaze</label>
+    </customValue>
+    <customValue>
+        <fullName>000341</fullName>
+        <default>false</default>
+        <label>Long Island Iced Tea</label>
+    </customValue>
+    <customValue>
+        <fullName>000342</fullName>
+        <default>false</default>
+        <label>Mai Tai</label>
+    </customValue>
+    <customValue>
+        <fullName>000343</fullName>
+        <default>false</default>
+        <label>Manhattan</label>
+    </customValue>
+    <customValue>
+        <fullName>000344</fullName>
+        <default>false</default>
+        <label>Margarita</label>
+    </customValue>
+    <customValue>
+        <fullName>000345</fullName>
+        <default>false</default>
+        <label>Martini</label>
+    </customValue>
+    <customValue>
+        <fullName>000346</fullName>
+        <default>false</default>
+        <label>Mojito</label>
+    </customValue>
+    <customValue>
+        <fullName>000347</fullName>
+        <default>false</default>
+        <label>Moscow Mule</label>
+    </customValue>
+    <customValue>
+        <fullName>000348</fullName>
+        <default>false</default>
+        <label>Mudslide</label>
+    </customValue>
+    <customValue>
+        <fullName>000349</fullName>
+        <default>false</default>
+        <label>Pina Colada</label>
+    </customValue>
+    <customValue>
+        <fullName>000350</fullName>
+        <default>false</default>
+        <label>Whiskey Sour</label>
+    </customValue>
+    <customValue>
+        <fullName>000351</fullName>
+        <default>false</default>
+        <label>Dry Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>000352</fullName>
+        <default>false</default>
+        <label>Flavored Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>000353</fullName>
+        <default>false</default>
+        <label>Genever/Jenever</label>
+    </customValue>
+    <customValue>
+        <fullName>000354</fullName>
+        <default>false</default>
+        <label>London Dry Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>000355</fullName>
+        <default>false</default>
+        <label>Old Tom Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>000356</fullName>
+        <default>false</default>
+        <label>Plymouth Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>000357</fullName>
+        <default>false</default>
+        <label>Absinthe</label>
+    </customValue>
+    <customValue>
+        <fullName>000358</fullName>
+        <default>false</default>
+        <label>Aguardiente</label>
+    </customValue>
+    <customValue>
+        <fullName>000359</fullName>
+        <default>false</default>
+        <label>Akvavit</label>
+    </customValue>
+    <customValue>
+        <fullName>000360</fullName>
+        <default>false</default>
+        <label>Amaretto</label>
+    </customValue>
+    <customValue>
+        <fullName>000361</fullName>
+        <default>false</default>
+        <label>Amaro</label>
+    </customValue>
+    <customValue>
+        <fullName>000362</fullName>
+        <default>false</default>
+        <label>Anisette</label>
+    </customValue>
+    <customValue>
+        <fullName>000363</fullName>
+        <default>false</default>
+        <label>Aquavit</label>
+    </customValue>
+    <customValue>
+        <fullName>000364</fullName>
+        <default>false</default>
+        <label>Arak</label>
+    </customValue>
+    <customValue>
+        <fullName>000365</fullName>
+        <default>false</default>
+        <label>Arancello/Orangecello</label>
+    </customValue>
+    <customValue>
+        <fullName>000366</fullName>
+        <default>false</default>
+        <label>Brandy Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000367</fullName>
+        <default>false</default>
+        <label>Creme de Banane</label>
+    </customValue>
+    <customValue>
+        <fullName>000368</fullName>
+        <default>false</default>
+        <label>Creme de Cacao</label>
+    </customValue>
+    <customValue>
+        <fullName>000369</fullName>
+        <default>false</default>
+        <label>Creme de Cassis</label>
+    </customValue>
+    <customValue>
+        <fullName>000370</fullName>
+        <default>false</default>
+        <label>Creme de Fraise</label>
+    </customValue>
+    <customValue>
+        <fullName>000371</fullName>
+        <default>false</default>
+        <label>Creme de Framboise</label>
+    </customValue>
+    <customValue>
+        <fullName>000372</fullName>
+        <default>false</default>
+        <label>Creme de Gingembre</label>
+    </customValue>
+    <customValue>
+        <fullName>000373</fullName>
+        <default>false</default>
+        <label>Creme de Menthe</label>
+    </customValue>
+    <customValue>
+        <fullName>000374</fullName>
+        <default>false</default>
+        <label>Creme de Mure</label>
+    </customValue>
+    <customValue>
+        <fullName>000375</fullName>
+        <default>false</default>
+        <label>Creme de Noyaux</label>
+    </customValue>
+    <customValue>
+        <fullName>000376</fullName>
+        <default>false</default>
+        <label>Creme de Peche</label>
+    </customValue>
+    <customValue>
+        <fullName>000377</fullName>
+        <default>false</default>
+        <label>Creme de Violette</label>
+    </customValue>
+    <customValue>
+        <fullName>000378</fullName>
+        <default>false</default>
+        <label>Curacao</label>
+    </customValue>
+    <customValue>
+        <fullName>000379</fullName>
+        <default>false</default>
+        <label>Fernet</label>
+    </customValue>
+    <customValue>
+        <fullName>000380</fullName>
+        <default>false</default>
+        <label>Gin Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000381</fullName>
+        <default>false</default>
+        <label>Kummel</label>
+    </customValue>
+    <customValue>
+        <fullName>000382</fullName>
+        <default>false</default>
+        <label>Limoncello</label>
+    </customValue>
+    <customValue>
+        <fullName>000383</fullName>
+        <default>false</default>
+        <label>Liqueur-Anise</label>
+    </customValue>
+    <customValue>
+        <fullName>000384</fullName>
+        <default>false</default>
+        <label>Liqueur-Chocolate</label>
+    </customValue>
+    <customValue>
+        <fullName>000385</fullName>
+        <default>false</default>
+        <label>Liqueur-Coffee</label>
+    </customValue>
+    <customValue>
+        <fullName>000386</fullName>
+        <default>false</default>
+        <label>Liqueur-Cream</label>
+    </customValue>
+    <customValue>
+        <fullName>000387</fullName>
+        <default>false</default>
+        <label>Liqueur-Floral</label>
+    </customValue>
+    <customValue>
+        <fullName>000388</fullName>
+        <default>false</default>
+        <label>Liqueur-Fruit</label>
+    </customValue>
+    <customValue>
+        <fullName>000389</fullName>
+        <default>false</default>
+        <label>Liqueur-Herbal</label>
+    </customValue>
+    <customValue>
+        <fullName>000390</fullName>
+        <default>false</default>
+        <label>Liqueur-Nut Flavored</label>
+    </customValue>
+    <customValue>
+        <fullName>000391</fullName>
+        <default>false</default>
+        <label>Liqueur-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000392</fullName>
+        <default>false</default>
+        <label>Maraschino</label>
+    </customValue>
+    <customValue>
+        <fullName>000393</fullName>
+        <default>false</default>
+        <label>Ouzo</label>
+    </customValue>
+    <customValue>
+        <fullName>000394</fullName>
+        <default>false</default>
+        <label>Pacharan</label>
+    </customValue>
+    <customValue>
+        <fullName>000395</fullName>
+        <default>false</default>
+        <label>Pastis</label>
+    </customValue>
+    <customValue>
+        <fullName>000396</fullName>
+        <default>false</default>
+        <label>Raki</label>
+    </customValue>
+    <customValue>
+        <fullName>000397</fullName>
+        <default>false</default>
+        <label>Rock &amp; Rye</label>
+    </customValue>
+    <customValue>
+        <fullName>000398</fullName>
+        <default>false</default>
+        <label>Rum Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000399</fullName>
+        <default>false</default>
+        <label>Sambuca</label>
+    </customValue>
+    <customValue>
+        <fullName>000400</fullName>
+        <default>false</default>
+        <label>Schnapps</label>
+    </customValue>
+    <customValue>
+        <fullName>000401</fullName>
+        <default>false</default>
+        <label>Sloe Gin</label>
+    </customValue>
+    <customValue>
+        <fullName>000402</fullName>
+        <default>false</default>
+        <label>Tequila Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000403</fullName>
+        <default>false</default>
+        <label>Triple Sec</label>
+    </customValue>
+    <customValue>
+        <fullName>000404</fullName>
+        <default>false</default>
+        <label>Vodka Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000405</fullName>
+        <default>false</default>
+        <label>Whiskey Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000406</fullName>
+        <default>false</default>
+        <label>Aged Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000407</fullName>
+        <default>false</default>
+        <label>Cachaca</label>
+    </customValue>
+    <customValue>
+        <fullName>000408</fullName>
+        <default>false</default>
+        <label>Cane Aguardiente</label>
+    </customValue>
+    <customValue>
+        <fullName>000409</fullName>
+        <default>false</default>
+        <label>Dark Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000410</fullName>
+        <default>false</default>
+        <label>Flavored Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000411</fullName>
+        <default>false</default>
+        <label>Gold Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000412</fullName>
+        <default>false</default>
+        <label>Light Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000413</fullName>
+        <default>false</default>
+        <label>Naval/Navy Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000414</fullName>
+        <default>false</default>
+        <label>Overproof Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000415</fullName>
+        <default>false</default>
+        <label>Rhum Agricole</label>
+    </customValue>
+    <customValue>
+        <fullName>000416</fullName>
+        <default>false</default>
+        <label>Spiced Rum</label>
+    </customValue>
+    <customValue>
+        <fullName>000417</fullName>
+        <default>false</default>
+        <label>Spirits-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000418</fullName>
+        <default>false</default>
+        <label>Apertif</label>
+    </customValue>
+    <customValue>
+        <fullName>000419</fullName>
+        <default>false</default>
+        <label>Awamori</label>
+    </customValue>
+    <customValue>
+        <fullName>000420</fullName>
+        <default>false</default>
+        <label>Baijiu</label>
+    </customValue>
+    <customValue>
+        <fullName>000421</fullName>
+        <default>false</default>
+        <label>Bitters</label>
+    </customValue>
+    <customValue>
+        <fullName>000422</fullName>
+        <default>false</default>
+        <label>Grain Alcohol</label>
+    </customValue>
+    <customValue>
+        <fullName>000423</fullName>
+        <default>false</default>
+        <label>Irish Poteen</label>
+    </customValue>
+    <customValue>
+        <fullName>000424</fullName>
+        <default>false</default>
+        <label>Shochu</label>
+    </customValue>
+    <customValue>
+        <fullName>000425</fullName>
+        <default>false</default>
+        <label>Soju</label>
+    </customValue>
+    <customValue>
+        <fullName>000426</fullName>
+        <default>false</default>
+        <label>Agave Spirit-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000427</fullName>
+        <default>false</default>
+        <label>Flavored Tequila</label>
+    </customValue>
+    <customValue>
+        <fullName>000428</fullName>
+        <default>false</default>
+        <label>Mezcal</label>
+    </customValue>
+    <customValue>
+        <fullName>000429</fullName>
+        <default>false</default>
+        <label>Raicilla</label>
+    </customValue>
+    <customValue>
+        <fullName>000430</fullName>
+        <default>false</default>
+        <label>Sotol</label>
+    </customValue>
+    <customValue>
+        <fullName>000431</fullName>
+        <default>false</default>
+        <label>Tequila</label>
+    </customValue>
+    <customValue>
+        <fullName>000432</fullName>
+        <default>false</default>
+        <label>Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>000433</fullName>
+        <default>false</default>
+        <label>Flavored Vodka</label>
+    </customValue>
+    <customValue>
+        <fullName>000434</fullName>
+        <default>false</default>
+        <label>Vodka Specialty</label>
+    </customValue>
+    <customValue>
+        <fullName>000435</fullName>
+        <default>false</default>
+        <label>Blended American Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000436</fullName>
+        <default>false</default>
+        <label>Blended Bourbon</label>
+    </customValue>
+    <customValue>
+        <fullName>000437</fullName>
+        <default>false</default>
+        <label>Bourbon</label>
+    </customValue>
+    <customValue>
+        <fullName>000438</fullName>
+        <default>false</default>
+        <label>Corn Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000439</fullName>
+        <default>false</default>
+        <label>Light Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000440</fullName>
+        <default>false</default>
+        <label>Malt Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000441</fullName>
+        <default>false</default>
+        <label>Rye Malt Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000442</fullName>
+        <default>false</default>
+        <label>Rye Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000443</fullName>
+        <default>false</default>
+        <label>Straight Bourbon</label>
+    </customValue>
+    <customValue>
+        <fullName>000444</fullName>
+        <default>false</default>
+        <label>Straight Rye Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000445</fullName>
+        <default>false</default>
+        <label>Straight Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000446</fullName>
+        <default>false</default>
+        <label>Tennessee Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000447</fullName>
+        <default>false</default>
+        <label>Wheat Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000448</fullName>
+        <default>false</default>
+        <label>White Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000449</fullName>
+        <default>false</default>
+        <label>Blended Irish Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000450</fullName>
+        <default>false</default>
+        <label>Single Grain Irish Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000451</fullName>
+        <default>false</default>
+        <label>Single Malt Irish Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000452</fullName>
+        <default>false</default>
+        <label>Single Pot Still Irish Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000453</fullName>
+        <default>false</default>
+        <label>Whiskey-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000454</fullName>
+        <default>false</default>
+        <label>Flavored Whiskey</label>
+    </customValue>
+    <customValue>
+        <fullName>000455</fullName>
+        <default>false</default>
+        <label>Single Malt Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>000456</fullName>
+        <default>false</default>
+        <label>Canadian Rye Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>000457</fullName>
+        <default>false</default>
+        <label>Canadian Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>000458</fullName>
+        <default>false</default>
+        <label>Blended Malt Scotch Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>000459</fullName>
+        <default>false</default>
+        <label>Blended Scotch Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>000460</fullName>
+        <default>false</default>
+        <label>Single Grain Scotch Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>000461</fullName>
+        <default>false</default>
+        <label>Single Malt Scotch Whisky</label>
+    </customValue>
+    <customValue>
+        <fullName>000462</fullName>
+        <default>false</default>
+        <label>Aperitif Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000463</fullName>
+        <default>false</default>
+        <label>Aromatized-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000464</fullName>
+        <default>false</default>
+        <label>Vermouth</label>
+    </customValue>
+    <customValue>
+        <fullName>000465</fullName>
+        <default>false</default>
+        <label>Fortified-Other</label>
+    </customValue>
+    <customValue>
+        <fullName>000466</fullName>
+        <default>false</default>
+        <label>Madeira</label>
+    </customValue>
+    <customValue>
+        <fullName>000467</fullName>
+        <default>false</default>
+        <label>Marsala</label>
+    </customValue>
+    <customValue>
+        <fullName>000468</fullName>
+        <default>false</default>
+        <label>Port</label>
+    </customValue>
+    <customValue>
+        <fullName>000469</fullName>
+        <default>false</default>
+        <label>Sherry</label>
+    </customValue>
+    <customValue>
+        <fullName>000470</fullName>
+        <default>false</default>
+        <label>Overwine</label>
+    </customValue>
+    <customValue>
+        <fullName>000471</fullName>
+        <default>false</default>
+        <label>Underwine</label>
+    </customValue>
+    <customValue>
+        <fullName>000472</fullName>
+        <default>false</default>
+        <label>Altar Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000473</fullName>
+        <default>false</default>
+        <label>Cocktail-Wine Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000474</fullName>
+        <default>false</default>
+        <label>Cooking Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000475</fullName>
+        <default>false</default>
+        <label>Flavored Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000476</fullName>
+        <default>false</default>
+        <label>Fruit Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000477</fullName>
+        <default>false</default>
+        <label>Gluhwein</label>
+    </customValue>
+    <customValue>
+        <fullName>000478</fullName>
+        <default>false</default>
+        <label>Liqueur-Wine Based</label>
+    </customValue>
+    <customValue>
+        <fullName>000479</fullName>
+        <default>false</default>
+        <label>May Wine/Maiwein</label>
+    </customValue>
+    <customValue>
+        <fullName>000480</fullName>
+        <default>false</default>
+        <label>Plum Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000481</fullName>
+        <default>false</default>
+        <label>Sangria</label>
+    </customValue>
+    <customValue>
+        <fullName>000482</fullName>
+        <default>false</default>
+        <label>Wine Cooler</label>
+    </customValue>
+    <customValue>
+        <fullName>000483</fullName>
+        <default>false</default>
+        <label>Red Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000484</fullName>
+        <default>false</default>
+        <label>Rose Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000485</fullName>
+        <default>false</default>
+        <label>White Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>000486</fullName>
+        <default>false</default>
+        <label>Red Wine-Sweet</label>
+    </customValue>
+    <customValue>
+        <fullName>000487</fullName>
+        <default>false</default>
+        <label>Rose Wine-Sweet</label>
+    </customValue>
+    <customValue>
+        <fullName>000488</fullName>
+        <default>false</default>
+        <label>White Wine-Sweet</label>
+    </customValue>
+    <customValue>
+        <fullName>ABBEY ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ABBEY ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>ABBEY ALE-DUBBEL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ABBEY ALE-DUBBEL</label>
+    </customValue>
+    <customValue>
+        <fullName>ABBEY ALE-QUADRUPLE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ABBEY ALE-QUADRUPLE</label>
+    </customValue>
+    <customValue>
+        <fullName>ABBEY ALE-TRIPEL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ABBEY ALE-TRIPEL</label>
+    </customValue>
+    <customValue>
+        <fullName>ALE OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ALE OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>ALTBIER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ALTBIER</label>
+    </customValue>
+    <customValue>
+        <fullName>AMBER ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AMBER ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>BARLEYWINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BARLEYWINE</label>
+    </customValue>
+    <customValue>
+        <fullName>BELGIAN ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BELGIAN ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>BIERE DE GARDE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BIERE DE GARDE</label>
+    </customValue>
+    <customValue>
+        <fullName>BITTER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BITTER</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLACK ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>BLONDE ALE/GOLDEN ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLONDE ALE/GOLDEN ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>BLONDE ALE-BELGIAN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLONDE ALE-BELGIAN</label>
+    </customValue>
+    <customValue>
+        <fullName>BROWN ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BROWN ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREAM ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREAM ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>EXTRA SPECIAL BITTER-ESB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EXTRA SPECIAL BITTER-ESB</label>
+    </customValue>
+    <customValue>
+        <fullName>FARMHOUSE ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FARMHOUSE ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>FLANDERS OUDE BRUIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLANDERS OUDE BRUIN</label>
+    </customValue>
+    <customValue>
+        <fullName>FLANDERS RED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLANDERS RED</label>
+    </customValue>
+    <customValue>
+        <fullName>FRUIT BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FRUIT BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>INDIA PALE ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>INDIA PALE ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>INDIA PALE ALE-IMPERIAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>INDIA PALE ALE-IMPERIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>IRISH ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IRISH ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>KOLSCH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KOLSCH</label>
+    </customValue>
+    <customValue>
+        <fullName>LAMBIC-FARO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LAMBIC-FARO</label>
+    </customValue>
+    <customValue>
+        <fullName>LAMBIC-FRUIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LAMBIC-FRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>LAMBIC-GUEUZE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LAMBIC-GUEUZE</label>
+    </customValue>
+    <customValue>
+        <fullName>LAMBIC-UNBLENDED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LAMBIC-UNBLENDED</label>
+    </customValue>
+    <customValue>
+        <fullName>MILD ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MILD ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>PALE ALE-AMERICAN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PALE ALE-AMERICAN</label>
+    </customValue>
+    <customValue>
+        <fullName>PALE ALE-ENGLISH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PALE ALE-ENGLISH</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PORTER</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTER-BALTIC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PORTER-BALTIC</label>
+    </customValue>
+    <customValue>
+        <fullName>PORTER-IMPERIAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PORTER-IMPERIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>RED ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RED ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>RYE BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RYE BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>SAISON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAISON</label>
+    </customValue>
+    <customValue>
+        <fullName>SCOTTISH ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SCOTTISH ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>SMOKED ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SMOKED ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>SOUR ALE/WILD ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SOUR ALE/WILD ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICED ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SPICED ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-CHOCOLATE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-CHOCOLATE</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-COFFEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-COFFEE</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-DRY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-DRY</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-FLAVORED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-FLAVORED</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-FOREIGN/EXTRA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-FOREIGN/EXTRA</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-IMPERIAL/RUSSIAN IMPERIAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-IMPERIAL/RUSSIAN IMPERIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-MILK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-MILK</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-OATMEAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-OATMEAL</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-OYSTER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-OYSTER</label>
+    </customValue>
+    <customValue>
+        <fullName>STOUT-SWEET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STOUT-SWEET</label>
+    </customValue>
+    <customValue>
+        <fullName>STRONG ALE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STRONG ALE</label>
+    </customValue>
+    <customValue>
+        <fullName>STRONG ALE-BELGIAN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STRONG ALE-BELGIAN</label>
+    </customValue>
+    <customValue>
+        <fullName>TRAPPIST</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TRAPPIST</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER-AMERICAN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER-AMERICAN</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER-BERLINER WEISS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER-BERLINER WEISS</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER-DUNKEL WEIZEN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER-DUNKEL WEIZEN</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER-HEFEWEIZEN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER-HEFEWEIZEN</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER-KRYSTAL WEIZEN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER-KRYSTAL WEIZEN</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER-WEIZENBOCK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER-WEIZENBOCK</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT BEER-WIT BIER/WHITE BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT BEER-WIT BIER/WHITE BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEATWINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEATWINE</label>
+    </customValue>
+    <customValue>
+        <fullName>BOCK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOCK</label>
+    </customValue>
+    <customValue>
+        <fullName>BOCK-DOPPLEBOCK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOCK-DOPPLEBOCK</label>
+    </customValue>
+    <customValue>
+        <fullName>BOCK-EISBOCK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOCK-EISBOCK</label>
+    </customValue>
+    <customValue>
+        <fullName>BOCK-MAIBOCK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOCK-MAIBOCK</label>
+    </customValue>
+    <customValue>
+        <fullName>CALIFORNIA COMMON/STEAM BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CALIFORNIA COMMON/STEAM BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK LAGER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DARK LAGER</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK LAGER-DUNKEL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DARK LAGER-DUNKEL</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK LAGER-SCHWARZBIER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DARK LAGER-SCHWARZBIER</label>
+    </customValue>
+    <customValue>
+        <fullName>DORTMUNDER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DORTMUNDER</label>
+    </customValue>
+    <customValue>
+        <fullName>HELLES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HELLES</label>
+    </customValue>
+    <customValue>
+        <fullName>KELLERBIER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KELLERBIER</label>
+    </customValue>
+    <customValue>
+        <fullName>LAGER-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LAGER-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>MARZEN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARZEN</label>
+    </customValue>
+    <customValue>
+        <fullName>PALE LAGER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PALE LAGER</label>
+    </customValue>
+    <customValue>
+        <fullName>PALE LAGER-LIGHT BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PALE LAGER-LIGHT BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>PALE LAGER-STRONG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PALE LAGER-STRONG</label>
+    </customValue>
+    <customValue>
+        <fullName>PILS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PILS</label>
+    </customValue>
+    <customValue>
+        <fullName>PILSNER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PILSNER</label>
+    </customValue>
+    <customValue>
+        <fullName>PILSNER-BOHEMIAN/CZECH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PILSNER-BOHEMIAN/CZECH</label>
+    </customValue>
+    <customValue>
+        <fullName>PILSNER-IMPERIAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PILSNER-IMPERIAL</label>
+    </customValue>
+    <customValue>
+        <fullName>RAUCHBIER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RAUCHBIER</label>
+    </customValue>
+    <customValue>
+        <fullName>AMBER LAGER/RED LAGER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AMBER LAGER/RED LAGER</label>
+    </customValue>
+    <customValue>
+        <fullName>VIENNA LAGER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VIENNA LAGER</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAILS-MALT BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAILS-MALT BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED MALT BEVERAGE/MALT COOLER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED MALT BEVERAGE/MALT COOLER</label>
+    </customValue>
+    <customValue>
+        <fullName>MALT BEVERAGE-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MALT BEVERAGE-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>MALT LIQUOR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MALT LIQUOR</label>
+    </customValue>
+    <customValue>
+        <fullName>FALL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FALL</label>
+    </customValue>
+    <customValue>
+        <fullName>SEASONAL-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SEASONAL-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>SPRING</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SPRING</label>
+    </customValue>
+    <customValue>
+        <fullName>SUMMER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SUMMER</label>
+    </customValue>
+    <customValue>
+        <fullName>WINTER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WINTER</label>
+    </customValue>
+    <customValue>
+        <fullName>DEPOSIT-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DEPOSIT-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>EQUIPMENT DEPOSIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EQUIPMENT DEPOSIT</label>
+    </customValue>
+    <customValue>
+        <fullName>KEG DEPOSIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KEG DEPOSIT</label>
+    </customValue>
+    <customValue>
+        <fullName>TANK DEPOSIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TANK DEPOSIT</label>
+    </customValue>
+    <customValue>
+        <fullName>FEE-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FEE-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>HANDLING FEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HANDLING FEE</label>
+    </customValue>
+    <customValue>
+        <fullName>MISC FEES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MISC FEES</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICE FEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SERVICE FEE</label>
+    </customValue>
+    <customValue>
+        <fullName>SHIPPING FEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SHIPPING FEE</label>
+    </customValue>
+    <customValue>
+        <fullName>BEER WAGON RENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BEER WAGON RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>JOCKEY BOX RENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JOCKEY BOX RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>KIOSK RENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KIOSK RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>RENTAL-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RENTAL-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>ROLL AROUND RENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ROLL AROUND RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TANK RENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TANK RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TRAILER RENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TRAILER RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>TRUCK/STORAGE RENTAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TRUCK/STORAGE RENTAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CHERRIES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CHERRIES</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAIL FOAM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAIL FOAM</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAIL GARNISH-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAIL GARNISH-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAIL SPRAY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAIL SPRAY</label>
+    </customValue>
+    <customValue>
+        <fullName>OLIVES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLIVES</label>
+    </customValue>
+    <customValue>
+        <fullName>ONIONS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ONIONS</label>
+    </customValue>
+    <customValue>
+        <fullName>SALT RIMMER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SALT RIMMER</label>
+    </customValue>
+    <customValue>
+        <fullName>SUGAR RIMMER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SUGAR RIMMER</label>
+    </customValue>
+    <customValue>
+        <fullName>OIL-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OIL-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>OLIVE OIL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLIVE OIL</label>
+    </customValue>
+    <customValue>
+        <fullName>BBQ SAUCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BBQ SAUCE</label>
+    </customValue>
+    <customValue>
+        <fullName>CHOCOLATE SAUCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CHOCOLATE SAUCE</label>
+    </customValue>
+    <customValue>
+        <fullName>HOT SAUCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HOT SAUCE</label>
+    </customValue>
+    <customValue>
+        <fullName>PASTA SAUCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PASTA SAUCE</label>
+    </customValue>
+    <customValue>
+        <fullName>SAUCE-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAUCE-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>BALSAMIC VINEGAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BALSAMIC VINEGAR</label>
+    </customValue>
+    <customValue>
+        <fullName>RED WINE VINEGAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RED WINE VINEGAR</label>
+    </customValue>
+    <customValue>
+        <fullName>VINEGAR-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VINEGAR-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE WINE VINEGAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHITE WINE VINEGAR</label>
+    </customValue>
+    <customValue>
+        <fullName>BAR ACCESSORY-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BAR ACCESSORY-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>BUCKET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BUCKET</label>
+    </customValue>
+    <customValue>
+        <fullName>CARAFE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CARAFE</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAIL NAPKINS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAIL NAPKINS</label>
+    </customValue>
+    <customValue>
+        <fullName>GARNISH TRAY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GARNISH TRAY</label>
+    </customValue>
+    <customValue>
+        <fullName>GROWLER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GROWLER</label>
+    </customValue>
+    <customValue>
+        <fullName>INFUSION JAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>INFUSION JAR</label>
+    </customValue>
+    <customValue>
+        <fullName>JIGGER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JIGGER</label>
+    </customValue>
+    <customValue>
+        <fullName>PITCHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PITCHER</label>
+    </customValue>
+    <customValue>
+        <fullName>PUNCH BOWL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PUNCH BOWL</label>
+    </customValue>
+    <customValue>
+        <fullName>RIMMER TRAY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RIMMER TRAY</label>
+    </customValue>
+    <customValue>
+        <fullName>SCREWPULL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SCREWPULL</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVICE KIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SERVICE KIT</label>
+    </customValue>
+    <customValue>
+        <fullName>SERVING TRAY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SERVING TRAY</label>
+    </customValue>
+    <customValue>
+        <fullName>SHAKER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SHAKER</label>
+    </customValue>
+    <customValue>
+        <fullName>SPEED POURER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SPEED POURER</label>
+    </customValue>
+    <customValue>
+        <fullName>STIR ROD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STIR ROD</label>
+    </customValue>
+    <customValue>
+        <fullName>WINE DECANTER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WINE DECANTER</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAGED GOODS-BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAMAGED GOODS-BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAGED GOODS-NON-ALCOHOLIC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAMAGED GOODS-NON-ALCOHOLIC</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAGED GOODS-OTHER FERMENTED BEVERAGES</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAMAGED GOODS-OTHER FERMENTED BEVERAGES</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAGED GOODS-SAKE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAMAGED GOODS-SAKE</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAGED GOODS-SPIRITS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAMAGED GOODS-SPIRITS</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAGED GOODS-WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAMAGED GOODS-WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAGED GOODS-MISCELLANEOUS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAMAGED GOODS-MISCELLANEOUS</label>
+    </customValue>
+    <customValue>
+        <fullName>BEER GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BEER GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAIL GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAIL GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>COPPER MUG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COPPER MUG</label>
+    </customValue>
+    <customValue>
+        <fullName>COUPE COCKTAIL GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COUPE COCKTAIL GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>CUP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CUP</label>
+    </customValue>
+    <customValue>
+        <fullName>DRINKWARE-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DRINKWARE-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>FLUTE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLUTE</label>
+    </customValue>
+    <customValue>
+        <fullName>GOBLET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GOBLET</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGH BALL GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HIGH BALL GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARGARITA GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>MARTINI GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARTINI GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>MASON JAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MASON JAR</label>
+    </customValue>
+    <customValue>
+        <fullName>MUG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MUG</label>
+    </customValue>
+    <customValue>
+        <fullName>PINT GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PINT GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>ROCKS GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ROCKS GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>SHOT GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SHOT GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>TANKARD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TANKARD</label>
+    </customValue>
+    <customValue>
+        <fullName>TUMBLER GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TUMBLER GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>WINE GLASS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WINE GLASS</label>
+    </customValue>
+    <customValue>
+        <fullName>CART</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CART</label>
+    </customValue>
+    <customValue>
+        <fullName>CHILLER MACHINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CHILLER MACHINE</label>
+    </customValue>
+    <customValue>
+        <fullName>DISPLAY/STORAGE RACK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DISPLAY/STORAGE RACK</label>
+    </customValue>
+    <customValue>
+        <fullName>EQUIPMENT-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EQUIPMENT-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>GLASS FREEZER/CHILLER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GLASS FREEZER/CHILLER</label>
+    </customValue>
+    <customValue>
+        <fullName>PALLET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PALLET</label>
+    </customValue>
+    <customValue>
+        <fullName>PERLAGE SYSTEM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PERLAGE SYSTEM</label>
+    </customValue>
+    <customValue>
+        <fullName>REFRIGERATOR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>REFRIGERATOR</label>
+    </customValue>
+    <customValue>
+        <fullName>SAKE WARMER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAKE WARMER</label>
+    </customValue>
+    <customValue>
+        <fullName>SHOT MACHINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SHOT MACHINE</label>
+    </customValue>
+    <customValue>
+        <fullName>BEER FAUCET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BEER FAUCET</label>
+    </customValue>
+    <customValue>
+        <fullName>CO2 CYLINDER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CO2 CYLINDER</label>
+    </customValue>
+    <customValue>
+        <fullName>COMPRESSOR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COMPRESSOR</label>
+    </customValue>
+    <customValue>
+        <fullName>EMPTY BEER KEG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EMPTY BEER KEG</label>
+    </customValue>
+    <customValue>
+        <fullName>EMPTY WINE KEG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EMPTY WINE KEG</label>
+    </customValue>
+    <customValue>
+        <fullName>KEG &amp; DRAFT-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KEG &amp; DRAFT-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>KEG PALLET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KEG PALLET</label>
+    </customValue>
+    <customValue>
+        <fullName>KEG PUMP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KEG PUMP</label>
+    </customValue>
+    <customValue>
+        <fullName>KEG TUB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KEG TUB</label>
+    </customValue>
+    <customValue>
+        <fullName>NITRO TANK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NITRO TANK</label>
+    </customValue>
+    <customValue>
+        <fullName>REGULATOR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>REGULATOR</label>
+    </customValue>
+    <customValue>
+        <fullName>TAP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TAP</label>
+    </customValue>
+    <customValue>
+        <fullName>TAP HANDLE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TAP HANDLE</label>
+    </customValue>
+    <customValue>
+        <fullName>APPAREL-BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>APPAREL-BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>BAG-BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BAG-BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>BARREL-BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BARREL-BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>DISPLAY RACK-BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DISPLAY RACK-BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>PATIO UMBRELLA-BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PATIO UMBRELLA-BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>POS-BEER OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>POS-BEER OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGNAGE-BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SIGNAGE-BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>APPAREL-NON-ALC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>APPAREL-NON-ALC</label>
+    </customValue>
+    <customValue>
+        <fullName>BAG-NON-ALC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BAG-NON-ALC</label>
+    </customValue>
+    <customValue>
+        <fullName>BARREL-NON-ALC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BARREL-NON-ALC</label>
+    </customValue>
+    <customValue>
+        <fullName>DISPLAY RACK-NON-ALC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DISPLAY RACK-NON-ALC</label>
+    </customValue>
+    <customValue>
+        <fullName>PATIO UMBRELLA-NON-ALC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PATIO UMBRELLA-NON-ALC</label>
+    </customValue>
+    <customValue>
+        <fullName>POS-NON-ALC OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>POS-NON-ALC OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGNAGE-NON-ALC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SIGNAGE-NON-ALC</label>
+    </customValue>
+    <customValue>
+        <fullName>APPAREL-SPIRITS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>APPAREL-SPIRITS</label>
+    </customValue>
+    <customValue>
+        <fullName>BAG-SPIRITS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BAG-SPIRITS</label>
+    </customValue>
+    <customValue>
+        <fullName>BARREL-SPIRITS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BARREL-SPIRITS</label>
+    </customValue>
+    <customValue>
+        <fullName>DISPLAY RACK-SPIRITS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DISPLAY RACK-SPIRITS</label>
+    </customValue>
+    <customValue>
+        <fullName>PATIO UMBRELLA-SPIRITS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PATIO UMBRELLA-SPIRITS</label>
+    </customValue>
+    <customValue>
+        <fullName>POS-SPIRITS OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>POS-SPIRITS OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGNAGE-SPIRITS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SIGNAGE-SPIRITS</label>
+    </customValue>
+    <customValue>
+        <fullName>APPAREL-WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>APPAREL-WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>BAG-WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BAG-WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>BARREL-WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BARREL-WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>DISPLAY RACK-WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DISPLAY RACK-WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>PATIO UMBRELLA-WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PATIO UMBRELLA-WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>POS-WINE OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>POS-WINE OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>SIGNAGE-WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SIGNAGE-WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>AGAVE NECTAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AGAVE NECTAR</label>
+    </customValue>
+    <customValue>
+        <fullName>BITTERS-NON ALCOHOLIC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BITTERS-NON ALCOHOLIC</label>
+    </customValue>
+    <customValue>
+        <fullName>BLOODY MARY MIX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLOODY MARY MIX</label>
+    </customValue>
+    <customValue>
+        <fullName>CLUB SODA/SODA WATER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CLUB SODA/SODA WATER</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAIL MIXER-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAIL MIXER-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>COLLINS MIX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COLLINS MIX</label>
+    </customValue>
+    <customValue>
+        <fullName>GINGER BEER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINGER BEER</label>
+    </customValue>
+    <customValue>
+        <fullName>GRENADINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRENADINE</label>
+    </customValue>
+    <customValue>
+        <fullName>LIME JUICE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIME JUICE</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA MIX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARGARITA MIX</label>
+    </customValue>
+    <customValue>
+        <fullName>ORGEAT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ORGEAT</label>
+    </customValue>
+    <customValue>
+        <fullName>PINA COLADA MIX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PINA COLADA MIX</label>
+    </customValue>
+    <customValue>
+        <fullName>PUREE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PUREE</label>
+    </customValue>
+    <customValue>
+        <fullName>SWEET &amp; SOUR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SWEET &amp; SOUR</label>
+    </customValue>
+    <customValue>
+        <fullName>TONIC WATER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TONIC WATER</label>
+    </customValue>
+    <customValue>
+        <fullName>JUICE-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUICE-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>ORANGE JUICE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ORANGE JUICE</label>
+    </customValue>
+    <customValue>
+        <fullName>TOMATO JUICE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TOMATO JUICE</label>
+    </customValue>
+    <customValue>
+        <fullName>CRANBERRY JUICE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CRANBERRY JUICE</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAPEFRUIT JUICE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRAPEFRUIT JUICE</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED WATER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED WATER</label>
+    </customValue>
+    <customValue>
+        <fullName>SPARKLING WATER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SPARKLING WATER</label>
+    </customValue>
+    <customValue>
+        <fullName>STILL WATER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STILL WATER</label>
+    </customValue>
+    <customValue>
+        <fullName>HARD APPLE CIDER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HARD APPLE CIDER</label>
+    </customValue>
+    <customValue>
+        <fullName>HARD CIDER-FLAVORED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HARD CIDER-FLAVORED</label>
+    </customValue>
+    <customValue>
+        <fullName>HARD CIDER-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HARD CIDER-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>PERRY/PEAR CIDER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PERRY/PEAR CIDER</label>
+    </customValue>
+    <customValue>
+        <fullName>MEAD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MEAD</label>
+    </customValue>
+    <customValue>
+        <fullName>MEAD-FLAVORED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MEAD-FLAVORED</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO NAMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO NAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO NAMA GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO NAMA GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO NAMA NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO NAMA NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO NAMA NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO NAMA NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIGINJO NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIGINJO NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>FUTSUU SHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FUTSUU SHU</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO NAMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO NAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO NAMA GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO NAMA GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO NAMA NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO NAMA NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO NAMA NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO NAMA NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>GINJO NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GINJO NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO NAMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO NAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO NAMA GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO NAMA GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO NAMA NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO NAMA NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO NAMA NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO NAMA NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>HONJOZO NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HONJOZO NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO NAMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO NAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO NAMA GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO NAMA GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO NAMA NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO NAMA NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO NAMA NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO NAMA NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI DAIGINJO NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI DAIGINJO NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO NAMA NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO NAMA NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO NAMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO NAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO NAMA GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO NAMA GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO NAMA NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO NAMA NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI GINJO NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI GINJO NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI NAMA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI NAMA</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI NAMA GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI NAMA GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI NAMA NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI NAMA NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI NAMA NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI NAMA NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI NIGORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI NIGORI</label>
+    </customValue>
+    <customValue>
+        <fullName>JUNMAI NIGORI GENSHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JUNMAI NIGORI GENSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>SAKE-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAKE-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>COOKING SAKE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COOKING SAKE</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED SAKE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED SAKE</label>
+    </customValue>
+    <customValue>
+        <fullName>SPARKLING SAKE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SPARKLING SAKE</label>
+    </customValue>
+    <customValue>
+        <fullName>CALVADOS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CALVADOS</label>
+    </customValue>
+    <customValue>
+        <fullName>EAU DE VIE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EAU DE VIE</label>
+    </customValue>
+    <customValue>
+        <fullName>FRUIT BRANDY-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FRUIT BRANDY-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>KIRSCH/KIRSCHWASSER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KIRSCH/KIRSCHWASSER</label>
+    </customValue>
+    <customValue>
+        <fullName>MIRABELLE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MIRABELLE</label>
+    </customValue>
+    <customValue>
+        <fullName>OBSTLER/OBSTBRAND</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OBSTLER/OBSTBRAND</label>
+    </customValue>
+    <customValue>
+        <fullName>POIRE WILLIAMS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>POIRE WILLIAMS</label>
+    </customValue>
+    <customValue>
+        <fullName>QUETSCH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>QUETSCH</label>
+    </customValue>
+    <customValue>
+        <fullName>RAKIA/RAKIJA-FRUIT BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RAKIA/RAKIJA-FRUIT BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>SLIVOVITZ/SLIVOVICKA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SLIVOVITZ/SLIVOVICKA</label>
+    </customValue>
+    <customValue>
+        <fullName>ALAMBIC BRANDY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ALAMBIC BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>ARMAGNAC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ARMAGNAC</label>
+    </customValue>
+    <customValue>
+        <fullName>BRANDY DE JEREZ</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BRANDY DE JEREZ</label>
+    </customValue>
+    <customValue>
+        <fullName>COGNAC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COGNAC</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED GRAPE BRANDY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED GRAPE BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAPE BRANDY-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRAPE BRANDY-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAPPA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRAPPA</label>
+    </customValue>
+    <customValue>
+        <fullName>MARC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARC</label>
+    </customValue>
+    <customValue>
+        <fullName>NAPOLEON BRANDY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NAPOLEON BRANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>PISCO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PISCO</label>
+    </customValue>
+    <customValue>
+        <fullName>RAKIA/RAKIJA-GRAPE BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RAKIA/RAKIJA-GRAPE BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>TSIPOURO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TSIPOURO</label>
+    </customValue>
+    <customValue>
+        <fullName>BLOODY MARY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLOODY MARY</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAILS-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAILS-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>COLLINS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COLLINS</label>
+    </customValue>
+    <customValue>
+        <fullName>COSMOPOLITAN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COSMOPOLITAN</label>
+    </customValue>
+    <customValue>
+        <fullName>DAIQUIRI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DAIQUIRI</label>
+    </customValue>
+    <customValue>
+        <fullName>EGG NOG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EGG NOG</label>
+    </customValue>
+    <customValue>
+        <fullName>KAMIKAZE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KAMIKAZE</label>
+    </customValue>
+    <customValue>
+        <fullName>LONG ISLAND ICED TEA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LONG ISLAND ICED TEA</label>
+    </customValue>
+    <customValue>
+        <fullName>MAI TAI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MAI TAI</label>
+    </customValue>
+    <customValue>
+        <fullName>MANHATTAN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MANHATTAN</label>
+    </customValue>
+    <customValue>
+        <fullName>MARGARITA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARGARITA</label>
+    </customValue>
+    <customValue>
+        <fullName>MARTINI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARTINI</label>
+    </customValue>
+    <customValue>
+        <fullName>MOJITO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOJITO</label>
+    </customValue>
+    <customValue>
+        <fullName>MOSCOW MULE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MOSCOW MULE</label>
+    </customValue>
+    <customValue>
+        <fullName>MUDSLIDE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MUDSLIDE</label>
+    </customValue>
+    <customValue>
+        <fullName>PINA COLADA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PINA COLADA</label>
+    </customValue>
+    <customValue>
+        <fullName>WHISKEY SOUR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHISKEY SOUR</label>
+    </customValue>
+    <customValue>
+        <fullName>DRY GIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DRY GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED GIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>GENEVER/JENEVER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GENEVER/JENEVER</label>
+    </customValue>
+    <customValue>
+        <fullName>LONDON DRY GIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LONDON DRY GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>OLD TOM GIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OLD TOM GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>PLYMOUTH GIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PLYMOUTH GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>ABSINTHE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ABSINTHE</label>
+    </customValue>
+    <customValue>
+        <fullName>AGUARDIENTE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AGUARDIENTE</label>
+    </customValue>
+    <customValue>
+        <fullName>AKVAVIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AKVAVIT</label>
+    </customValue>
+    <customValue>
+        <fullName>AMARETTO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AMARETTO</label>
+    </customValue>
+    <customValue>
+        <fullName>AMARO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AMARO</label>
+    </customValue>
+    <customValue>
+        <fullName>ANISETTE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ANISETTE</label>
+    </customValue>
+    <customValue>
+        <fullName>AQUAVIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AQUAVIT</label>
+    </customValue>
+    <customValue>
+        <fullName>ARAK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ARAK</label>
+    </customValue>
+    <customValue>
+        <fullName>ARANCELLO/ORANGECELLO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ARANCELLO/ORANGECELLO</label>
+    </customValue>
+    <customValue>
+        <fullName>BRANDY BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BRANDY BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE BANANE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE BANANE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE CACAO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE CACAO</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE CASSIS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE CASSIS</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE FRAISE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE FRAISE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE FRAMBOISE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE FRAMBOISE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE GINGEMBRE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE GINGEMBRE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE MENTHE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE MENTHE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE MURE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE MURE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE NOYAUX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE NOYAUX</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE PECHE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE PECHE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREME DE VIOLETTE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREME DE VIOLETTE</label>
+    </customValue>
+    <customValue>
+        <fullName>CURACAO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CURACAO</label>
+    </customValue>
+    <customValue>
+        <fullName>FERNET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FERNET</label>
+    </customValue>
+    <customValue>
+        <fullName>GIN BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GIN BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>KUMMEL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KUMMEL</label>
+    </customValue>
+    <customValue>
+        <fullName>LIMONCELLO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIMONCELLO</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-ANISE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-ANISE</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-CHOCOLATE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-CHOCOLATE</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-COFFEE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-COFFEE</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-CREAM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-CREAM</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-FLORAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-FLORAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-FRUIT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-FRUIT</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-HERBAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-HERBAL</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-NUT FLAVORED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-NUT FLAVORED</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>MARASCHINO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARASCHINO</label>
+    </customValue>
+    <customValue>
+        <fullName>OUZO</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OUZO</label>
+    </customValue>
+    <customValue>
+        <fullName>PACHARAN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PACHARAN</label>
+    </customValue>
+    <customValue>
+        <fullName>PASTIS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PASTIS</label>
+    </customValue>
+    <customValue>
+        <fullName>RAKI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RAKI</label>
+    </customValue>
+    <customValue>
+        <fullName>ROCK &amp; RYE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ROCK &amp; RYE</label>
+    </customValue>
+    <customValue>
+        <fullName>RUM BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RUM BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>SAMBUCA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SAMBUCA</label>
+    </customValue>
+    <customValue>
+        <fullName>SCHNAPPS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SCHNAPPS</label>
+    </customValue>
+    <customValue>
+        <fullName>SLOE GIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SLOE GIN</label>
+    </customValue>
+    <customValue>
+        <fullName>TEQUILA BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TEQUILA BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>TRIPLE SEC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TRIPLE SEC</label>
+    </customValue>
+    <customValue>
+        <fullName>VODKA BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VODKA BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>WHISKEY BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHISKEY BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>AGED RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AGED RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>CACHACA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CACHACA</label>
+    </customValue>
+    <customValue>
+        <fullName>CANE AGUARDIENTE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CANE AGUARDIENTE</label>
+    </customValue>
+    <customValue>
+        <fullName>DARK RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DARK RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>GOLD RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GOLD RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>LIGHT RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIGHT RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>NAVAL/NAVY RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NAVAL/NAVY RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>OVERPROOF RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OVERPROOF RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>RHUM AGRICOLE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RHUM AGRICOLE</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICED RUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SPICED RUM</label>
+    </customValue>
+    <customValue>
+        <fullName>APERITIF</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>APERITIF</label>
+    </customValue>
+    <customValue>
+        <fullName>AWAMORI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AWAMORI</label>
+    </customValue>
+    <customValue>
+        <fullName>BAIJIU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BAIJIU</label>
+    </customValue>
+    <customValue>
+        <fullName>BITTERS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BITTERS</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAIN ALCOHOL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GRAIN ALCOHOL</label>
+    </customValue>
+    <customValue>
+        <fullName>IRISH POTEEN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IRISH POTEEN</label>
+    </customValue>
+    <customValue>
+        <fullName>SHOCHU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SHOCHU</label>
+    </customValue>
+    <customValue>
+        <fullName>SOJU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SOJU</label>
+    </customValue>
+    <customValue>
+        <fullName>SPIRITS-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SPIRITS-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>AGAVE SPIRIT-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AGAVE SPIRIT-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED TEQUILA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED TEQUILA</label>
+    </customValue>
+    <customValue>
+        <fullName>MEZCAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MEZCAL</label>
+    </customValue>
+    <customValue>
+        <fullName>RAICILLA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RAICILLA</label>
+    </customValue>
+    <customValue>
+        <fullName>SOTOL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SOTOL</label>
+    </customValue>
+    <customValue>
+        <fullName>TEQUILA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TEQUILA</label>
+    </customValue>
+    <customValue>
+        <fullName>VODKA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED VODKA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED VODKA</label>
+    </customValue>
+    <customValue>
+        <fullName>VODKA SPECIALTY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VODKA SPECIALTY</label>
+    </customValue>
+    <customValue>
+        <fullName>BLENDED AMERICAN WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLENDED AMERICAN WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>BLENDED BOURBON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLENDED BOURBON</label>
+    </customValue>
+    <customValue>
+        <fullName>BOURBON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BOURBON</label>
+    </customValue>
+    <customValue>
+        <fullName>CORN WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CORN WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>LIGHT WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIGHT WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>MALT WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MALT WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>RYE MALT WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RYE MALT WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>RYE WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RYE WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAIGHT BOURBON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STRAIGHT BOURBON</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAIGHT RYE WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STRAIGHT RYE WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>STRAIGHT WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STRAIGHT WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>TENNESSEE WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TENNESSEE WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>WHEAT WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHEAT WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHITE WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>BLENDED IRISH WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLENDED IRISH WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE GRAIN IRISH WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SINGLE GRAIN IRISH WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE MALT IRISH WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SINGLE MALT IRISH WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE POT STILL IRISH WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SINGLE POT STILL IRISH WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>WHISKEY-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHISKEY-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED WHISKEY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED WHISKEY</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE MALT WHISKY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SINGLE MALT WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN RYE WHISKY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CANADIAN RYE WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>CANADIAN WHISKY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CANADIAN WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>BLENDED MALT SCOTCH WHISKY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLENDED MALT SCOTCH WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>BLENDED SCOTCH WHISKY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BLENDED SCOTCH WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE GRAIN SCOTCH WHISKY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SINGLE GRAIN SCOTCH WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>SINGLE MALT SCOTCH WHISKY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SINGLE MALT SCOTCH WHISKY</label>
+    </customValue>
+    <customValue>
+        <fullName>APERITIF WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>APERITIF WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>AROMATIZED-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>AROMATIZED-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>VERMOUTH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VERMOUTH</label>
+    </customValue>
+    <customValue>
+        <fullName>FORTIFIED-OTHER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FORTIFIED-OTHER</label>
+    </customValue>
+    <customValue>
+        <fullName>MADEIRA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MADEIRA</label>
+    </customValue>
+    <customValue>
+        <fullName>MARSALA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MARSALA</label>
+    </customValue>
+    <customValue>
+        <fullName>PORT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PORT</label>
+    </customValue>
+    <customValue>
+        <fullName>SHERRY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SHERRY</label>
+    </customValue>
+    <customValue>
+        <fullName>OVERWINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OVERWINE</label>
+    </customValue>
+    <customValue>
+        <fullName>UNDERWINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UNDERWINE</label>
+    </customValue>
+    <customValue>
+        <fullName>ALTAR WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ALTAR WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>COCKTAIL-WINE BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COCKTAIL-WINE BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>COOKING WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>COOKING WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>FLAVORED WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLAVORED WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>FRUIT WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FRUIT WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>GLUHWEIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GLUHWEIN</label>
+    </customValue>
+    <customValue>
+        <fullName>LIQUEUR-WINE BASED</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LIQUEUR-WINE BASED</label>
+    </customValue>
+    <customValue>
+        <fullName>MAY WINE/MAIWEIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MAY WINE/MAIWEIN</label>
+    </customValue>
+    <customValue>
+        <fullName>PLUM WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PLUM WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>SANGRIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SANGRIA</label>
+    </customValue>
+    <customValue>
+        <fullName>WINE COOLER</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WINE COOLER</label>
+    </customValue>
+    <customValue>
+        <fullName>RED WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RED WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>ROSE WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ROSE WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE WINE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHITE WINE</label>
+    </customValue>
+    <customValue>
+        <fullName>RED WINE-SWEET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RED WINE-SWEET</label>
+    </customValue>
+    <customValue>
+        <fullName>ROSE WINE-SWEET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ROSE WINE-SWEET</label>
+    </customValue>
+    <customValue>
+        <fullName>WHITE WINE-SWEET</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>WHITE WINE-SWEET</label>
+    </customValue>
+    <description>Sub-Class in the taxonomy of SGWS product grouping.</description>
+    <masterLabel>Sub-Class</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

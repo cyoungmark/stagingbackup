@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Help Desk</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Help_Desk</publicGroup>
+        </publicGroups>
+        <users>
+            <user>emeryb@twg.com</user>
+            <user>davisond@twg.com</user>
+            <user>gratamam@twg.com</user>
+            <user>magluyanm@twg.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transfer Cost Table</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transfer Cost Tables</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case Transfer Cost --></label>
+        <name>TCT_Case_Transfer_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Palt Transfer Cost --></label>
+        <name>TCT_Palt_Transfer_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Whs --></label>
+        <name>TCT_Primary_Whs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transfer Whs --></label>
+        <name>TCT_Transfer_Whs__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

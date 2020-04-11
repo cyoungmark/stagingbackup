@@ -1,0 +1,195 @@
+<aura:component controller="CustomTTRCreate" implements="force:hasRecordId,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickActionWithoutHeader,lightning:actionOverride" access="global" >
+	<aura:attribute name="newTTR" type="Tour_and_Tasting_Request__c"
+     default="{ 'sobjectType': 'Tour_and_Tasting_Request__c',
+                     'Tour_and_Tasting__c': '','Winery__c':'','Earliest_Date_of_Visit__c':null,
+              'Earliest_Start_Time__c':'','Latest_Date_of_Visit__c':null,'Latest_Start_Time__c':'',
+              'First_Visit__c':false,'Billing_Code__c':'','Lunch_Request__c':false,'Dietary_Restrictions__c':false,
+              'Lunch_Type__c':'','Dietary_Restriction_Details__c':'','Lodging_Request__c':false,
+              'Check_in_Date__c':null,'Check_out_Date__c':null,'Request_Type_text__c':'','Confirmed_Date_of_Visit__c':null,'Confirmed_Time_of_Visit__c':'',
+              'Approval_Status__c':'','Date_Submitted_for_Approval__c':null,'Lodging_Approval_Status__c':'','Date_Approved__c':null
+                   }"/>
+    <aura:attribute name="newTTREmpty" type="Tour_and_Tasting_Request__c"
+     default="{ 'sobjectType': 'Tour_and_Tasting_Request__c',
+                     'Tour_and_Tasting__c': '','Winery__c':'','Earliest_Date_of_Visit__c':null,
+              'Earliest_Start_Time__c':'','Latest_Date_of_Visit__c':null,'Latest_Start_Time__c':'',
+              'First_Visit__c':false,'Billing_Code__c':'','Lunch_Request__c':false,'Dietary_Restrictions__c':false,
+              'Lunch_Type__c':'','Dietary_Restriction_Details__c':'','Lodging_Request__c':false,
+              'Check_in_Date__c':null,'Check_out_Date__c':null,'Request_Type_text__c':'','Confirmed_Date_of_Visit__c':null,'Confirmed_Time_of_Visit__c':'',
+              'Approval_Status__c':'','Date_Submitted_for_Approval__c':null,'Lodging_Approval_Status__c':'','Date_Approved__c':null
+                   }"/>
+    <aura:attribute name="selectedOption" type="String"/>
+	<aura:attribute name="options" type="String[]"/>
+    <aura:attribute name="recordId" type="Id" />
+
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+  
+    <lightning:messages/>
+          <lightning:notificationsLibrary aura:id="notifLib"/>
+        
+        <div class="slds-modal__header">
+            <h2 class="slds-text-heading--medium">New Tour and Tasting Request</h2>
+        </div>
+            <div class="slds-modal__content slds-p-around--medium slds-grid slds-wrap ">
+				<h3 style="font-size: 14px;width:100%"  class="slds-section-title--divider slds-section__title  test-id__section-header-container">Information</h3>
+                <lightning:recordEditForm aura:id="recordCreateForm" objectApiName="Tour_and_Tasting_Request__c">
+                    <lightning:messages />
+                    <lightning:layout multipleRows="true">
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Winery__c" value="{!v.newTTR.Winery__c}" name="Winery" label="Winery" onchange="{!c.changeWinery}" />
+                    	</lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField disabled="true" fieldName="Tour_and_Tasting__c" value="{!v.newTTR.Tour_and_Tasting__c}" label="Tour and Tasting" />
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                        	<lightning:select required="true" value="{!v.newTTR.Request_Type_text__c}" label="Request Type">
+                                <option value="">-- None --</option>
+                                <aura:iteration items="{!v.options}" var="option">
+                                    <option value="{!option.val}" text="{!option.val}"></option>
+                                </aura:iteration>
+                            </lightning:select>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                        	<lightning:input required="true" label="Earliest Date of Visit" type="date" value="{!v.newTTR.Earliest_Date_of_Visit__c}"  />
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6" class="marginTop">
+                            <lightning:inputField fieldName="First_Visit__c" aura:id="First_Visit__c" onchange="{!c.changeCheckbox}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:input required="true" label="Latest Date of Visit" type="date" value="{!v.newTTR.Latest_Date_of_Visit__c}"  />
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Billing_Code__c" value="{!v.newTTR.Billing_Code__c}" />
+                        </lightning:layoutItem>  
+                        <lightning:layoutItem size="6">
+                        	<lightning:select required="true" value="{!v.newTTR.Earliest_Start_Time__c}" label="Earliest Start Time">
+                                <option value="">-- None --</option>
+                                <option value="10:00 AM PDT">10:00 AM PDT</option>
+                                <option value="10:30 AM PDT">10:30 AM PDT</option>
+                                <option value="11:00 AM PDT">11:00 AM PDT</option>
+                                <option value="11:30 AM PDT">11:30 AM PDT</option>
+                                <option value="12:00 PM PDT">12:00 PM PDT</option>
+                                <option value="12:30 PM PDT">12:30 PM PDT</option>
+                                <option value="1:00 PM PDT">1:00 PM PDT</option>
+                                <option value="1:30 PM PDT">1:30 PM PDT</option>
+                                <option value="2:00 PM PDT">2:00 PM PDT</option>
+                                <option value="2:30 PM PDT">2:30 PM PDT</option>
+                                <option value="3:00 PM PDT">3:00 PM PDT</option>
+                                <option value="3:30 PM PDT">3:30 PM PDT</option>
+                                <option value="4:00 PM PDT">4:00 PM PDT</option>
+                            </lightning:select>
+                        </lightning:layoutItem> 
+                        <lightning:layoutItem size="6">
+                            <lightning:inputfield fieldName="Confirmed_Date_of_Visit__c" value="{!v.newTTR.Confirmed_Date_of_Visit__c}"  />
+                        </lightning:layoutItem> 
+                        
+                        <lightning:layoutItem size="6">
+                            <lightning:select required="true" value="{!v.newTTR.Latest_Start_Time__c}" label="Latest Start Time">
+                                <option value="">-- None --</option>
+                                <option value="10:00 AM PDT">10:00 AM PDT</option>
+                                <option value="10:30 AM PDT">10:30 AM PDT</option>
+                                <option value="11:00 AM PDT">11:00 AM PDT</option>
+                                <option value="11:30 AM PDT">11:30 AM PDT</option>
+                                <option value="12:00 PM PDT">12:00 PM PDT</option>
+                                <option value="12:30 PM PDT">12:30 PM PDT</option>
+                                <option value="1:00 PM PDT">1:00 PM PDT</option>
+                                <option value="1:30 PM PDT">1:30 PM PDT</option>
+                                <option value="2:00 PM PDT">2:00 PM PDT</option>
+                                <option value="2:30 PM PDT">2:30 PM PDT</option>
+                                <option value="3:00 PM PDT">3:00 PM PDT</option>
+                                <option value="3:30 PM PDT">3:30 PM PDT</option>
+                                <option value="4:00 PM PDT">4:00 PM PDT</option>
+                            </lightning:select>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:select value="{!v.newTTR.Confirmed_Time_of_Visit__c}" label="Confirmed Time of Visit">
+                                <option value="">-- None --</option>
+                                <option value="8:00 AM PDT">8:00 AM PDT</option>
+                                <option value="8:30 AM PDT">8:30 AM PDT</option>
+                                <option value="9:00 AM PDT">9:00 AM PDT</option>
+                                <option value="9:30 AM PDT">9:30 AM PDT</option>
+                                <option value="10:00 AM PDT">10:00 AM PDT</option>
+                                <option value="10:30 AM PDT">10:30 AM PDT</option>
+                                <option value="11:00 AM PDT">11:00 AM PDT</option>
+                                <option value="11:30 AM PDT">11:30 AM PDT</option>
+                                <option value="12:00 PM PDT">12:00 PM PDT</option>
+                                <option value="12:30 PM PDT">12:30 PM PDT</option>
+                                <option value="1:00 PM PDT">1:00 PM PDT</option>
+                                <option value="1:30 PM PDT">1:30 PM PDT</option>
+                                <option value="2:00 PM PDT">2:00 PM PDT</option>
+                                <option value="2:30 PM PDT">2:30 PM PDT</option>
+                                <option value="3:00 PM PDT">3:00 PM PDT</option>
+                                <option value="3:30 PM PDT">3:30 PM PDT</option>
+                                <option value="4:00 PM PDT">4:00 PM PDT</option>
+                                <option value="4:30 PM PDT">4:30 PM PDT</option>
+                                <option value="5:00 PM PDT">5:00 PM PDT</option>
+                            </lightning:select>
+                        </lightning:layoutItem>
+                        
+                        
+                        <lightning:layoutItem size="6">
+                            
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6"></lightning:layoutItem>
+                     	
+                        <h3 style="font-size: 14px;width:100%;margin-top:10px"  class="slds-section-title--divider slds-section__title  test-id__section-header-container">Food</h3>   
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Lunch_Request__c" aura:id="Lunch_Request__c" type="checkbox"  onchange="{!c.changeCheckbox}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:input type="checkbox" label="Dietary Restrictions" checked="{!v.newTTR.Dietary_Restrictions__c}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Lunch_Type__c" value="{!v.newTTR.Lunch_Type__c}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField type= "checkbox" fieldName="Dietary_Restriction_Details__c" value="{!v.newTTR.Dietary_Restriction_Details__c}"/>
+                        </lightning:layoutItem>
+                        
+                        <h3 style="font-size: 14px;width:100%;margin-top:10px"  class="slds-section-title--divider slds-section__title  test-id__section-header-container">Lodging</h3>   
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Lodging_Request__c" aura:id="Lodging_Request__c" onchange="{!c.changeCheckbox}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Check_in_Date__c" value="{!v.newTTR.Check_in_Date__c}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6"></lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Check_out_Date__c" value="{!v.newTTR.Check_out_Date__c}"/>
+                        </lightning:layoutItem>
+                        
+                        <h3 style="font-size: 14px;width:100%;margin-top:10px"  class="slds-section-title--divider slds-section__title  test-id__section-header-container">Approval Details</h3>   
+                        <lightning:layoutItem size="6">
+                             <lightning:inputField fieldName="T_T_Approval_Status__c" value="{!v.newTTR.Approval_Status__c}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:input label="Date Submitted for Approval" type="date" value="{!v.newTTR.Date_Submitted_for_Approval__c}"  />
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                        	<lightning:inputField fieldName="Lodging_Approval_Status__c" value="{!v.newTTR.Lodging_Approval_Status__c}"/>
+                        </lightning:layoutItem>
+                        <lightning:layoutItem size="6">
+                            <lightning:inputField fieldName="Approved_Date__c" value="{!v.newTTR.Date_Approved__c}"/>
+                        </lightning:layoutItem>
+                        
+                        
+                    </lightning:layout>
+                
+                </lightning:recordEditForm>
+                
+            
+            </div>
+            
+        <div class="modal-footer slds-modal__footer" style="z-index: 2; position: sticky;  bottom: 0;  left: 0;  right: 0; width: 100%;">
+            <lightning:button variant="neutral" label="Cancel" onclick="{!c.cancelDialog}"/>
+            <lightning:button variant="neutral" label="Add Next" onclick="{!c.saveRecordAndNew}" />
+            <lightning:button variant="brand" label="Finished" onclick="{!c.saveRecord}" />
+        </div>
+    
+
+
+
+</aura:component>

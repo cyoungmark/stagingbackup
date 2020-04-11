@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Case_Record_Page3</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>New Hire Process</fullName>
+        <description>New Hire Process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Coding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hire Detail Required</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Customer Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending User Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Verification</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>ReadWriteTransfer</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BusinessHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Business_days_without_updates__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY() - DATEVALUE(LastModifiedDate) - 2*( floor((TODAY() - DATE(2009, 9, 14))/7) - floor((DATEVALUE(LastModifiedDate) - DATE(2009, 9, 14))/7) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Business days without updates</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Case_Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(IsClosed, ROUND(ClosedDate - CreatedDate, 0), ROUND((NOW() - CreatedDate), 0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Case Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ClosedDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactFax</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactMobile</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Data_Category_SubGroup__c</fullName>
+        <externalId>false</externalId>
+        <label>Group</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Data_Category_group__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>JDE</fullName>
+                    <default>false</default>
+                    <label>JDE</label>
+                </value>
+                <value>
+                    <fullName>Bl Tools</fullName>
+                    <default>false</default>
+                    <label>Bl Tools</label>
+                </value>
+                <value>
+                    <fullName>New Hire</fullName>
+                    <default>false</default>
+                    <label>New Hire</label>
+                </value>
+                <value>
+                    <fullName>Termination</fullName>
+                    <default>false</default>
+                    <label>Termination</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Data_Category_group__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Custom Application</fullName>
+                    <default>false</default>
+                    <label>Custom Application</label>
+                </value>
+                <value>
+                    <fullName>Diver</fullName>
+                    <default>false</default>
+                    <label>Diver</label>
+                </value>
+                <value>
+                    <fullName>DW/SQL</fullName>
+                    <default>false</default>
+                    <label>DW/SQL</label>
+                </value>
+                <value>
+                    <fullName>EDI</fullName>
+                    <default>false</default>
+                    <label>EDI</label>
+                </value>
+                <value>
+                    <fullName>eWinery/NVPOS</fullName>
+                    <default>false</default>
+                    <label>eWinery/NVPOS</label>
+                </value>
+                <value>
+                    <fullName>Sharepoint/InfoPath</fullName>
+                    <default>false</default>
+                    <label>Sharepoint/InfoPath</label>
+                </value>
+                <value>
+                    <fullName>Hubble</fullName>
+                    <default>false</default>
+                    <label>Hubble</label>
+                </value>
+                <value>
+                    <fullName>Intranet</fullName>
+                    <default>false</default>
+                    <label>Intranet</label>
+                </value>
+                <value>
+                    <fullName>JDE</fullName>
+                    <default>false</default>
+                    <label>JDE</label>
+                </value>
+                <value>
+                    <fullName>New Hire/Term Related</fullName>
+                    <default>false</default>
+                    <label>New Hire/Term Related</label>
+                </value>
+                <value>
+                    <fullName>PBCS</fullName>
+                    <default>false</default>
+                    <label>PBCS</label>
+                </value>
+                <value>
+                    <fullName>QlikView</fullName>
+                    <default>false</default>
+                    <label>QlikView</label>
+                </value>
+                <value>
+                    <fullName>Salesforce</fullName>
+                    <default>false</default>
+                    <label>Salesforce</label>
+                </value>
+                <value>
+                    <fullName>TradePulse</fullName>
+                    <default>false</default>
+                    <label>TradePulse</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Apps</fullName>
+                    <default>false</default>
+                    <label>Apps</label>
+                </value>
+                <value>
+                    <fullName>Network</fullName>
+                    <default>false</default>
+                    <label>Network</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Phone</fullName>
+                    <default>false</default>
+                    <label>Phone</label>
+                </value>
+                <value>
+                    <fullName>Conference</fullName>
+                    <default>false</default>
+                    <label>Conference</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Uncorked</fullName>
+                    <default>false</default>
+                    <label>Uncorked</label>
+                </value>
+                <value>
+                    <fullName>TWI</fullName>
+                    <default>false</default>
+                    <label>TWI</label>
+                </value>
+                <value>
+                    <fullName>Admin Support</fullName>
+                    <default>false</default>
+                    <label>Admin Support</label>
+                </value>
+                <value>
+                    <fullName>eCommerce website</fullName>
+                    <default>false</default>
+                    <label>eCommerce website</label>
+                </value>
+                <value>
+                    <fullName>Marketing website</fullName>
+                    <default>false</default>
+                    <label>Marketing website</label>
+                </value>
+                <value>
+                    <fullName>Applications</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Applications</label>
+                </value>
+                <value>
+                    <fullName>HelpDesk</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>HelpDesk</label>
+                </value>
+                <value>
+                    <fullName>Terlatowines.com</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Terlatowines.com</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>Custom Application</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>Diver</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>DW/SQL</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>EDI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>eWinery/NVPOS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>Sharepoint/InfoPath</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>Hubble</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>JDE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>PBCS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>QlikView</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>Salesforce</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <valueName>TradePulse</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Application Support</controllingFieldValue>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <controllingFieldValue>Web</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Intranet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <controllingFieldValue>Web</controllingFieldValue>
+                <valueName>New Hire/Term Related</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Apps</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Network</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Phone</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Conference</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Email</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Help Desk</controllingFieldValue>
+                <valueName>Hardware</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Web</controllingFieldValue>
+                <valueName>TWI</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Web</controllingFieldValue>
+                <valueName>Admin Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Web</controllingFieldValue>
+                <valueName>eCommerce website</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Web</controllingFieldValue>
+                <valueName>Marketing website</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Accounting</fullName>
+                    <default>false</default>
+                    <label>Accounting</label>
+                </value>
+                <value>
+                    <fullName>Compliance</fullName>
+                    <default>false</default>
+                    <label>Compliance</label>
+                </value>
+                <value>
+                    <fullName>Customer Service</fullName>
+                    <default>false</default>
+                    <label>Customer Service</label>
+                </value>
+                <value>
+                    <fullName>FP&amp;A</fullName>
+                    <default>false</default>
+                    <label>FP&amp;A</label>
+                </value>
+                <value>
+                    <fullName>HR</fullName>
+                    <default>false</default>
+                    <label>HR</label>
+                </value>
+                <value>
+                    <fullName>IT</fullName>
+                    <default>false</default>
+                    <label>IT</label>
+                </value>
+                <value>
+                    <fullName>Marketing</fullName>
+                    <default>false</default>
+                    <label>Marketing</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+                <value>
+                    <fullName>PR</fullName>
+                    <default>false</default>
+                    <label>PR</label>
+                </value>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Spirits</fullName>
+                    <default>false</default>
+                    <label>Spirits</label>
+                </value>
+                <value>
+                    <fullName>Tax</fullName>
+                    <default>false</default>
+                    <label>Tax</label>
+                </value>
+                <value>
+                    <fullName>Winery Accounting</fullName>
+                    <default>false</default>
+                    <label>Winery Accounting</label>
+                </value>
+                <value>
+                    <fullName>Winery Marketing</fullName>
+                    <default>false</default>
+                    <label>Winery Marketing</label>
+                </value>
+                <value>
+                    <fullName>Winery Operations</fullName>
+                    <default>false</default>
+                    <label>Winery Operations</label>
+                </value>
+                <value>
+                    <fullName>Winery Sales</fullName>
+                    <default>false</default>
+                    <label>Winery Sales</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Impact__c</fullName>
+        <externalId>false</externalId>
+        <label>Impact</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No user impact</fullName>
+                    <default>true</default>
+                    <label>No user impact</label>
+                </value>
+                <value>
+                    <fullName>1 person impacted</fullName>
+                    <default>false</default>
+                    <label>1 person impacted</label>
+                </value>
+                <value>
+                    <fullName>1 person cannot work</fullName>
+                    <default>false</default>
+                    <label>1 person cannot work</label>
+                </value>
+                <value>
+                    <fullName>Multiple users impacted</fullName>
+                    <default>false</default>
+                    <label>Multiple users impacted</label>
+                </value>
+                <value>
+                    <fullName>Multiple users cannot work</fullName>
+                    <default>false</default>
+                    <label>Multiple users cannot work</label>
+                </value>
+                <value>
+                    <fullName>All users inpacted</fullName>
+                    <default>false</default>
+                    <label>All users inpacted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsClosedOnCreate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsEscalated</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Last_Comment__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Comment</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Origin</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Resolution__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Root_Cause__c</fullName>
+        <externalId>false</externalId>
+        <label>Root Cause</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Send_custom_email_notification__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Send Custom Notification Email</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status_Age__c</fullName>
+        <description>Concatenate Status and Case Age</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Status)&amp; &quot; (&quot; &amp; TEXT(Case_Age__c) &amp; &quot;)&quot;</formula>
+        <label>Status Age</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sub_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Data_Category_group__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Extract</fullName>
+                    <default>false</default>
+                    <label>Extract</label>
+                </value>
+                <value>
+                    <fullName>Goals</fullName>
+                    <default>false</default>
+                    <label>Goals</label>
+                </value>
+                <value>
+                    <fullName>Markers</fullName>
+                    <default>false</default>
+                    <label>Markers</label>
+                </value>
+                <value>
+                    <fullName>Models</fullName>
+                    <default>false</default>
+                    <label>Models</label>
+                </value>
+                <value>
+                    <fullName>RAD</fullName>
+                    <default>false</default>
+                    <label>RAD</label>
+                </value>
+                <value>
+                    <fullName>Support</fullName>
+                    <default>false</default>
+                    <label>Support</label>
+                </value>
+                <value>
+                    <fullName>TrueCommerce</fullName>
+                    <default>false</default>
+                    <label>TrueCommerce</label>
+                </value>
+                <value>
+                    <fullName>New Item Push</fullName>
+                    <default>false</default>
+                    <label>New Item Push</label>
+                </value>
+                <value>
+                    <fullName>MerchItemRequest</fullName>
+                    <default>false</default>
+                    <label>MerchItemRequest</label>
+                </value>
+                <value>
+                    <fullName>WebServices</fullName>
+                    <default>false</default>
+                    <label>WebServices</label>
+                </value>
+                <value>
+                    <fullName>Product Request Form</fullName>
+                    <default>false</default>
+                    <label>Product Request Form</label>
+                </value>
+                <value>
+                    <fullName>Sample Request Form</fullName>
+                    <default>false</default>
+                    <label>Sample Request Form</label>
+                </value>
+                <value>
+                    <fullName>CNC</fullName>
+                    <default>false</default>
+                    <label>CNC</label>
+                </value>
+                <value>
+                    <fullName>Data</fullName>
+                    <default>false</default>
+                    <label>Data</label>
+                </value>
+                <value>
+                    <fullName>Functional Training</fullName>
+                    <default>false</default>
+                    <label>Functional Training</label>
+                </value>
+                <value>
+                    <fullName>Interactive App</fullName>
+                    <default>false</default>
+                    <label>Interactive App</label>
+                </value>
+                <value>
+                    <fullName>Month End</fullName>
+                    <default>false</default>
+                    <label>Month End</label>
+                </value>
+                <value>
+                    <fullName>Process</fullName>
+                    <default>false</default>
+                    <label>Process</label>
+                </value>
+                <value>
+                    <fullName>Project</fullName>
+                    <default>false</default>
+                    <label>Project</label>
+                </value>
+                <value>
+                    <fullName>Reports (UBE)</fullName>
+                    <default>false</default>
+                    <label>Reports (UBE)</label>
+                </value>
+                <value>
+                    <fullName>Module - AR</fullName>
+                    <default>false</default>
+                    <label>Module - AR</label>
+                </value>
+                <value>
+                    <fullName>Module - Financial Reporting</fullName>
+                    <default>false</default>
+                    <label>Module - Financial Reporting</label>
+                </value>
+                <value>
+                    <fullName>Module - Operations</fullName>
+                    <default>false</default>
+                    <label>Module - Operations</label>
+                </value>
+                <value>
+                    <fullName>Module - Regional P&amp;L</fullName>
+                    <default>false</default>
+                    <label>Module - Regional P&amp;L</label>
+                </value>
+                <value>
+                    <fullName>Module - Sales Tracker</fullName>
+                    <default>false</default>
+                    <label>Module - Sales Tracker</label>
+                </value>
+                <value>
+                    <fullName>Module - Samples</fullName>
+                    <default>false</default>
+                    <label>Module - Samples</label>
+                </value>
+                <value>
+                    <fullName>Module - Shipments</fullName>
+                    <default>false</default>
+                    <label>Module - Shipments</label>
+                </value>
+                <value>
+                    <fullName>Module - Uncorked</fullName>
+                    <default>false</default>
+                    <label>Module - Uncorked</label>
+                </value>
+                <value>
+                    <fullName>Module - Winery Sales Tracker</fullName>
+                    <default>false</default>
+                    <label>Module - Winery Sales Tracker</label>
+                </value>
+                <value>
+                    <fullName>User Setup and Training</fullName>
+                    <default>false</default>
+                    <label>User Setup and Training</label>
+                </value>
+                <value>
+                    <fullName>Item Vault</fullName>
+                    <default>false</default>
+                    <label>Item Vault</label>
+                </value>
+                <value>
+                    <fullName>Configuration</fullName>
+                    <default>false</default>
+                    <label>Configuration</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Feature Request</fullName>
+                    <default>false</default>
+                    <label>Feature Request</label>
+                </value>
+                <value>
+                    <fullName>Bug</fullName>
+                    <default>false</default>
+                    <label>Bug</label>
+                </value>
+                <value>
+                    <fullName>MS Exchange</fullName>
+                    <default>false</default>
+                    <label>MS Exchange</label>
+                </value>
+                <value>
+                    <fullName>O365</fullName>
+                    <default>false</default>
+                    <label>O365</label>
+                </value>
+                <value>
+                    <fullName>Backups</fullName>
+                    <default>false</default>
+                    <label>Backups</label>
+                </value>
+                <value>
+                    <fullName>Wifi</fullName>
+                    <default>false</default>
+                    <label>Wifi</label>
+                </value>
+                <value>
+                    <fullName>MPLS</fullName>
+                    <default>false</default>
+                    <label>MPLS</label>
+                </value>
+                <value>
+                    <fullName>Firewall</fullName>
+                    <default>false</default>
+                    <label>Firewall</label>
+                </value>
+                <value>
+                    <fullName>Spam Filter</fullName>
+                    <default>false</default>
+                    <label>Spam Filter</label>
+                </value>
+                <value>
+                    <fullName>AV</fullName>
+                    <default>false</default>
+                    <label>AV</label>
+                </value>
+                <value>
+                    <fullName>Updates</fullName>
+                    <default>false</default>
+                    <label>Updates</label>
+                </value>
+                <value>
+                    <fullName>Phone/VOIP</fullName>
+                    <default>false</default>
+                    <label>Phone/VOIP</label>
+                </value>
+                <value>
+                    <fullName>Call Manager</fullName>
+                    <default>false</default>
+                    <label>Call Manager</label>
+                </value>
+                <value>
+                    <fullName>Unity</fullName>
+                    <default>false</default>
+                    <label>Unity</label>
+                </value>
+                <value>
+                    <fullName>Software Install/Config</fullName>
+                    <default>false</default>
+                    <label>Software Install/Config</label>
+                </value>
+                <value>
+                    <fullName>MS Office</fullName>
+                    <default>false</default>
+                    <label>MS Office</label>
+                </value>
+                <value>
+                    <fullName>Virus/Malware/Spam</fullName>
+                    <default>false</default>
+                    <label>Virus/Malware/Spam</label>
+                </value>
+                <value>
+                    <fullName>Business Apps</fullName>
+                    <default>false</default>
+                    <label>Business Apps</label>
+                </value>
+                <value>
+                    <fullName>Client Software</fullName>
+                    <default>false</default>
+                    <label>Client Software</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Connectivity Issues</fullName>
+                    <default>false</default>
+                    <label>Connectivity Issues</label>
+                </value>
+                <value>
+                    <fullName>Router</fullName>
+                    <default>false</default>
+                    <label>Router</label>
+                </value>
+                <value>
+                    <fullName>New Active Directory Account</fullName>
+                    <default>false</default>
+                    <label>New Active Directory Account</label>
+                </value>
+                <value>
+                    <fullName>Admin</fullName>
+                    <default>false</default>
+                    <label>Admin</label>
+                </value>
+                <value>
+                    <fullName>VPN</fullName>
+                    <default>false</default>
+                    <label>VPN</label>
+                </value>
+                <value>
+                    <fullName>Unity Voicemail MAC</fullName>
+                    <default>false</default>
+                    <label>Unity Voicemail MAC</label>
+                </value>
+                <value>
+                    <fullName>IP Phone MAC</fullName>
+                    <default>false</default>
+                    <label>IP Phone MAC</label>
+                </value>
+                <value>
+                    <fullName>Physical Phone Lines</fullName>
+                    <default>false</default>
+                    <label>Physical Phone Lines</label>
+                </value>
+                <value>
+                    <fullName>Account Admin</fullName>
+                    <default>false</default>
+                    <label>Account Admin</label>
+                </value>
+                <value>
+                    <fullName>Skype Call</fullName>
+                    <default>false</default>
+                    <label>Skype Call</label>
+                </value>
+                <value>
+                    <fullName>Webex</fullName>
+                    <default>false</default>
+                    <label>Webex</label>
+                </value>
+                <value>
+                    <fullName>Videowall/Whiteboard</fullName>
+                    <default>false</default>
+                    <label>Videowall/Whiteboard</label>
+                </value>
+                <value>
+                    <fullName>Distribution List</fullName>
+                    <default>false</default>
+                    <label>Distribution List</label>
+                </value>
+                <value>
+                    <fullName>Outlook Client</fullName>
+                    <default>false</default>
+                    <label>Outlook Client</label>
+                </value>
+                <value>
+                    <fullName>Mobile Device</fullName>
+                    <default>false</default>
+                    <label>Mobile Device</label>
+                </value>
+                <value>
+                    <fullName>Exchange Server</fullName>
+                    <default>false</default>
+                    <label>Exchange Server</label>
+                </value>
+                <value>
+                    <fullName>Procurement</fullName>
+                    <default>false</default>
+                    <label>Procurement</label>
+                </value>
+                <value>
+                    <fullName>Cell Phone</fullName>
+                    <default>false</default>
+                    <label>Cell Phone</label>
+                </value>
+                <value>
+                    <fullName>Desktop</fullName>
+                    <default>false</default>
+                    <label>Desktop</label>
+                </value>
+                <value>
+                    <fullName>Laptop</fullName>
+                    <default>false</default>
+                    <label>Laptop</label>
+                </value>
+                <value>
+                    <fullName>Tablet</fullName>
+                    <default>false</default>
+                    <label>Tablet</label>
+                </value>
+                <value>
+                    <fullName>LCD/LED Monitor</fullName>
+                    <default>false</default>
+                    <label>LCD/LED Monitor</label>
+                </value>
+                <value>
+                    <fullName>Switch</fullName>
+                    <default>false</default>
+                    <label>Switch</label>
+                </value>
+                <value>
+                    <fullName>Server</fullName>
+                    <default>false</default>
+                    <label>Server</label>
+                </value>
+                <value>
+                    <fullName>Printer</fullName>
+                    <default>false</default>
+                    <label>Printer</label>
+                </value>
+                <value>
+                    <fullName>Google Analytics GTM</fullName>
+                    <default>false</default>
+                    <label>Google Analytics GTM</label>
+                </value>
+                <value>
+                    <fullName>Tours &amp; Tastings App</fullName>
+                    <default>false</default>
+                    <label>Tours &amp; Tastings App</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <controllingFieldValue>Conference</controllingFieldValue>
+                <valueName>Videowall/Whiteboard</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Procurement</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Cell Phone</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Desktop</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Laptop</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Tablet</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>LCD/LED Monitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Switch</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Server</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Hardware</controllingFieldValue>
+                <valueName>Printer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Uncorked</controllingFieldValue>
+                <controllingFieldValue>TWI</controllingFieldValue>
+                <controllingFieldValue>TradePulse</controllingFieldValue>
+                <valueName>Configuration</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Uncorked</controllingFieldValue>
+                <controllingFieldValue>TWI</controllingFieldValue>
+                <controllingFieldValue>TradePulse</controllingFieldValue>
+                <valueName>Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Uncorked</controllingFieldValue>
+                <controllingFieldValue>TWI</controllingFieldValue>
+                <controllingFieldValue>TradePulse</controllingFieldValue>
+                <valueName>Feature Request</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Uncorked</controllingFieldValue>
+                <controllingFieldValue>TWI</controllingFieldValue>
+                <controllingFieldValue>TradePulse</controllingFieldValue>
+                <valueName>Bug</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Uncorked</controllingFieldValue>
+                <controllingFieldValue>TWI</controllingFieldValue>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Updates</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Uncorked</controllingFieldValue>
+                <controllingFieldValue>TWI</controllingFieldValue>
+                <valueName>Google Analytics GTM</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>PBCS</controllingFieldValue>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <controllingFieldValue>Salesforce</controllingFieldValue>
+                <controllingFieldValue>TradePulse</controllingFieldValue>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <controllingFieldValue>Diver</controllingFieldValue>
+                <controllingFieldValue>Intranet</controllingFieldValue>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Support</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Project</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - AR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Financial Reporting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Operations</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Regional P&amp;L</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Sales Tracker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Samples</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Shipments</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Uncorked</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>QlikView</controllingFieldValue>
+                <valueName>Module - Winery Sales Tracker</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Salesforce</controllingFieldValue>
+                <valueName>Item Vault</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Salesforce</controllingFieldValue>
+                <valueName>Tours &amp; Tastings App</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>TradePulse</controllingFieldValue>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Data</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network</controllingFieldValue>
+                <valueName>Backups</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network</controllingFieldValue>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Wifi</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network</controllingFieldValue>
+                <valueName>MPLS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network</controllingFieldValue>
+                <valueName>Firewall</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Network</controllingFieldValue>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Physical Phone Lines</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>MS Exchange</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>O365</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Spam Filter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>AV</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Software Install/Config</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>MS Office</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Virus/Malware/Spam</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Business Apps</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Client Software</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Software</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Phone/VOIP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Call Manager</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Unity</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Connectivity Issues</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Router</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>New Active Directory Account</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Admin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>VPN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>Unity Voicemail MAC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Phone</controllingFieldValue>
+                <valueName>IP Phone MAC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Diver</controllingFieldValue>
+                <valueName>Extract</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Diver</controllingFieldValue>
+                <valueName>Goals</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Diver</controllingFieldValue>
+                <valueName>Markers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Diver</controllingFieldValue>
+                <valueName>Models</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Diver</controllingFieldValue>
+                <valueName>RAD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>EDI</controllingFieldValue>
+                <valueName>TrueCommerce</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>eWinery/NVPOS</controllingFieldValue>
+                <valueName>New Item Push</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>eWinery/NVPOS</controllingFieldValue>
+                <valueName>MerchItemRequest</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>eWinery/NVPOS</controllingFieldValue>
+                <valueName>WebServices</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sharepoint/InfoPath</controllingFieldValue>
+                <valueName>Product Request Form</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sharepoint/InfoPath</controllingFieldValue>
+                <valueName>Sample Request Form</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>CNC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Functional Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Interactive App</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Month End</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Process</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>JDE</controllingFieldValue>
+                <valueName>Reports (UBE)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Conference</controllingFieldValue>
+                <valueName>Account Admin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Conference</controllingFieldValue>
+                <valueName>Skype Call</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Conference</controllingFieldValue>
+                <valueName>Webex</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Distribution List</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Outlook Client</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Mobile Device</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Email</controllingFieldValue>
+                <valueName>Exchange Server</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Sub_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Sub-Category</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Sub_Category__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Corporate</fullName>
+                    <default>false</default>
+                    <label>Corporate</label>
+                </value>
+                <value>
+                    <fullName>Winery</fullName>
+                    <default>false</default>
+                    <label>Winery</label>
+                </value>
+                <value>
+                    <fullName>AP</fullName>
+                    <default>false</default>
+                    <label>AP</label>
+                </value>
+                <value>
+                    <fullName>AR</fullName>
+                    <default>false</default>
+                    <label>AR</label>
+                </value>
+                <value>
+                    <fullName>Manufacturing</fullName>
+                    <default>false</default>
+                    <label>Manufacturing</label>
+                </value>
+                <value>
+                    <fullName>IPPhone</fullName>
+                    <default>false</default>
+                    <label>IPPhone</label>
+                </value>
+                <value>
+                    <fullName>Config</fullName>
+                    <default>false</default>
+                    <label>Config</label>
+                </value>
+                <value>
+                    <fullName>Outlook</fullName>
+                    <default>false</default>
+                    <label>Outlook</label>
+                </value>
+                <value>
+                    <fullName>Excel</fullName>
+                    <default>false</default>
+                    <label>Excel</label>
+                </value>
+                <value>
+                    <fullName>Word</fullName>
+                    <default>false</default>
+                    <label>Word</label>
+                </value>
+                <value>
+                    <fullName>QuickView</fullName>
+                    <default>false</default>
+                    <label>QuickView</label>
+                </value>
+                <value>
+                    <fullName>JDEdwards</fullName>
+                    <default>false</default>
+                    <label>JDEdwards</label>
+                </value>
+                <value>
+                    <fullName>Vistaar</fullName>
+                    <default>false</default>
+                    <label>Vistaar</label>
+                </value>
+                <value>
+                    <fullName>VPN</fullName>
+                    <default>false</default>
+                    <label>VPN</label>
+                </value>
+                <value>
+                    <fullName>Backups</fullName>
+                    <default>false</default>
+                    <label>Backups</label>
+                </value>
+                <value>
+                    <fullName>Disk Management</fullName>
+                    <default>false</default>
+                    <label>Disk Management</label>
+                </value>
+                <value>
+                    <fullName>File Restore</fullName>
+                    <default>false</default>
+                    <label>File Restore</label>
+                </value>
+                <value>
+                    <fullName>User Admin</fullName>
+                    <default>false</default>
+                    <label>User Admin</label>
+                </value>
+                <value>
+                    <fullName>Access Rights</fullName>
+                    <default>false</default>
+                    <label>Access Rights</label>
+                </value>
+                <value>
+                    <fullName>User Password</fullName>
+                    <default>false</default>
+                    <label>User Password</label>
+                </value>
+                <value>
+                    <fullName>Bannockburn</fullName>
+                    <default>false</default>
+                    <label>Bannockburn</label>
+                </value>
+                <value>
+                    <fullName>Napa</fullName>
+                    <default>false</default>
+                    <label>Napa</label>
+                </value>
+                <value>
+                    <fullName>Hubble</fullName>
+                    <default>false</default>
+                    <label>Hubble</label>
+                </value>
+                <value>
+                    <fullName>iPad</fullName>
+                    <default>false</default>
+                    <label>iPad</label>
+                </value>
+                <value>
+                    <fullName>Surface Pro</fullName>
+                    <default>false</default>
+                    <label>Surface Pro</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Network Printer</fullName>
+                    <default>false</default>
+                    <label>Network Printer</label>
+                </value>
+                <value>
+                    <fullName>Tours &amp; Tastings App</fullName>
+                    <default>false</default>
+                    <label>Tours &amp; Tastings App</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Phone/VOIP</controllingFieldValue>
+                <valueName>IPPhone</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Call Manager</controllingFieldValue>
+                <valueName>Bannockburn</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Call Manager</controllingFieldValue>
+                <valueName>Napa</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MS Office</controllingFieldValue>
+                <valueName>Outlook</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MS Office</controllingFieldValue>
+                <valueName>Excel</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>MS Office</controllingFieldValue>
+                <valueName>Word</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Apps</controllingFieldValue>
+                <valueName>QuickView</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Apps</controllingFieldValue>
+                <valueName>JDEdwards</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Apps</controllingFieldValue>
+                <valueName>Vistaar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Business Apps</controllingFieldValue>
+                <valueName>Hubble</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Client Software</controllingFieldValue>
+                <valueName>VPN</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Admin</controllingFieldValue>
+                <valueName>Backups</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Admin</controllingFieldValue>
+                <valueName>Disk Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Admin</controllingFieldValue>
+                <valueName>File Restore</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Admin</controllingFieldValue>
+                <controllingFieldValue>Item Vault</controllingFieldValue>
+                <valueName>User Admin</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Admin</controllingFieldValue>
+                <valueName>Access Rights</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Admin</controllingFieldValue>
+                <valueName>User Password</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Admin</controllingFieldValue>
+                <controllingFieldValue>Tablet</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Training</controllingFieldValue>
+                <valueName>Corporate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Functional Training</controllingFieldValue>
+                <valueName>Winery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>AP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>AR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Support</controllingFieldValue>
+                <valueName>Manufacturing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tablet</controllingFieldValue>
+                <valueName>iPad</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Tablet</controllingFieldValue>
+                <valueName>Surface Pro</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Printer</controllingFieldValue>
+                <valueName>Network Printer</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedCompany</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedName</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>User_Symptom__c</fullName>
+        <externalId>false</externalId>
+        <label>User Symptom</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Apps / Diver</fullName>
+                    <default>false</default>
+                    <label>Apps / Diver</label>
+                </value>
+                <value>
+                    <fullName>Apps / JDE</fullName>
+                    <default>false</default>
+                    <label>Apps / JDE</label>
+                </value>
+                <value>
+                    <fullName>Apps / PBCS</fullName>
+                    <default>false</default>
+                    <label>Apps / PBCS</label>
+                </value>
+                <value>
+                    <fullName>Apps / Qlikview</fullName>
+                    <default>false</default>
+                    <label>Apps / Qlikview</label>
+                </value>
+                <value>
+                    <fullName>Apps / Salesforce</fullName>
+                    <default>false</default>
+                    <label>Apps / Salesforce</label>
+                </value>
+                <value>
+                    <fullName>Apps / TradePulse</fullName>
+                    <default>false</default>
+                    <label>Apps / TradePulse</label>
+                </value>
+                <value>
+                    <fullName>Computer / Laptop</fullName>
+                    <default>false</default>
+                    <label>Computer / Laptop</label>
+                </value>
+                <value>
+                    <fullName>Conference Assistance</fullName>
+                    <default>false</default>
+                    <label>Conference Assistance</label>
+                </value>
+                <value>
+                    <fullName>Connectivity / Internet / VPN</fullName>
+                    <default>false</default>
+                    <label>Connectivity / Internet / VPN</label>
+                </value>
+                <value>
+                    <fullName>Email</fullName>
+                    <default>false</default>
+                    <label>Email</label>
+                </value>
+                <value>
+                    <fullName>MS Office</fullName>
+                    <default>false</default>
+                    <label>MS Office</label>
+                </value>
+                <value>
+                    <fullName>Password / Access</fullName>
+                    <default>false</default>
+                    <label>Password / Access</label>
+                </value>
+                <value>
+                    <fullName>Phone / Mobile</fullName>
+                    <default>false</default>
+                    <label>Phone / Mobile</label>
+                </value>
+                <value>
+                    <fullName>Printer</fullName>
+                    <default>false</default>
+                    <label>Printer</label>
+                </value>
+                <value>
+                    <fullName>Virus / Spam / Malware</fullName>
+                    <default>false</default>
+                    <label>Virus / Spam / Malware</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>Root_Cause_and_Resolution_checking</fullName>
+        <active>true</active>
+        <description>Root_Cause_and_Resolution_checking before case close</description>
+        <errorConditionFormula>and (OR (ISBLANK(Resolution__c),ISBLANK(Root_Cause__c)),CONTAINS(TEXT(Status), &apos;Closed&apos;))</errorConditionFormula>
+        <errorMessage>Please enter Root Cause and Resolution before closing the case.</errorMessage>
+    </validationRules>
+</CustomObject>

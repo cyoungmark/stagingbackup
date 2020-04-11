@@ -1,0 +1,137 @@
+<aura:component controller="SL_Lightning_CompletenessIconController" access="global" >
+    
+    <aura:attribute name="recordId" type="Id"/>
+    <aura:attribute name="sObjectAPIName" type="String"/>
+	<aura:attribute name="fieldSetAPIName" type="String"/>
+    <aura:attribute name="isSpinning" type="Boolean" default="false"/>
+    <aura:attribute name="fieldPercent" type="Integer"/>
+    <aura:attribute name="nullFields" type="List" />
+    <aura:attribute name="title" type="String" />
+    <aura:attribute name="noOfMissingRequiredFields" type="Integer" />
+    <aura:attribute name="displayCount" type="boolean" />
+    <aura:attribute name="isReadOnly" type="boolean"/> 
+    <aura:attribute name="selectedSObject" type="SObject"/>
+    <aura:attribute name="selectedSObjectCopy" type="String"/>
+    <aura:attribute name="mapFieldInfo" type="Map"/>
+    <aura:attribute name="mapDependentPicklistInfo" type="Map"/>
+    <aura:attribute name="fieldApiNames" type="List"/>
+    <aura:attribute name="isStartClick" type="boolean" default="false"/>
+    <aura:attribute name="displayMoreIcon" type="boolean" default="false"/>
+    <aura:attribute name="width" type="String"/>
+    
+    <aura:attribute name="cirDeg" type="String" default="0" description="Degree of Progress to show. It is auto calculated field and used internally." />
+    <aura:attribute name="theme" type="String" default="blue" description="Theme of Circular Progress Bar. Possible values are blue, green, orange." />
+    <aura:attribute name="size" type="String" default="small" description="Size of Circular Progress Bar. Possible values are small, medium, big." />
+    <aura:attribute name="modalStyle" type="String"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="updatePicklistValues" event="c:evt_SL_UpdateDependentPicklistValues" action="{!c.updateDependentPicklist}" />
+    
+    <div class="page SL_OH">
+        
+        <div class="slds-grid slds-grid--align-spread slds-grid--vertical-align-center slds-m-bottom--small">
+            <span class="slds-truncate slds-text-heading_small">{!v.title}</span>
+        </div>
+        
+        <div class="clearFloats ">
+            <div class="{! (( v.cirDeg > 179 ) ? 'c100 p50plus '+v.theme+' '+v.size : 
+                        'c100 '+v.theme +' '+v.size) + (v.width=='SMALL'?' cirWidth':'') }" ><!--onmouseover="{!c.displayTable}" onmouseleave="{!c.hideTable}"  -->
+                <span class = "text" style = "top:-10px;">{!v.fieldPercent}%</span>      
+                <span class = "text behave"> complete </span>
+                
+                <div class="slice">
+                    <div class="bar" style="{! '-webkit-transform: rotate('+v.cirDeg+'deg); -moz-transform: rotate('+v.cirDeg+'deg); -ms-transform: rotate('+v.cirDeg+'deg); -o-transform: rotate('+v.cirDeg+'deg); transform: rotate('+v.cirDeg+'deg); -ms-transform: rotate('+v.cirDeg+'deg);'}"></div>
+                    <div class="fill"></div>
+                </div>
+            </div>
+            <div aura:id="table" class = "table slds-text-body--regular"><!--slds-hidden>-->
+                <aura:if isTrue="{!v.nullFields.length != 0}">
+                    <c:SL_Lightning_Table inputList="{!v.nullFields}"/>
+                </aura:if>
+                <div class="iconDiv" onclick="{!c.openMissingFieldsModal}">
+                <lightning:icon class="icnDots" iconName="utility:threedots" alternativeText="more"/>
+                </div>
+            </div>
+            
+            
+            <div class="moreIconDiv">
+                <aura:if isTrue="{!v.displayMoreIcon}">
+                	<!-- <span class="countFields"><strong>Too many fields to display</strong></span> -->
+                </aura:if> 
+                <aura:if isTrue="{!!v.displayMoreIcon}">
+                    <!--<div class="iconOnly"/> -->
+                </aura:if>
+                <!-- <div class="iconDiv" onclick="{!c.openMissingFieldsModal}"> -->
+                <div class="iconDiv" >
+                    <!-- <lightning:icon class="icnDots" iconName="utility:threedots" alternativeText="more"/> -->
+                    <lightning:button variant="base" label="Edit Fields" title="Neutral action" onclick="{! c.openMissingFieldsModal }"/>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slds-hidden" aura:id="countFields">
+            <div></div>
+            <div >
+                <strong>Missing Required Fields : <span class="count">{!v.noOfMissingRequiredFields}</span></strong>
+            </div>
+        </div>
+        
+        <aura:if isTrue="{!v.isStartClick}">
+            <style>
+                {!v.modalStyle}
+            </style>
+            	   
+        <div class="modal-glass slds-backdrop fadein slds-backdrop" aura:id="modalBack"></div>
+        <div aura:id="modalBox" aria-hidden="false" role="dialog" tabindex="-1" aria-labelledby="header99" class="panel slds-modal" style="opacity: 1;">
+            <aura:if isTrue="{!v.isSpinning}">
+            		<lightning:spinner aura:id="mySpinner" />
+            	</aura:if>
+            <div class="modal-container slds-modal__container">
+            	
+                <div class="modal-header slds-modal__header">
+                    <h2 id="header99" class="title slds-text-heading--medium">
+                        <aura:if isTrue="{!!v.isReadOnly}">Edit </aura:if>{!v.selectedSObject.Name}
+                    </h2>
+                    <button class="slds-button slds-modal__close closeIcon slds-button--icon-bare slds-button--icon-inverse" title="Close" onclick="{!c.closeMissingFieldsModal}">
+                        X
+                        <span class="slds-assistive-text">Close</span>
+                    </button>
+                    
+                </div>
+                
+                    
+                <div class="slds-modal__content slds-p-around--medium" data-scoped-scroll="true">
+                    <div class="slds-section  slds-is-open full">
+                        <h3 class="slds-section__title slds-theme--shade">
+                            <span class="slds-p-horizontal--small slds-truncate">{!v.title}</span></h3>
+                    </div>
+                    
+                    <aura:iteration items="{!v.fieldApiNames}" var="apiName">
+                        <c:cmp_SL_RowInfo SobjRecord="{!v.selectedSObject}"
+                                          fieldApiName="{!apiName}"
+                                          FieldInfoMap="{!v.mapFieldInfo}"
+                                          isReadOnly="{!v.isReadOnly}"
+                                          mapDependentPicklistInfo="{!v.mapDependentPicklistInfo}"/>
+                    </aura:iteration>
+                    
+                </div>
+                
+                <div class="modal-footer slds-modal__footer">
+                    <div >
+                        <aura:if isTrue="{!v.isReadOnly}">
+                            <button class="slds-button slds-button--neutral" title="Close" onclick="{!c.closeMissingFieldsModal}">Close</button>
+                            <aura:set attribute="else">
+                                <button class="slds-button slds-button--neutral" title="Cancel" onclick="{!c.closeMissingFieldsModal}">Cancel</button>
+                            	<button class="slds-button slds-button--brand" title="Save" onclick="{!c.saveRecord}">Save</button>
+                            </aura:set>
+                        </aura:if>
+                    </div>
+                </div>
+            
+            </div>
+        
+        </div>
+        </aura:if>
+    </div>
+    
+</aura:component>

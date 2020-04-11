@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Warehouse Upcharge Reference Table</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Warehouse Upcharge Reference Table</value>
+    </caseValues>
+    <fields>
+        <label><!-- Bev Code --></label>
+        <name>Bev_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- CountryID --></label>
+        <name>CountryID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pack --></label>
+        <name>Pack__c</name>
+    </fields>
+    <fields>
+        <label><!-- Size --></label>
+        <name>Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Whse Upcharge --></label>
+        <name>Whse_Upcharge__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

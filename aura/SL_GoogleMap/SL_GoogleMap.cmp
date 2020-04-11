@@ -1,0 +1,11 @@
+<aura:component access="public" implements="force:appHostable">
+
+    <aura:attribute name="map" type="Object"/>
+    <aura:attribute name="location" type="String" />
+    <ltng:require styles="/resource/leaflet/leaflet.css"
+        scripts="/resource/leaflet/leaflet.js"
+        afterScriptsLoaded="{!c.jsLoaded}" />
+
+    <div id="map" style="position: none;"  class="slds-grid slds-wrap"></div>
+
+</aura:component>

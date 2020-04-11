@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Chimney_Rock_Weekend_Override</name>
+    </customPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Tour &amp; Tasting - Chimney Rock Weekend Override</label>
+</PermissionSet>

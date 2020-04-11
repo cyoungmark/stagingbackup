@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>40.0</apiVersion>
+    <description>This is a generic component - It will display the fields from fieldset in a two column format, with inline editing for those fields, pulling data from the record.</description>
+</AuraDefinitionBundle>

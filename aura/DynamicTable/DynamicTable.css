@@ -1,0 +1,33 @@
+.THIS .pagination-buttons{
+    position:relative;
+    right:0;
+    float:right;
+}
+
+.THIS .refresh-btn {
+    top: .75rem;
+    right: 1px; /*Makes the border of the button completely visible on right side */
+}
+
+.THIS .hide-input-label.lightningInput .slds-form-element__label{
+    display:none;
+}
+
+/*Need this because slds-hide isn't specific enough for hiding input toggle*/
+.THIS .slds-form--inline .slds-form-element.slds-hide{
+    display:none;
+}
+
+.THIS .closeBtn {
+    border: none;
+    background: none;
+}
+
+.THIS .hide {
+    display:none;
+}
+
+.THIS .infiniteScrollDiv {
+    height:400px!important; 
+    overflow-y:auto!important;
+}

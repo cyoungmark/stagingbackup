@@ -1,0 +1,7 @@
+<design:component >
+    <design:attribute name="sObjectAPIName" label="SObjects API Name" description="API Name of SObject" />
+    <design:attribute name="fieldSetAPIName" label="Fieldset API Name" description="API Name of Field Set" />
+    <design:attribute name="title" label="Component Title" description="Title for each instance of the component" />
+    <design:attribute name="displayCount" label="Display the count of missing required fields?" description="Displays the count of missing required fields in the field set." />
+    <design:attribute name="isReadOnly" label="Display fields in modal as read-only?"/>
+</design:component>

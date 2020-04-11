@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Geography</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Geographies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Appellation --></label>
+        <name>Appellation_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code: Appellation --></label>
+        <name>Code_Appellation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code: Country --></label>
+        <name>Code_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code: Region --></label>
+        <name>Code_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code: Sub Region --></label>
+        <name>Code_Sub_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code: Vineyard --></label>
+        <name>Code_Vineyard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin --></label>
+        <name>Country_of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geography Leaf ExtID --></label>
+        <name>Geography_Leaf_ExtID__c</name>
+    </fields>
+    <fields>
+        <label><!-- State/Region of Origin --></label>
+        <name>State_Region_of_Origin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Region --></label>
+        <name>Sub_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- TXPID --></label>
+        <name>TXPID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Vineyard or Domaine associated with this Geography --></help>
+        <label><!-- Vineyard / Domaine --></label>
+        <name>Vineyard_Domaine__c</name>
+    </fields>
+    <layouts>
+        <layout>Geography Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

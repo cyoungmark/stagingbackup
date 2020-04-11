@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Marine Insurance Table</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Marine Insurance Tables</value>
+    </caseValues>
+    <fields>
+        <label><!-- MIT Brand Code Description --></label>
+        <name>MIT_Brand_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- MIT_Brand Code --></label>
+        <name>MIT_Brand_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighted Average Price --></label>
+        <name>MIT_Weighted_Average_Price__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

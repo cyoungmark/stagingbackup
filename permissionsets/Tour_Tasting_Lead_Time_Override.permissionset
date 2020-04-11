@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Lead_Time_Override</name>
+    </customPermissions>
+    <description>Allow Regional Managers so they can create tastings with less than 7 days notice.
+Allows edit access to Send Guest Itinerary</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Tours_and_Tastings__c.Send_Guest_Itinerary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Tour &amp; Tasting - Lead Time Override</label>
+</PermissionSet>

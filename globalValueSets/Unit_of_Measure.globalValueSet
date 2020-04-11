@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>12</fullName>
+        <default>false</default>
+        <label>Twelve Pack</label>
+    </customValue>
+    <customValue>
+        <fullName>BL</fullName>
+        <default>false</default>
+        <label>Barrels</label>
+    </customValue>
+    <customValue>
+        <fullName>BT</fullName>
+        <default>false</default>
+        <label>Bottles</label>
+    </customValue>
+    <customValue>
+        <fullName>BX</fullName>
+        <default>false</default>
+        <label>Box</label>
+    </customValue>
+    <customValue>
+        <fullName>CS</fullName>
+        <default>true</default>
+        <label>Case</label>
+    </customValue>
+    <customValue>
+        <fullName>KE</fullName>
+        <default>false</default>
+        <label>Keg</label>
+    </customValue>
+    <customValue>
+        <fullName>LB</fullName>
+        <default>false</default>
+        <label>Pounds</label>
+    </customValue>
+    <customValue>
+        <fullName>LT</fullName>
+        <default>false</default>
+        <label>Liters</label>
+    </customValue>
+    <customValue>
+        <fullName>PL</fullName>
+        <default>false</default>
+        <label>Pallet</label>
+    </customValue>
+    <customValue>
+        <fullName>SX</fullName>
+        <default>false</default>
+        <label>Six Pack</label>
+    </customValue>
+    <customValue>
+        <fullName>TK</fullName>
+        <default>false</default>
+        <label>Tank</label>
+    </customValue>
+    <customValue>
+        <fullName>TM</fullName>
+        <default>false</default>
+        <label>Metric Ton</label>
+    </customValue>
+    <customValue>
+        <fullName>TN</fullName>
+        <default>false</default>
+        <label>Ton (US)</label>
+    </customValue>
+    <description>JDE Unit of Measures</description>
+    <masterLabel>Unit of Measure</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

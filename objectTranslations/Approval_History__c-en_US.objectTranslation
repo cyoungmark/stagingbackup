@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Approval History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Approval History</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Comments --></label>
+        <name>Approval_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Department --></label>
+        <name>Approval_Department__c</name>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Manager</masterLabel>
+            <translation><!-- Brand Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation><!-- Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approval Action --></label>
+        <name>Approval_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approver --></label>
+        <name>Approver__c</name>
+        <relationshipLabel><!-- Approval History (Approver) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Item Update Link --></label>
+        <name>Item_Update_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Update --></label>
+        <name>Item_Update__c</name>
+        <relationshipLabel><!-- Approval History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Item --></label>
+        <name>Item__c</name>
+        <relationshipLabel><!-- Item Update Approval History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Submitted By --></label>
+        <name>Submitted_By__c</name>
+        <relationshipLabel><!-- Approval History (Submitted By) --></relationshipLabel>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

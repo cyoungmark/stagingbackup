@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inbound Freight Table</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inbound Freight Tables</value>
+    </caseValues>
+    <fields>
+        <label><!-- BOL Charge --></label>
+        <name>IFT_BOL_Charge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin Code --></label>
+        <name>IFT_Country_of_Origin_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country of Origin Name --></label>
+        <name>IFT_Country_of_Origin_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- ISPS --></label>
+        <name>IFT_ISPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manifest Documentation --></label>
+        <name>IFT_Manifest_Documentation__c</name>
+    </fields>
+    <fields>
+        <label><!-- 20&apos; BAF --></label>
+        <name>IFT_X20_BAF__c</name>
+    </fields>
+    <fields>
+        <label><!-- 20&apos; Inland Freight --></label>
+        <name>IFT_X20_Inland_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- 20&apos; Inland Fuel SurCharge --></label>
+        <name>IFT_X20_Inland_Fuel_SurCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- 20&apos; Insulation --></label>
+        <name>IFT_X20_Insulation__c</name>
+    </fields>
+    <fields>
+        <label><!-- 20&apos; Ocean Freight --></label>
+        <name>IFT_X20_Ocean_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- 20&apos; Refer --></label>
+        <name>IFT_X20_Refer__c</name>
+    </fields>
+    <fields>
+        <label><!-- 40&apos; BAF --></label>
+        <name>IFT_X40_BAF__c</name>
+    </fields>
+    <fields>
+        <label><!-- 40&apos; Inland Freight --></label>
+        <name>IFT_X40_Inland_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- 40&apos; Inland Fuel SurCharge --></label>
+        <name>IFT_X40_Inland_Fuel_SurCharge__c</name>
+    </fields>
+    <fields>
+        <label><!-- 40&apos; Insulation --></label>
+        <name>IFT_X40_Insulation__c</name>
+    </fields>
+    <fields>
+        <label><!-- 40&apos; Ocean Freight --></label>
+        <name>IFT_X40_Ocean_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- 40&apos; Refer --></label>
+        <name>IFT_X40_Refer__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

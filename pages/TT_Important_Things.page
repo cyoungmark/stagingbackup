@@ -1,0 +1,16 @@
+<apex:page standardController="Tours_and_Tastings__c">
+ 
+  DINNERS at the wineries are only available for groups that have 25 or more participants.  <br></br>
+  Please do not ask for dinners if the party is less than 25 people. <br></br><br></br>
+  
+  Once you receive a confirmation - remind your VIP that if they are running late or need to cancel, to please contact the winery as soon as possible.  A "no show" or a "no call" is completely unacceptable. <br></br><br></br>
+  
+  DO NOT guarantee anything to your account prior to a confirmation letter.<br></br>
+  Everything is subject to approval and winery availability.  We can NOT guarantee anything prior to confirmation.<br></br><br></br>
+  
+  Relatives/Consumers/Those not in the trade will only be granted a complimentary tasting.  <br></br>
+  VIP Tours and Tastings are reserved for those within the trade.  <br></br>
+  Example:  The VP of ABC Wine Company is wondering what we can set up for his niece who will be in Napa next week. <br></br>
+              We can set up a complimentary tasting only   <br></br>            
+
+</apex:page>

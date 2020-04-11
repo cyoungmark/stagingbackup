@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Chimney Rock</fullName>
+        <default>false</default>
+        <label>Chimney Rock</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanna Winery</fullName>
+        <default>false</default>
+        <label>Hanna Winery</label>
+    </customValue>
+    <customValue>
+        <fullName>Markham Vineyards</fullName>
+        <default>false</default>
+        <label>Markham Vineyards</label>
+    </customValue>
+    <customValue>
+        <fullName>Maxville Lake Winery</fullName>
+        <default>false</default>
+        <label>Maxville Lake Winery</label>
+    </customValue>
+    <customValue>
+        <fullName>Rochioli Vineyards</fullName>
+        <default>false</default>
+        <label>Rochioli Vineyards</label>
+    </customValue>
+    <customValue>
+        <fullName>Rutherford Hill Winery</fullName>
+        <default>false</default>
+        <label>Rutherford Hill Winery</label>
+    </customValue>
+    <customValue>
+        <fullName>Sanford Winery</fullName>
+        <default>false</default>
+        <label>Sanford Winery</label>
+    </customValue>
+    <masterLabel>Winery</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

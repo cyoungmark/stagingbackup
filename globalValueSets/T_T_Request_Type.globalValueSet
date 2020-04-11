@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Tasting</fullName>
+        <default>true</default>
+        <label>Tasting</label>
+    </customValue>
+    <customValue>
+        <fullName>Tour</fullName>
+        <default>false</default>
+        <label>Tour</label>
+    </customValue>
+    <customValue>
+        <fullName>Tour and Tasting</fullName>
+        <default>false</default>
+        <label>Tour and Tasting</label>
+    </customValue>
+    <masterLabel>T&amp;T Request Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

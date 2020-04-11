@@ -1,0 +1,296 @@
+<aura:component >
+    <aura:attribute name="record" type="sObject"/>
+    <aura:attribute name="fieldApiName" type="String"/>
+    <aura:attribute name="fieldVal" type="String"/>
+    <aura:attribute name="fieldType" type="String"/>
+    <aura:attribute name="fieldSetLabelVal" type="String"/>
+    <aura:attribute name="showFieldLabel" type="Boolean"/>
+	<aura:attribute name="isReadOnly" type="boolean"/> 
+    <aura:attribute name="PickListVals" type="List"/>
+    <aura:attribute name="parentId" type="string" default=""/>
+    <aura:attribute name="sObjectName" type="string"/>
+    <aura:attribute name="disablePicklist" type="boolean"/>
+    <aura:attribute name="isControllingPicklist" type="boolean"/> 
+    <aura:attribute name="isEditable" type="boolean"/>
+    <aura:attribute name="AddressName" type="string"/>
+    <aura:attribute name="StreetVal" type="string"/>
+    <aura:attribute name="CityVal" type="string"/>
+    <aura:attribute name="PostalVal" type="string"/>
+    <aura:attribute name="CountryVal" type="string"/>
+    <aura:attribute name="StateVal" type="string"/>
+
+    <aura:attribute name="precision" type="integer"/>
+    <aura:attribute name="scale" type="integer"/>
+    <aura:attribute name="numberFormat" type="string"/>
+    
+    <aura:attribute name="myOptions" type="object[]" access="global"/>
+    <aura:attribute name="mySelectedItems" type="String[]" access="global"/>
+    <aura:attribute name="mySelectedItemsPickList" type="Object[]" access="global"/>
+    
+    <aura:attribute name="ParentComp" type="string"/>
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="updateLookupEvt" event="c:evt_SL_UpdateLookupData" action="{!c.getSelectedRecordId}"/>
+    <aura:handler name="selectChange" event="c:selectChange" action="{!c.handleSelectChangeEvent}"/>
+    <aura:handler name="change" value="{!v.PickListVals}" action="{!c.doInit}"/>
+    <aura:registerEvent name="updatePicklistValues" type="c:evt_SL_UpdateDependentPicklistValues"/>
+    
+    <style>
+        .editBtnStyle .slds-icon-text-default{
+        fill: lightgray;
+        }
+        
+        .editBtnStyle .slds-icon-text-default:hover{
+        fill: rgb(0, 112, 210);
+        }
+        
+        .slds-form-element__control .value{
+        margin-top : 7px;
+        }
+    </style>    
+    
+    <div class="slds-form slds-is-editing" role="list" >
+        <div class="slds-grid full">
+        	<div class="slds-has-flexi-truncate slds-p-horizontal_medium " role="listitem" >
+                <div class="slds-form-element slds-form-element_edit slds-hint-parent slds-p-vertical_xx-small">
+                	<div class="slds-form-element__control" >
+                        <div >
+                            <span class="test-id__field-label-container">
+                                <span class="test-id__field-label slds-form-element__label">{!v.fieldSetLabelVal}</span>
+                            </span>
+                            <span> 
+                                <!-- TIME AND DATETIME -->
+                                <aura:if isTrue="{!v.fieldType == 'DATETIME' || v.fieldType == 'TIME'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                     	<ui:outputDateTime value="{!v.fieldVal}" format="MM/dd/yyyy"/>
+                                        <aura:set attribute="else">
+                                    		<ui:inputDateTime displayDatePicker="true" class="form-control" value="{!v.fieldVal}" aura:id="{!v.fieldApiName}" blur="{!c.updateVal}" format="MM/dd/yyyy"/>
+                                        </aura:set>
+                                        </aura:if>      
+                                </aura:if>
+                                
+                                <!-- Reference -->
+                                <aura:if isTrue="{!v.fieldType == 'REFERENCE'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <a href="" target="_new" style="text-decoration:None;" class="slds-truncate" tabindex="-1" onclick="{!c.handleNavigation}">{!v.fieldVal}</a>
+                                        <aura:set attribute="else">
+                                            <div aura:id="lookupField"/>
+                                            <!--<c:cmp_SL_DynamicLookUp sObjectAPIName="{!v.sObjectName}"
+                                                                        pluralLabel="{!v.sObjectName+ 's'}"
+                                                                        selRecId="{!v.parentId}"
+                                                                        selRecName="{!v.fieldVal}"
+                                                                        isError="false"
+                                                                        isFilter="false"/>-->
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>  
+                                
+                                <!-- STRING Types -->
+                                <aura:if isTrue="{!v.fieldType == 'STRING' || v.fieldType == 'COMBOBOX' || v.fieldType == 'ID' || v.fieldType == 'ENCRYPTEDSTRING' || v.fieldType == 'BASE64' || v.fieldType == 'PHONE'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <ui:outputText value="{!v.fieldVal}"/>
+                                        <aura:set attribute="else">
+                                    		<ui:inputText value="{!v.fieldVal}" blur="{!c.updateVal}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- Boolean Fields -->
+                                <aura:if isTrue="{!v.fieldType == 'BOOLEAN'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <ui:outputCheckbox value="{!v.fieldVal}" />
+                                        <aura:set attribute="else">
+                                        	<ui:inputCheckbox value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" blur="{!c.updateVal}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- CURRENCY FIELDS.. -->
+                                <aura:if isTrue="{!v.fieldType == 'CURRENCY'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                    	<ui:outputCurrency value="{!v.fieldVal}"/>
+                                        <aura:set attribute="else">
+                                        	<ui:inputCurrency value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" blur="{!c.updateVal}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- INTEGRER, NUMBER, PERCENT fieds -->
+                                <aura:if isTrue="{!v.fieldType == 'DOUBLE' || v.fieldType == 'INTEGER' || v.fieldType == 'PERCENT'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                    	<ui:outputNumber value="{!v.fieldVal}" format="{!v.numberFormat}"/>
+                                        <aura:set attribute="else">
+                                        	<ui:inputNumber value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" blur="{!c.updateVal}" format="{!v.numberFormat}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- Email fields -->
+                                <aura:if isTrue="{!v.fieldType == 'EMAIL'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                    	<ui:outputEmail value="{!v.fieldVal}"/>
+                                        <aura:set attribute="else">
+                                        	<ui:inputEmail value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" placeholder="abc@email.com" blur="{!c.updateVal}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- Date fields . -->
+                                <aura:if isTrue="{!v.fieldType == 'DATE'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                    	<ui:outputDate value="{!v.fieldVal}"/>
+                                        <aura:set attribute="else">
+                                        	<ui:inputDate value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" disabled="false" displayDatePicker="true" blur="{!c.updateVal}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- TEXTAREA FIELDS.. -->
+                                <aura:if isTrue="{!v.fieldType == 'TEXTAREA'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                    	<aura:unescapedHtml value="{!v.fieldVal}"/>
+                                        <aura:set attribute="else">
+                                        	<ui:inputTextArea value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" blur="{!c.updateVal}" rows="3"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- richtext FIELDS.. -->
+                                <aura:if isTrue="{!v.fieldType == 'richtext'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <ui:outputRichText value="{!v.fieldVal}"/>
+                                    	<aura:set attribute="else">
+                                        	<ui:inputRichText value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" blur="{!c.updateVal}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- URL FIELDS.. -->
+                                <aura:if isTrue="{!v.fieldType == 'URL'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <a href="{!v.fieldVal}" target="_new">{!v.fieldVal}</a>
+                                    	<aura:set attribute="else">
+                                        	<ui:inputURL value="{!v.fieldVal}" aura:id="{!v.fieldSetAPIName}" blur="{!c.updateVal}"/>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- MULTIPICKLIST FIELDS.. -->    
+                                <aura:if isTrue="{!v.fieldType == 'MULTIPICKLIST'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <ui:outputText value="{!v.fieldVal}"/>
+                                    	<aura:set attribute="else">	
+                                            <div aura:id="multiPicklist"/>
+                                            <!--<c:cmp_SL_MultiSelect_Option options="{!v.myOptions}" selectedItems="{!v.mySelectedItems}" width="100%"/>-->
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- PICKLIST FIELDS.. -->
+                                <aura:if isTrue="{!v.fieldType == 'PICKLIST'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <ui:outputText value="{!v.fieldVal}"/>
+                                    	<aura:set attribute="else">
+                                            <ui:inputSelect aura:id="levels" change="{!c.onSelectChange}" disabled="{!v.disablePicklist}">
+                                                <ui:inputSelectOption text="" label="{!v.fieldVal}"/>
+                                                <aura:iteration items="{!v.mySelectedItemsPickList}" var="picklistVal">
+                                                    {!v.fieldVal}
+                                                    <ui:inputSelectOption text="{!picklistVal.value}" label="{!picklistVal.label}" value="{!v.fieldVal == picklistVal.value}"/>
+                                                </aura:iteration>
+                                            </ui:inputSelect>
+                                        </aura:set>                                        
+                                    </aura:if>
+                                </aura:if>
+                                
+                                <!-- FORMULA FIELDS.. -->
+                                <aura:if isTrue="{!v.fieldType == 'FORMULA'}">
+                                    <aura:if isTrue="{!v.fieldApiName == 'pi_uts_New_CIF_Total__c' || v.fieldApiName == 'pi_uts_New_Whse_Total__c' || v.fieldApiName == 'ci_cwc_New_Total_Cost_CIF__c' || v.fieldApiName == 'ci_cwc_New_Supplier_Price_USD__c'}">                                        
+                                        <ui:outputCurrency value="{!v.fieldVal}" />
+                                    	<aura:set attribute="else">
+                                           <ui:inputText value="{!v.fieldVal}" disabled="true"/> 
+                                        </aura:set>
+                                    </aura:if>
+
+                                    <!-- aura:unescapedHtml value="{!v.fieldVal}"/ -->
+                                    
+                                                                        
+                                </aura:if>
+                                
+                                <!-- ADDRESS FIELDS.. -->
+                                <aura:if isTrue="{!v.fieldType == 'ADDRESS'}">
+                                    <aura:if isTrue="{!v.isReadOnly}">
+                                        <ui:outputText value="{!v.fieldVal}"/>
+                                        <aura:set attribute="else">
+                                            <div class="slds-form-element slds-form-element_edit slds-grow slds-hint-parent slds-p-vertical_xx-small override--slds-form-element slds-has-divider--bottom" >
+                                                <div class="test-id__field-label-container">
+                                                    <span class="test-id__field-label slds-form-element__label">{!v.AddressName+ ' Street'}</span>
+                                                </div>
+                                                
+                                                <div class="slds-form-element__control slds-grid itemBody">
+                                                    <span class="test-id__field-value slds-form-element__static slds-grow slds-truncate" title="{!v.fieldVal}">
+                                                        <ui:inputTextArea value="{!v.StreetVal}" aura:id="{!v.fieldSetAPIName}" rows="3" blur="{!c.updateVal}"/>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-size--2-of-3">
+                                                    <div class="test-id__field-label-container">
+                                                        <span class="test-id__field-label slds-form-element__label">{!v.AddressName+ ' City'}</span>
+                                                    </div>
+                                                    
+                                                    <div class="slds-form-element__control slds-grid itemBody">
+                                                        <span class="test-id__field-value slds-form-element__static slds-grow slds-truncate" title="{!v.CityVal}">
+                                                            <ui:inputText value="{!v.CityVal}" blur="{!c.updateVal}"/>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="slds-size--1-of-3 slds-p-left--small">
+                                                    <div class="test-id__field-label-container">
+                                                        <span class="test-id__field-label slds-form-element__label">{!v.AddressName+ ' State'}</span>
+                                                    </div>
+                                                    
+                                                    <div class="slds-form-element__control slds-grid itemBody">
+                                                        <span class="test-id__field-value slds-form-element__static slds-grow slds-truncate" title="{!v.StateVal}">
+                                                            <ui:inputText value="{!v.StateVal}" blur="{!c.updateVal}"/>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="slds-grid slds-wrap">
+                                                <div class="slds-size--2-of-3">
+                                                    <div class="test-id__field-label-container">
+                                                        <span class="test-id__field-label slds-form-element__label">{!v.AddressName+ ' Zip/Postal Code'}</span>
+                                                    </div>
+                                                    
+                                                    <div class="slds-form-element__control slds-grid itemBody">
+                                                        <span class="test-id__field-value slds-form-element__static slds-grow slds-truncate" title="{!v.PostalVal}">
+                                                            <ui:inputText value="{!v.PostalVal}" blur="{!c.updateVal}"/>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="slds-size--1-of-3 slds-p-left--small">
+                                                    <div class="test-id__field-label-container">
+                                                        <span class="test-id__field-label slds-form-element__label">{!v.AddressName+ ' Country'}</span>
+                                                    </div>
+                                                    
+                                                    <div class="slds-form-element__control slds-grid itemBody">
+                                                        <span class="test-id__field-value slds-form-element__static slds-grow slds-truncate" title="{!v.CountryVal}">
+                                                            <ui:inputText value="{!v.PostalVal}" blur="{!c.updateVal}"/>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </aura:set>
+                                    </aura:if>
+                                </aura:if>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</aura:component>

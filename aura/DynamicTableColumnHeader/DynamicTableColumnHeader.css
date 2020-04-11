@@ -1,0 +1,43 @@
+.THIS .header{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.THIS .slds-th__action {
+    padding: 0;
+    height: initial;
+}
+
+.THIS .shrink--asc,
+.THIS .shrink--desc {
+    height: .75rem;
+    width: .75rem;
+    margin-left: 0.25em;
+    display: none;
+}
+
+.THIS.slds-is-sortable:not(.slds-is-sorted) .slds-th__action:hover .shrink--asc{
+    display: inline-block;
+    fill: #0070d2;
+}
+
+.THIS.slds-is-sorted--asc .shrink--asc,
+.THIS.slds-is-sorted--desc .shrink--desc {
+    display: inline-block;
+}
+
+.THIS .filterInput {
+    float:left!important;
+}
+
+.THIS .filterIcon {
+    opacity : 0.08!important;
+}
+
+.THIS .filterIcon:hover {
+    opacity : 0.8!important;
+}
+
+.THIS .hide {
+    display : none;
+}

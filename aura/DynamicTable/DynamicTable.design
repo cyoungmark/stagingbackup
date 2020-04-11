@@ -1,0 +1,35 @@
+<design:component label="Silverline Object Table">
+    <design:attribute name="objName" label="Object API Name" 
+                      description="The object type of the records the table will display."/>
+    <design:attribute name="fldList" label="Field List(comma separated)" 
+                      description="Fields on the Object to display, with commas separating the fields."/>
+    <design:attribute name="tblName" label="Table Name"
+                      description="Name displayed at the top of the table"/>
+    <design:attribute name="sortFld" label="Sort Field API Name"
+                      description="Field to sort by when the table first loads. Default is the first field in the Field List."/>
+    <design:attribute name="sortDir" label="Sort Direction" 
+                      datasource="ASC, DESC" default="ASC"
+                      description="Sort in either Ascending (ASC, A-Z, 1-9) or Descending (DESC, Z-A, 9-1) order."/>
+    <design:attribute name="pgSize" label="Number of records to display on a page" default="10"
+                      description="If there are more records than on a page, you can navigate to them with 'next' and 'previous' buttons. More records on a page tends to lead to slower load times."/>
+    <design:attribute name="relationshipField" label="Record Filter Field"  
+                      description="Relationship field name ex. AccountId for Account-Contact relationship" />
+    <design:attribute name="queryFilter" label="Filter Criteria" 
+                      description="Provide filter condition"/>
+    <design:attribute name="disableNew" label="Disable New Button" default="true" 
+                      description="Hide New Button"/>
+    <design:attribute name="isDisableAction" label="Disable Action Column" default="true" 
+                      description="Not supported!!!"/>
+    <design:attribute name="glblFltrEnabled" label="Enable Global Filter?" default="false"
+                      description="The global filter enables users to only display records in the table where at least one of the fields in the row has a partial match of the entered text value."/>
+    <design:attribute name="displayIndexColumn" label="Enable Index Column?" default="false"
+                      description="If true, displays a column in the table which indicates the record's position in the table."/>
+    <design:attribute name="isInfiniteScrollEnabled" label="Enable Infinite Scroll Pagination"
+                      default="false" 
+                      description="If enabled Next, Previous, First and Last button will not appear for pagination"/>
+  <design:attribute name="parentField" label="Parent Id Field of current object" 
+                      description="User can set any parent relationship field which will be used to filter the records"/>
+    <design:attribute name="filterByParent" label="Use Parent Id For Record Filtering"
+                      default="false"
+                      description="If enabled, parent Id will be used in record filtering instead of current record Id"/>
+</design:component>

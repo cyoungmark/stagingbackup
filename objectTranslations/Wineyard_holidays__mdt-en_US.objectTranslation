@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Wineyard holidays</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Wineyard holidays</value>
+    </caseValues>
+    <fields>
+        <label><!-- DayAfterThanksGiving --></label>
+        <name>DayAfterThanksGiving__c</name>
+    </fields>
+    <fields>
+        <label><!-- Easter --></label>
+        <name>Easter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Day --></label>
+        <name>Labor_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Memorial Day --></label>
+        <name>Memorial_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- Presidents Day --></label>
+        <name>Presidents_Day__c</name>
+    </fields>
+    <fields>
+        <label><!-- ThanksGiving --></label>
+        <name>ThanksGiving__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

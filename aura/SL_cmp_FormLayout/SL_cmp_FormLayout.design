@@ -1,0 +1,4 @@
+<design:component >
+    <design:attribute name="fieldset" label="Field Sets" description="Specify the fieldset name" />
+    <design:attribute name="title" label="Component Title" description="Title for each instance of the component" />
+</design:component>

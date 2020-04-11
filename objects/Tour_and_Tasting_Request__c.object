@@ -1,0 +1,1810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>Tours_Tastings_New_Button</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <content>Tours_Tastings_New_Button</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>true</skipRecordTypeSelect>
+        <type>LightningComponent</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Tour_and_Tasting_Request_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>TTR</fullName>
+        <fields>Name</fields>
+        <fields>Winery__c</fields>
+        <fields>Number_of_Guests__c</fields>
+        <fields>Confirmed_Date_of_Visit__c</fields>
+        <fields>Confirmed_Time_of_Visit__c</fields>
+        <fields>Approval_Status__c</fields>
+        <label>TTR</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Approval_Status__c</fullName>
+        <description>Value is populated based on a field update workflow tied to the approval process</description>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>true</default>
+                    <label>Not Submitted</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Winery Approved</fullName>
+                    <default>false</default>
+                    <label>Winery Approved</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Approved</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Approving_Rep_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Approving Rep Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Code__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter the object account code</inlineHelpText>
+        <label>Billing Code</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cases_Purchased_Winery__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Number of cases of wine purchased from this winery</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the number of cases of wine purchased from the winery</inlineHelpText>
+        <label>Cases Purchased Winery</label>
+        <precision>12</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cases_Purchased__c</fullName>
+        <description>Number of Cases Purchased Over Last Rolling 12 Months</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the number of case purchased by this person over the last rolling 12 months</inlineHelpText>
+        <label>Cases Purchased</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Check_in_Date__c</fullName>
+        <description>Date that the Guest will be checking in for their Tour and Tasting lodging.</description>
+        <externalId>false</externalId>
+        <label>Check-in Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Check_out_Date__c</fullName>
+        <description>Date that the Guest will be checking out of their Tour and Tasting lodging.</description>
+        <externalId>false</externalId>
+        <label>Check-out Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Confirmed_Date_of_Visit__c</fullName>
+        <description>Field is only populated by the winery and/or Leah/Carla</description>
+        <externalId>false</externalId>
+        <label>Confirmed Date of Visit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Confirmed_Time_of_Visit__c</fullName>
+        <externalId>false</externalId>
+        <label>Confirmed Time of Visit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>8:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>8:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>8:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>8:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>9:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>9:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>9:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>9:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>10:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>10:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>10:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>10:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>11:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>11:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>11:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>11:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>12:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>12:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>12:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>12:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>1:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>1:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>1:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>1:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>2:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>2:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>2:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>2:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>3:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>3:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>3:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>3:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>4:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>4:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>4:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>4:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>5:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>5:00 PM PDT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Approved__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Approved</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Submitted_for_Approval__c</fullName>
+        <description>Indicates the date the request was submitted for approval</description>
+        <externalId>false</externalId>
+        <label>Date Submitted for Approval</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Dietary_Restriction_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Dietary Restriction Details</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Dietary_Restrictions__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check box if anyone in the party has dietary restrictions</inlineHelpText>
+        <label>Dietary Restrictions</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Earliest_Date_of_Visit_Day_of_Week__c</fullName>
+        <description>Calculates the Day of the Week of the Earliest Date of Visit</description>
+        <externalId>false</externalId>
+        <formula>CASE( MOD(  Earliest_Date_of_Visit__c  - DATE(1900, 1, 7), 7),0, &quot;Sunday&quot;, 1, &quot;Monday&quot;, 2, &quot;Tuesday&quot;, 3, &quot;Wednesday&quot;, 4, &quot;Thursday&quot;, 5, &quot;Friday&quot;, 6, &quot;Saturday&quot;, &quot;Unknown&quot;)</formula>
+        <inlineHelpText>Calculates the Day of the Week of the Earliest Date of Visit</inlineHelpText>
+        <label>Earliest Date of Visit Day of Week</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Earliest_Date_of_Visit__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the earliest date the guest is available for a visit.</inlineHelpText>
+        <label>Earliest Date of Visit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Earliest_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the earliest time the guest could arrive for the visit.</inlineHelpText>
+        <label>Earliest Start Time</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>10:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>10:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>10:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>11:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>11:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>11:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>11:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>12:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>12:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>12:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>12:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>1:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>1:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>1:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>1:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>2:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>2:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>2:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>2:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>3:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>3:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>3:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>3:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>4:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>4:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>4:30 PM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>4:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>5:00 PM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>5:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>8:00 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>8:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>8:30 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>8:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>9:00 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>9:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>9:30 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>9:30 AM PDT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>First_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check  box if this is the first visit to this winery</inlineHelpText>
+        <label>First Visit</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Guest_Notes__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tour_and_Tasting__r.Guest_Notes__c</formula>
+        <label>Guest Notes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Itinerary_Recipient_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Itinerary Recipient Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Latest_Date_of_Visit__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Latest date the guest is available for a visit.</inlineHelpText>
+        <label>Latest Date of Visit</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Latest_Start_Time__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter the latest that the guest can start the visit.</inlineHelpText>
+        <label>Latest Start Time</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>10:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>10:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>10:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>10:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>11:00 AM PDT</fullName>
+                    <default>false</default>
+                    <label>11:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>11:30 AM PDT</fullName>
+                    <default>false</default>
+                    <label>11:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>12:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>12:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>12:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>12:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>1:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>1:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>1:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>1:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>2:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>2:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>2:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>2:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>3:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>3:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>3:30 PM PDT</fullName>
+                    <default>false</default>
+                    <label>3:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>4:00 PM PDT</fullName>
+                    <default>false</default>
+                    <label>4:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>4:30 PM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>4:30 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>5:00 PM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>5:00 PM PDT</label>
+                </value>
+                <value>
+                    <fullName>8:00 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>8:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>8:30 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>8:30 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>9:00 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>9:00 AM PDT</label>
+                </value>
+                <value>
+                    <fullName>9:30 AM PDT</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>9:30 AM PDT</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lodging_Approval_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Lodging Approval Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+                <value>
+                    <fullName>Not Submitted</fullName>
+                    <default>false</default>
+                    <label>Not Submitted</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lodging_Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Lodging Approved</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lodging_Request_Text__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Lodging_Request__c, &quot;Yes&quot;, &quot;No&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lodging Request Text</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lodging_Request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Available at Markham Only!</inlineHelpText>
+        <label>Lodging Request</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lunch_Cost__c</fullName>
+        <description>The wineries will enter the approximate or actual cost of the lunch to be provided. This cost will be billed back to the billing code on the request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For winery entry only: The wineries will enter the cost of the lunch to be provided. This cost will be billed back to the billing code on the request.</inlineHelpText>
+        <label>Lunch Cost</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Lunch_Request_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Lunch Request Details</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lunch_Request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Lunch Request</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lunch_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Lunch Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Lunch_Request__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Boxed (RHL Only)</fullName>
+                    <default>false</default>
+                    <label>Boxed (RHL Only)</label>
+                </value>
+                <value>
+                    <fullName>Plattered</fullName>
+                    <default>false</default>
+                    <label>Plattered</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Boxed (RHL Only)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>Plattered</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Number_of_Guests__c</fullName>
+        <description>The total number of guests attending.</description>
+        <externalId>false</externalId>
+        <formula>Tour_and_Tasting__r.Number_of_Guests__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The total number of guests attending.</inlineHelpText>
+        <label>Number of Guests</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Nights__c</fullName>
+        <externalId>false</externalId>
+        <formula>Check_out_Date__c - Check_in_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of Nights</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Original_Itinerary_Sent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Original Itinerary Sent</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Primary_Guest_Mobile_Phone__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tour_and_Tasting__r.Primary_Guest_Name__r.MobilePhone</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Primary Guest Mobile Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Guest_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tour_and_Tasting__r.Primary_Guest_Name__r.FirstName &amp; &apos; &apos; &amp; Tour_and_Tasting__r.Primary_Guest_Name__r.LastName</formula>
+        <label>Primary Guest Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Primary_Guest_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Tour_and_Tasting__r.Request_Type__c )</formula>
+        <label>Primary Guest Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Request_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ISBLANK( Tour_and_Tasting__r.Owner:User.Id ), Tour_and_Tasting__r.Owner:Queue.Name, Tour_and_Tasting__r.Owner:User.FirstName &amp; &apos; &apos; &amp; Tour_and_Tasting__r.Owner:User.LastName )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Request Owner</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Request_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please select a WINERY first! Then chose your Request Type for the event you wish to set up for your guest.</inlineHelpText>
+        <label>xx_Request Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>T_T_Request_Type</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Request_Type_text__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Type</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Resend_Itinerary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Resend Itinerary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Results__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter results of visit to this winery</inlineHelpText>
+        <label>Results</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Send_Itinerary__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Send an Itinerary to the contact related to this request.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Send an Itinerary to the contact related to this request.</inlineHelpText>
+        <label>Send Itinerary</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Specify_Lodging_Dates__c</fullName>
+        <externalId>false</externalId>
+        <label>Specify Lodging Dates</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>T_T_Form_Submission_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Tour_and_Tasting__r.Submission_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>T&amp;T Form Submission Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Tasting_Cost__c</fullName>
+        <description>The wineries can determine the approximate or true cost of the tasting and or tour.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>For winery entry only: The wineries will determine the cost of the tasting and or tour.</inlineHelpText>
+        <label>Tasting Cost</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Tour_and_Tasting__c</fullName>
+        <externalId>false</externalId>
+        <label>Tour and Tasting</label>
+        <referenceTo>Tours_and_Tastings__c</referenceTo>
+        <relationshipLabel>Tour and Tasting Requests</relationshipLabel>
+        <relationshipName>Tour_and_Tasting_Requests</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Visit_Completed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check box when a tour has been completed and enter visit results below</inlineHelpText>
+        <label>Visit Completed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Winery_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Winery__r.Name</formula>
+        <label>Winery Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Winery__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Winery</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>You can only select Winery Accounts</errorMessage>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Winery Account</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Tour and Tasting Requests</relationshipLabel>
+        <relationshipName>Tour_and_Tasting_Requests</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>xx_Number_of_Nights__c</fullName>
+        <externalId>false</externalId>
+        <label>xx_Number of Nights</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Tour and Tasting Request</label>
+    <nameField>
+        <displayFormat>TTR-{0}</displayFormat>
+        <label>Tour and Tasting Request Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Tour and Tasting Requests</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypes>
+        <fullName>Tour_Tasting_Request_Sales</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>TTR</compactLayoutAssignment>
+        <description>Used to create new tour and tasting requests for sales</description>
+        <label>Tour and Tasting Request - Sales</label>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Winery Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Confirmed_Time_of_Visit__c</picklist>
+            <values>
+                <fullName>1%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Earliest_Start_Time__c</picklist>
+            <values>
+                <fullName>1%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Latest_Start_Time__c</picklist>
+            <values>
+                <fullName>1%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lodging_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lunch_Type__c</picklist>
+            <values>
+                <fullName>Boxed %28RHL Only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plattered</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>Tasting</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour and Tasting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Tour_and_Tasting_Request_Approver</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>TTR</compactLayoutAssignment>
+        <description>Used for Tour and Tasting Approvers</description>
+        <label>Tour and Tasting Request - Approver</label>
+        <picklistValues>
+            <picklist>Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Winery Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Confirmed_Time_of_Visit__c</picklist>
+            <values>
+                <fullName>1%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Earliest_Start_Time__c</picklist>
+            <values>
+                <fullName>1%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Latest_Start_Time__c</picklist>
+            <values>
+                <fullName>1%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A00 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A30 AM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A30 PM PDT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A00 PM PDT</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lodging_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lunch_Type__c</picklist>
+            <values>
+                <fullName>Boxed %28RHL Only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Plattered</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>Tasting</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Tour</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tour and Tasting</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Request_Type_text__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Winery_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Earliest_Date_of_Visit__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Earliest_Start_Time__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Date_Approved__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Approval_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Number_of_Guests__c</customTabListAdditionalFields>
+        <excludedStandardButtons>New</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>CheckRequestDates</fullName>
+        <active>true</active>
+        <description>Check that selected latest request date is &gt;=  the earliest request date</description>
+        <errorConditionFormula>Earliest_Date_of_Visit__c  &gt; Latest_Date_of_Visit__c</errorConditionFormula>
+        <errorMessage>Earliest Date of Visit must be before or equal to Latest Date of Visit.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Chimney_Rock_No_Weekend_Reservations</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+
+(Winery_Name__c = &quot;Chimney Rock&quot;),
+OR( (Earliest_Date_of_Visit_Day_of_Week__c = &quot;Saturday&quot;),
+(Earliest_Date_of_Visit_Day_of_Week__c = &quot;Sunday&quot;) )
+
+)
+
+&amp;&amp; not($Permission.Chimney_Rock_Weekend_Override)</errorConditionFormula>
+        <errorMessage>Please ensure all Chimney Rock Reservations are during the work week</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Confirmed_DateTime_Before_Approval</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+  OR( ISBLANK(TEXT(Confirmed_Date_of_Visit__c)),
+      ISBLANK(TEXT(Confirmed_Time_of_Visit__c ))),
+  ISPICKVAL( Approval_Status__c, &quot;Approved&quot;))</errorConditionFormula>
+        <errorMessage>Please populate Confirmed Date of Visit and Confirmed Time of Visit before Approving</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RequestLeadTime</fullName>
+        <active>false</active>
+        <description>Checks the a tour and tasting earliest request is 7 days from the date of request</description>
+        <errorConditionFormula>(Earliest_Date_of_Visit__c ) &lt;=  DATEVALUE(now()) + 7
+
+&amp;&amp; not($Permission.Lead_Time_Override)</errorConditionFormula>
+        <errorMessage>Tour and Tasting requests must be made 7 days in advance.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>RequestType_must_be_filled</fullName>
+        <active>false</active>
+        <errorConditionFormula>ISBLANK(Request_Type_text__c)</errorConditionFormula>
+        <errorMessage>Please populate Request Type field</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Rochioli_Winery_Start_Time</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND((Winery_Name__c = &quot;Chimney Rock&quot;),(Earliest_Date_of_Visit__c == DATE(2019,12, 25)))</errorConditionFormula>
+        <errorMessage>Closed on Christmas</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Rutherford_Hill_Winery_Available_Mon_Fri</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(AND(
+(Winery_Name__c = &quot;Rutherford Hill Winery&quot;),
+OR( (Earliest_Date_of_Visit_Day_of_Week__c= &quot;Saturday&quot;),
+(Earliest_Date_of_Visit_Day_of_Week__c= &quot;Sunday&quot;) )
+), AND(
+(Winery_Name__c = &quot;Rutherford Hill Winery&quot;),
+OR( (Earliest_Date_of_Visit_Day_of_Week__c!= &quot;Saturday&quot;),
+(Earliest_Date_of_Visit_Day_of_Week__c!= &quot;Sunday&quot;) ), ISPICKVAL(Latest_Start_Time__c, &apos;4:00 PM PDT&apos;)
+))</errorConditionFormula>
+        <errorMessage>Private Tours &amp; Tasting are available M-F (last appointment at 3:30pm)</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>ValidateConfirmedTastingDate</fullName>
+        <active>true</active>
+        <description>Validates that the tasting is confirmed within the date range.</description>
+        <errorConditionFormula>Earliest_Date_of_Visit__c &gt; Confirmed_Date_of_Visit__c 
+|| 
+Confirmed_Date_of_Visit__c &gt; Latest_Date_of_Visit__c</errorConditionFormula>
+        <errorMessage>Confirmed Tasting date cannot be outside of requested date range.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Winery_No_Food_Available</fullName>
+        <active>true</active>
+        <description>Based on checkbox on Account</description>
+        <errorConditionFormula>AND( 
+
+( Lunch_Request__c = TRUE), 
+
+( Winery__r.Food_Available__c = FALSE) 
+)</errorConditionFormula>
+        <errorMessage>This Winery cannot accommodate Lunch Requests</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Winery_No_Lodging</fullName>
+        <active>true</active>
+        <description>Based on checkbox on Account</description>
+        <errorConditionFormula>AND( 
+
+(Lodging_Request__c = TRUE), 
+
+(Winery__r.Lodging_Available__c = FALSE) 
+)</errorConditionFormula>
+        <errorMessage>This Winery cannot accommodate Lodging Requests</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Winery_No_Private_Tour</fullName>
+        <active>true</active>
+        <description>Based on checkbox on Account</description>
+        <errorConditionFormula>AND( 
+
+
+ISPICKVAL(Request_Type__c, &quot;Tour&quot;), 
+(Winery__r.Private_Tours__c = FALSE) 
+
+)</errorConditionFormula>
+        <errorMessage>This Winery cannot accommodate Private Tours</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>New_T_T_Request</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New T&amp;T Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/a0u/e?retURL={!Tours_and_Tastings__c.Id} 
+&amp;saveURL={!Tours_and_Tastings__c.Id} 
+&amp;RecordType=01236000000SQrq 
+&amp;CF00N3600000SXZcT={!Tours_and_Tastings__c.Name} 
+&amp;CF00N3600000SXZcT_lkid={!Tours_and_Tastings__c.Id}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>New_T_T_Request_Button</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>New T&amp;T Request</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/a0u/e?retURL={!Tours_and_Tastings__c.Id} 
+&amp;saveURL={!Tours_and_Tastings__c.Id} 
+&amp;RecordType=01236000000SQrq 
+&amp;CF00N0t000000Fiy3={!Tours_and_Tastings__c.Name} 
+&amp;CF00N0t000000Fiy3_lkid={!Tours_and_Tastings__c.Id}</url>
+    </webLinks>
+</CustomObject>

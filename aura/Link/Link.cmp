@@ -1,0 +1,11 @@
+<aura:component >
+  <aura:attribute name="curFld" type="Object"/>
+  <aura:attribute name="cellVal" type="String"/>
+  <aura:attribute name="lkupId" type="String"/>
+
+  <aura:attribute name="testsfid" type="Aura.Action" default="{!c.testsfclick}"/>
+
+  <a href="javascript:void(0);" 
+     data-sfid="{!v.lkupId}" 
+     onclick="{!v.testsfid}">{!v.cellVal}</a>
+</aura:component>

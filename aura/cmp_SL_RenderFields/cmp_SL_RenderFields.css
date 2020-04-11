@@ -1,0 +1,11 @@
+.THIS .errorStyle{
+    background-color: white;
+    border-color: #c23934;
+    box-shadow: #c23934 0 0 0 1px inset;
+    background-clip: padding-box;
+}
+
+.THIS .slds-truncate{
+    word-break: break-word;
+    white-space: normal;
+}

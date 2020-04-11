@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="Selected Event Id" access="global">
+    <aura:attribute name="selectedId" type="String"/>
+    <aura:attribute name="selectedName" type="String"/>
+</aura:event>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>600</fullName>
+        <default>false</default>
+        <label>Still Wine &lt;= 14%</label>
+    </customValue>
+    <customValue>
+        <fullName>500</fullName>
+        <default>false</default>
+        <label>Still Wine &gt; 14% &lt;20%</label>
+    </customValue>
+    <customValue>
+        <fullName>505</fullName>
+        <default>false</default>
+        <label>Still Wine &gt; 21%</label>
+    </customValue>
+    <customValue>
+        <fullName>700</fullName>
+        <default>false</default>
+        <label>Sparkling Wine</label>
+    </customValue>
+    <customValue>
+        <fullName>601</fullName>
+        <default>false</default>
+        <label>Stl Wn &lt;=14% &gt;2L &lt;=4L</label>
+    </customValue>
+    <customValue>
+        <fullName>602</fullName>
+        <default>false</default>
+        <label>Stl Wn &lt;=14% &gt;4Ltrs</label>
+    </customValue>
+    <customValue>
+        <fullName>145</fullName>
+        <default>false</default>
+        <label>Liqueurs &amp; Cordials &lt;=4 Ltr</label>
+    </customValue>
+    <customValue>
+        <fullName>150</fullName>
+        <default>false</default>
+        <label>Whiskey (Irish&amp;Scotch) &lt;4Ltrs</label>
+    </customValue>
+    <customValue>
+        <fullName>160</fullName>
+        <default>false</default>
+        <label>Whiskey, Other</label>
+    </customValue>
+    <customValue>
+        <fullName>165</fullName>
+        <default>false</default>
+        <label>Rum &lt;=4L (&gt;$3/PL)</label>
+    </customValue>
+    <customValue>
+        <fullName>180</fullName>
+        <default>false</default>
+        <label>Brandy &lt;=4L (&gt;$2.38&lt;=$3.43/L)</label>
+    </customValue>
+    <customValue>
+        <fullName>181</fullName>
+        <default>false</default>
+        <label>Brandy &lt;=4L (&gt;$3.43/L)</label>
+    </customValue>
+    <customValue>
+        <fullName>200</fullName>
+        <default>false</default>
+        <label>Vodka &lt;4L &gt;$2.05/L</label>
+    </customValue>
+    <customValue>
+        <fullName>225</fullName>
+        <default>false</default>
+        <label>Gin &lt;=4L</label>
+    </customValue>
+    <customValue>
+        <fullName>250</fullName>
+        <default>false</default>
+        <label>Mezcal &lt; 4 Ltr</label>
+    </customValue>
+    <customValue>
+        <fullName>260</fullName>
+        <default>false</default>
+        <label>Tequilla &lt; 4 Ltr</label>
+    </customValue>
+    <customValue>
+        <fullName>510</fullName>
+        <default>false</default>
+        <label>Marsala &gt;14% &lt;20%</label>
+    </customValue>
+    <customValue>
+        <fullName>530</fullName>
+        <default>false</default>
+        <label>Sherry/Port &gt;14% &lt;20%</label>
+    </customValue>
+    <customValue>
+        <fullName>531</fullName>
+        <default>false</default>
+        <label>Sherry/Port &gt;=20%</label>
+    </customValue>
+    <customValue>
+        <fullName>540</fullName>
+        <default>false</default>
+        <label>Rice Wine/Sake &lt;=14%</label>
+    </customValue>
+    <customValue>
+        <fullName>541</fullName>
+        <default>false</default>
+        <label>Rice Wine/Sake &gt;14%&lt;20%</label>
+    </customValue>
+    <customValue>
+        <fullName>542</fullName>
+        <default>false</default>
+        <label>Rice Wine/Sake &gt;21%</label>
+    </customValue>
+    <customValue>
+        <fullName>875</fullName>
+        <default>false</default>
+        <label>Non - Alcoholic</label>
+    </customValue>
+    <customValue>
+        <fullName>900</fullName>
+        <default>false</default>
+        <label>Non-Alcoholic</label>
+    </customValue>
+    <customValue>
+        <fullName>910</fullName>
+        <default>false</default>
+        <label>Still Water</label>
+    </customValue>
+    <customValue>
+        <fullName>915</fullName>
+        <default>false</default>
+        <label>Sparkling Water</label>
+    </customValue>
+    <customValue>
+        <fullName>520</fullName>
+        <default>false</default>
+        <label>Vermouth  &gt;14%&lt;20% (&lt; =2Ltrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>521</fullName>
+        <default>false</default>
+        <label>Vermouth &gt;14%&lt;20% (&gt; 2L&lt;4Ltrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>522</fullName>
+        <default>false</default>
+        <label>Vermouth &gt;14%&lt;20% (&gt; 4Ltrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>523</fullName>
+        <default>false</default>
+        <label>Vermouth &gt;20% (&lt;=2Ltrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>524</fullName>
+        <default>false</default>
+        <label>Vermouth &gt;20% (&gt;2L&lt;4Ltrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>525</fullName>
+        <default>false</default>
+        <label>Vermouth &gt;20% (&gt;4Ltrs)</label>
+    </customValue>
+    <customValue>
+        <fullName>Blank - Beverage Code  41/S5</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Blank - Beverage Code  41/S5</label>
+    </customValue>
+    <customValue>
+        <fullName>110</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gr Brandy  &lt;4L &lt;$2.38/Ltr</label>
+    </customValue>
+    <customValue>
+        <fullName>111</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GrBrandy &lt;4L &gt;$2.38&lt;$3.43/L</label>
+    </customValue>
+    <customValue>
+        <fullName>115</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GrBrandy &lt;4L &gt;$3.43/L</label>
+    </customValue>
+    <customValue>
+        <fullName>170</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Bitters-As Bev.</label>
+    </customValue>
+    <customValue>
+        <fullName>800</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Beer</label>
+    </customValue>
+    <customValue>
+        <fullName>850</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Cider</label>
+    </customValue>
+    <customValue>
+        <fullName>114</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GrBrandy &lt;4L &gt;$2.38&lt;$3.43/LX</label>
+    </customValue>
+    <customValue>
+        <fullName>113</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gr Brandy  &lt;4L &lt;$2.38/LtrX</label>
+    </customValue>
+    <description>Beverage classification for tax purposes</description>
+    <masterLabel>Beverage Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tour and Tasting Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tour and Tasting Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winery Approved</masterLabel>
+            <translation><!-- Winery Approved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approving Rep Email --></label>
+        <name>Approving_Rep_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the object account code --></help>
+        <label><!-- Billing Code --></label>
+        <name>Billing_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of cases of wine purchased from the winery --></help>
+        <label><!-- Cases Purchased Winery --></label>
+        <name>Cases_Purchased_Winery__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of case purchased by this person over the last rolling 12 months --></help>
+        <label><!-- Cases Purchased --></label>
+        <name>Cases_Purchased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check-in Date --></label>
+        <name>Check_in_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Check-out Date --></label>
+        <name>Check_out_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmed Date of Visit --></label>
+        <name>Confirmed_Date_of_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmed Time of Visit --></label>
+        <name>Confirmed_Time_of_Visit__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM PDT</masterLabel>
+            <translation><!-- 10:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM PDT</masterLabel>
+            <translation><!-- 10:30 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM PDT</masterLabel>
+            <translation><!-- 11:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM PDT</masterLabel>
+            <translation><!-- 11:30 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM PDT</masterLabel>
+            <translation><!-- 12:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM PDT</masterLabel>
+            <translation><!-- 12:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM PDT</masterLabel>
+            <translation><!-- 1:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM PDT</masterLabel>
+            <translation><!-- 1:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM PDT</masterLabel>
+            <translation><!-- 2:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM PDT</masterLabel>
+            <translation><!-- 2:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM PDT</masterLabel>
+            <translation><!-- 3:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM PDT</masterLabel>
+            <translation><!-- 3:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM PDT</masterLabel>
+            <translation><!-- 4:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:30 PM PDT</masterLabel>
+            <translation><!-- 4:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM PDT</masterLabel>
+            <translation><!-- 5:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM PDT</masterLabel>
+            <translation><!-- 8:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 AM PDT</masterLabel>
+            <translation><!-- 8:30 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM PDT</masterLabel>
+            <translation><!-- 9:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM PDT</masterLabel>
+            <translation><!-- 9:30 AM PDT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Submitted for Approval --></label>
+        <name>Date_Submitted_for_Approval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dietary Restriction Details --></label>
+        <name>Dietary_Restriction_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check box if anyone in the party has dietary restrictions --></help>
+        <label><!-- Dietary Restrictions --></label>
+        <name>Dietary_Restrictions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculates the Day of the Week of the Earliest Date of Visit --></help>
+        <label><!-- Earliest Date of Visit Day of Week --></label>
+        <name>Earliest_Date_of_Visit_Day_of_Week__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the earliest date the guest is available for a visit. --></help>
+        <label><!-- Earliest Date of Visit --></label>
+        <name>Earliest_Date_of_Visit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the earliest time the guest could arrive for the visit. --></help>
+        <label><!-- Earliest Start Time --></label>
+        <name>Earliest_Start_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM PDT</masterLabel>
+            <translation><!-- 10:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM PDT</masterLabel>
+            <translation><!-- 10:30 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM PDT</masterLabel>
+            <translation><!-- 11:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM PDT</masterLabel>
+            <translation><!-- 11:30 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM PDT</masterLabel>
+            <translation><!-- 12:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM PDT</masterLabel>
+            <translation><!-- 12:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM PDT</masterLabel>
+            <translation><!-- 1:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM PDT</masterLabel>
+            <translation><!-- 1:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM PDT</masterLabel>
+            <translation><!-- 2:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM PDT</masterLabel>
+            <translation><!-- 2:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM PDT</masterLabel>
+            <translation><!-- 3:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM PDT</masterLabel>
+            <translation><!-- 3:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM PDT</masterLabel>
+            <translation><!-- 4:00 PM PDT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check  box if this is the first visit to this winery --></help>
+        <label><!-- First Visit --></label>
+        <name>First_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guest Notes --></label>
+        <name>Guest_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Recipient Email --></label>
+        <name>Itinerary_Recipient_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Latest date the guest is available for a visit. --></help>
+        <label><!-- Latest Date of Visit --></label>
+        <name>Latest_Date_of_Visit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the latest that the guest can start the visit. --></help>
+        <label><!-- Latest Start Time --></label>
+        <name>Latest_Start_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM PDT</masterLabel>
+            <translation><!-- 10:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM PDT</masterLabel>
+            <translation><!-- 10:30 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM PDT</masterLabel>
+            <translation><!-- 11:00 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM PDT</masterLabel>
+            <translation><!-- 11:30 AM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM PDT</masterLabel>
+            <translation><!-- 12:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM PDT</masterLabel>
+            <translation><!-- 12:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM PDT</masterLabel>
+            <translation><!-- 1:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM PDT</masterLabel>
+            <translation><!-- 1:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM PDT</masterLabel>
+            <translation><!-- 2:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM PDT</masterLabel>
+            <translation><!-- 2:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM PDT</masterLabel>
+            <translation><!-- 3:00 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM PDT</masterLabel>
+            <translation><!-- 3:30 PM PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM PDT</masterLabel>
+            <translation><!-- 4:00 PM PDT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lodging Approval Status --></label>
+        <name>Lodging_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lodging Approved --></label>
+        <name>Lodging_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lodging Request Text --></label>
+        <name>Lodging_Request_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Available at Markham Only! --></help>
+        <label><!-- Lodging Request --></label>
+        <name>Lodging_Request__c</name>
+    </fields>
+    <fields>
+        <help><!-- For winery entry only: The wineries will enter the cost of the lunch to be provided. This cost will be billed back to the billing code on the request. --></help>
+        <label><!-- Lunch Cost --></label>
+        <name>Lunch_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lunch Request Details --></label>
+        <name>Lunch_Request_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lunch Request --></label>
+        <name>Lunch_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lunch Type --></label>
+        <name>Lunch_Type__c</name>
+        <picklistValues>
+            <masterLabel>Boxed (RHL Only)</masterLabel>
+            <translation><!-- Boxed (RHL Only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plattered</masterLabel>
+            <translation><!-- Plattered --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The total number of guests attending. --></help>
+        <label><!-- Number of Guests --></label>
+        <name>Number_of_Guests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Nights --></label>
+        <name>Number_of_Nights__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Itinerary Sent --></label>
+        <name>Original_Itinerary_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Guest Mobile Phone --></label>
+        <name>Primary_Guest_Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Guest Name --></label>
+        <name>Primary_Guest_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Guest Type --></label>
+        <name>Primary_Guest_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Owner --></label>
+        <name>Request_Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please select a WINERY first! Then chose your Request Type for the event you wish to set up for your guest. --></help>
+        <label><!-- xx_Request Type --></label>
+        <name>Request_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type_text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resend Itinerary --></label>
+        <name>Resend_Itinerary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter results of visit to this winery --></help>
+        <label><!-- Results --></label>
+        <name>Results__c</name>
+    </fields>
+    <fields>
+        <help><!-- Send an Itinerary to the contact related to this request. --></help>
+        <label><!-- Send Itinerary --></label>
+        <name>Send_Itinerary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Specify Lodging Dates --></label>
+        <name>Specify_Lodging_Dates__c</name>
+    </fields>
+    <fields>
+        <label><!-- T&amp;T Form Submission Date --></label>
+        <name>T_T_Form_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- For winery entry only: The wineries will determine the cost of the tasting and or tour. --></help>
+        <label><!-- Tasting Cost --></label>
+        <name>Tasting_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tour and Tasting --></label>
+        <name>Tour_and_Tasting__c</name>
+        <relationshipLabel><!-- Tour and Tasting Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check box when a tour has been completed and enter visit results below --></help>
+        <label><!-- Visit Completed --></label>
+        <name>Visit_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Winery Name --></label>
+        <name>Winery_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Winery --></label>
+        <lookupFilter>
+            <errorMessage><!-- You can only select Winery Accounts --></errorMessage>
+        </lookupFilter>
+        <name>Winery__c</name>
+        <relationshipLabel><!-- Tour and Tasting Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- xx_Number of Nights --></label>
+        <name>xx_Number_of_Nights__c</name>
+    </fields>
+    <layouts>
+        <layout>Locked</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Food --></label>
+            <section>Food</section>
+        </sections>
+        <sections>
+            <label><!-- Lodging --></label>
+            <section>Lodging</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Results --></label>
+            <section>Visit Results</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Request Owner</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Confirmation Details --></label>
+            <section>Confirmation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Guest Details --></label>
+            <section>Guest Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tour and Tasting Request - Approver</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Food --></label>
+            <section>Food</section>
+        </sections>
+        <sections>
+            <label><!-- Lodging --></label>
+            <section>Lodging</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Results --></label>
+            <section>Visit Results</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tour and Tasting Request - Sales</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Confirmation Details --></label>
+            <section>Confirmation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Guest Details --></label>
+            <section>Guest Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Winery Approver</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Confirmation Details --></label>
+            <section>Confirmation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Guest Details --></label>
+            <section>Guest Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Used to create new tour and tasting requests for sales --></description>
+        <label><!-- Tour and Tasting Request - Sales --></label>
+        <name>Tour_Tasting_Request_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Used for Tour and Tasting Approvers --></description>
+        <label><!-- Tour and Tasting Request - Approver --></label>
+        <name>Tour_and_Tasting_Request_Approver</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Earliest Date of Visit must be before or equal to Latest Date of Visit. --></errorMessage>
+        <name>CheckRequestDates</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please ensure all Chimney Rock Reservations are during the work week --></errorMessage>
+        <name>Chimney_Rock_No_Weekend_Reservations</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please populate Confirmed Date of Visit and Confirmed Time of Visit before Approving --></errorMessage>
+        <name>Confirmed_DateTime_Before_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tour and Tasting requests must be made 7 days in advance. --></errorMessage>
+        <name>RequestLeadTime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please populate Request Type field --></errorMessage>
+        <name>RequestType_must_be_filled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed on Christmas --></errorMessage>
+        <name>Rochioli_Winery_Start_Time</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Private Tours &amp; Tasting are available M-F (last appointment at 3:30pm) --></errorMessage>
+        <name>Rutherford_Hill_Winery_Available_Mon_Fri</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Confirmed Tasting date cannot be outside of requested date range. --></errorMessage>
+        <name>ValidateConfirmedTastingDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Winery cannot accommodate Lunch Requests --></errorMessage>
+        <name>Winery_No_Food_Available</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Winery cannot accommodate Lodging Requests --></errorMessage>
+        <name>Winery_No_Lodging</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This Winery cannot accommodate Private Tours --></errorMessage>
+        <name>Winery_No_Private_Tour</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_T_T_Request --></label>
+        <name>New_T_T_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_T_T_Request_Button --></label>
+        <name>New_T_T_Request_Button</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Follow_up_with_guest_regarding_lodging</name>
+        <subject><!-- Follow up with guest regarding lodging --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>New_T_T_Request</name>
+        <subject><!-- New T&amp;T Request --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

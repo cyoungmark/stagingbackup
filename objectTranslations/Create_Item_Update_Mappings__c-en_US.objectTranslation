@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Create Item Update Mappings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Create Item Update Mappings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Item API --></label>
+        <name>Item_API__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Update API --></label>
+        <name>Item_Update_API__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

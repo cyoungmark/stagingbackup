@@ -1,0 +1,35 @@
+<apex:page standardStylesheets="false" showHeader="false" sidebar="false">
+<html class="gr__twg_com">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+        <meta name="description" content="Terlato Wine Group"/>
+    
+        <title>Terlato Wine Group</title>
+       <apex:stylesheet value="{!URLFOR($Resource.TWG_Assets, 'css/main.css')}"/>
+       <style>
+        #footer {
+            background-image: url('{!URLFOR($Resource.TWG_Assets,'images/twg-footer-background.png')}');
+        }
+        #header {
+            background-image: url('{!URLFOR($Resource.TWG_Assets,'images/logo_background.gif')}');
+        }
+       </style>
+        
+   
+    </head>
+    
+    <body data-gr-c-s-loaded="true" style="zoom: 1;">
+        <div id="header">
+            <img alt="Terlato Wine Group" src="{!URLFOR($Resource.TWG_Assets,'images/logo.gif')}"/>
+        </div>
+        <div id="main">
+            <apex:iframe width="100%" height="760px"  scrolling="false" src="/apex/TWG_Frame" id="theFrame"/>
+        </div>
+        <div id="footer">
+            Copyright Terlato Wine Group <script type="text/javascript">document.write(new Date().getFullYear());</script>. All rights reserved
+        </div>
+    
+    </body>
+</html>
+</apex:page>

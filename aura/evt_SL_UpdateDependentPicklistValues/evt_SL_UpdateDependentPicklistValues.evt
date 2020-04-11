@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="Update dependent picklist values">
+	<aura:attribute name="cntrFieldName" type="String"/>
+	<aura:attribute name="cntrFieldValue" type="String"/>
+</aura:event>

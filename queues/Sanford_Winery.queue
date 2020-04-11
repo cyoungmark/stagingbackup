@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Sanford Winery</name>
+    <queueMembers>
+        <users>
+            <user>angela@sanfordwinery.com</user>
+            <user>schofieldd@sanfordwinery.com</user>
+            <user>hope@sanfordwinery.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Tours_and_Tastings__c</sobjectType>
+    </queueSobject>
+</Queue>

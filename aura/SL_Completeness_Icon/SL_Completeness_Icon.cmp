@@ -1,0 +1,47 @@
+<aura:component controller="SL_Lightning_CompletenessIconController"  implements="flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName,forceCommunity:availableForAllPageTypes" access="global">
+
+<aura:attribute name="recordId" type="Id" required="true" default="{!v.recordId}"/>
+<aura:attribute name="sObjectAPIName" type="String" required="true" default="Contact"/>
+<aura:attribute name="fieldSetAPIName" type="String" required="true" default="SL_ContactFieldSet"/>
+<aura:attribute name="testAttribute" type="String" default="default"/>
+<aura:attribute name="isSpinning" type="Boolean" default="true"/>
+<aura:attribute name="fieldPercent" type="Integer"/>
+<aura:attribute name="nullFields" type="List"/>
+<aura:attribute name="title" type="String" default=""/>
+<aura:attribute name="displayCount" type="boolean" default="true"/>
+<aura:attribute name="isReadOnly" type="boolean" default="true"/>
+<aura:attribute name="noOfMissingRequiredFields" type="Integer" />
+<aura:attribute name="selectedSObject" type="SObject"/>
+<aura:attribute name="mapFieldInfo" type="Map"/>
+<aura:attribute name="fieldApiNames" type="List"/>
+    
+<!-- new attributes -->
+<aura:attribute name="sObjectName" type="String" description="API name of record on which this component is hosted." />
+    
+<aura:attribute name="perText" type="String" default="50%" description="Text to display inside circle. It is auto calculated field and used internally." />
+<aura:attribute name="cirDeg" type="String" default="50" description="Degree of Progress to show. It is auto calculated field and used internally." />
+
+<aura:attribute name="totalProgress" type="String" default="100" description="Total progress. It can be number OR API name of field." />
+<aura:attribute name="actualProgress" type="String" default="50" description="Actual progress. It can be number OR API name of field." />
+
+<aura:attribute name="theme" type="String" default="blue" description="Theme of Circular Progress Bar. Possible values are blue, green, orange." />
+<aura:attribute name="size" type="String" default="small" description="Size of Circular Progress Bar. Possible values are small, medium, big." />
+    
+<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+<aura:handler event="force:refreshView" action="{!c.doInit}" />
+
+    <aura:attribute name="width" type="String"/>
+    <lightning:flexipageRegionInfo width="{!v.width}"/>
+    
+    <aura:if isTrue="{!!v.isSpinning}">
+        <div class="slds-card alignComponent">
+            <c:SL_Lightning_Completeness_Icon isReadOnly="{!v.isReadOnly}" width="{!v.width}" 
+             nullFields="{!v.nullFields}" fieldPercent="{!v.fieldPercent}" title="{!v.title}" 
+             displayCount="{!v.displayCount}" noOfMissingRequiredFields="{!v.noOfMissingRequiredFields}" 
+             recordId="{!v.recordId}" sObjectAPIName="{!v.sObjectAPIName}" fieldSetAPIName="{!v.fieldSetAPIName}"/>
+        </div>
+    </aura:if>
+
+
+
+</aura:component>

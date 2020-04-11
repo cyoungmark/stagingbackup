@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CALIFORNIA</fullName>
+        <default>false</default>
+        <label>CALIFORNIA</label>
+    </customValue>
+    <customValue>
+        <fullName>OREGON</fullName>
+        <default>false</default>
+        <label>OREGON</label>
+    </customValue>
+    <customValue>
+        <fullName>NEW YORK</fullName>
+        <default>false</default>
+        <label>NEW YORK</label>
+    </customValue>
+    <customValue>
+        <fullName>VIRGINIA</fullName>
+        <default>false</default>
+        <label>VIRGINIA</label>
+    </customValue>
+    <customValue>
+        <fullName>LOUISIANA</fullName>
+        <default>false</default>
+        <label>LOUISIANA</label>
+    </customValue>
+    <customValue>
+        <fullName>VERMONT</fullName>
+        <default>false</default>
+        <label>VERMONT</label>
+    </customValue>
+    <customValue>
+        <fullName>NEW MEXICO</fullName>
+        <default>false</default>
+        <label>NEW MEXICO</label>
+    </customValue>
+    <customValue>
+        <fullName>WASHINGTON</fullName>
+        <default>false</default>
+        <label>WASHINGTON</label>
+    </customValue>
+    <customValue>
+        <fullName>ILLINOIS</fullName>
+        <default>false</default>
+        <label>ILLINOIS</label>
+    </customValue>
+    <customValue>
+        <fullName>MISSOURI</fullName>
+        <default>false</default>
+        <label>MISSOURI</label>
+    </customValue>
+    <customValue>
+        <fullName>NEW JERSEY</fullName>
+        <default>false</default>
+        <label>NEW JERSEY</label>
+    </customValue>
+    <customValue>
+        <fullName>TENNESSEE</fullName>
+        <default>false</default>
+        <label>TENNESSEE</label>
+    </customValue>
+    <customValue>
+        <fullName>KENTUCKY</fullName>
+        <default>false</default>
+        <label>KENTUCKY</label>
+    </customValue>
+    <customValue>
+        <fullName>ARIZONA</fullName>
+        <default>false</default>
+        <label>ARIZONA</label>
+    </customValue>
+    <customValue>
+        <fullName>UTAH</fullName>
+        <default>false</default>
+        <label>UTAH</label>
+    </customValue>
+    <customValue>
+        <fullName>NEVADA</fullName>
+        <default>false</default>
+        <label>NEVADA</label>
+    </customValue>
+    <customValue>
+        <fullName>COLORADO</fullName>
+        <default>false</default>
+        <label>COLORADO</label>
+    </customValue>
+    <customValue>
+        <fullName>TEXAS</fullName>
+        <default>false</default>
+        <label>TEXAS</label>
+    </customValue>
+    <customValue>
+        <fullName>OHIO</fullName>
+        <default>false</default>
+        <label>OHIO</label>
+    </customValue>
+    <customValue>
+        <fullName>WYOMING</fullName>
+        <default>false</default>
+        <label>WYOMING</label>
+    </customValue>
+    <customValue>
+        <fullName>ALASKA</fullName>
+        <default>false</default>
+        <label>ALASKA</label>
+    </customValue>
+    <customValue>
+        <fullName>HAWAII</fullName>
+        <default>false</default>
+        <label>HAWAII</label>
+    </customValue>
+    <customValue>
+        <fullName>CONNECTICUT</fullName>
+        <default>false</default>
+        <label>CONNECTICUT</label>
+    </customValue>
+    <customValue>
+        <fullName>IDAHO</fullName>
+        <default>false</default>
+        <label>IDAHO</label>
+    </customValue>
+    <customValue>
+        <fullName>WISCONSIN</fullName>
+        <default>false</default>
+        <label>WISCONSIN</label>
+    </customValue>
+    <customValue>
+        <fullName>MICHIGAN</fullName>
+        <default>false</default>
+        <label>MICHIGAN</label>
+    </customValue>
+    <customValue>
+        <fullName>MASSACHUSETTS</fullName>
+        <default>false</default>
+        <label>MASSACHUSETTS</label>
+    </customValue>
+    <customValue>
+        <fullName>NORTH CAROLINA</fullName>
+        <default>false</default>
+        <label>NORTH CAROLINA</label>
+    </customValue>
+    <customValue>
+        <fullName>FLORIDA</fullName>
+        <default>false</default>
+        <label>FLORIDA</label>
+    </customValue>
+    <customValue>
+        <fullName>INDIANA</fullName>
+        <default>false</default>
+        <label>INDIANA</label>
+    </customValue>
+    <customValue>
+        <fullName>MARYLAND</fullName>
+        <default>false</default>
+        <label>MARYLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>SOUTH DAKOTA</fullName>
+        <default>false</default>
+        <label>SOUTH DAKOTA</label>
+    </customValue>
+    <customValue>
+        <fullName>PENNSYLVANIA</fullName>
+        <default>false</default>
+        <label>PENNSYLVANIA</label>
+    </customValue>
+    <customValue>
+        <fullName>GEORGIA</fullName>
+        <default>false</default>
+        <label>GEORGIA</label>
+    </customValue>
+    <customValue>
+        <fullName>RHODE ISLAND</fullName>
+        <default>false</default>
+        <label>RHODE ISLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>MAINE</fullName>
+        <default>false</default>
+        <label>MAINE</label>
+    </customValue>
+    <customValue>
+        <fullName>MINNESOTA</fullName>
+        <default>false</default>
+        <label>MINNESOTA</label>
+    </customValue>
+    <customValue>
+        <fullName>SOUTH CAROLINA</fullName>
+        <default>false</default>
+        <label>SOUTH CAROLINA</label>
+    </customValue>
+    <customValue>
+        <fullName>DELAWARE</fullName>
+        <default>false</default>
+        <label>DELAWARE</label>
+    </customValue>
+    <customValue>
+        <fullName>KANSAS</fullName>
+        <default>false</default>
+        <label>KANSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>MISSISSIPPI</fullName>
+        <default>false</default>
+        <label>MISSISSIPPI</label>
+    </customValue>
+    <customValue>
+        <fullName>NEW HAMPSHIRE</fullName>
+        <default>false</default>
+        <label>NEW HAMPSHIRE</label>
+    </customValue>
+    <customValue>
+        <fullName>WEST VIRGINIA</fullName>
+        <default>false</default>
+        <label>WEST VIRGINIA</label>
+    </customValue>
+    <customValue>
+        <fullName>IOWA</fullName>
+        <default>false</default>
+        <label>IOWA</label>
+    </customValue>
+    <customValue>
+        <fullName>MONTANA</fullName>
+        <default>false</default>
+        <label>MONTANA</label>
+    </customValue>
+    <customValue>
+        <fullName>ARKANSAS</fullName>
+        <default>false</default>
+        <label>ARKANSAS</label>
+    </customValue>
+    <customValue>
+        <fullName>DISTRICT OF COLUMBIA</fullName>
+        <default>false</default>
+        <label>DISTRICT OF COLUMBIA</label>
+    </customValue>
+    <customValue>
+        <fullName>GRAUBUNDEN</fullName>
+        <default>false</default>
+        <label>GRAUBUNDEN</label>
+    </customValue>
+    <customValue>
+        <fullName>VAUD</fullName>
+        <default>false</default>
+        <label>VAUD</label>
+    </customValue>
+    <customValue>
+        <fullName>TICINO</fullName>
+        <default>false</default>
+        <label>TICINO</label>
+    </customValue>
+    <customValue>
+        <fullName>NEUCHATEL</fullName>
+        <default>false</default>
+        <label>NEUCHATEL</label>
+    </customValue>
+    <customValue>
+        <fullName>VALAIS</fullName>
+        <default>false</default>
+        <label>VALAIS</label>
+    </customValue>
+    <customValue>
+        <fullName>BURGUNDY</fullName>
+        <default>false</default>
+        <label>BURGUNDY</label>
+    </customValue>
+    <customValue>
+        <fullName>RHONE VALLEY</fullName>
+        <default>false</default>
+        <label>RHONE VALLEY</label>
+    </customValue>
+    <customValue>
+        <fullName>BORDEAUX</fullName>
+        <default>false</default>
+        <label>BORDEAUX</label>
+    </customValue>
+    <customValue>
+        <fullName>ALSACE</fullName>
+        <default>false</default>
+        <label>ALSACE</label>
+    </customValue>
+    <customValue>
+        <fullName>LOIRE VALLEY</fullName>
+        <default>false</default>
+        <label>LOIRE VALLEY</label>
+    </customValue>
+    <customValue>
+        <fullName>CHAMPAGNE</fullName>
+        <default>false</default>
+        <label>CHAMPAGNE</label>
+    </customValue>
+    <customValue>
+        <fullName>LANGUEDOC ROUSSILLON</fullName>
+        <default>false</default>
+        <label>LANGUEDOC ROUSSILLON</label>
+    </customValue>
+    <customValue>
+        <fullName>PROVENCE</fullName>
+        <default>false</default>
+        <label>PROVENCE</label>
+    </customValue>
+    <customValue>
+        <fullName>CORSICA</fullName>
+        <default>false</default>
+        <label>CORSICA</label>
+    </customValue>
+    <customValue>
+        <fullName>COGNAC</fullName>
+        <default>false</default>
+        <label>COGNAC</label>
+    </customValue>
+    <customValue>
+        <fullName>ARMAGNAC</fullName>
+        <default>false</default>
+        <label>ARMAGNAC</label>
+    </customValue>
+    <customValue>
+        <fullName>SUD OUEST</fullName>
+        <default>false</default>
+        <label>SUD OUEST</label>
+    </customValue>
+    <customValue>
+        <fullName>NORMANDY</fullName>
+        <default>false</default>
+        <label>NORMANDY</label>
+    </customValue>
+    <customValue>
+        <fullName>SAVOIE</fullName>
+        <default>false</default>
+        <label>SAVOIE</label>
+    </customValue>
+    <customValue>
+        <fullName>BRITTANY</fullName>
+        <default>false</default>
+        <label>BRITTANY</label>
+    </customValue>
+    <customValue>
+        <fullName>JURA</fullName>
+        <default>false</default>
+        <label>JURA</label>
+    </customValue>
+    <customValue>
+        <fullName>MULTI-REGION</fullName>
+        <default>false</default>
+        <label>MULTI-REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>LORRAINE</fullName>
+        <default>false</default>
+        <label>LORRAINE</label>
+    </customValue>
+    <customValue>
+        <fullName>REUNION</fullName>
+        <default>false</default>
+        <label>REUNION</label>
+    </customValue>
+    <customValue>
+        <fullName>BUGEY</fullName>
+        <default>false</default>
+        <label>BUGEY</label>
+    </customValue>
+    <customValue>
+        <fullName>PIEDMONT</fullName>
+        <default>false</default>
+        <label>PIEDMONT</label>
+    </customValue>
+    <customValue>
+        <fullName>VENETO</fullName>
+        <default>false</default>
+        <label>VENETO</label>
+    </customValue>
+    <customValue>
+        <fullName>TUSCANY</fullName>
+        <default>false</default>
+        <label>TUSCANY</label>
+    </customValue>
+    <customValue>
+        <fullName>EMILIA ROMAGNA</fullName>
+        <default>false</default>
+        <label>EMILIA ROMAGNA</label>
+    </customValue>
+    <customValue>
+        <fullName>TRENTINO ALTO ADIGE</fullName>
+        <default>false</default>
+        <label>TRENTINO ALTO ADIGE</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPANIA</fullName>
+        <default>false</default>
+        <label>CAMPANIA</label>
+    </customValue>
+    <customValue>
+        <fullName>FRIULI VENEZIA GIULIA</fullName>
+        <default>false</default>
+        <label>FRIULI VENEZIA GIULIA</label>
+    </customValue>
+    <customValue>
+        <fullName>MARCHES</fullName>
+        <default>false</default>
+        <label>MARCHES</label>
+    </customValue>
+    <customValue>
+        <fullName>SICILY</fullName>
+        <default>false</default>
+        <label>SICILY</label>
+    </customValue>
+    <customValue>
+        <fullName>BASILICATA</fullName>
+        <default>false</default>
+        <label>BASILICATA</label>
+    </customValue>
+    <customValue>
+        <fullName>SARDINIA</fullName>
+        <default>false</default>
+        <label>SARDINIA</label>
+    </customValue>
+    <customValue>
+        <fullName>LOMBARDY</fullName>
+        <default>false</default>
+        <label>LOMBARDY</label>
+    </customValue>
+    <customValue>
+        <fullName>APULIA</fullName>
+        <default>false</default>
+        <label>APULIA</label>
+    </customValue>
+    <customValue>
+        <fullName>UMBRIA</fullName>
+        <default>false</default>
+        <label>UMBRIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ABRUZZI</fullName>
+        <default>false</default>
+        <label>ABRUZZI</label>
+    </customValue>
+    <customValue>
+        <fullName>MOLISE</fullName>
+        <default>false</default>
+        <label>MOLISE</label>
+    </customValue>
+    <customValue>
+        <fullName>LATIUM</fullName>
+        <default>false</default>
+        <label>LATIUM</label>
+    </customValue>
+    <customValue>
+        <fullName>CALABRIA</fullName>
+        <default>false</default>
+        <label>CALABRIA</label>
+    </customValue>
+    <customValue>
+        <fullName>VALLE D&apos;AOSTA</fullName>
+        <default>false</default>
+        <label>VALLE D&apos;AOSTA</label>
+    </customValue>
+    <customValue>
+        <fullName>LIGURIA</fullName>
+        <default>false</default>
+        <label>LIGURIA</label>
+    </customValue>
+    <customValue>
+        <fullName>LA RIOJA</fullName>
+        <default>false</default>
+        <label>LA RIOJA</label>
+    </customValue>
+    <customValue>
+        <fullName>GALICIA</fullName>
+        <default>false</default>
+        <label>GALICIA</label>
+    </customValue>
+    <customValue>
+        <fullName>NAVARRE</fullName>
+        <default>false</default>
+        <label>NAVARRE</label>
+    </customValue>
+    <customValue>
+        <fullName>VALENCIA</fullName>
+        <default>false</default>
+        <label>VALENCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ANDALUCIA</fullName>
+        <default>false</default>
+        <label>ANDALUCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>CASTILLA LA MANCHA</fullName>
+        <default>false</default>
+        <label>CASTILLA LA MANCHA</label>
+    </customValue>
+    <customValue>
+        <fullName>CATALUNYA</fullName>
+        <default>false</default>
+        <label>CATALUNYA</label>
+    </customValue>
+    <customValue>
+        <fullName>ARAGON</fullName>
+        <default>false</default>
+        <label>ARAGON</label>
+    </customValue>
+    <customValue>
+        <fullName>CASTILLA Y LEON</fullName>
+        <default>false</default>
+        <label>CASTILLA Y LEON</label>
+    </customValue>
+    <customValue>
+        <fullName>BALEARIC ISLANDS</fullName>
+        <default>false</default>
+        <label>BALEARIC ISLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>EXTREMADURA</fullName>
+        <default>false</default>
+        <label>EXTREMADURA</label>
+    </customValue>
+    <customValue>
+        <fullName>MADRID</fullName>
+        <default>false</default>
+        <label>MADRID</label>
+    </customValue>
+    <customValue>
+        <fullName>MURCIA</fullName>
+        <default>false</default>
+        <label>MURCIA</label>
+    </customValue>
+    <customValue>
+        <fullName>PAIS VASCO</fullName>
+        <default>false</default>
+        <label>PAIS VASCO</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTURIAS</fullName>
+        <default>false</default>
+        <label>ASTURIAS</label>
+    </customValue>
+    <customValue>
+        <fullName>CANARY ISLANDS</fullName>
+        <default>false</default>
+        <label>CANARY ISLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>RHEINHESSEN</fullName>
+        <default>false</default>
+        <label>RHEINHESSEN</label>
+    </customValue>
+    <customValue>
+        <fullName>MOSEL SAAR RUWER</fullName>
+        <default>false</default>
+        <label>MOSEL SAAR RUWER</label>
+    </customValue>
+    <customValue>
+        <fullName>PFALZ</fullName>
+        <default>false</default>
+        <label>PFALZ</label>
+    </customValue>
+    <customValue>
+        <fullName>RHEINGAU</fullName>
+        <default>false</default>
+        <label>RHEINGAU</label>
+    </customValue>
+    <customValue>
+        <fullName>BADEN</fullName>
+        <default>false</default>
+        <label>BADEN</label>
+    </customValue>
+    <customValue>
+        <fullName>NAHE</fullName>
+        <default>false</default>
+        <label>NAHE</label>
+    </customValue>
+    <customValue>
+        <fullName>MOSEL</fullName>
+        <default>false</default>
+        <label>MOSEL</label>
+    </customValue>
+    <customValue>
+        <fullName>MITTELRHEIN</fullName>
+        <default>false</default>
+        <label>MITTELRHEIN</label>
+    </customValue>
+    <customValue>
+        <fullName>FRANKEN</fullName>
+        <default>false</default>
+        <label>FRANKEN</label>
+    </customValue>
+    <customValue>
+        <fullName>BAVARIA</fullName>
+        <default>false</default>
+        <label>BAVARIA</label>
+    </customValue>
+    <customValue>
+        <fullName>WESTPHALIA</fullName>
+        <default>false</default>
+        <label>WESTPHALIA</label>
+    </customValue>
+    <customValue>
+        <fullName>RHEIN MOSEL</fullName>
+        <default>false</default>
+        <label>RHEIN MOSEL</label>
+    </customValue>
+    <customValue>
+        <fullName>BERLIN</fullName>
+        <default>false</default>
+        <label>BERLIN</label>
+    </customValue>
+    <customValue>
+        <fullName>HAMBURG</fullName>
+        <default>false</default>
+        <label>HAMBURG</label>
+    </customValue>
+    <customValue>
+        <fullName>WURTTEMBERG</fullName>
+        <default>false</default>
+        <label>WURTTEMBERG</label>
+    </customValue>
+    <customValue>
+        <fullName>AHR</fullName>
+        <default>false</default>
+        <label>AHR</label>
+    </customValue>
+    <customValue>
+        <fullName>SOUTH AUSTRALIA</fullName>
+        <default>false</default>
+        <label>SOUTH AUSTRALIA</label>
+    </customValue>
+    <customValue>
+        <fullName>VICTORIA</fullName>
+        <default>false</default>
+        <label>VICTORIA</label>
+    </customValue>
+    <customValue>
+        <fullName>NEW SOUTH WALES</fullName>
+        <default>false</default>
+        <label>NEW SOUTH WALES</label>
+    </customValue>
+    <customValue>
+        <fullName>WESTERN AUSTRALIA</fullName>
+        <default>false</default>
+        <label>WESTERN AUSTRALIA</label>
+    </customValue>
+    <customValue>
+        <fullName>TASMANIA</fullName>
+        <default>false</default>
+        <label>TASMANIA</label>
+    </customValue>
+    <customValue>
+        <fullName>QUEENSLAND</fullName>
+        <default>false</default>
+        <label>QUEENSLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>MENDOZA</fullName>
+        <default>false</default>
+        <label>MENDOZA</label>
+    </customValue>
+    <customValue>
+        <fullName>SALTA</fullName>
+        <default>false</default>
+        <label>SALTA</label>
+    </customValue>
+    <customValue>
+        <fullName>PATAGONIA</fullName>
+        <default>false</default>
+        <label>PATAGONIA</label>
+    </customValue>
+    <customValue>
+        <fullName>SAN JUAN</fullName>
+        <default>false</default>
+        <label>SAN JUAN</label>
+    </customValue>
+    <customValue>
+        <fullName>RIO GRANDE DO SUL</fullName>
+        <default>false</default>
+        <label>RIO GRANDE DO SUL</label>
+    </customValue>
+    <customValue>
+        <fullName>PERNAMBUCO</fullName>
+        <default>false</default>
+        <label>PERNAMBUCO</label>
+    </customValue>
+    <customValue>
+        <fullName>MADEIRA</fullName>
+        <default>false</default>
+        <label>MADEIRA</label>
+    </customValue>
+    <customValue>
+        <fullName>ALENTEJO</fullName>
+        <default>false</default>
+        <label>ALENTEJO</label>
+    </customValue>
+    <customValue>
+        <fullName>NORTE</fullName>
+        <default>false</default>
+        <label>NORTE</label>
+    </customValue>
+    <customValue>
+        <fullName>CENTRO</fullName>
+        <default>false</default>
+        <label>CENTRO</label>
+    </customValue>
+    <customValue>
+        <fullName>LISBOA</fullName>
+        <default>false</default>
+        <label>LISBOA</label>
+    </customValue>
+    <customValue>
+        <fullName>OKINAWA</fullName>
+        <default>false</default>
+        <label>OKINAWA</label>
+    </customValue>
+    <customValue>
+        <fullName>TOHOKU</fullName>
+        <default>false</default>
+        <label>TOHOKU</label>
+    </customValue>
+    <customValue>
+        <fullName>CHUBU</fullName>
+        <default>false</default>
+        <label>CHUBU</label>
+    </customValue>
+    <customValue>
+        <fullName>KANSAI</fullName>
+        <default>false</default>
+        <label>KANSAI</label>
+    </customValue>
+    <customValue>
+        <fullName>CHUGOKU</fullName>
+        <default>false</default>
+        <label>CHUGOKU</label>
+    </customValue>
+    <customValue>
+        <fullName>KYUSHU</fullName>
+        <default>false</default>
+        <label>KYUSHU</label>
+    </customValue>
+    <customValue>
+        <fullName>SHIKOKU</fullName>
+        <default>false</default>
+        <label>SHIKOKU</label>
+    </customValue>
+    <customValue>
+        <fullName>KANTO</fullName>
+        <default>false</default>
+        <label>KANTO</label>
+    </customValue>
+    <customValue>
+        <fullName>HOKKAIDO</fullName>
+        <default>false</default>
+        <label>HOKKAIDO</label>
+    </customValue>
+    <customValue>
+        <fullName>ACONCAGUA VITICULTURAL REGION</fullName>
+        <default>false</default>
+        <label>ACONCAGUA VITICULTURAL REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>CENTRAL VALLEY VITICULTURAL REGION</fullName>
+        <default>false</default>
+        <label>CENTRAL VALLEY VITICULTURAL REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>COQUIMBO VITICULTURAL REGION</fullName>
+        <default>false</default>
+        <label>COQUIMBO VITICULTURAL REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>SOUTHERN VITICULTURAL REGION</fullName>
+        <default>false</default>
+        <label>SOUTHERN VITICULTURAL REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>ATACAMA VITICULTURAL REGION</fullName>
+        <default>false</default>
+        <label>ATACAMA VITICULTURAL REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>COASTAL REGION</fullName>
+        <default>false</default>
+        <label>COASTAL REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>WESTERN CAPE</fullName>
+        <default>false</default>
+        <label>WESTERN CAPE</label>
+    </customValue>
+    <customValue>
+        <fullName>CAPE SOUTH COAST</fullName>
+        <default>false</default>
+        <label>CAPE SOUTH COAST</label>
+    </customValue>
+    <customValue>
+        <fullName>BREEDE RIVER VALLEY</fullName>
+        <default>false</default>
+        <label>BREEDE RIVER VALLEY</label>
+    </customValue>
+    <customValue>
+        <fullName>KLEIN KAROO</fullName>
+        <default>false</default>
+        <label>KLEIN KAROO</label>
+    </customValue>
+    <customValue>
+        <fullName>OLIFANTS RIVER</fullName>
+        <default>false</default>
+        <label>OLIFANTS RIVER</label>
+    </customValue>
+    <customValue>
+        <fullName>PELOPONNESE</fullName>
+        <default>false</default>
+        <label>PELOPONNESE</label>
+    </customValue>
+    <customValue>
+        <fullName>MACEDONIA</fullName>
+        <default>false</default>
+        <label>MACEDONIA</label>
+    </customValue>
+    <customValue>
+        <fullName>CENTRAL GREECE</fullName>
+        <default>false</default>
+        <label>CENTRAL GREECE</label>
+    </customValue>
+    <customValue>
+        <fullName>CRETE</fullName>
+        <default>false</default>
+        <label>CRETE</label>
+    </customValue>
+    <customValue>
+        <fullName>AEGEAN ISLANDS</fullName>
+        <default>false</default>
+        <label>AEGEAN ISLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>THESSALY</fullName>
+        <default>false</default>
+        <label>THESSALY</label>
+    </customValue>
+    <customValue>
+        <fullName>IONIAN ISLANDS</fullName>
+        <default>false</default>
+        <label>IONIAN ISLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>THRACE</fullName>
+        <default>false</default>
+        <label>THRACE</label>
+    </customValue>
+    <customValue>
+        <fullName>JALISCO</fullName>
+        <default>false</default>
+        <label>JALISCO</label>
+    </customValue>
+    <customValue>
+        <fullName>OAXACA</fullName>
+        <default>false</default>
+        <label>OAXACA</label>
+    </customValue>
+    <customValue>
+        <fullName>BAJA CALIFORNIA</fullName>
+        <default>false</default>
+        <label>BAJA CALIFORNIA</label>
+    </customValue>
+    <customValue>
+        <fullName>AGUASCALIENTES</fullName>
+        <default>false</default>
+        <label>AGUASCALIENTES</label>
+    </customValue>
+    <customValue>
+        <fullName>CHIHUAHUA</fullName>
+        <default>false</default>
+        <label>CHIHUAHUA</label>
+    </customValue>
+    <customValue>
+        <fullName>COAHUILA</fullName>
+        <default>false</default>
+        <label>COAHUILA</label>
+    </customValue>
+    <customValue>
+        <fullName>SONORA</fullName>
+        <default>false</default>
+        <label>SONORA</label>
+    </customValue>
+    <customValue>
+        <fullName>YUCATAN</fullName>
+        <default>false</default>
+        <label>YUCATAN</label>
+    </customValue>
+    <customValue>
+        <fullName>TAMAULIPAS</fullName>
+        <default>false</default>
+        <label>TAMAULIPAS</label>
+    </customValue>
+    <customValue>
+        <fullName>GUERRERO</fullName>
+        <default>false</default>
+        <label>GUERRERO</label>
+    </customValue>
+    <customValue>
+        <fullName>DURANGO</fullName>
+        <default>false</default>
+        <label>DURANGO</label>
+    </customValue>
+    <customValue>
+        <fullName>MICHOACAN</fullName>
+        <default>false</default>
+        <label>MICHOACAN</label>
+    </customValue>
+    <customValue>
+        <fullName>GUANAJUATO</fullName>
+        <default>false</default>
+        <label>GUANAJUATO</label>
+    </customValue>
+    <customValue>
+        <fullName>SAN LUIS POTOSI</fullName>
+        <default>false</default>
+        <label>SAN LUIS POTOSI</label>
+    </customValue>
+    <customValue>
+        <fullName>BURGENLAND</fullName>
+        <default>false</default>
+        <label>BURGENLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>WIEN</fullName>
+        <default>false</default>
+        <label>WIEN</label>
+    </customValue>
+    <customValue>
+        <fullName>NIEDEROSTERREICH</fullName>
+        <default>false</default>
+        <label>NIEDEROSTERREICH</label>
+    </customValue>
+    <customValue>
+        <fullName>STEIERMARK</fullName>
+        <default>false</default>
+        <label>STEIERMARK</label>
+    </customValue>
+    <customValue>
+        <fullName>WEINLAND</fullName>
+        <default>false</default>
+        <label>WEINLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>ISLAY</fullName>
+        <default>false</default>
+        <label>ISLAY</label>
+    </customValue>
+    <customValue>
+        <fullName>LOWLANDS</fullName>
+        <default>false</default>
+        <label>LOWLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>HIGHLANDS</fullName>
+        <default>false</default>
+        <label>HIGHLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>CAMPELTOWN</fullName>
+        <default>false</default>
+        <label>CAMPELTOWN</label>
+    </customValue>
+    <customValue>
+        <fullName>ISLANDS</fullName>
+        <default>false</default>
+        <label>ISLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>SOUTH ISLAND</fullName>
+        <default>false</default>
+        <label>SOUTH ISLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>NORTH ISLAND</fullName>
+        <default>false</default>
+        <label>NORTH ISLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>GALILEE</fullName>
+        <default>false</default>
+        <label>GALILEE</label>
+    </customValue>
+    <customValue>
+        <fullName>JUDEAN HILLS</fullName>
+        <default>false</default>
+        <label>JUDEAN HILLS</label>
+    </customValue>
+    <customValue>
+        <fullName>NEGEV</fullName>
+        <default>false</default>
+        <label>NEGEV</label>
+    </customValue>
+    <customValue>
+        <fullName>SAMSON</fullName>
+        <default>false</default>
+        <label>SAMSON</label>
+    </customValue>
+    <customValue>
+        <fullName>SHOMRON</fullName>
+        <default>false</default>
+        <label>SHOMRON</label>
+    </customValue>
+    <customValue>
+        <fullName>BEQAA</fullName>
+        <default>false</default>
+        <label>BEQAA</label>
+    </customValue>
+    <customValue>
+        <fullName>TOKAJ HEGYALJA</fullName>
+        <default>false</default>
+        <label>TOKAJ HEGYALJA</label>
+    </customValue>
+    <customValue>
+        <fullName>BALATON</fullName>
+        <default>false</default>
+        <label>BALATON</label>
+    </customValue>
+    <customValue>
+        <fullName>DUNA</fullName>
+        <default>false</default>
+        <label>DUNA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESZAK DUNANTUL</fullName>
+        <default>false</default>
+        <label>ESZAK DUNANTUL</label>
+    </customValue>
+    <customValue>
+        <fullName>FELSO MAGYARORSZAG</fullName>
+        <default>false</default>
+        <label>FELSO MAGYARORSZAG</label>
+    </customValue>
+    <customValue>
+        <fullName>BANAT</fullName>
+        <default>false</default>
+        <label>BANAT</label>
+    </customValue>
+    <customValue>
+        <fullName>DOBRUDJA</fullName>
+        <default>false</default>
+        <label>DOBRUDJA</label>
+    </customValue>
+    <customValue>
+        <fullName>TRANSYLVANIA</fullName>
+        <default>false</default>
+        <label>TRANSYLVANIA</label>
+    </customValue>
+    <customValue>
+        <fullName>MOLDAVIA</fullName>
+        <default>false</default>
+        <label>MOLDAVIA</label>
+    </customValue>
+    <customValue>
+        <fullName>MUNTENIA</fullName>
+        <default>false</default>
+        <label>MUNTENIA</label>
+    </customValue>
+    <customValue>
+        <fullName>BLACK SEA REGION</fullName>
+        <default>false</default>
+        <label>BLACK SEA REGION</label>
+    </customValue>
+    <customValue>
+        <fullName>QUEBEC</fullName>
+        <default>false</default>
+        <label>QUEBEC</label>
+    </customValue>
+    <customValue>
+        <fullName>ONTARIO</fullName>
+        <default>false</default>
+        <label>ONTARIO</label>
+    </customValue>
+    <customValue>
+        <fullName>ALBERTA</fullName>
+        <default>false</default>
+        <label>ALBERTA</label>
+    </customValue>
+    <customValue>
+        <fullName>BRITISH COLUMBIA</fullName>
+        <default>false</default>
+        <label>BRITISH COLUMBIA</label>
+    </customValue>
+    <customValue>
+        <fullName>NEWFOUNDLAND</fullName>
+        <default>false</default>
+        <label>NEWFOUNDLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>WALES</fullName>
+        <default>false</default>
+        <label>WALES</label>
+    </customValue>
+    <customValue>
+        <fullName>MAHARASHTRA</fullName>
+        <default>false</default>
+        <label>MAHARASHTRA</label>
+    </customValue>
+    <customValue>
+        <fullName>ANGUILLA</fullName>
+        <default>false</default>
+        <label>ANGUILLA</label>
+    </customValue>
+    <customValue>
+        <fullName>POVARDARIE</fullName>
+        <default>false</default>
+        <label>POVARDARIE</label>
+    </customValue>
+    <customValue>
+        <fullName>TRINIDAD</fullName>
+        <default>false</default>
+        <label>TRINIDAD</label>
+    </customValue>
+    <customValue>
+        <fullName>ST CROIX</fullName>
+        <default>false</default>
+        <label>ST CROIX</label>
+    </customValue>
+    <customValue>
+        <fullName>NINGXIA PROVINCE</fullName>
+        <default>false</default>
+        <label>NINGXIA PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>SHANDONG PROVINCE</fullName>
+        <default>false</default>
+        <label>SHANDONG PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>XINJIANG PROVINCE</fullName>
+        <default>false</default>
+        <label>XINJIANG PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>GUIZHOU PROVINCE</fullName>
+        <default>false</default>
+        <label>GUIZHOU PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>SICHUAN PROVINCE</fullName>
+        <default>false</default>
+        <label>SICHUAN PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>BEIJING MUNICIPALITY</fullName>
+        <default>false</default>
+        <label>BEIJING MUNICIPALITY</label>
+    </customValue>
+    <customValue>
+        <fullName>TIANJIN MUNICIPALITY</fullName>
+        <default>false</default>
+        <label>TIANJIN MUNICIPALITY</label>
+    </customValue>
+    <customValue>
+        <fullName>HUBEI PROVINCE</fullName>
+        <default>false</default>
+        <label>HUBEI PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>YUNNAN PROVINCE</fullName>
+        <default>false</default>
+        <label>YUNNAN PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>LIAONING PROVINCE</fullName>
+        <default>false</default>
+        <label>LIAONING PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>GUANGDONG PROVINCE</fullName>
+        <default>false</default>
+        <label>GUANGDONG PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>HENAN PROVINCE</fullName>
+        <default>false</default>
+        <label>HENAN PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>ZHEJIANG PROVINCE</fullName>
+        <default>false</default>
+        <label>ZHEJIANG PROVINCE</label>
+    </customValue>
+    <customValue>
+        <fullName>SAN JOSE</fullName>
+        <default>false</default>
+        <label>SAN JOSE</label>
+    </customValue>
+    <customValue>
+        <fullName>CANELONES</fullName>
+        <default>false</default>
+        <label>CANELONES</label>
+    </customValue>
+    <customValue>
+        <fullName>HOLLAND</fullName>
+        <default>false</default>
+        <label>HOLLAND</label>
+    </customValue>
+    <customValue>
+        <fullName>DANUBE RIVER PLAINS</fullName>
+        <default>false</default>
+        <label>DANUBE RIVER PLAINS</label>
+    </customValue>
+    <customValue>
+        <fullName>THRACIAN VALLEY</fullName>
+        <default>false</default>
+        <label>THRACIAN VALLEY</label>
+    </customValue>
+    <customValue>
+        <fullName>PODRAVJE</fullName>
+        <default>false</default>
+        <label>PODRAVJE</label>
+    </customValue>
+    <customValue>
+        <fullName>PRIMORSKA</fullName>
+        <default>false</default>
+        <label>PRIMORSKA</label>
+    </customValue>
+    <customValue>
+        <fullName>KONTINETALNA</fullName>
+        <default>false</default>
+        <label>KONTINETALNA</label>
+    </customValue>
+    <customValue>
+        <fullName>NITRA</fullName>
+        <default>false</default>
+        <label>NITRA</label>
+    </customValue>
+    <customValue>
+        <fullName>JUZNOSLOVENSKA</fullName>
+        <default>false</default>
+        <label>JUZNOSLOVENSKA</label>
+    </customValue>
+    <customValue>
+        <fullName>MEKNES</fullName>
+        <default>false</default>
+        <label>MEKNES</label>
+    </customValue>
+    <customValue>
+        <fullName>RABAT</fullName>
+        <default>false</default>
+        <label>RABAT</label>
+    </customValue>
+    <customValue>
+        <fullName>CAHUL BUGEAC</fullName>
+        <default>false</default>
+        <label>CAHUL BUGEAC</label>
+    </customValue>
+    <customValue>
+        <fullName>RAHOVECI</fullName>
+        <default>false</default>
+        <label>RAHOVECI</label>
+    </customValue>
+    <customValue>
+        <fullName>TORTOLA</fullName>
+        <default>false</default>
+        <label>TORTOLA</label>
+    </customValue>
+    <customValue>
+        <fullName>LIMASSOL</fullName>
+        <default>false</default>
+        <label>LIMASSOL</label>
+    </customValue>
+    <customValue>
+        <fullName>PODGORICA</fullName>
+        <default>false</default>
+        <label>PODGORICA</label>
+    </customValue>
+    <customValue>
+        <fullName>SINT MAARTEN</fullName>
+        <default>false</default>
+        <label>SINT MAARTEN</label>
+    </customValue>
+    <customValue>
+        <fullName>CURACAO</fullName>
+        <default>false</default>
+        <label>CURACAO</label>
+    </customValue>
+    <customValue>
+        <fullName>MARTINIQUE</fullName>
+        <default>false</default>
+        <label>MARTINIQUE</label>
+    </customValue>
+    <customValue>
+        <fullName>GUADELOUPE</fullName>
+        <default>false</default>
+        <label>GUADELOUPE</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <masterLabel>State/Region</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

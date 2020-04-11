@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Harbor Maint Table</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Harbor Maint Tables</value>
+    </caseValues>
+    <fields>
+        <label><!-- Brand Code Description --></label>
+        <name>HMT_Brand_Code_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Code --></label>
+        <name>HMT_Brand_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Harbor Mant Fee Per Case --></label>
+        <name>HMT_Harbor_Mant_Fee_Per_Case__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

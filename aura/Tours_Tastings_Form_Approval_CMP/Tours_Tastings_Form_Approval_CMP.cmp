@@ -1,0 +1,152 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId"
+                description="Tours_Tastings_FORM_Approval_CMP"
+                controller="ToursTastingsFormApprovalController">
+
+
+    <aura:attribute name="isApprover" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="isRequestsReady" type="Boolean" access="private" default="false"/>
+    <aura:attribute name="theProcessInstance" type="ProcessInstance" access="private"/>
+    <aura:attribute name="theProcessInstanceHistory" type="ProcessInstanceHistory" access="private"/>
+    <!--<aura:attribute name="theApproval" type="Approval.ProcessSubmitRequest" access="private"/>-->
+    <aura:attribute name="approvalStatus" type="String" access="private" default="Not Set"/>
+    <aura:attribute name="approvalComments" type="String" access="private"/>
+    <!--<aura:attribute name="currentApprover" type="String" access="private"/>-->
+
+    <aura:handler name="init" value="{!this}" action="{!c.handleEventInit}"/>
+    <!--<aura:handler name="change" value="{!v.isApprover}" action="{!c.handleEventChangeIsApprover}"/>-->
+
+    <lightning:card title="Request Approval Status">
+
+        <aura:set attribute="actions">
+
+            <aura:if
+                    isTrue="{!and(v.isRequestsReady,v.isApprover, and(v.approvalStatus == 'Not Set', v.theProcessInstance.Status == 'Pending' || v.theProcessInstance.Status == 'Submitted' || v.theProcessInstance.Status == 'Reassigned'))}">
+
+                <lightning:button title="Approve" label="Approve" name="approveButton" variant="neutral"
+                                  onclick="{!c.handleApprove}"/>
+<!-- 
+	Removed temporarily while in development
+                <lightning:button title="Reject" label="Reject" name="rejectButton" variant="destructive"
+                                  onclick="{!c.handleReject}"/>
+-->
+
+            </aura:if>
+
+        </aura:set>
+
+        <aura:set attribute="footer">
+
+            <aura:if
+                    isTrue="{!and(v.isApprover, and(v.approvalStatus != 'Not Set', v.theProcessInstance.Status == 'Pending' || v.theProcessInstance.Status == 'Submitted' || v.theProcessInstance.Status == 'Reassigned'))}">
+
+                <aura:if isTrue="{!not(empty(v.approvalComments))}">
+
+                    <lightning:button title="Submit" label="Submit" name="submitButton" variant="neutral"
+                                      onclick="{!c.handleSubmit}"/>
+
+                </aura:if>
+
+                <lightning:button title="Cancel" label="Cancel" name="cancelButton" variant="destructive"
+                                  onclick="{!c.handleCancel}"/>
+
+            </aura:if>
+
+        </aura:set>
+
+        <lightning:layout multipleRows="true" class="slds-p-around_medium">
+
+            <aura:if isTrue="{!v.isApprover}">
+
+                <aura:if
+                        isTrue="{!and(v.isApprover, and(v.approvalStatus == 'Approve', v.theProcessInstance.Status == 'Pending' || v.theProcessInstance.Status == 'Submitted' || v.theProcessInstance.Status == 'Reassigned'))}">
+
+                    <lightning:layoutItem size="12">
+
+                        <lightning:recordEditForm aura:id="requestEdit"
+                                                  recordId="{!v.recordId}"
+                                                  objectApiName="Tours_and_Tastings__c">
+                            <lightning:messages/>
+
+                            <!--Picklist-->
+                            <lightning:inputField fieldName="Confirmed_Date_of_Visit__c"/>
+                            <lightning:inputField fieldName="Confirmed_Time_of_Visit__c"/>
+                        </lightning:recordEditForm>
+
+
+                    </lightning:layoutItem>
+
+                </aura:if>
+
+                <aura:if
+                        isTrue="{!and(v.isApprover, and(v.approvalStatus != 'Not Set', v.theProcessInstance.Status == 'Pending' || v.theProcessInstance.Status == 'Submitted' || v.theProcessInstance.Status == 'Reassigned'))}">
+
+                    <lightning:layoutItem size="12">
+
+                        <lightning:textarea label="Comments" value="{!v.approvalComments}" required="true"/>
+
+                    </lightning:layoutItem>
+
+                </aura:if>
+
+            </aura:if>
+
+            <aura:if isTrue="{!v.approvalStatus == 'Not Set'}">
+
+
+                <lightning:layoutItem size="12">
+
+                    <!--
+
+                    Id,
+                        TargetObjectId,
+                        StepStatus,
+                        ProcessInstanceId,
+                        OriginalActorId,
+                        IsPending,
+                        Comments,
+                        ActorId
+
+                        Id, CompletedDate, ElapsedTimeInDays, ElapsedTimeInHours, ElapsedTimeInMinutes, LastActorId, Status
+
+                    -->
+
+                    Approval Status:
+                    <lightning:formattedText value="{!v.theProcessInstance.Status}"
+                                             title="Approval Status"/>
+
+                </lightning:layoutItem>
+
+
+                <lightning:layoutItem size="12">
+
+                    <aura:if isTrue="{!v.theProcessInstanceHistory.IsPending == false}">
+
+                            Date Decision Made:
+                            <lightning:formattedDateTime value="{!v.theProcessInstance.CompletedDate}"
+                                                         title="Date Decision Made"/>
+
+                    </aura:if>
+
+                </lightning:layoutItem>
+
+                <lightning:layoutItem size="12">
+
+                    <aura:if isTrue="{!not(empty(v.theProcessInstanceHistory.Comments))}">
+
+                        Comments:
+                        <lightning:formattedText value="{!v.theProcessInstanceHistory.Comments}"
+                                                     title="Comments"/>
+
+                    </aura:if>
+
+                </lightning:layoutItem>
+
+            </aura:if>
+
+
+        </lightning:layout>
+
+
+    </lightning:card>
+
+</aura:component>

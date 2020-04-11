@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tour and Tasting Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tours and Tastings Forms</value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval History --></label>
+        <name>Approval_History__c</name>
+        <relationshipLabel><!-- Tours and Tastings Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Billing Code --></label>
+        <name>Billing_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Company --></label>
+        <name>Company__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the earliest date and time for your request --></help>
+        <label><!-- Earliest Request Date --></label>
+        <name>Earliest_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Visit to Napa? --></label>
+        <name>First_Visit_to_Napa__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Visit to Sonoma? --></label>
+        <name>First_Visit_to_Sonoma__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guest Notes --></label>
+        <name>Guest_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Approved Date --></label>
+        <name>Itinerary_Approved_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Itinerary Approved --></label>
+        <name>Itinerary_Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the latest date and time for your request --></help>
+        <label><!-- Latest Request Date --></label>
+        <name>Latest_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level of Wine Knowledge --></label>
+        <name>Level_of_Wine_Knowledge__c</name>
+        <picklistValues>
+            <masterLabel>Fair</masterLabel>
+            <translation><!-- Fair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Novice</masterLabel>
+            <translation><!-- Novice --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lodging --></label>
+        <name>Lodging__c</name>
+    </fields>
+    <fields>
+        <label><!-- Luncheon --></label>
+        <name>Luncheon__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Account? --></label>
+        <name>New_Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Counts the number of approved lodging requests --></help>
+        <label><!-- Number of Approved Lodging Requests --></label>
+        <name>Number_of_Approved_Lodging_Requests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Approved Requests --></label>
+        <name>Number_of_Approved_Requests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Attachments --></label>
+        <name>Number_of_Attachments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of Total Guest including Primary --></help>
+        <label><!-- Number of Guests --></label>
+        <name>Number_of_Guests__c</name>
+    </fields>
+    <fields>
+        <help><!-- Count of the number of Lodging Requests (Markham Winery Only) --></help>
+        <label><!-- Number of Lodging Requests --></label>
+        <name>Number_of_Lodging_Requests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Requests --></label>
+        <name>Number_of_Requests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Region --></label>
+        <name>Owner_Region__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Guest Mobile Phone --></label>
+        <name>Primary_Guest_Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Guest Name --></label>
+        <name>Primary_Guest_Name__c</name>
+        <relationshipLabel><!-- Tours and Tastings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Date --></label>
+        <name>Request_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the type of person who is requesting a visit to the winery (ie. Distributor, Retailer, Consumer, etc.) --></help>
+        <label><!-- Primary Guest Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation><!-- Consumer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor or Employee</masterLabel>
+            <translation><!-- Distributor or Employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family and VIPs</masterLabel>
+            <translation><!-- Family and VIPs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Off-Prem Retailer</masterLabel>
+            <translation><!-- Off-Prem Retailer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Prem Retailer</masterLabel>
+            <translation><!-- On-Prem Retailer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Checking this box will send the itinerary to the primary guest --></help>
+        <label><!-- Send Guest Itinerary --></label>
+        <name>Send_Guest_Itinerary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>Special_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission Date --></label>
+        <name>Submission_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tour Form Approval Status --></label>
+        <name>Tour_Form_Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit for Approval</masterLabel>
+            <translation><!-- Submit for Approval --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Winery --></label>
+        <lookupFilter>
+            <errorMessage><!-- You must select a Winery Account --></errorMessage>
+        </lookupFilter>
+        <name>Winery__c</name>
+        <relationshipLabel><!-- Tours and Tastings Forms --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Tour and Tasting - New</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tour and Tasting Form</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tour and Tasting Form - Approver</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tour and Tasting Form - read_only</layout>
+        <sections>
+            <label><!-- Approval Details --></label>
+            <section>Approval Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create T&amp;T Request --></label>
+        <name>Create_T_T_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Submit for Approval --></label>
+        <name>Submit_for_Approval</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Used for Tour and Tasting Form Approvers --></description>
+        <label><!-- Tour and Tasting Form - Approver --></label>
+        <name>Tour_and_Form_Approver</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for creating new TT Forms --></description>
+        <label><!-- Tour and Tasting Form - New --></label>
+        <name>Tour_and_Tasting_Form_New</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot create a Tour &amp; Tasting Form with a Supplier account.  Please select a different account that is not a Supplier. --></errorMessage>
+        <name>Cannot_have_Account_Record_Type_Supplier</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot Delete Diver Report --></errorMessage>
+        <name>DeleteAttachmentNotAllowed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add at least one winery Tour and Tasting Request. --></errorMessage>
+        <name>Need_to_Add_Request</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Primary Guest must have a mobile phone number on the Contact record. --></errorMessage>
+        <name>Primary_Contact_Mobile_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please attach a Diver Report for Retailer Requests --></errorMessage>
+        <name>Require_Attachment_To_Continue</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- New_Guest --></label>
+        <name>New_Guest</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_T_T_Request --></label>
+        <name>New_T_T_Request</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Approve_Final_Itinerary</name>
+        <subject><!-- Approve Final Itinerary --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

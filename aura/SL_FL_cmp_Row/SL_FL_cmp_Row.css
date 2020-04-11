@@ -1,0 +1,15 @@
+.THIS .editBtnStyle .slds-icon-text-default{
+    fill: lightgray;
+}
+
+.THIS .editBtnStyle .slds-icon-text-default:hover{
+    fill: rgb(0, 112, 210);
+}
+
+.THIS .slds-form-element__control .value{
+    margin-top : 7px;
+}
+
+.THIS .plStyle{
+    height: 36px !important;
+}

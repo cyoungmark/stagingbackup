@@ -1,0 +1,50 @@
+<aura:component access="public">
+    <aura:attribute name="label" type="String"/>
+    <aura:attribute name="apiName" type="String"/>
+    <aura:attribute name="fldType" type="String"/>
+    <aura:attribute name="sortDir" type="String"/>
+    <aura:attribute name="isSorted" type="Boolean"/>
+    <aura:attribute name="isFilterOn" type="Boolean" default="false"/>
+    
+    <aura:attribute name="sort" type="Aura.Action" default="{!c.sort}"/>
+    <aura:attribute name="toggleFilter" type="Aura.Action" default="{!c.showHideFilterInput}"/>
+    
+    <aura:registerEvent name="sortEvent" type="c:columnSort"/>
+    <aura:registerEvent name="columFilterEvent" type="c:evt_SL_ColumnFilters"/>
+    
+    <th scope="col" 
+        title="{!v.label}" 
+        class="{!'slds-text-title--caps' + (v.fldType == 'TEXTAREA' ? '' : ' slds-is-sortable')+
+               (v.isSorted ? 
+               ' slds-is-sorted'+(v.sortDir=='ASC'?' slds-is-sorted--asc':' slds-is-sorted--desc')
+               : '')}">
+        <a id="{!v.apiName}" class="slds-p-right--x-small" style="float:left!important" onclick="{!v.toggleFilter}">
+            <lightning:icon class="filterIcon" iconName="utility:filterList" size="xx-small"/>
+        </a>
+        <a href="javascript:void(0)" 
+           class="{!'slds-th__action slds-text-link--reset' + (v.fldType == 'TEXTAREA' ? ' hide ': '')}" 
+           onclick="{!v.sort}"
+           tabindex="0">
+            <span class="slds-assistive-text">Sort </span>
+            <div class="slds-wrap header">{!v.label}</div>
+            <!-- We have to have two icons and hide one because lightning doesn't 
+              like when you update the svg icon outside of the renderer -->
+            <lightning:icon iconName="utility:arrowup"
+                            class="shrink--asc"
+                            size="x-small" 
+                            alternativeText="Sort Ascending"/>
+            <lightning:icon iconName="utility:arrowdown"
+                            class="shrink--desc"
+                            size="x-small" 
+                            alternativeText="Sort Descending"/>
+            <span class="slds-assistive-text" 
+                  aria-live="assertive" aria-atomic="true"></span>
+        </a>
+        <div class="{!v.fldType == 'TEXTAREA' ? '': 'hide'}">
+            <span class="slds-assistive-text">Sort </span>
+            <div class="slds-truncate">{!v.label}</div>
+            <span class="slds-assistive-text" aria-live="assertive" aria-atomic="true"></span>
+        </div>
+        <input placeholder="Search..." id="{!v.apiName + '_input'}" type="text" class="slds-input slds-hide filterInput" onkeyup="{!c.search}"/>
+    </th>
+</aura:component>

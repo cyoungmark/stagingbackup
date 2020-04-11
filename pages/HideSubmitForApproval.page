@@ -1,0 +1,8 @@
+<apex:page StandardController="Tours_and_Tastings__c" showHeader="false">
+  <style>
+     input.btn[name="piSubmit"] {
+            display: none;
+     }
+ </style>
+    <apex:relatedList list="ApprovalHistory"/>
+</apex:page>

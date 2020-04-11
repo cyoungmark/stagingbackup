@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows one to update Tours and Tastings Request Types on Wineries</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Winery Request Type</label>
+</PermissionSet>

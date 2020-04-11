@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Standard Cost Reference</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Standard Cost References</value>
+    </caseValues>
+    <fields>
+        <label><!-- A1Comp Cost --></label>
+        <name>A1Comp_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alcohol Percentage --></label>
+        <name>Alcohol_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- BT Per Shipment --></label>
+        <name>BT_Per_Shipment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Branch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Code --></label>
+        <name>Brand_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brand Desc --></label>
+        <name>Brand_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bvg Code --></label>
+        <name>Bvg_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bvg Description --></label>
+        <name>Bvg_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- CS/PLT --></label>
+        <name>CSPLT__c</name>
+    </fields>
+    <fields>
+        <label><!-- CTRYORIG --></label>
+        <name>CTRYORIG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cntry Desc --></label>
+        <name>Cntry_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - BAF --></label>
+        <name>F1_BAF__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - BOL --></label>
+        <name>F1_BOL__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - ISPS --></label>
+        <name>F1_ISPS__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - Inland Freight Fuel Surcharge --></label>
+        <name>F1_Inland_Freight_Fuel__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - Inland Freight --></label>
+        <name>F1_Inland_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - Insulation --></label>
+        <name>F1_Insulation__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - Manifest --></label>
+        <name>F1_Manifest__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - Ocean Freight --></label>
+        <name>F1_Ocean_Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - Refer --></label>
+        <name>F1_Refer__c</name>
+    </fields>
+    <fields>
+        <label><!-- F1 - Total --></label>
+        <name>F1_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- H1 - In/Out --></label>
+        <name>H1_InOut__c</name>
+    </fields>
+    <fields>
+        <label><!-- H1 - Plt --></label>
+        <name>H1_Plt__c</name>
+    </fields>
+    <fields>
+        <label><!-- H1 - Total --></label>
+        <name>H1_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- I1 - Chassis --></label>
+        <name>I1_Chassis__c</name>
+    </fields>
+    <fields>
+        <label><!-- I1 - Drayage --></label>
+        <name>I1_Drayage__c</name>
+    </fields>
+    <fields>
+        <label><!-- I1 - Total --></label>
+        <name>I1_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- IBSTKT --></label>
+        <name>IBSTKT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Desc --></label>
+        <name>Item_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- K1 - BioTerror --></label>
+        <name>K1_BioTerror__c</name>
+    </fields>
+    <fields>
+        <label><!-- K1 - Clearing --></label>
+        <name>K1_Clearing__c</name>
+    </fields>
+    <fields>
+        <label><!-- K1 - Duty --></label>
+        <name>K1_Duty__c</name>
+    </fields>
+    <fields>
+        <label><!-- K1 - Excise Tax --></label>
+        <name>K1_Excise_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- K1 - ISF --></label>
+        <name>K1_ISF__c</name>
+    </fields>
+    <fields>
+        <label><!-- K1 - Total --></label>
+        <name>K1_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Liter Per Bottle --></label>
+        <name>Liter_Per_Bottle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Item Number --></label>
+        <name>Long_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- O1 - Harbor Fees --></label>
+        <name>O1_Harbor_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- O1 - Marine Insurance --></label>
+        <name>O1_Marine_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- O1 - Total --></label>
+        <name>O1_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pack --></label>
+        <name>Pack__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prime Whs --></label>
+        <name>Prime_Whs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proof --></label>
+        <name>Proof__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selection --></label>
+        <name>Selection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Item Number --></label>
+        <name>Short_Item_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Size --></label>
+        <name>Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- X1 - Freight --></label>
+        <name>X1_Freight__c</name>
+    </fields>
+    <layouts>
+        <layout>Standard Cost Reference Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- F1 --></label>
+            <section>F1</section>
+        </sections>
+        <sections>
+            <label><!-- H1 --></label>
+            <section>H1</section>
+        </sections>
+        <sections>
+            <label><!-- I1 --></label>
+            <section>I1</section>
+        </sections>
+        <sections>
+            <label><!-- K1 --></label>
+            <section>K1</section>
+        </sections>
+        <sections>
+            <label><!-- O1 --></label>
+            <section>O1</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
